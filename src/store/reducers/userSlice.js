@@ -13,8 +13,8 @@ export const userSlice = createSlice({
       state.error = null;
     },
     userLoginSuccess: (state, action) => {
-      state.loading = false;
       state.user = action.payload;
+      state.loading = false;
     },
     userLoginError: (state, action) => {
       state.loading = false;

@@ -24,7 +24,6 @@ const AppRouter = (
   }
 ) => {
   const { user } = useSelector(selectorUser);
-  console.log(user);
 
   // const [user] = useAuthState(auth);
 
