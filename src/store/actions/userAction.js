@@ -1,13 +1,8 @@
 import { auth, onAuthStateChanged } from '../../utils/firebase';
-import userSlice, {
-  userLogin,
-  userLoginError,
-  userLoginOut,
-  userLoginSuccess
-} from '../reducers/userSlice';
+import { userSlice } from '../reducers/userSlice';
 
 export const requestUser = () => {
-  // const { userLogin, userLoginSuccess, userLoginError, userLoginOut } = userSlice.actions;
+  const { userLogin, userLoginSuccess, userLoginError, userLoginOut } = userSlice.actions;
 
   return async (dispatch) => {
     try {
