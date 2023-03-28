@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 // import { useAuthState } from 'react-firebase-hooks/auth';
 // import { useCollectionData } from 'react-firebase-hooks/firestore';
 // import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
@@ -103,7 +103,8 @@ function App() {
 
   return (
     <div className="app">
-      <BrowserRouter basename={BASE_ROUTE}>
+      {/* <BrowserRouter basename={BASE_ROUTE}> */}
+      <HashRouter>
         <Navbar />
         <AppRouter
         // dictionary={dictionary}
@@ -115,7 +116,8 @@ function App() {
         // setDictionary={setDictionary}
         // setUserMyEmail={setUserMyEmail}
         />
-      </BrowserRouter>
+      </HashRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
