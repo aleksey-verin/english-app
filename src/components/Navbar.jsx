@@ -8,6 +8,8 @@ import { selectorUser } from '../store/reducers/userSlice';
 
 const Navbar = () => {
   // const [user] = useAuthState(auth);
+  // const [user] = useAuthState(auth);
+
   const { user } = useSelector(selectorUser);
 
   return (
