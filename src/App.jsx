@@ -100,7 +100,7 @@ function App() {
 
   return (
     <div className="app">
-      <BrowserRouter>
+      <BrowserRouter basename="/english-app">
         <Navbar />
         <AppRouter
         // dictionary={dictionary}

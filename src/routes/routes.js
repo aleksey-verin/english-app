@@ -1,4 +1,4 @@
-const BASE_ROUTE = '/english-app';
+const BASE_ROUTE = '';
 
 export const LOGIN_ROUTE = `${BASE_ROUTE}/login`;
 export const DICTIONARY_ROUTE = `${BASE_ROUTE}/dictionary`;
