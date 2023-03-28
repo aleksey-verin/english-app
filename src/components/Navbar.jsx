@@ -1,16 +1,27 @@
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { NavLink } from 'react-router-dom';
-import { auth } from '../utils/firebase';
+// import { auth } from '../utils/firebase';
 import { DICTIONARY_ROUTE, LOGIN_ROUTE, TRAINING_ROUTE, WORDS_ROUTE } from '../routes/routes';
 import { useSelector } from 'react-redux';
 import { selectorUser } from '../store/reducers/userSlice';
+import { app, getAuth } from '../utils/firebase';
+import { requestUser } from '../store/actions/userAction';
+import { useDispatch } from 'react-redux';
 
 const Navbar = () => {
+  const dispatch = useDispatch();
   // const [user] = useAuthState(auth);
   // const [user] = useAuthState(auth);
+  // const auth = getAuth(app);
 
   const { user } = useSelector(selectorUser);
+
+  const handleLogOut = () => {
+    const auth = getAuth(app);
+    auth.signOut();
+    dispatch(requestUser());
+  };
 
   return (
     <header>
@@ -39,7 +50,7 @@ const Navbar = () => {
                     : null}
                 </div>
               </div>
-              <div onClick={() => auth.signOut()} className="btn">
+              <div onClick={handleLogOut} className="btn">
                 Log Out
               </div>
             </>

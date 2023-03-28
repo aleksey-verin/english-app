@@ -15,42 +15,45 @@ import { requestUser } from './store/actions/userAction';
 import { selectorUser } from './store/reducers/userSlice';
 import { collection, getDocs, doc, getDoc } from 'firebase/firestore';
 import { firestore } from './utils/firebase';
+import { BASE_ROUTE } from './routes/routes';
 
 function App() {
   const dispatch = useDispatch();
   const { user, loading } = useSelector(selectorUser);
 
-  useEffect(() => {
-    dispatch(requestUser());
-  }, []);
+  // useEffect(() => {
+  //   console.log(user);
 
-  const getCollection = async () => {
-    // const unsub = onSnapshot(collection(firestore, `dictionary-${user.email}`), (doc) => {
-    //   console.log('Current data: ');
-    // });
-    // console.log(unsub);
+  //   dispatch(requestUser());
+  // }, []);
 
-    // const docRef = doc(firestore, `dictionary-verevaa@gmail.com`, '2J2MZuIOqYYH9FBqGssj');
-    // const docSnap = await getDoc(docRef);
-    // if (docSnap.exists()) {
-    //   console.log('Document data:', docSnap.data());
-    // } else {
-    //   // doc.data() will be undefined in this case
-    //   console.log('No such document!');
-    // }
-    const querySnapshot = await getDocs(collection(firestore, `dictionary-verevaa@gmail.com`));
-    const data = [];
-    querySnapshot.forEach((doc) => {
-      // doc.data() is never undefined for query doc snapshots
-      data.push(doc.data());
-    });
-    console.log(data);
-  };
+  // const getCollection = async () => {
+  //   // const unsub = onSnapshot(collection(firestore, `dictionary-${user.email}`), (doc) => {
+  //   //   console.log('Current data: ');
+  //   // });
+  //   // console.log(unsub);
 
-  useEffect(() => {
-    if (!user) return;
-    getCollection();
-  }, [user]);
+  //   // const docRef = doc(firestore, `dictionary-verevaa@gmail.com`, '2J2MZuIOqYYH9FBqGssj');
+  //   // const docSnap = await getDoc(docRef);
+  //   // if (docSnap.exists()) {
+  //   //   console.log('Document data:', docSnap.data());
+  //   // } else {
+  //   //   // doc.data() will be undefined in this case
+  //   //   console.log('No such document!');
+  //   // }
+  //   const querySnapshot = await getDocs(collection(firestore, `dictionary-verevaa@gmail.com`));
+  //   const data = [];
+  //   querySnapshot.forEach((doc) => {
+  //     // doc.data() is never undefined for query doc snapshots
+  //     data.push(doc.data());
+  //   });
+  //   console.log(data);
+  // };
+
+  // useEffect(() => {
+  //   if (!user) return;
+  //   getCollection();
+  // }, [user]);
 
   // // const [user, loading, err] = useAuthState(auth);
   // const [userMyEmail, setUserMyEmail] = useState(null);
@@ -100,7 +103,7 @@ function App() {
 
   return (
     <div className="app">
-      <BrowserRouter basename="/english-app">
+      <BrowserRouter basename={BASE_ROUTE}>
         <Navbar />
         <AppRouter
         // dictionary={dictionary}

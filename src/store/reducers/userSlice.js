@@ -1,12 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { storage, storageGetItem } from '../../utils/localstorage';
+
+const initialState = {
+  user: storageGetItem(storage.user) ?? null,
+  loading: false,
+  error: null
+};
 
 export const userSlice = createSlice({
   name: 'user',
-  initialState: {
-    user: null,
-    loading: false,
-    error: null
-  },
+  initialState,
   reducers: {
     userLogin: (state, action) => {
       state.loading = true;

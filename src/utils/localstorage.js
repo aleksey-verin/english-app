@@ -1,5 +1,5 @@
 export const storage = {
-  // weatherStats: 'weather-stats',
+  user: 'english-user'
   // weatherFavoriteList: 'weatherFavoriteList',
   // weatherCurrentCity: 'weatherCurrentCity',
 };

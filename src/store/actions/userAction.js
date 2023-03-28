@@ -1,4 +1,4 @@
-import { auth, onAuthStateChanged } from '../../utils/firebase';
+import { app, getAuth, onAuthStateChanged } from '../../utils/firebase';
 import { userSlice } from '../reducers/userSlice';
 
 export const requestUser = () => {
@@ -6,6 +6,7 @@ export const requestUser = () => {
 
   return async (dispatch) => {
     try {
+      const auth = getAuth(app);
       dispatch(userLogin());
       onAuthStateChanged(auth, (userAuth) => {
         if (userAuth) {

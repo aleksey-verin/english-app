@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { auth, onAuthStateChanged } from '../utils/firebase';
+// import { auth, onAuthStateChanged } from '../utils/firebase';
 import { DICTIONARY_ROUTE, LOGIN_ROUTE, TRAINING_ROUTE, WORDS_ROUTE } from '../routes/routes';
 import LoginPage from '../pages/LoginPage';
 import { useAuthState } from 'react-firebase-hooks/auth';

@@ -1,16 +1,21 @@
 /* eslint-disable react/prop-types */
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { auth } from '../utils/firebase';
+import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { app } from '../utils/firebase';
 import Google from '../images/google.svg';
+import { useDispatch } from 'react-redux';
+import { requestUser } from '../store/actions/userAction';
 
-const LoginPage = ({ setUserMyEmail }) => {
+const LoginPage = () => {
+  const dispatch = useDispatch();
+  const auth = getAuth(app);
+
   const login = async () => {
     const provider = new GoogleAuthProvider();
     const {
       user: { email }
     } = await signInWithPopup(auth, provider);
     if (email) {
-      setUserMyEmail(email);
+      dispatch(requestUser());
     }
   };
 
