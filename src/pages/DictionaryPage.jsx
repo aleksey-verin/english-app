@@ -8,7 +8,7 @@ import Title from '../components/Dictionary/Title';
 const DictionaryPage = ({ dictionary, getData, getError, error, data, addInDictionary }) => {
   return (
     <main className="main">
-      <Title dictionary={dictionary} />
+      <Title />
       <Form getData={getData} getError={getError} />
       {error ? <Error error={error} /> : null}
       {data && dictionary ? (

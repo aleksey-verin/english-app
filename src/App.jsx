@@ -1,6 +1,5 @@
-import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BrowserRouter, HashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 // import { useAuthState } from 'react-firebase-hooks/auth';
 // import { useCollectionData } from 'react-firebase-hooks/firestore';
 // import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
@@ -9,18 +8,21 @@ import Navbar from './components/Navbar';
 import AppRouter from './components/AppRouter';
 import './App.css';
 import Loader from './components/Loader';
-// import { login, logout } from './store/reducers/userSlice';
-// import { store } from './store/store';
 import { requestUser } from './store/actions/userAction';
 import { selectorUser } from './store/reducers/userSlice';
 import { collection, getDocs, doc, getDoc } from 'firebase/firestore';
 import { firestore } from './utils/firebase';
-import { BASE_ROUTE } from './routes/routes';
+import { useEffect } from 'react';
+// import { useFetchHighScoresTablesQuery } from './store/actions/userDictionaryAction';
+// import { BASE_ROUTE } from './routes/routes';
 
 function App() {
   const dispatch = useDispatch();
   const { user, loading } = useSelector(selectorUser);
 
+  // const { data, isLoading, isSuccess, isError, error } = useFetchHighScoresTablesQuery();
+
+  // console.log(data, isLoading, isSuccess, isError, error);
   // useEffect(() => {
   //   console.log(user);
 
@@ -44,7 +46,6 @@ function App() {
   //   const querySnapshot = await getDocs(collection(firestore, `dictionary-verevaa@gmail.com`));
   //   const data = [];
   //   querySnapshot.forEach((doc) => {
-  //     // doc.data() is never undefined for query doc snapshots
   //     data.push(doc.data());
   //   });
   //   console.log(data);
@@ -103,7 +104,6 @@ function App() {
 
   return (
     <div className="app">
-      {/* <BrowserRouter basename={BASE_ROUTE}> */}
       <HashRouter>
         <Navbar />
         <AppRouter
@@ -117,7 +117,6 @@ function App() {
         // setUserMyEmail={setUserMyEmail}
         />
       </HashRouter>
-      {/* </BrowserRouter> */}
     </div>
   );
 }

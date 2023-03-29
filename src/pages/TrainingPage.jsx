@@ -1,8 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import Loader from '../components/Loader';
+import { useFetchUserDictionaryQuery } from '../store/actions/userDictionaryAction';
 
-const TrainingPage = ({ dictionary, setDictionary }) => {
-  if (!dictionary) return;
+const TrainingPage = () => {
+  const { data: dictionary, isLoading } = useFetchUserDictionaryQuery();
+  if (isLoading) return <Loader />;
   // нужно выбирать случайно слова из словаря, чтобы они не повторялись
   // например если мы начали тренировку, то ставить метку на словах о том что уже такая тренировка была
   // или брать стек слов и удалять при успешном тесте

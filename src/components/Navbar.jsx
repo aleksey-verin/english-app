@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { DICTIONARY_ROUTE, LOGIN_ROUTE, TRAINING_ROUTE, WORDS_ROUTE } from '../routes/routes';
 import { useSelector } from 'react-redux';
 import { selectorUser } from '../store/reducers/userSlice';
-import { app, getAuth } from '../utils/firebase';
+import { auth } from '../utils/firebase';
 import { requestUser } from '../store/actions/userAction';
 import { useDispatch } from 'react-redux';
 
@@ -18,9 +18,9 @@ const Navbar = () => {
   const { user } = useSelector(selectorUser);
 
   const handleLogOut = () => {
-    const auth = getAuth(app);
+    // const auth = getAuth(app);
     auth.signOut();
-    dispatch(requestUser());
+    dispatch(requestUser(auth));
   };
 
   return (

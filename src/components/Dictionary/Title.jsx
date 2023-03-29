@@ -2,17 +2,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
+import { useFetchUserDictionaryQuery } from '../../store/actions/userDictionaryAction';
 
-const Title = ({ dictionary }) => {
-  let score = [];
+const Title = () => {
+  const { data: dictionary, isSuccess } = useFetchUserDictionaryQuery();
 
-  if (!dictionary) {
-    score = [0, 0, 0];
-  } else {
-    score[0] = dictionary.length;
-    score[1] = dictionary.filter((item) => item.progress >= 100).length;
-    score[2] = score[0] - score[1];
-  }
+  const total = isSuccess ? dictionary.length : 0;
+  const done = isSuccess ? dictionary.filter((item) => item.progress >= 100).length : 0;
+  const training = isSuccess ? total - done : 0;
 
   return (
     <div className="title">
@@ -21,8 +18,8 @@ const Title = ({ dictionary }) => {
       </h1>
       <div className="score">
         <div className="score__text">
-          Total: <span>{score[0]}</span> | Done: <span>{score[1]}</span> | Training:{' '}
-          <span>{score[2]}</span>
+          Total: <span>{total}</span> | Done: <span>{done}</span> | Training:{' '}
+          <span>{training}</span>
         </div>
         <NavLink className="score__btn btn" to={TRAINING_ROUTE}>
           Go!

@@ -1,8 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import Loader from '../components/Loader';
+import { useFetchUserDictionaryQuery } from '../store/actions/userDictionaryAction';
 
-const WordsPage = ({ dictionary, setDictionary }) => {
-  if (!dictionary) return null;
+const WordsPage = () => {
+  const { data: dictionary, isLoading } = useFetchUserDictionaryQuery();
+  if (isLoading) return <Loader />;
 
   return (
     <main className="main">
