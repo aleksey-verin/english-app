@@ -8,15 +8,15 @@ import Title from '../components/Dictionary/Title';
 import { selectorResult } from '../store/reducers/requestWordSlice';
 
 const DictionaryPage = () => {
-  const { results } = useSelector(selectorResult);
-  console.log(results);
+  const { isSuccess, isError } = useSelector(selectorResult);
+  console.log(isSuccess, isError);
 
   return (
     <main className="main">
       <Title />
       <Form />
-      {/* {error ? <Error error={error} /> : null} */}
-      {results ? <Results /> : null}
+      {isError ? <Error /> : null}
+      {isSuccess ? <Results /> : null}
     </main>
   );
 };

@@ -1,49 +1,32 @@
 /* eslint-disable react/prop-types */
 import Sound from '../../images/sound.png';
 import Add from '../../images/add.png';
-// import { useGetNewWordQuery } from '../../store/reducers/requestWordApi';
-// import { useFetchUserDictionaryQuery } from '../../store/reducers/userDictionaryApi';
 import Loader from '../Loader';
 import { selectorResult } from '../../store/reducers/requestWordSlice';
-import { useSelector } from 'react-redux';
-import { useFetchUserDictionaryQuery } from '../../store/reducers/userDictionaryApi';
+import { useSelector, useDispatch } from 'react-redux';
+import { getUserDictionary, selectorDictionary } from '../../store/reducers/userDictionarySlice';
+import { addInUserDictionary } from '../../store/reducers/addInUserDictionarySlice';
 
 const Results = () => {
-  // const { data, isLoading, isSuccess, isError, error } = useGetNewWordQuery();
-  // const { data: dictionary } = useFetchUserDictionaryQuery();
-  // console.log(data);
-  // if (isLoading) return <Loader />;
-  // // if (!dictionary) return;
-
-  const { results: data, isLoading } = useSelector(selectorResult);
-  const { data: dictionary } = useFetchUserDictionaryQuery();
-  console.log(data);
-
+  const dispatch = useDispatch();
+  const { results, isLoading } = useSelector(selectorResult);
+  const { userDictionary: dictionary } = useSelector(selectorDictionary);
+  const { word, meanings, phonetics } = results;
   if (isLoading) return <Loader />;
-  // const [wordInDictionary, setWordInDictionary] = useState()
 
-  const item = data[0];
-  // console.log(item);
-  const word = item.word.toLowerCase();
-  const meanings = item.meanings;
-  const phonetics = item.phonetics;
   const wordInDictionary = dictionary.filter((item) => item.word === word);
 
   function handleSound() {
-    if (phonetics.length) {
-      const sound = phonetics[0];
-      if (sound.audio) {
-        new Audio(sound.audio).play();
-      }
+    const sound = phonetics;
+    if (sound.audio) {
+      new Audio(sound.audio).play();
     }
   }
-
   function handleClick(e, def) {
     if (wordInDictionary.filter((item) => item.definition === def).length) return;
-    addInDictionary(word, def);
-    // e.target.style.backgroundColor = 'lightblue'
+    dispatch(addInUserDictionary([word, def]));
+    dispatch(getUserDictionary());
   }
-
   return (
     <div className="results">
       <div className="results-info">
@@ -95,31 +78,7 @@ const Results = () => {
     </div>
   );
 };
-
 // const AddWord = ({ dictionary }) => {
-//   if (def !== definition.definition) {
-//     return (
-//       <>
-//         <div
-//           className="results-item__add"
-//           onClick={(e) => handleClick(e, definition.definition)}
-//         >
-//           <img src={Add} alt="add" />
-//         </div>
-//       </>
-//     )
-//   }
-// if (def !== definition.definition){
-// return (
-//   <>
-//      <div
-//   className="results-item__add"
-//   onClick={(e) => handleClick(e, definition.definition)}
-//      >
-//      <img src={Add} alt="add" />
-//       </div
-//   </>)
-// }
 
 export default Results;
 

@@ -1,15 +1,23 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
-import { useFetchUserDictionaryQuery } from '../../store/reducers/userDictionaryApi';
+import { selectorDictionary } from '../../store/reducers/userDictionarySlice';
 
 const Title = () => {
-  const { data: dictionary, isSuccess } = useFetchUserDictionaryQuery();
+  const { userDictionary: dictionary, isSuccess } = useSelector(selectorDictionary);
 
-  const total = isSuccess ? dictionary.length : 0;
-  const done = isSuccess ? dictionary.filter((item) => item.progress >= 100).length : 0;
-  const training = isSuccess ? total - done : 0;
+  const scoreValues = {
+    total: 0,
+    done: 0,
+    training: 0
+  };
+  if (isSuccess) {
+    scoreValues.total = dictionary.length;
+    scoreValues.done = dictionary.filter((item) => item.progress >= 100).length;
+    scoreValues.training = scoreValues.total - scoreValues.done;
+  }
 
   return (
     <div className="title">
@@ -18,8 +26,8 @@ const Title = () => {
       </h1>
       <div className="score">
         <div className="score__text">
-          Total: <span>{total}</span> | Done: <span>{done}</span> | Training:{' '}
-          <span>{training}</span>
+          Total: <span>{scoreValues.total}</span> | Done: <span>{scoreValues.done}</span> |
+          Training: <span>{scoreValues.training}</span>
         </div>
         <NavLink className="score__btn btn" to={TRAINING_ROUTE}>
           Go!
