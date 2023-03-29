@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/dist/query';
-import { storage, storageSetItem } from '../utils/localStorage';
-// import { requestWordApi } from './reducers/requestWordApi';
+import { storage, storageSetItem } from '../utils/localstorage';
+
 import requestWordSlice from './reducers/requestWordSlice';
 import { firestoreApi } from './reducers/userDictionaryApi';
 import userSlice from './reducers/userSlice';
