@@ -1,7 +1,11 @@
 import { createApi, fakeBaseQuery } from '@reduxjs/toolkit/query/react';
 import { arrayUnion, collection, doc, updateDoc, getDocs } from 'firebase/firestore';
+import { useSelector } from 'react-redux';
 import { firestore } from '../../utils/firebase';
+import { storage, storageGetItem } from '../../utils/localStorage';
+import { selectorUser } from './userSlice';
 // import { firestore } from '../../firebase';
+const userEmail = storageGetItem(storage.user).email;
 
 export const firestoreApi = createApi({
   reducerPath: 'firestoreApi',
@@ -10,7 +14,8 @@ export const firestoreApi = createApi({
     fetchUserDictionary: builder.query({
       async queryFn() {
         try {
-          const ref = collection(firestore, 'dictionary-verevaa@gmail.com');
+          // console.log(user);
+          const ref = collection(firestore, `dictionary-${userEmail}`);
           const querySnapshot = await getDocs(ref);
           const userDictionary = [];
           querySnapshot?.forEach((doc) => {

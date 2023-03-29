@@ -1,13 +1,17 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/dist/query';
-import { storage, storageSetItem } from '../utils/localstorage';
-import { firestoreApi } from './actions/userDictionaryAction';
+import { storage, storageSetItem } from '../utils/localStorage';
+// import { requestWordApi } from './reducers/requestWordApi';
+import requestWordSlice from './reducers/requestWordSlice';
+import { firestoreApi } from './reducers/userDictionaryApi';
 import userSlice from './reducers/userSlice';
 
 export const store = configureStore({
   reducer: {
     user: userSlice,
+    result: requestWordSlice,
     [firestoreApi.reducerPath]: firestoreApi.reducer
+    // [requestWordApi.reducerPath]: requestWordApi.reducer
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

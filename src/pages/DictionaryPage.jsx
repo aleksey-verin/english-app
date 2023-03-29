@@ -1,19 +1,22 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Error from '../components/Dictionary/Error';
 import Form from '../components/Dictionary/Form';
 import Results from '../components/Dictionary/Results';
 import Title from '../components/Dictionary/Title';
+import { selectorResult } from '../store/reducers/requestWordSlice';
 
-const DictionaryPage = ({ dictionary, getData, getError, error, data, addInDictionary }) => {
+const DictionaryPage = () => {
+  const { results } = useSelector(selectorResult);
+  console.log(results);
+
   return (
     <main className="main">
       <Title />
-      <Form getData={getData} getError={getError} />
-      {error ? <Error error={error} /> : null}
-      {data && dictionary ? (
-        <Results data={data} addInDictionary={addInDictionary} dictionary={dictionary} />
-      ) : null}
+      <Form />
+      {/* {error ? <Error error={error} /> : null} */}
+      {results ? <Results /> : null}
     </main>
   );
 };

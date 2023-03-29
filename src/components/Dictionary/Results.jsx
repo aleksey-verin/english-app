@@ -1,14 +1,29 @@
 /* eslint-disable react/prop-types */
 import Sound from '../../images/sound.png';
 import Add from '../../images/add.png';
+// import { useGetNewWordQuery } from '../../store/reducers/requestWordApi';
+// import { useFetchUserDictionaryQuery } from '../../store/reducers/userDictionaryApi';
+import Loader from '../Loader';
+import { selectorResult } from '../../store/reducers/requestWordSlice';
+import { useSelector } from 'react-redux';
+import { useFetchUserDictionaryQuery } from '../../store/reducers/userDictionaryApi';
 
-const Results = ({ data, addInDictionary, dictionary }) => {
-  if (!data) return;
-  if (!dictionary) return;
+const Results = () => {
+  // const { data, isLoading, isSuccess, isError, error } = useGetNewWordQuery();
+  // const { data: dictionary } = useFetchUserDictionaryQuery();
+  // console.log(data);
+  // if (isLoading) return <Loader />;
+  // // if (!dictionary) return;
 
+  const { results: data, isLoading } = useSelector(selectorResult);
+  const { data: dictionary } = useFetchUserDictionaryQuery();
+  console.log(data);
+
+  if (isLoading) return <Loader />;
   // const [wordInDictionary, setWordInDictionary] = useState()
 
   const item = data[0];
+  // console.log(item);
   const word = item.word.toLowerCase();
   const meanings = item.meanings;
   const phonetics = item.phonetics;

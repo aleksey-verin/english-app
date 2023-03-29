@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { storage, storageGetItem } from '../../utils/localstorage';
+import { storage, storageGetItem } from '../../utils/localStorage';
 
 const initialState = {
   user: storageGetItem(storage.user) ?? null,

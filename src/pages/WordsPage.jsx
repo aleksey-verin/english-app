@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Loader from '../components/Loader';
-import { useFetchUserDictionaryQuery } from '../store/actions/userDictionaryAction';
+import { useFetchUserDictionaryQuery } from '../store/reducers/userDictionaryApi';
 
 const WordsPage = () => {
   const { data: dictionary, isLoading } = useFetchUserDictionaryQuery();

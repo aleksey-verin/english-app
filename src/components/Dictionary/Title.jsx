@@ -2,7 +2,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
-import { useFetchUserDictionaryQuery } from '../../store/actions/userDictionaryAction';
+import { useFetchUserDictionaryQuery } from '../../store/reducers/userDictionaryApi';
 
 const Title = () => {
   const { data: dictionary, isSuccess } = useFetchUserDictionaryQuery();

@@ -13,12 +13,25 @@ import { selectorUser } from './store/reducers/userSlice';
 import { collection, getDocs, doc, getDoc } from 'firebase/firestore';
 import { firestore } from './utils/firebase';
 import { useEffect } from 'react';
+import { selectorResult } from './store/reducers/requestWordSlice';
+// import { useGetNewWordMutation } from './store/reducers/requestWordApi';
+// import { useGetNewWordQuery } from './store/reducers/requestWordApi';
 // import { useFetchHighScoresTablesQuery } from './store/actions/userDictionaryAction';
 // import { BASE_ROUTE } from './routes/routes';
 
 function App() {
   const dispatch = useDispatch();
   const { user, loading } = useSelector(selectorUser);
+
+  // const { results: data } = useSelector(selectorResult);
+  // console.log(data);
+
+  // const [trigger, result] = useGetNewWordMutation();
+  // console.log(result);
+  // const { data, isLoading, isSuccess, isError, error } = useGetNewWordQuery();
+  // if (isSuccess) {
+  //   console.log(data);
+  // }
 
   // const { data, isLoading, isSuccess, isError, error } = useFetchHighScoresTablesQuery();
 
