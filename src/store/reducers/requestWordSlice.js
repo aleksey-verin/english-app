@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { BASE_URL } from '../../utils/constants';
 
 const initialState = {
   results: null,
@@ -9,6 +8,7 @@ const initialState = {
 
 export const getResult = createAsyncThunk('', async (word, thunkAPI) => {
   try {
+    const BASE_URL = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
     const response = await fetch(`${BASE_URL}${word}`);
     const data = await response.json();
     if (response.ok && data.length) {
