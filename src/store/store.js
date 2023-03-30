@@ -4,6 +4,7 @@ import { storage, storageSetItem } from '../utils/localstorage';
 import addInUserDictionarySlice from './reducers/addInUserDictionarySlice';
 import updateInUserDictionarySlice from './reducers/updateInUserDictionarySlice';
 import requestWordSlice from './reducers/requestWordSlice';
+import addBatchInDictionarySlice from './reducers/addBatchInDictionarySlice';
 // import { firestoreApi } from './reducers/userDictionaryApi';
 import userDictionarySlice from './reducers/userDictionarySlice';
 import userSlice from './reducers/userSlice';
@@ -20,7 +21,8 @@ export const store = configureStore({
     requestWordSlice,
     userDictionarySlice,
     addInUserDictionarySlice,
-    updateInUserDictionarySlice
+    updateInUserDictionarySlice,
+    addBatchInDictionarySlice
     // [firestoreApi.reducerPath]: firestoreApi.reducer
     // [requestWordApi.reducerPath]: requestWordApi.reducer
   },

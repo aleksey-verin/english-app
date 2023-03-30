@@ -59,7 +59,7 @@ const Results = () => {
                   key={i + 20}
                   className="results-item__definition"
                   style={
-                    isWordInDictionary.definition.includes(def.definition)
+                    isWordInDictionary?.definition.includes(def.definition)
                       ? { backgroundColor: 'aliceblue' }
                       : null
                   }>

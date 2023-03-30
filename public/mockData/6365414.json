@@ -1,0 +1,6825 @@
+{
+  "wordlist": {
+    "words": [
+      {
+        "word": "voyage",
+        "lang": "en",
+        "sense": {
+          "id": 1507,
+          "ordinal": "0.01.01.01",
+          "definition": "a journey to some distant place",
+          "audio": ["V/1L6ZP7P01EG6P"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 380,
+        "frequency": 31.441765,
+        "learnable": true
+      },
+      {
+        "word": "puny",
+        "lang": "en",
+        "sense": {
+          "id": 103479,
+          "ordinal": "0.01.01.01",
+          "definition": "of inferior size",
+          "audio": ["P/1TN0F8L7LJ82"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 460,
+        "frequency": 1.6291982,
+        "learnable": true
+      },
+      {
+        "word": "tease",
+        "lang": "en",
+        "sense": {
+          "id": 86233,
+          "ordinal": "0.01.01.01",
+          "definition": "mock or make fun of playfully",
+          "audio": ["T/KI3MHD6RT76E"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 360,
+        "frequency": 6.302229,
+        "learnable": true
+      },
+      {
+        "word": "unbiased",
+        "lang": "en",
+        "sense": {
+          "id": 99931,
+          "ordinal": "0.01.01.01",
+          "definition": "without prejudice",
+          "audio": ["U/LAO54RVYJXCK"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 500,
+        "frequency": 0.4724472,
+        "learnable": true
+      },
+      {
+        "word": "walk",
+        "lang": "en",
+        "sense": {
+          "id": 91582,
+          "ordinal": "0.01.01.01",
+          "definition": "use one's feet to advance; advance by steps",
+          "audio": ["W/5K1IM4VRLTW7"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 199.97037,
+        "learnable": false
+      },
+      {
+        "word": "baby",
+        "lang": "en",
+        "sense": {
+          "id": 6751,
+          "ordinal": "0.01.01.01",
+          "definition": "a very young mammal",
+          "audio": ["B/6DC3C0NJNT5B"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 46.442642,
+        "learnable": false
+      },
+      {
+        "word": "defeat",
+        "lang": "en",
+        "sense": {
+          "id": 40472,
+          "ordinal": "0.01.01.01",
+          "definition": "an unsuccessful ending to a struggle or contest",
+          "audio": ["D/1DFF78E09R26H"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 350,
+        "frequency": 39.420235,
+        "learnable": true
+      },
+      {
+        "word": "damaged",
+        "lang": "en",
+        "sense": {
+          "id": 99665,
+          "ordinal": "0.01.01.01",
+          "definition": "harmed or injured or spoiled",
+          "audio": ["D/1CKL10FL5M53K"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 430,
+        "frequency": 6.6728086,
+        "learnable": true
+      },
+      {
+        "word": "bell",
+        "lang": "en",
+        "sense": {
+          "id": 15126,
+          "ordinal": "0.01.01.01",
+          "definition": "a hollow metal device that makes a ringing sound when struck",
+          "audio": ["B/Q11DMYF2SGEQ"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 19.366611,
+        "learnable": false
+      },
+      {
+        "word": "serve",
+        "lang": "en",
+        "sense": {
+          "id": 94988,
+          "ordinal": "0.01.01.01",
+          "definition": "devote one's life or efforts to, as of countries or ideas",
+          "audio": ["S/HWRO5ROINBSS"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 410,
+        "frequency": 203.5425,
+        "learnable": true
+      },
+      {
+        "word": "quaint",
+        "lang": "en",
+        "sense": {
+          "id": 101206,
+          "ordinal": "0.01.01.01",
+          "definition": "attractively old-fashioned",
+          "audio": ["Q/9DED8R63DLAE"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 550,
+        "frequency": 9.841521,
+        "learnable": true
+      },
+      {
+        "word": "ultra",
+        "lang": "en",
+        "sense": {
+          "id": 104310,
+          "ordinal": "0.01.01.01",
+          "definition": "far beyond the norm",
+          "audio": ["U/OCVHQC0TLEMR"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 420,
+        "frequency": 0.8931147,
+        "learnable": true
+      },
+      {
+        "word": "scared",
+        "lang": "en",
+        "sense": {
+          "id": 96302,
+          "ordinal": "0.01.01.01",
+          "definition": "made afraid",
+          "audio": ["S/12Q58QJ341ECK"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 220,
+        "frequency": 9.149096,
+        "learnable": true
+      },
+      {
+        "word": "look",
+        "lang": "en",
+        "sense": {
+          "id": 92746,
+          "ordinal": "0.01.01.01",
+          "definition": "perceive with attention; direct one's gaze towards",
+          "audio": ["L/1P4QHPAZWSA1N"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 834.69946,
+        "learnable": false
+      },
+      {
+        "word": "double",
+        "lang": "en",
+        "sense": {
+          "id": 108131,
+          "ordinal": "0.01.01.01",
+          "definition": "consisting of or involving two parts or components usually in pairs",
+          "audio": ["D/FSYQW886REIZ"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 56.084488,
+        "learnable": false
+      },
+      {
+        "word": "agonize",
+        "lang": "en",
+        "sense": {
+          "id": 91040,
+          "ordinal": "0.01.01.01",
+          "definition": "suffer anguish",
+          "audio": ["A/J5R2UQ9BUZ0V"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 480,
+        "frequency": 3.007282,
+        "learnable": true
+      },
+      {
+        "word": "swift",
+        "lang": "en",
+        "sense": {
+          "id": 101232,
+          "ordinal": "0.01.01.01",
+          "definition": "moving very fast",
+          "audio": ["S/ATI61Z4TFK4S"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 370,
+        "frequency": 35.520515,
+        "learnable": true
+      },
+      {
+        "word": "ordinary",
+        "lang": "en",
+        "sense": {
+          "id": 98622,
+          "ordinal": "0.01.01.01",
+          "definition": "lacking special distinction, rank, or status",
+          "audio": ["O/6PXZMELREI33"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 400,
+        "frequency": 54.44886,
+        "learnable": true
+      },
+      {
+        "word": "poised",
+        "lang": "en",
+        "sense": {
+          "id": 100785,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by balance or equilibrium and readiness for action",
+          "audio": ["P/3IEXPPA2C3EW"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 570,
+        "frequency": 4.049644,
+        "learnable": true
+      },
+      {
+        "word": "zealous",
+        "lang": "en",
+        "sense": {
+          "id": 100741,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by active interest and enthusiasm",
+          "audio": ["Z/T45UYLCB2SFZ"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 560,
+        "frequency": 6.1252303,
+        "learnable": true
+      },
+      {
+        "word": "soggy",
+        "lang": "en",
+        "sense": {
+          "id": 110019,
+          "ordinal": "0.01.01.01",
+          "definition": "(of soil) soft and watery",
+          "audio": ["S/YCCIGQTXMQRI"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.54419416,
+        "learnable": false
+      },
+      {
+        "word": "help",
+        "lang": "en",
+        "sense": {
+          "id": 94771,
+          "ordinal": "0.01.01.01",
+          "definition": "give assistance; be of service",
+          "audio": ["H/9YMX2SM0MC9R"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 286.6888,
+        "learnable": false
+      },
+      {
+        "word": "womanly",
+        "lang": "en",
+        "sense": {
+          "id": 104023,
+          "ordinal": "0.01.01.01",
+          "definition": "befitting or characteristic of a woman especially a mature woman",
+          "audio": ["W/PT2B44T15M6C"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 3.2089858,
+        "learnable": false
+      },
+      {
+        "word": "mess up",
+        "lang": "en",
+        "sense": {
+          "id": 94683,
+          "ordinal": "0.01.01.01",
+          "definition": "make a mess of, destroy or ruin",
+          "audio": ["M/KXW2GR28RZBI"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 0.34959736,
+        "learnable": false
+      },
+      {
+        "word": "cause",
+        "lang": "en",
+        "sense": {
+          "id": 39651,
+          "ordinal": "0.01.01.01",
+          "definition": "events that provide the generative force of something",
+          "audio": ["C/7WCOXVO2XT32"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 480,
+        "frequency": 224.64389,
+        "learnable": true
+      },
+      {
+        "word": "loving",
+        "lang": "en",
+        "sense": {
+          "id": 103895,
+          "ordinal": "0.01.01.01",
+          "definition": "feeling or showing love and affection",
+          "audio": ["L/1W61JV5UKYLTL"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 23.582424,
+        "learnable": false
+      },
+      {
+        "word": "poor",
+        "lang": "en",
+        "sense": {
+          "id": 106965,
+          "ordinal": "0.01.01.01",
+          "definition": "having little money or few possessions",
+          "audio": ["P/DNQOWCCLV3C4"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 230.75085,
+        "learnable": false
+      },
+      {
+        "word": "sky",
+        "lang": "en",
+        "sense": {
+          "id": 50654,
+          "ordinal": "0.01.01.01",
+          "definition": "the atmosphere and outer space as viewed from the earth",
+          "audio": ["S/14FEF3BMIHBLP"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 65.258286,
+        "learnable": false
+      },
+      {
+        "word": "spider",
+        "lang": "en",
+        "sense": {
+          "id": 9058,
+          "ordinal": "0.01.01.01",
+          "definition": "predatory arachnid with eight legs, two poison fangs, two feelers, and usually two silk-spinning organs at the back end of the body; they spin silk to make cocoons for eggs or traps for prey",
+          "audio": ["S/Q6Q6I7LIYBQY"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 6.444031,
+        "learnable": false
+      },
+      {
+        "word": "winter",
+        "lang": "en",
+        "sense": {
+          "id": 81768,
+          "ordinal": "0.01.01.01",
+          "definition": "the coldest season of the year",
+          "audio": ["W/4TPDSXLNDW5C"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 76.23355,
+        "learnable": false
+      },
+      {
+        "word": "needle",
+        "lang": "en",
+        "sense": {
+          "id": 21004,
+          "ordinal": "0.01.01.01",
+          "definition": "a sharp pointed implement",
+          "audio": ["N/SJREXB6SED3E"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 420,
+        "frequency": 11.678515,
+        "learnable": true
+      },
+      {
+        "word": "pig",
+        "lang": "en",
+        "sense": {
+          "id": 12655,
+          "ordinal": "0.01.01.01",
+          "definition": "domestic swine",
+          "audio": ["P/3BZAPF8RP1MW"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 17.21657,
+        "learnable": false
+      },
+      {
+        "word": "smell",
+        "lang": "en",
+        "sense": {
+          "id": 31114,
+          "ordinal": "0.01.01.01",
+          "definition": "the faculty that enables us to distinguish scents",
+          "audio": ["S/C80QIMQHLER7"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 22.664267,
+        "learnable": false
+      },
+      {
+        "word": "axiomatic",
+        "lang": "en",
+        "sense": {
+          "id": 104741,
+          "ordinal": "0.01.01.01",
+          "definition": "evident without proof or argument",
+          "audio": ["A/12BOZ5DOAPOLQ"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 600,
+        "frequency": 0.21050297,
+        "learnable": true
+      },
+      {
+        "word": "amuck",
+        "lang": "en",
+        "sense": {
+          "id": 115936,
+          "ordinal": "0.01.01.01",
+          "definition": "wildly; without self-control",
+          "audio": ["A/ANZJKKGEG7KX"],
+          "part_of_speech": "adverb"
+        },
+        "difficulty": 540,
+        "frequency": 0.27886567,
+        "learnable": true
+      },
+      {
+        "word": "jar",
+        "lang": "en",
+        "sense": {
+          "id": 19692,
+          "ordinal": "0.01.01.01",
+          "definition": "a vessel with a wide mouth and without handles",
+          "audio": ["J/171L4RYR3FPQH"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 530,
+        "frequency": 13.027156,
+        "learnable": true
+      },
+      {
+        "word": "zany",
+        "lang": "en",
+        "sense": {
+          "id": 110152,
+          "ordinal": "0.01.01.01",
+          "definition": "ludicrous or foolish",
+          "audio": ["Z/10OAUBPTLI7RS"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 540,
+        "frequency": 0.38377872,
+        "learnable": true
+      },
+      {
+        "word": "silent",
+        "lang": "en",
+        "sense": {
+          "id": 106409,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by absence of sound",
+          "audio": ["S/NUL2OA18QJ83"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 162.732,
+        "learnable": false
+      },
+      {
+        "word": "unequaled",
+        "lang": "en",
+        "sense": {
+          "id": 98728,
+          "ordinal": "0.01.01.01",
+          "definition": "radically distinctive and without equal",
+          "audio": ["U/ZDPZGDOEAT8F"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.32049245,
+        "learnable": false
+      },
+      {
+        "word": "succinct",
+        "lang": "en",
+        "sense": {
+          "id": 98943,
+          "ordinal": "0.01.01.01",
+          "definition": "briefly giving the gist of something",
+          "audio": ["S/VZ9POCJL9TBI"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 570,
+        "frequency": 1.0650368,
+        "learnable": true
+      },
+      {
+        "word": "smoggy",
+        "lang": "en",
+        "sense": {
+          "id": 98491,
+          "ordinal": "0.01.01.01",
+          "definition": "clouded with a mixture of haze and polluted air",
+          "audio": ["S/1354MOO2IKX3R"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 530,
+        "frequency": 0.027412767,
+        "learnable": true
+      },
+      {
+        "word": "prick",
+        "lang": "en",
+        "sense": {
+          "id": 89269,
+          "ordinal": "0.01.01.01",
+          "definition": "make a small hole into, as with a needle or a thorn",
+          "audio": ["P/658NRYSLNZ0P"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 420,
+        "frequency": 5.8196287,
+        "learnable": true
+      },
+      {
+        "word": "wave",
+        "lang": "en",
+        "sense": {
+          "id": 39750,
+          "ordinal": "0.01.01.01",
+          "definition": "(physics) a movement up and down or back and forth",
+          "audio": ["W/UX4YGNHEV0FD"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 400,
+        "frequency": 68.01886,
+        "learnable": true
+      },
+      {
+        "word": "call",
+        "lang": "en",
+        "sense": {
+          "id": 86516,
+          "ordinal": "0.01.01.01",
+          "definition": "utter a sudden loud cry",
+          "audio": ["C/1XFHWCYX4L9P0"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 564.7355,
+        "learnable": false
+      },
+      {
+        "word": "discover",
+        "lang": "en",
+        "sense": {
+          "id": 92864,
+          "ordinal": "0.01.01.01",
+          "definition": "determine the existence, presence, or fact of",
+          "audio": ["D/XLOJUV8QG9TD"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 300,
+        "frequency": 135.58862,
+        "learnable": true
+      },
+      {
+        "word": "spooky",
+        "lang": "en",
+        "sense": {
+          "id": 101184,
+          "ordinal": "0.01.01.01",
+          "definition": "inspiring a feeling of fear; strange and frightening",
+          "audio": ["S/3IKSM8N5KG5Z"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 280,
+        "frequency": 0.39156258,
+        "learnable": true
+      },
+      {
+        "word": "sprout",
+        "lang": "en",
+        "sense": {
+          "id": 83861,
+          "ordinal": "0.01.01.01",
+          "definition": "produce buds or branches; germinate",
+          "audio": ["S/1Y1MUT9GWQBO9"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 370,
+        "frequency": 3.0445092,
+        "learnable": true
+      },
+      {
+        "word": "sack",
+        "lang": "en",
+        "sense": {
+          "id": 22824,
+          "ordinal": "0.01.01.01",
+          "definition": "a bag made of paper or plastic for holding purchases",
+          "audio": ["S/47KS45PFNXZF"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 430,
+        "frequency": 13.217353,
+        "learnable": true
+      },
+      {
+        "word": "tree",
+        "lang": "en",
+        "sense": {
+          "id": 70026,
+          "ordinal": "0.01.01.01",
+          "definition": "a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown; includes both gymnosperms and angiosperms",
+          "audio": ["T/10HMB8KNNZ07G"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 82.37637,
+        "learnable": false
+      },
+      {
+        "word": "force",
+        "lang": "en",
+        "sense": {
+          "id": 62259,
+          "ordinal": "0.01.01.01",
+          "definition": "influence that results in motion, stress, etc. when applied",
+          "audio": ["F/13Q9Q8EWO69Z2"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 320,
+        "frequency": 276.6459,
+        "learnable": true
+      },
+      {
+        "word": "picayune",
+        "lang": "en",
+        "sense": {
+          "id": 102873,
+          "ordinal": "0.01.01.01",
+          "definition": "small and of little importance",
+          "audio": ["P/CSS2WA7AK4LO"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 630,
+        "frequency": 0.18410549,
+        "learnable": true
+      },
+      {
+        "word": "keen",
+        "lang": "en",
+        "sense": {
+          "id": 104179,
+          "ordinal": "0.01.01.01",
+          "definition": "intense or sharp",
+          "audio": ["K/17VEBV53JNC87"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 550,
+        "frequency": 35.13403,
+        "learnable": true
+      },
+      {
+        "word": "erratic",
+        "lang": "en",
+        "sense": {
+          "id": 97796,
+          "ordinal": "0.01.01.01",
+          "definition": "liable to sudden unpredictable change",
+          "audio": ["E/IPRFWLP0DBJS"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 560,
+        "frequency": 2.2024972,
+        "learnable": true
+      },
+      {
+        "word": "report",
+        "lang": "en",
+        "sense": {
+          "id": 86760,
+          "ordinal": "0.01.01.01",
+          "definition": "to give an account or representation of in words",
+          "audio": ["R/11YBDRK5YWCBO"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 490,
+        "frequency": 200.21777,
+        "learnable": true
+      },
+      {
+        "word": "best",
+        "lang": "en",
+        "sense": {
+          "id": 97133,
+          "ordinal": "0.01.01.01",
+          "definition": "having the most positive qualities",
+          "audio": ["B/H2Z10FSG3IGR"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 222.194,
+        "learnable": false
+      },
+      {
+        "word": "learn",
+        "lang": "en",
+        "sense": {
+          "id": 85088,
+          "ordinal": "0.01.01.01",
+          "definition": "gain knowledge or skills",
+          "audio": ["L/1LCKA6KHXUCW8"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 183.48177,
+        "learnable": false
+      },
+      {
+        "word": "absurd",
+        "lang": "en",
+        "sense": {
+          "id": 103700,
+          "ordinal": "0.01.01.01",
+          "definition": "inconsistent with reason or logic or common sense",
+          "audio": ["A/9201W5EAVN8"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 450,
+        "frequency": 24.026443,
+        "learnable": true
+      },
+      {
+        "word": "goose",
+        "lang": "en",
+        "sense": {
+          "id": 9558,
+          "ordinal": "0.01.01.01",
+          "definition": "web-footed long-necked typically gregarious migratory aquatic birds usually larger and less aquatic than ducks",
+          "audio": ["G/Q8J556ARFN05"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 11.452783,
+        "learnable": false
+      },
+      {
+        "word": "oil",
+        "lang": "en",
+        "sense": {
+          "id": 80246,
+          "ordinal": "0.01.01.01",
+          "definition": "a slippery or viscous liquid or liquefiable substance not miscible with water",
+          "audio": ["O/NAET7KJZ6TX6"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 65.78421,
+        "learnable": false
+      },
+      {
+        "word": "pail",
+        "lang": "en",
+        "sense": {
+          "id": 15658,
+          "ordinal": "0.01.01.01",
+          "definition": "a roughly cylindrical vessel that is open at the top",
+          "audio": ["P/12097KLA0HNH"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 4.2929745,
+        "learnable": false
+      },
+      {
+        "word": "productive",
+        "lang": "en",
+        "sense": {
+          "id": 106122,
+          "ordinal": "0.01.01.01",
+          "definition": "capable of bringing forth, especially abundantly",
+          "audio": ["P/1SDHMKRJY2RQP"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 430,
+        "frequency": 9.955572,
+        "learnable": true
+      },
+      {
+        "word": "tightfisted",
+        "lang": "en",
+        "sense": {
+          "id": 101993,
+          "ordinal": "0.01.01.01",
+          "definition": "unwilling to part with money",
+          "audio": ["T/18KGBJ9TC6NOH"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.057194535,
+        "learnable": false
+      },
+      {
+        "word": "harmonious",
+        "lang": "en",
+        "sense": {
+          "id": 100784,
+          "ordinal": "0.01.01.01",
+          "definition": "exhibiting equivalence or correspondence among constituents",
+          "audio": ["H/PISCDKXPAW8B"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 510,
+        "frequency": 4.919407,
+        "learnable": true
+      },
+      {
+        "word": "temper",
+        "lang": "en",
+        "sense": {
+          "id": 40899,
+          "ordinal": "0.01.01.01",
+          "definition": "a characteristic state of feeling",
+          "audio": ["T/QJ76G0A6L1S5"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 490,
+        "frequency": 39.05541,
+        "learnable": true
+      },
+      {
+        "word": "observe",
+        "lang": "en",
+        "sense": {
+          "id": 92940,
+          "ordinal": "0.01.01.01",
+          "definition": "watch attentively",
+          "audio": ["O/DAJ0NC8DP474"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 400,
+        "frequency": 172.19109,
+        "learnable": true
+      },
+      {
+        "word": "flash",
+        "lang": "en",
+        "sense": {
+          "id": 84187,
+          "ordinal": "0.01.01.01",
+          "definition": "emit a brief burst of light",
+          "audio": ["F/1R6IQAUE1VXJC"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 350,
+        "frequency": 45.972225,
+        "learnable": true
+      },
+      {
+        "word": "admit",
+        "lang": "en",
+        "sense": {
+          "id": 86085,
+          "ordinal": "0.01.01.01",
+          "definition": "declare to be true or accept the reality of",
+          "audio": ["A/TKNRF7HGUZH0"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 460,
+        "frequency": 97.77423,
+        "learnable": true
+      },
+      {
+        "word": "instrument",
+        "lang": "en",
+        "sense": {
+          "id": 781,
+          "ordinal": "0.01.01.01",
+          "definition": "the means whereby some act is accomplished",
+          "audio": ["I/141W95OEZYPUA"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 370,
+        "frequency": 38.81817,
+        "learnable": true
+      },
+      {
+        "word": "smoke",
+        "lang": "en",
+        "sense": {
+          "id": 62527,
+          "ordinal": "0.01.01.01",
+          "definition": "a cloud of fine particles suspended in a gas",
+          "audio": ["S/19R116GG93Q8R"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 64.74861,
+        "learnable": false
+      },
+      {
+        "word": "private",
+        "lang": "en",
+        "sense": {
+          "id": 106087,
+          "ordinal": "0.01.01.01",
+          "definition": "confined to particular persons or groups",
+          "audio": ["P/5F7KW2TL8SQS"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 330,
+        "frequency": 103.670685,
+        "learnable": true
+      },
+      {
+        "word": "excited",
+        "lang": "en",
+        "sense": {
+          "id": 100917,
+          "ordinal": "0.01.01.01",
+          "definition": "in an aroused state",
+          "audio": ["E/LWD0FDNP32GL"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 310,
+        "frequency": 35.516453,
+        "learnable": true
+      },
+      {
+        "word": "van",
+        "lang": "en",
+        "sense": {
+          "id": 25230,
+          "ordinal": "0.01.01.01",
+          "definition": "a closed railroad car that carries baggage or freight",
+          "audio": ["V/1TVQP0522U18W"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 32.9647,
+        "learnable": false
+      },
+      {
+        "word": "shoe",
+        "lang": "en",
+        "sense": {
+          "id": 23273,
+          "ordinal": "0.01.01.01",
+          "definition": "footwear shaped to fit the foot (below the ankle) with a flexible upper of leather or plastic and a sole and heel of heavier material",
+          "audio": ["S/1UB6A1W7QGWTG"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 30.85053,
+        "learnable": false
+      },
+      {
+        "word": "belligerent",
+        "lang": "en",
+        "sense": {
+          "id": 102694,
+          "ordinal": "0.01.01.01",
+          "definition": "characteristic of an enemy or one eager to fight",
+          "audio": ["B/1PKQ9FE704GQ6"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 560,
+        "frequency": 3.083767,
+        "learnable": true
+      },
+      {
+        "word": "injure",
+        "lang": "en",
+        "sense": {
+          "id": 82463,
+          "ordinal": "0.01.01.01",
+          "definition": "cause bodily harm to",
+          "audio": ["I/1P1HSZSW35U2R"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 310,
+        "frequency": 61.160587,
+        "learnable": true
+      },
+      {
+        "word": "bizarre",
+        "lang": "en",
+        "sense": {
+          "id": 99259,
+          "ordinal": "0.01.01.01",
+          "definition": "conspicuously or grossly unconventional or unusual",
+          "audio": ["B/15XTYC4NNJ3SY"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 390,
+        "frequency": 2.5768,
+        "learnable": true
+      },
+      {
+        "word": "stitch",
+        "lang": "en",
+        "sense": {
+          "id": 24049,
+          "ordinal": "0.01.01.01",
+          "definition": "a link or loop made by sewing, knitting, or needlework",
+          "audio": ["S/VF4LFUXKHDCF"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 410,
+        "frequency": 7.47827,
+        "learnable": true
+      },
+      {
+        "word": "confused",
+        "lang": "en",
+        "sense": {
+          "id": 98339,
+          "ordinal": "0.01.01.01",
+          "definition": "unable to think with clarity or act intelligently",
+          "audio": ["C/QY5Q8BITGYRI"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 390,
+        "frequency": 16.078772,
+        "learnable": true
+      },
+      {
+        "word": "savory",
+        "lang": "en",
+        "sense": {
+          "id": 96596,
+          "ordinal": "0.01.01.01",
+          "definition": "pleasing to the sense of taste",
+          "audio": ["S/WCY3ST95U5QI"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 470,
+        "frequency": 1.5459446,
+        "learnable": true
+      },
+      {
+        "word": "mate",
+        "lang": "en",
+        "sense": {
+          "id": 57689,
+          "ordinal": "0.01.01.01",
+          "definition": "a person's partner in marriage",
+          "audio": ["M/4KVCRHFTNZMG"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 24.79197,
+        "learnable": false
+      },
+      {
+        "word": "impolite",
+        "lang": "en",
+        "sense": {
+          "id": 99451,
+          "ordinal": "0.01.01.01",
+          "definition": "not showing regard for others in manners, speech, or conduct",
+          "audio": ["I/1JOLLP0NJH53T"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 350,
+        "frequency": 0.5617925,
+        "learnable": true
+      },
+      {
+        "word": "earth",
+        "lang": "en",
+        "sense": {
+          "id": 49806,
+          "ordinal": "0.01.01.01",
+          "definition": "the third planet from the sun",
+          "audio": ["E/1D9OTOET5LEO2"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 250,
+        "frequency": 78.38122,
+        "learnable": true
+      },
+      {
+        "word": "apparel",
+        "lang": "en",
+        "sense": {
+          "id": 14554,
+          "ordinal": "0.01.01.01",
+          "definition": "clothing in general",
+          "audio": ["A/17KHQU5RSMR5U"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 430,
+        "frequency": 4.723118,
+        "learnable": true
+      },
+      {
+        "word": "clean",
+        "lang": "en",
+        "sense": {
+          "id": 98249,
+          "ordinal": "0.01.01.01",
+          "definition": "free from dirt or impurities",
+          "audio": ["C/GCONM5SGOAMX"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 57.74584,
+        "learnable": false
+      },
+      {
+        "word": "feigned",
+        "lang": "en",
+        "sense": {
+          "id": 107876,
+          "ordinal": "0.01.01.01",
+          "definition": "not genuine",
+          "audio": ["F/1TW1ADLTFSQKX"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 540,
+        "frequency": 3.4265957,
+        "learnable": true
+      },
+      {
+        "word": "battle",
+        "lang": "en",
+        "sense": {
+          "id": 4872,
+          "ordinal": "0.01.01.01",
+          "definition": "a hostile meeting of opposing military forces",
+          "audio": ["B/1AQ38AZSFF855"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 360,
+        "frequency": 96.1034,
+        "learnable": true
+      },
+      {
+        "word": "step",
+        "lang": "en",
+        "sense": {
+          "id": 1349,
+          "ordinal": "0.01.01.01",
+          "definition": "the act of changing location by raising the foot and setting it down",
+          "audio": ["S/1KLXZ4QLD1UQE"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 165.32639,
+        "learnable": false
+      },
+      {
+        "word": "salt",
+        "lang": "en",
+        "sense": {
+          "id": 42631,
+          "ordinal": "0.01.01.01",
+          "definition": "white crystalline form of especially sodium chloride used to season and preserve food",
+          "audio": ["S/HR6VYU1NG4ID"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 22.697771,
+        "learnable": false
+      },
+      {
+        "word": "fancy",
+        "lang": "en",
+        "sense": {
+          "id": 105740,
+          "ordinal": "0.01.01.01",
+          "definition": "not plain; decorative or ornamented",
+          "audio": ["F/IWK1A2Q2AWJ4"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 540,
+        "frequency": 69.67005,
+        "learnable": true
+      },
+      {
+        "word": "possible",
+        "lang": "en",
+        "sense": {
+          "id": 105889,
+          "ordinal": "0.01.01.01",
+          "definition": "capable of happening or existing",
+          "audio": ["P/M6FMWPYIRVTO"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 370,
+        "frequency": 303.39435,
+        "learnable": true
+      },
+      {
+        "word": "complete",
+        "lang": "en",
+        "sense": {
+          "id": 105488,
+          "ordinal": "0.01.01.01",
+          "definition": "having all necessary qualities",
+          "audio": ["C/XOV8CO0506MH"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 360,
+        "frequency": 140.57402,
+        "learnable": true
+      },
+      {
+        "word": "stop",
+        "lang": "en",
+        "sense": {
+          "id": 95062,
+          "ordinal": "0.01.01.01",
+          "definition": "have an end, in a temporal, spatial, or quantitative sense",
+          "audio": ["S/104ER04YGQAE3"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 167.98476,
+        "learnable": false
+      },
+      {
+        "word": "alive",
+        "lang": "en",
+        "sense": {
+          "id": 96378,
+          "ordinal": "0.01.01.01",
+          "definition": "possessing life",
+          "audio": ["A/U88WZ5LCL4NY"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 40.79121,
+        "learnable": false
+      },
+      {
+        "word": "longing",
+        "lang": "en",
+        "sense": {
+          "id": 40537,
+          "ordinal": "0.01.01.01",
+          "definition": "prolonged unfulfilled desire or need",
+          "audio": ["L/11DTQPS8BYD06"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 450,
+        "frequency": 14.704411,
+        "learnable": true
+      },
+      {
+        "word": "scarce",
+        "lang": "en",
+        "sense": {
+          "id": 95960,
+          "ordinal": "0.01.01.01",
+          "definition": "deficient in quantity or number compared with the demand",
+          "audio": ["S/9AVJ5BBVHTQG"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 470,
+        "frequency": 82.57808,
+        "learnable": true
+      },
+      {
+        "word": "spiteful",
+        "lang": "en",
+        "sense": {
+          "id": 97120,
+          "ordinal": "0.01.01.01",
+          "definition": "showing malicious ill will and a desire to hurt",
+          "audio": ["S/ME0UQOUL03A"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 520,
+        "frequency": 2.232956,
+        "learnable": true
+      },
+      {
+        "word": "overconfident",
+        "lang": "en",
+        "sense": {
+          "id": 97766,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by excessive confidence",
+          "audio": ["O/359DYIZAQOJW"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.22911657,
+        "learnable": false
+      },
+      {
+        "word": "elderly",
+        "lang": "en",
+        "sense": {
+          "id": 104882,
+          "ordinal": "0.01.01.01",
+          "definition": "very old or advanced in years",
+          "audio": ["E/Q1732L1PEW9L"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 320,
+        "frequency": 8.518601,
+        "learnable": true
+      },
+      {
+        "word": "skip",
+        "lang": "en",
+        "sense": {
+          "id": 91904,
+          "ordinal": "0.01.01.01",
+          "definition": "jump lightly",
+          "audio": ["S/LEFM8PTQBM8P"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 15.799567,
+        "learnable": false
+      },
+      {
+        "word": "well-to-do",
+        "lang": "en",
+        "sense": {
+          "id": 106964,
+          "ordinal": "0.01.01.01",
+          "definition": "in fortunate circumstances financially; moderately rich",
+          "audio": ["W/1HXRM1BS457I2"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 2.2695062,
+        "learnable": false
+      },
+      {
+        "word": "bush",
+        "lang": "en",
+        "sense": {
+          "id": 70047,
+          "ordinal": "0.01.01.01",
+          "definition": "a woody perennial plant usually having several major stems",
+          "audio": ["B/YCQ4FBFE6B5W"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 15.273648,
+        "learnable": false
+      },
+      {
+        "word": "depend",
+        "lang": "en",
+        "sense": {
+          "id": 95323,
+          "ordinal": "0.01.01.01",
+          "definition": "be determined by something else",
+          "audio": ["D/1CCD5QC8DJ3UO"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 340,
+        "frequency": 118.84821,
+        "learnable": true
+      },
+      {
+        "word": "fly",
+        "lang": "en",
+        "sense": {
+          "id": 91761,
+          "ordinal": "0.01.01.01",
+          "definition": "travel through the air; be airborne",
+          "audio": ["F/QK3GGK5C0S2B"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 110.30931,
+        "learnable": false
+      },
+      {
+        "word": "experience",
+        "lang": "en",
+        "sense": {
+          "id": 32729,
+          "ordinal": "0.01.01.01",
+          "definition": "the content of observation or participation in an event",
+          "audio": ["E/B40TBG22QG2L"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 390,
+        "frequency": 119.09628,
+        "learnable": true
+      },
+      {
+        "word": "panoramic",
+        "lang": "en",
+        "sense": {
+          "id": 110088,
+          "ordinal": "0.01.01.01",
+          "definition": "as from an altitude or distance",
+          "audio": ["P/6OYITJ67M2KD"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 510,
+        "frequency": 0.4193138,
+        "learnable": true
+      },
+      {
+        "word": "succeed",
+        "lang": "en",
+        "sense": {
+          "id": 94668,
+          "ordinal": "0.01.01.01",
+          "definition": "attain success or reach a desired goal",
+          "audio": ["S/1S9TTRCHEP9T6"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 400,
+        "frequency": 116.99159,
+        "learnable": true
+      },
+      {
+        "word": "glamorous",
+        "lang": "en",
+        "sense": {
+          "id": 100934,
+          "ordinal": "0.01.01.01",
+          "definition": "having an air of allure, romance and excitement",
+          "audio": ["G/1VLE7SBLD51NC"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 520,
+        "frequency": 0.9452328,
+        "learnable": true
+      },
+      {
+        "word": "berry",
+        "lang": "en",
+        "sense": {
+          "id": 70141,
+          "ordinal": "0.01.01.01",
+          "definition": "a small fruit having any of various structures, e.g., simple (grape or blueberry) or aggregate (blackberry or raspberry)",
+          "audio": ["B/ULDZ5QUCX2RF"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 3.711553,
+        "learnable": false
+      },
+      {
+        "word": "better",
+        "lang": "en",
+        "sense": {
+          "id": 97149,
+          "ordinal": "0.01.01.01",
+          "definition": "superior to another in excellence or quality or desirability",
+          "audio": ["B/W7NI7VJYTA38"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 295.12415,
+        "learnable": false
+      },
+      {
+        "word": "dreary",
+        "lang": "en",
+        "sense": {
+          "id": 100330,
+          "ordinal": "0.01.01.01",
+          "definition": "lacking in liveliness or charm or surprise",
+          "audio": ["D/UU3HO7UH4YB0"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 480,
+        "frequency": 10.6304,
+        "learnable": true
+      },
+      {
+        "word": "trouser",
+        "lang": "en",
+        "sense": {
+          "id": 25045,
+          "ordinal": "0.01.01.01",
+          "definition": "(usually in the plural) a garment extending from the waist to the knee or ankle, covering each leg separately",
+          "audio": ["T/JTXLXSW3ABU9"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 8.860077,
+        "learnable": false
+      },
+      {
+        "word": "decision",
+        "lang": "en",
+        "sense": {
+          "id": 32012,
+          "ordinal": "0.01.01.01",
+          "definition": "a position or opinion reached after consideration",
+          "audio": ["D/9HIZPALRYJ6T"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 430,
+        "frequency": 53.807877,
+        "learnable": true
+      },
+      {
+        "word": "jumpy",
+        "lang": "en",
+        "sense": {
+          "id": 109203,
+          "ordinal": "0.01.01.01",
+          "definition": "being in a tense or nervous state",
+          "audio": ["J/20VR9CVNMHNH"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 460,
+        "frequency": 0.27717352,
+        "learnable": true
+      },
+      {
+        "word": "wide-eyed",
+        "lang": "en",
+        "sense": {
+          "id": 108454,
+          "ordinal": "0.01.01.01",
+          "definition": "exhibiting childlike simplicity and credulity",
+          "audio": ["W/36TKHFEUKC48"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 1.0745127,
+        "learnable": false
+      },
+      {
+        "word": "slip",
+        "lang": "en",
+        "sense": {
+          "id": 91394,
+          "ordinal": "0.01.01.01",
+          "definition": "move obliquely or sideways, usually in an uncontrolled manner",
+          "audio": ["S/VPE1OVX8CBYB"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 53.680286,
+        "learnable": false
+      },
+      {
+        "word": "ladybug",
+        "lang": "en",
+        "sense": {
+          "id": 11302,
+          "ordinal": "0.01.01.01",
+          "definition": "small round bright-colored and spotted beetle that usually feeds on aphids and other insect pests",
+          "audio": ["L/1CRTK9Q17R0L"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 0.21456411,
+        "learnable": false
+      },
+      {
+        "word": "excellent",
+        "lang": "en",
+        "sense": {
+          "id": 108858,
+          "ordinal": "0.01.01.01",
+          "definition": "very good; of the highest quality",
+          "audio": ["E/INFXR0OEK0RH"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 260,
+        "frequency": 58.52964,
+        "learnable": true
+      },
+      {
+        "word": "oaf",
+        "lang": "en",
+        "sense": {
+          "id": 55556,
+          "ordinal": "0.01.01.01",
+          "definition": "an awkward, foolish person",
+          "audio": ["O/1T939KL7CPD8H"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 510,
+        "frequency": 0.23114716,
+        "learnable": true
+      },
+      {
+        "word": "cobweb",
+        "lang": "en",
+        "sense": {
+          "id": 16556,
+          "ordinal": "0.01.01.01",
+          "definition": "a dense elaborate spider web that is more efficient than the orb web",
+          "audio": ["C/4S092V2W6CHJ"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 1.771,
+        "learnable": false
+      },
+      {
+        "word": "nerve",
+        "lang": "en",
+        "sense": {
+          "id": 30175,
+          "ordinal": "0.01.01.01",
+          "definition": "a bundle of fibers running to organs and tissues of the body",
+          "audio": ["N/139VFU8R0MZ7U"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 540,
+        "frequency": 60.65633,
+        "learnable": true
+      },
+      {
+        "word": "sigh",
+        "lang": "en",
+        "sense": {
+          "id": 82126,
+          "ordinal": "0.01.01.01",
+          "definition": "breathe out deeply and heavily",
+          "audio": ["S/CVJ2JL2GWI8Y"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 380,
+        "frequency": 47.01188,
+        "learnable": true
+      },
+      {
+        "word": "drip",
+        "lang": "en",
+        "sense": {
+          "id": 40227,
+          "ordinal": "0.01.01.01",
+          "definition": "flowing in drops",
+          "audio": ["D/7OCKRZG0KDFJ"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 7.7094173,
+        "learnable": false
+      },
+      {
+        "word": "unlock",
+        "lang": "en",
+        "sense": {
+          "id": 88774,
+          "ordinal": "0.01.01.01",
+          "definition": "open the lock of",
+          "audio": ["U/13I6OCZ5735ZR"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 4.839199,
+        "learnable": false
+      },
+      {
+        "word": "numberless",
+        "lang": "en",
+        "sense": {
+          "id": 97556,
+          "ordinal": "0.01.01.01",
+          "definition": "too numerous to be counted",
+          "audio": ["N/12F0UH2MIXQT7"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 2.7375538,
+        "learnable": false
+      },
+      {
+        "word": "receipt",
+        "lang": "en",
+        "sense": {
+          "id": 333,
+          "ordinal": "0.01.01.01",
+          "definition": "the act of receiving",
+          "audio": ["R/1EP5EIK3KCCLA"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 390,
+        "frequency": 9.746761,
+        "learnable": true
+      },
+      {
+        "word": "worthless",
+        "lang": "en",
+        "sense": {
+          "id": 109760,
+          "ordinal": "0.01.01.01",
+          "definition": "lacking in usefulness or value",
+          "audio": ["W/4A9TQ3XVWB76"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 400,
+        "frequency": 6.345886,
+        "learnable": true
+      },
+      {
+        "word": "grandfather",
+        "lang": "en",
+        "sense": {
+          "id": 54743,
+          "ordinal": "0.01.01.01",
+          "definition": "the father of your father or mother",
+          "audio": ["G/1JM2Z4O6JQZ9D"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 18.89281,
+        "learnable": false
+      },
+      {
+        "word": "abound",
+        "lang": "en",
+        "sense": {
+          "id": 95577,
+          "ordinal": "0.01.01.01",
+          "definition": "exist in large quantities",
+          "audio": ["A/K7AAJYP7SIO5"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 570,
+        "frequency": 37.56463,
+        "learnable": true
+      },
+      {
+        "word": "crime",
+        "lang": "en",
+        "sense": {
+          "id": 3898,
+          "ordinal": "0.01.01.01",
+          "definition": "an act punishable by law; usually considered an evil act",
+          "audio": ["C/1AW32TYKY5X3R"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 80.2595,
+        "learnable": false
+      },
+      {
+        "word": "run",
+        "lang": "en",
+        "sense": {
+          "id": 91685,
+          "ordinal": "0.01.01.01",
+          "definition": "move fast by using one's feet",
+          "audio": ["R/XVKV554Q0B6Q"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 337.3452,
+        "learnable": false
+      },
+      {
+        "word": "little",
+        "lang": "en",
+        "sense": {
+          "id": 103461,
+          "ordinal": "0.01.01.01",
+          "definition": "limited or below average in number or quantity or magnitude",
+          "audio": ["L/H5AHFNCE0Y3P"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 858.46155,
+        "learnable": false
+      },
+      {
+        "word": "car",
+        "lang": "en",
+        "sense": {
+          "id": 15952,
+          "ordinal": "0.01.01.01",
+          "definition": "a motor vehicle with four wheels",
+          "audio": ["C/18LDXLP7NKILC"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 73.644226,
+        "learnable": false
+      },
+      {
+        "word": "form",
+        "lang": "en",
+        "sense": {
+          "id": 32454,
+          "ordinal": "0.01.01.01",
+          "definition": "a perceptual structure",
+          "audio": ["F/9TA4FNO2WH78"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 364.69775,
+        "learnable": false
+      },
+      {
+        "word": "sand",
+        "lang": "en",
+        "sense": {
+          "id": 80537,
+          "ordinal": "0.01.01.01",
+          "definition": "a loose material consisting of grains of rock or coral",
+          "audio": ["S/OUYBL0GGI7BI"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 39.966797,
+        "learnable": false
+      },
+      {
+        "word": "taboo",
+        "lang": "en",
+        "sense": {
+          "id": 27109,
+          "ordinal": "0.01.01.01",
+          "definition": "a ban resulting from social custom or emotional aversion",
+          "audio": ["T/4J4VV484FNC9"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 530,
+        "frequency": 2.089462,
+        "learnable": true
+      },
+      {
+        "word": "exclusive",
+        "lang": "en",
+        "sense": {
+          "id": 106109,
+          "ordinal": "0.01.01.01",
+          "definition": "admitting or accepting only a particular group",
+          "audio": ["E/11KQ8EACKM20Y"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 490,
+        "frequency": 19.744299,
+        "learnable": true
+      },
+      {
+        "word": "health",
+        "lang": "en",
+        "sense": {
+          "id": 74570,
+          "ordinal": "0.01.01.01",
+          "definition": "the general condition of body and mind",
+          "audio": ["H/51PQKK8GUHMK"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 280,
+        "frequency": 104.61625,
+        "learnable": true
+      },
+      {
+        "word": "orange",
+        "lang": "en",
+        "sense": {
+          "id": 68092,
+          "ordinal": "0.01.01.01",
+          "definition": "any citrus tree bearing oranges",
+          "audio": ["O/G9K206YFPFCR"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 8.461407,
+        "learnable": false
+      },
+      {
+        "word": "blush",
+        "lang": "en",
+        "sense": {
+          "id": 83508,
+          "ordinal": "0.01.01.01",
+          "definition": "become rosy or reddish",
+          "audio": ["B/155ETLCWFAICM"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 360,
+        "frequency": 19.406546,
+        "learnable": true
+      },
+      {
+        "word": "flawless",
+        "lang": "en",
+        "sense": {
+          "id": 105492,
+          "ordinal": "0.01.01.01",
+          "definition": "without a weakness or defect or mistake",
+          "audio": ["F/1LI2P68ON7IH4"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 420,
+        "frequency": 1.0680826,
+        "learnable": true
+      },
+      {
+        "word": "limit",
+        "lang": "en",
+        "sense": {
+          "id": 46593,
+          "ordinal": "0.01.01.01",
+          "definition": "as far as something can go",
+          "audio": ["L/BEQE34MBSORK"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 390,
+        "frequency": 80.027,
+        "learnable": true
+      },
+      {
+        "word": "live",
+        "lang": "en",
+        "sense": {
+          "id": 95081,
+          "ordinal": "0.01.01.01",
+          "definition": "have life, be alive",
+          "audio": ["L/RVKV6LXWYNPZ"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 341.01245,
+        "learnable": false
+      },
+      {
+        "word": "letter",
+        "lang": "en",
+        "sense": {
+          "id": 35743,
+          "ordinal": "0.01.01.01",
+          "definition": "a written message addressed to a person or organization",
+          "audio": ["L/1GN7U071ZFU3T"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 239.36557,
+        "learnable": false
+      },
+      {
+        "word": "quiet",
+        "lang": "en",
+        "sense": {
+          "id": 106428,
+          "ordinal": "0.01.01.01",
+          "definition": "characterized by an absence of agitation or activity",
+          "audio": ["Q/13RS9XD1AHFCS"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 124.7934,
+        "learnable": false
+      },
+      {
+        "word": "stick",
+        "lang": "en",
+        "sense": {
+          "id": 24028,
+          "ordinal": "0.01.01.01",
+          "definition": "a long thin implement resembling a length of wood",
+          "audio": ["S/183H7LA7Z5U0U"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 44.123722,
+        "learnable": false
+      },
+      {
+        "word": "wrist",
+        "lang": "en",
+        "sense": {
+          "id": 30721,
+          "ordinal": "0.01.01.01",
+          "definition": "a joint between the distal end of the radius and the proximal row of carpal bones",
+          "audio": ["W/17O2KZU9GI0ZI"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 9.858105,
+        "learnable": false
+      },
+      {
+        "word": "tank",
+        "lang": "en",
+        "sense": {
+          "id": 24439,
+          "ordinal": "0.01.01.01",
+          "definition": "a large vessel for holding gases or liquids",
+          "audio": ["T/USABC3I5W0YB"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 380,
+        "frequency": 15.257066,
+        "learnable": true
+      },
+      {
+        "word": "curvy",
+        "lang": "en",
+        "sense": {
+          "id": 108706,
+          "ordinal": "0.01.01.01",
+          "definition": "having curves",
+          "audio": ["C/1WIT6PS5T1U3R"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.06430155,
+        "learnable": false
+      },
+      {
+        "word": "equal",
+        "lang": "en",
+        "sense": {
+          "id": 100760,
+          "ordinal": "0.01.01.01",
+          "definition": "having the same quantity, value, or measure as another",
+          "audio": ["E/1THRQS1FKKEA3"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 330,
+        "frequency": 128.69853,
+        "learnable": true
+      },
+      {
+        "word": "believe",
+        "lang": "en",
+        "sense": {
+          "id": 85470,
+          "ordinal": "0.01.01.01",
+          "definition": "accept as true; take to be true",
+          "audio": ["B/DIS5WTZBKPFT"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 334.41306,
+        "learnable": false
+      },
+      {
+        "word": "building",
+        "lang": "en",
+        "sense": {
+          "id": 4651,
+          "ordinal": "0.01.01.01",
+          "definition": "the act of constructing something",
+          "audio": ["B/1MRBRN9LSI06S"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 94.28468,
+        "learnable": false
+      },
+      {
+        "word": "dynamic",
+        "lang": "en",
+        "sense": {
+          "id": 49339,
+          "ordinal": "0.01.01.01",
+          "definition": "an efficient incentive",
+          "audio": ["D/4IWKPXHKGOQU"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 440,
+        "frequency": 4.3362937,
+        "learnable": true
+      },
+      {
+        "word": "precede",
+        "lang": "en",
+        "sense": {
+          "id": 95562,
+          "ordinal": "0.01.01.01",
+          "definition": "be earlier in time",
+          "audio": ["P/REREF5MKXGIB"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 550,
+        "frequency": 34.696777,
+        "learnable": true
+      },
+      {
+        "word": "yummy",
+        "lang": "en",
+        "sense": {
+          "id": 109146,
+          "ordinal": "0.01.01.01",
+          "definition": "extremely pleasing to the sense of taste",
+          "audio": ["Y/FQP5FU9IK69K"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.07310071,
+        "learnable": false
+      },
+      {
+        "word": "steady",
+        "lang": "en",
+        "sense": {
+          "id": 107365,
+          "ordinal": "0.01.01.01",
+          "definition": "securely in position; not shaky",
+          "audio": ["S/1K49HB7V3VKG4"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 440,
+        "frequency": 51.55766,
+        "learnable": true
+      },
+      {
+        "word": "psychotic",
+        "lang": "en",
+        "sense": {
+          "id": 107263,
+          "ordinal": "0.01.01.01",
+          "definition": "characteristic of or suffering from a severe mental disorder",
+          "audio": ["P/BC58F18GXM0W"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 380,
+        "frequency": 0.37261057,
+        "learnable": true
+      },
+      {
+        "word": "stare",
+        "lang": "en",
+        "sense": {
+          "id": 92754,
+          "ordinal": "0.01.01.01",
+          "definition": "look at with fixed eyes",
+          "audio": ["S/1UQM9Q7XGQJRH"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 310,
+        "frequency": 49.390358,
+        "learnable": true
+      },
+      {
+        "word": "pleasure",
+        "lang": "en",
+        "sense": {
+          "id": 31971,
+          "ordinal": "0.01.01.01",
+          "definition": "something or someone that provides a source of happiness",
+          "audio": ["P/14CUIZBMZKB92"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 96.97824,
+        "learnable": false
+      },
+      {
+        "word": "price",
+        "lang": "en",
+        "sense": {
+          "id": 71047,
+          "ordinal": "0.01.01.01",
+          "definition": "the amount of money needed to purchase something",
+          "audio": ["P/1BDK6PM90TUDV"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 66.62318,
+        "learnable": false
+      },
+      {
+        "word": "fork",
+        "lang": "en",
+        "sense": {
+          "id": 18443,
+          "ordinal": "0.01.01.01",
+          "definition": "a pronged tool used for serving and eating food",
+          "audio": ["F/ISCSB6ZWTNOV"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 10.946155,
+        "learnable": false
+      },
+      {
+        "word": "transport",
+        "lang": "en",
+        "sense": {
+          "id": 91835,
+          "ordinal": "0.01.01.01",
+          "definition": "move something or somebody around",
+          "audio": ["T/1GF2HHUZ929PS"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 370,
+        "frequency": 26.048557,
+        "learnable": true
+      },
+      {
+        "word": "buzz",
+        "lang": "en",
+        "sense": {
+          "id": 39921,
+          "ordinal": "0.01.01.01",
+          "definition": "the sound of rapid vibration",
+          "audio": ["B/HJQP4WM90NWC"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 390,
+        "frequency": 8.679017,
+        "learnable": true
+      },
+      {
+        "word": "tramp",
+        "lang": "en",
+        "sense": {
+          "id": 91658,
+          "ordinal": "0.01.01.01",
+          "definition": "travel on foot, especially on a walking expedition",
+          "audio": ["T/1N6BCVCJ4JCVX"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 510,
+        "frequency": 12.380755,
+        "learnable": true
+      },
+      {
+        "word": "wink",
+        "lang": "en",
+        "sense": {
+          "id": 481,
+          "ordinal": "0.01.01.01",
+          "definition": "a reflex that closes and opens the eyes rapidly",
+          "audio": ["W/1IUQHSXKVKYXU"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 8.599486,
+        "learnable": false
+      },
+      {
+        "word": "color",
+        "lang": "en",
+        "sense": {
+          "id": 27481,
+          "ordinal": "0.01.01.01",
+          "definition": "a visual attribute of things from the light they emit",
+          "audio": ["C/1GII9XOXOAD9O"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 75.77701,
+        "learnable": false
+      },
+      {
+        "word": "protect",
+        "lang": "en",
+        "sense": {
+          "id": 87582,
+          "ordinal": "0.01.01.01",
+          "definition": "shield from danger, injury, destruction, or damage",
+          "audio": ["P/1QJZZHOSEGH2Q"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 450,
+        "frequency": 95.08812,
+        "learnable": true
+      },
+      {
+        "word": "jazz",
+        "lang": "en",
+        "sense": {
+          "id": 38256,
+          "ordinal": "0.01.01.01",
+          "definition": "genre of American music that developed in the 20th century",
+          "audio": ["J/ILOPY6DFEKQB"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 470,
+        "frequency": 4.523783,
+        "learnable": true
+      },
+      {
+        "word": "harass",
+        "lang": "en",
+        "sense": {
+          "id": 91019,
+          "ordinal": "0.01.01.01",
+          "definition": "annoy continually or chronically",
+          "audio": ["H/Z5FJICTG93D7"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 380,
+        "frequency": 6.447415,
+        "learnable": true
+      },
+      {
+        "word": "stomach",
+        "lang": "en",
+        "sense": {
+          "id": 29784,
+          "ordinal": "0.01.01.01",
+          "definition": "enlarged and muscular saclike organ of the alimentary canal",
+          "audio": ["S/SESJNYZUX8YP"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 15.710222,
+        "learnable": false
+      },
+      {
+        "word": "egg",
+        "lang": "en",
+        "sense": {
+          "id": 7436,
+          "ordinal": "0.01.01.01",
+          "definition": "animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds",
+          "audio": ["E/6W7UFU6TLWD2"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 40.204037,
+        "learnable": false
+      },
+      {
+        "word": "closed",
+        "lang": "en",
+        "sense": {
+          "id": 104938,
+          "ordinal": "0.01.01.01",
+          "definition": "not open",
+          "audio": ["C/1J01JEUE84JA7"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 60.748043,
+        "learnable": false
+      },
+      {
+        "word": "stamp",
+        "lang": "en",
+        "sense": {
+          "id": 91681,
+          "ordinal": "0.01.01.01",
+          "definition": "walk heavily",
+          "audio": ["S/WTBUW2KWJPSV"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 22.439548,
+        "learnable": false
+      },
+      {
+        "word": "premium",
+        "lang": "en",
+        "sense": {
+          "id": 108863,
+          "ordinal": "0.01.01.01",
+          "definition": "having or reflecting superior quality or value",
+          "audio": ["P/BGBTMWOS1B5Z"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 440,
+        "frequency": 6.6650248,
+        "learnable": true
+      },
+      {
+        "word": "sparkle",
+        "lang": "en",
+        "sense": {
+          "id": 95851,
+          "ordinal": "0.01.01.01",
+          "definition": "emit or produce sparks",
+          "audio": ["S/1HZYKLV6R0Z2H"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 300,
+        "frequency": 15.433049,
+        "learnable": true
+      },
+      {
+        "word": "able",
+        "lang": "en",
+        "sense": {
+          "id": 95883,
+          "ordinal": "0.01.01.01",
+          "definition": "having the necessary means or skill to do something",
+          "audio": ["A/2OWPZQCQGYT7"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 340,
+        "frequency": 270.96674,
+        "learnable": true
+      },
+      {
+        "word": "red",
+        "lang": "en",
+        "sense": {
+          "id": 27510,
+          "ordinal": "0.01.01.01",
+          "definition": "the chromatic color resembling the hue of blood",
+          "audio": ["R/1NFJRU3HN1A1E"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 94.16624,
+        "learnable": false
+      },
+      {
+        "word": "food",
+        "lang": "en",
+        "sense": {
+          "id": 26,
+          "ordinal": "0.01.01.01",
+          "definition": "any substance that can be metabolized by an animal",
+          "audio": ["F/4L0S8HHQ1O6V"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 99.24335,
+        "learnable": false
+      },
+      {
+        "word": "night",
+        "lang": "en",
+        "sense": {
+          "id": 81375,
+          "ordinal": "0.01.01.01",
+          "definition": "the time after sunset and before sunrise while it is dark outside",
+          "audio": ["N/WZWP83E7FM2Z"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 193.34224,
+        "learnable": false
+      },
+      {
+        "word": "eyes",
+        "lang": "en",
+        "sense": {
+          "id": 32543,
+          "ordinal": "0.01.01.01",
+          "definition": "opinion or judgment",
+          "audio": ["E/1X2K2KFXY7RV3"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 392.0029,
+        "learnable": false
+      },
+      {
+        "word": "secretive",
+        "lang": "en",
+        "sense": {
+          "id": 98702,
+          "ordinal": "0.01.01.01",
+          "definition": "reluctant to divulge information",
+          "audio": ["S/3V6377AUOC4R"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 430,
+        "frequency": 1.1533668,
+        "learnable": true
+      },
+      {
+        "word": "jail",
+        "lang": "en",
+        "sense": {
+          "id": 19684,
+          "ordinal": "0.01.01.01",
+          "definition": "a correctional institution used to detain persons who are in the lawful custody of the government (either accused persons awaiting trial or convicted persons serving a sentence)",
+          "audio": ["J/HIXKL8M51G96"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 17.298471,
+        "learnable": false
+      },
+      {
+        "word": "uttermost",
+        "lang": "en",
+        "sense": {
+          "id": 104180,
+          "ordinal": "0.01.01.01",
+          "definition": "of the greatest possible degree or extent or intensity",
+          "audio": ["U/10IRIRA5TUQWU"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 1.9831952,
+        "learnable": false
+      },
+      {
+        "word": "condemn",
+        "lang": "en",
+        "sense": {
+          "id": 86287,
+          "ordinal": "0.01.01.01",
+          "definition": "express strong disapproval of",
+          "audio": ["C/1TR5JTD7EEVZ5"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 510,
+        "frequency": 30.041346,
+        "learnable": true
+      },
+      {
+        "word": "painstaking",
+        "lang": "en",
+        "sense": {
+          "id": 97593,
+          "ordinal": "0.01.01.01",
+          "definition": "characterized by extreme care and great effort",
+          "audio": ["P/TLFLTQBI98A1"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 560,
+        "frequency": 1.9229548,
+        "learnable": true
+      },
+      {
+        "word": "mitten",
+        "lang": "en",
+        "sense": {
+          "id": 20757,
+          "ordinal": "0.01.01.01",
+          "definition": "glove that encases the thumb separately and the other four fingers together",
+          "audio": ["M/3EGAD6TDACTD"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 1.2775702,
+        "learnable": false
+      },
+      {
+        "word": "meek",
+        "lang": "en",
+        "sense": {
+          "id": 106263,
+          "ordinal": "0.01.01.01",
+          "definition": "humble in spirit or manner",
+          "audio": ["M/1BNK4UMRM3UFI"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 520,
+        "frequency": 9.480756,
+        "learnable": true
+      },
+      {
+        "word": "military",
+        "lang": "en",
+        "sense": {
+          "id": 44681,
+          "ordinal": "0.01.01.01",
+          "definition": "the armed forces of a nation",
+          "audio": ["M/IMSGUMXJGEIL"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 330,
+        "frequency": 91.46997,
+        "learnable": true
+      },
+      {
+        "word": "substantial",
+        "lang": "en",
+        "sense": {
+          "id": 99362,
+          "ordinal": "0.01.01.01",
+          "definition": "real; having a material or factual existence",
+          "audio": ["S/1E8D8KD3GKQTP"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 540,
+        "frequency": 16.168795,
+        "learnable": true
+      },
+      {
+        "word": "female",
+        "lang": "en",
+        "sense": {
+          "id": 103976,
+          "ordinal": "0.01.01.01",
+          "definition": "of the sex that produces eggs from which offspring develop",
+          "audio": ["F/2R5BOXEOXZFQ"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 55.62321,
+        "learnable": false
+      },
+      {
+        "word": "water",
+        "lang": "en",
+        "sense": {
+          "id": 79525,
+          "ordinal": "0.01.01.01",
+          "definition": "compound that occurs at room temperature as a clear liquid",
+          "audio": ["W/15RGC79MS8DL8"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 297.9805,
+        "learnable": false
+      },
+      {
+        "word": "bashful",
+        "lang": "en",
+        "sense": {
+          "id": 97284,
+          "ordinal": "0.01.01.01",
+          "definition": "self-consciously timid",
+          "audio": ["B/1ONAH4RNJ0FD5"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 590,
+        "frequency": 2.5013304,
+        "learnable": true
+      },
+      {
+        "word": "wonderful",
+        "lang": "en",
+        "sense": {
+          "id": 105068,
+          "ordinal": "0.01.01.01",
+          "definition": "extraordinarily good or great",
+          "audio": ["W/1FD37GSJQN270"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 250,
+        "frequency": 60.83502,
+        "learnable": true
+      },
+      {
+        "word": "groan",
+        "lang": "en",
+        "sense": {
+          "id": 38565,
+          "ordinal": "0.01.01.01",
+          "definition": "an utterance expressing pain or disapproval",
+          "audio": ["G/8DFNSNS6CMZJ"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 390,
+        "frequency": 19.815369,
+        "learnable": true
+      },
+      {
+        "word": "open",
+        "lang": "en",
+        "sense": {
+          "id": 104939,
+          "ordinal": "0.01.01.01",
+          "definition": "affording free passage or access",
+          "audio": ["O/LMVGO1U7G7GR"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 368.61,
+        "learnable": false
+      },
+      {
+        "word": "rotten",
+        "lang": "en",
+        "sense": {
+          "id": 101752,
+          "ordinal": "0.01.01.01",
+          "definition": "having decayed or disintegrated",
+          "audio": ["R/10NFHIA610456"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 350,
+        "frequency": 6.4315085,
+        "learnable": true
+      },
+      {
+        "word": "dusty",
+        "lang": "en",
+        "sense": {
+          "id": 105166,
+          "ordinal": "0.01.01.01",
+          "definition": "covered with a layer of fine powdery material",
+          "audio": ["D/8NAES4QLOH4B"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 410,
+        "frequency": 7.5070367,
+        "learnable": true
+      },
+      {
+        "word": "paltry",
+        "lang": "en",
+        "sense": {
+          "id": 96451,
+          "ordinal": "0.01.01.01",
+          "definition": "contemptibly small in amount or size",
+          "audio": ["P/170CGZAIOOB67"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 580,
+        "frequency": 2.6495624,
+        "learnable": true
+      },
+      {
+        "word": "six",
+        "lang": "en",
+        "sense": {
+          "id": 73560,
+          "ordinal": "0.01.01.01",
+          "definition": "the cardinal number that is the sum of five and one",
+          "audio": ["S/YWN24VJU0JK8"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 150.7807,
+        "learnable": false
+      },
+      {
+        "word": "therapeutic",
+        "lang": "en",
+        "sense": {
+          "id": 102258,
+          "ordinal": "0.01.01.01",
+          "definition": "tending to cure or restore to health",
+          "audio": ["T/11WQVEXNEMOIT"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 430,
+        "frequency": 1.0315323,
+        "learnable": true
+      },
+      {
+        "word": "dangerous",
+        "lang": "en",
+        "sense": {
+          "id": 107178,
+          "ordinal": "0.01.01.01",
+          "definition": "involving or causing risk; liable to hurt or harm",
+          "audio": ["D/1F9NBOJEN8YRD"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 270,
+        "frequency": 44.616814,
+        "learnable": true
+      },
+      {
+        "word": "thundering",
+        "lang": "en",
+        "sense": {
+          "id": 106423,
+          "ordinal": "0.01.01.01",
+          "definition": "sounding like thunder",
+          "audio": ["T/6W2533KL238R"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 3.0482318,
+        "learnable": false
+      },
+      {
+        "word": "sneaky",
+        "lang": "en",
+        "sense": {
+          "id": 107330,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by quiet and caution and secrecy",
+          "audio": ["S/6SEASEWDKCSZ"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 390,
+        "frequency": 0.22200955,
+        "learnable": true
+      },
+      {
+        "word": "rule",
+        "lang": "en",
+        "sense": {
+          "id": 35895,
+          "ordinal": "0.01.01.01",
+          "definition": "prescribed guide for conduct or action",
+          "audio": ["R/1BMUY0Q7U9B56"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 139.73708,
+        "learnable": false
+      },
+      {
+        "word": "teaching",
+        "lang": "en",
+        "sense": {
+          "id": 4496,
+          "ordinal": "0.01.01.01",
+          "definition": "the activities of educating or instructing",
+          "audio": ["T/B6PIOOXBNE69"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 28.377628,
+        "learnable": false
+      },
+      {
+        "word": "cut",
+        "lang": "en",
+        "sense": {
+          "id": 89832,
+          "ordinal": "0.01.01.01",
+          "definition": "separate with or as if with an instrument",
+          "audio": ["C/1QXYU075EI6UJ"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 169.44981,
+        "learnable": false
+      },
+      {
+        "word": "acoustic",
+        "lang": "en",
+        "sense": {
+          "id": 112184,
+          "ordinal": "0.01.01.01",
+          "definition": "relating to the study of the physical properties of sound",
+          "audio": ["A/S5F93XMM68M9"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 460,
+        "frequency": 0.9425253,
+        "learnable": true
+      },
+      {
+        "word": "program",
+        "lang": "en",
+        "sense": {
+          "id": 32298,
+          "ordinal": "0.01.01.01",
+          "definition": "a series of steps to be carried out",
+          "audio": ["P/PTUDBVDTYLXF"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 420,
+        "frequency": 48.88373,
+        "learnable": true
+      },
+      {
+        "word": "fill",
+        "lang": "en",
+        "sense": {
+          "id": 84322,
+          "ordinal": "0.01.01.01",
+          "definition": "make full, also in a metaphorical sense",
+          "audio": ["F/1L7DHTZ6XYP96"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 124.629265,
+        "learnable": false
+      },
+      {
+        "word": "mean",
+        "lang": "en",
+        "sense": {
+          "id": 86606,
+          "ordinal": "0.01.01.01",
+          "definition": "denote or connote",
+          "audio": ["M/1AGN46KSMEA8S"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 490,
+        "frequency": 447.7293,
+        "learnable": true
+      },
+      {
+        "word": "trust",
+        "lang": "en",
+        "sense": {
+          "id": 27167,
+          "ordinal": "0.01.01.01",
+          "definition": "belief in the honesty and reliability of others",
+          "audio": ["T/OM3CU7TX4JK6"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 370,
+        "frequency": 114.988434,
+        "learnable": true
+      },
+      {
+        "word": "snake",
+        "lang": "en",
+        "sense": {
+          "id": 8846,
+          "ordinal": "0.01.01.01",
+          "definition": "limbless scaly elongate reptile; some are venomous",
+          "audio": ["S/13JX7SANV2MOS"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 7.6288714,
+        "learnable": false
+      },
+      {
+        "word": "yield",
+        "lang": "en",
+        "sense": {
+          "id": 90238,
+          "ordinal": "0.01.01.01",
+          "definition": "give or supply",
+          "audio": ["Y/YYQ9G3KV3EEG"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 560,
+        "frequency": 47.120853,
+        "learnable": true
+      },
+      {
+        "word": "complex",
+        "lang": "en",
+        "sense": {
+          "id": 107849,
+          "ordinal": "0.01.01.01",
+          "definition": "complicated in structure",
+          "audio": ["C/6057PVPC3JQP"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 440,
+        "frequency": 17.674465,
+        "learnable": true
+      },
+      {
+        "word": "risk",
+        "lang": "en",
+        "sense": {
+          "id": 77878,
+          "ordinal": "0.01.01.01",
+          "definition": "a source of danger",
+          "audio": ["R/VHZ4TKC425DB"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 340,
+        "frequency": 55.139935,
+        "learnable": true
+      },
+      {
+        "word": "railway",
+        "lang": "en",
+        "sense": {
+          "id": 22388,
+          "ordinal": "0.01.01.01",
+          "definition": "line that is the commercial organization responsible for operating a system of transportation for trains that pull passengers or freight",
+          "audio": ["R/1WGHELU97RH5C"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 24.69078,
+        "learnable": false
+      },
+      {
+        "word": "festive",
+        "lang": "en",
+        "sense": {
+          "id": 103332,
+          "ordinal": "0.01.01.01",
+          "definition": "offering fun and gaiety",
+          "audio": ["F/1QFK4ZJP01L05"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 350,
+        "frequency": 6.0859723,
+        "learnable": true
+      },
+      {
+        "word": "window",
+        "lang": "en",
+        "sense": {
+          "id": 25625,
+          "ordinal": "0.01.01.01",
+          "definition": "a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air",
+          "audio": ["W/1IR5I749C5UON"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 105.71716,
+        "learnable": false
+      },
+      {
+        "word": "jelly",
+        "lang": "en",
+        "sense": {
+          "id": 79996,
+          "ordinal": "0.01.01.01",
+          "definition": "any substance having the consistency of jelly or gelatin",
+          "audio": ["J/1J64VEL0FC6PQ"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 4.4466214,
+        "learnable": false
+      },
+      {
+        "word": "cattle",
+        "lang": "en",
+        "sense": {
+          "id": 12689,
+          "ordinal": "0.01.01.01",
+          "definition": "domesticated cows as a group",
+          "audio": ["C/1NSDBOWP2P4KA"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 390,
+        "frequency": 27.864908,
+        "learnable": true
+      },
+      {
+        "word": "match",
+        "lang": "en",
+        "sense": {
+          "id": 40444,
+          "ordinal": "0.01.01.01",
+          "definition": "a formal contest in which people or teams compete",
+          "audio": ["M/DO1XNVX69NNM"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 360,
+        "frequency": 49.40288,
+        "learnable": true
+      },
+      {
+        "word": "spectacular",
+        "lang": "en",
+        "sense": {
+          "id": 102883,
+          "ordinal": "0.01.01.01",
+          "definition": "sensational in appearance or thrilling in effect",
+          "audio": ["S/14I3GTPBTQ2D5"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 410,
+        "frequency": 4.345431,
+        "learnable": true
+      },
+      {
+        "word": "test",
+        "lang": "en",
+        "sense": {
+          "id": 5132,
+          "ordinal": "0.01.01.01",
+          "definition": "standardized procedure for measuring sensitivity or aptitude",
+          "audio": ["T/51YQU3BBWADC"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 290,
+        "frequency": 58.08562,
+        "learnable": true
+      },
+      {
+        "word": "balance",
+        "lang": "en",
+        "sense": {
+          "id": 28129,
+          "ordinal": "0.01.01.01",
+          "definition": "harmonious arrangement or relation of parts within a whole ",
+          "audio": ["B/ZIBWU1OH5PPY"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 440,
+        "frequency": 27.535276,
+        "learnable": true
+      },
+      {
+        "word": "flock",
+        "lang": "en",
+        "sense": {
+          "id": 43737,
+          "ordinal": "0.01.01.01",
+          "definition": "a group of birds",
+          "audio": ["F/1A9YJR9L71YTT"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 370,
+        "frequency": 19.585238,
+        "learnable": true
+      },
+      {
+        "word": "horse",
+        "lang": "en",
+        "sense": {
+          "id": 12510,
+          "ordinal": "0.01.01.01",
+          "definition": "solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+          "audio": ["H/17M07F58Y2LP2"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 173.3898,
+        "learnable": false
+      },
+      {
+        "word": "creator",
+        "lang": "en",
+        "sense": {
+          "id": 51648,
+          "ordinal": "0.01.01.01",
+          "definition": "a person who grows or makes or invents things",
+          "audio": ["C/1MIZ1V7KXCC08"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 290,
+        "frequency": 2.727401,
+        "learnable": true
+      },
+      {
+        "word": "mass",
+        "lang": "en",
+        "sense": {
+          "id": 27859,
+          "ordinal": "0.01.01.01",
+          "definition": "the property of a body that causes it to have weight",
+          "audio": ["M/4YIDHF1DPXH8"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 460,
+        "frequency": 51.32279,
+        "learnable": true
+      },
+      {
+        "word": "cook",
+        "lang": "en",
+        "sense": {
+          "id": 83686,
+          "ordinal": "0.01.01.01",
+          "definition": "transform by heating",
+          "audio": ["C/1MRD5RXJT6F1C"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 36.82719,
+        "learnable": false
+      },
+      {
+        "word": "unite",
+        "lang": "en",
+        "sense": {
+          "id": 83271,
+          "ordinal": "0.01.01.01",
+          "definition": "join or combine",
+          "audio": ["U/Y0IL2YVYTR65"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 390,
+        "frequency": 160.33998,
+        "learnable": true
+      },
+      {
+        "word": "compare",
+        "lang": "en",
+        "sense": {
+          "id": 85333,
+          "ordinal": "0.01.01.01",
+          "definition": "examine and note the similarities or differences of",
+          "audio": ["C/19FB7UCJDZEXO"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 310,
+        "frequency": 82.45184,
+        "learnable": true
+      },
+      {
+        "word": "adorable",
+        "lang": "en",
+        "sense": {
+          "id": 103870,
+          "ordinal": "0.01.01.01",
+          "definition": "lovable especially in a childlike or naive way",
+          "audio": ["A/PXR7QE2CFMO7"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 300,
+        "frequency": 2.0058699,
+        "learnable": true
+      },
+      {
+        "word": "mixed",
+        "lang": "en",
+        "sense": {
+          "id": 102438,
+          "ordinal": "0.01.01.01",
+          "definition": "consisting of a haphazard assortment of different kinds",
+          "audio": ["M/670HYS2GHS0Q"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 25.08065,
+        "learnable": false
+      },
+      {
+        "word": "elbow",
+        "lang": "en",
+        "sense": {
+          "id": 30694,
+          "ordinal": "0.01.01.01",
+          "definition": "hinge joint between the forearm and upper arm and the corresponding joint in the forelimb of a quadruped",
+          "audio": ["E/MWE9IG1RN9NE"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 14.860088,
+        "learnable": false
+      },
+      {
+        "word": "advertisement",
+        "lang": "en",
+        "sense": {
+          "id": 39221,
+          "ordinal": "0.01.01.01",
+          "definition": "a public promotion of some product or service",
+          "audio": ["A/1G7QS07M97CUH"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 350,
+        "frequency": 8.305391,
+        "learnable": true
+      },
+      {
+        "word": "count",
+        "lang": "en",
+        "sense": {
+          "id": 86678,
+          "ordinal": "0.01.01.01",
+          "definition": "determine the number or amount of",
+          "audio": ["C/PJSNO85WQLIO"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 135.16084,
+        "learnable": false
+      },
+      {
+        "word": "majestic",
+        "lang": "en",
+        "sense": {
+          "id": 102886,
+          "ordinal": "0.01.01.01",
+          "definition": "having or displaying great dignity or nobility",
+          "audio": ["M/TQ580HQ73OTE"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 450,
+        "frequency": 7.10126,
+        "learnable": true
+      },
+      {
+        "word": "bed",
+        "lang": "en",
+        "sense": {
+          "id": 15091,
+          "ordinal": "0.01.01.01",
+          "definition": "a piece of furniture that provides a place to sleep",
+          "audio": ["B/95FTDBKGIMNG"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 124.21469,
+        "learnable": false
+      },
+      {
+        "word": "cream",
+        "lang": "en",
+        "sense": {
+          "id": 42862,
+          "ordinal": "0.01.01.01",
+          "definition": "the part of milk containing the butterfat",
+          "audio": ["C/DWPWDE8O93WB"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 17.211832,
+        "learnable": false
+      },
+      {
+        "word": "intelligent",
+        "lang": "en",
+        "sense": {
+          "id": 103160,
+          "ordinal": "0.01.01.01",
+          "definition": "having the capacity for thought and reason to a high degree",
+          "audio": ["I/MZ15C5P9HU0I"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 390,
+        "frequency": 57.217888,
+        "learnable": true
+      },
+      {
+        "word": "party",
+        "lang": "en",
+        "sense": {
+          "id": 40306,
+          "ordinal": "0.01.01.01",
+          "definition": "an occasion on which people gather to socialize and have fun",
+          "audio": ["P/1C3YC28F4Q0ZK"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 350,
+        "frequency": 208.98714,
+        "learnable": true
+      },
+      {
+        "word": "voice",
+        "lang": "en",
+        "sense": {
+          "id": 38482,
+          "ordinal": "0.01.01.01",
+          "definition": "the sound made when a person speaks",
+          "audio": ["V/58D9NGGK6P28"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 330,
+        "frequency": 238.10898,
+        "learnable": true
+      },
+      {
+        "word": "troubled",
+        "lang": "en",
+        "sense": {
+          "id": 109495,
+          "ordinal": "0.01.01.01",
+          "definition": "characterized by or indicative of distress or affliction or danger or need",
+          "audio": ["T/4LRG8NH2UQCF"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 25.292168,
+        "learnable": false
+      },
+      {
+        "word": "dog",
+        "lang": "en",
+        "sense": {
+          "id": 10816,
+          "ordinal": "0.01.01.01",
+          "definition": "a canine domesticated by man since prehistoric times",
+          "audio": ["D/1BKGDNCBJQJ9Z"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 94.95748,
+        "learnable": false
+      },
+      {
+        "word": "long-term",
+        "lang": "en",
+        "sense": {
+          "id": 103758,
+          "ordinal": "0.01.01.01",
+          "definition": "relating to or extending over a relatively long time",
+          "audio": ["L/B6LPYUIO382"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 370,
+        "frequency": 6.563496,
+        "learnable": true
+      },
+      {
+        "word": "spotted",
+        "lang": "en",
+        "sense": {
+          "id": 105705,
+          "ordinal": "0.01.01.01",
+          "definition": "having spots or patches",
+          "audio": ["S/1OCSY35B8RB0S"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 6.1482434,
+        "learnable": false
+      },
+      {
+        "word": "disagree",
+        "lang": "en",
+        "sense": {
+          "id": 86032,
+          "ordinal": "0.01.01.01",
+          "definition": "be of different opinions",
+          "audio": ["D/13DX9F40ANB09"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 380,
+        "frequency": 7.189252,
+        "learnable": true
+      },
+      {
+        "word": "icy",
+        "lang": "en",
+        "sense": {
+          "id": 101803,
+          "ordinal": "0.01.01.01",
+          "definition": "covered with or containing or consisting of ice",
+          "audio": ["I/1ERSWOGP0LMC5"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 6.0954485,
+        "learnable": false
+      },
+      {
+        "word": "utter",
+        "lang": "en",
+        "sense": {
+          "id": 104226,
+          "ordinal": "0.01.01.01",
+          "definition": "without qualification",
+          "audio": ["U/LL7PO0DLCJPL"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 550,
+        "frequency": 90.89126,
+        "learnable": true
+      },
+      {
+        "word": "circle",
+        "lang": "en",
+        "sense": {
+          "id": 74290,
+          "ordinal": "0.01.01.01",
+          "definition": "a plane curve with every point equidistant from the center",
+          "audio": ["C/1ABARZ2I8GQW2"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 390,
+        "frequency": 80.51908,
+        "learnable": true
+      },
+      {
+        "word": "name",
+        "lang": "en",
+        "sense": {
+          "id": 34217,
+          "ordinal": "0.01.01.01",
+          "definition": "a language unit by which a person or thing is known",
+          "audio": ["N/1PJI5150FQEE0"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 405.57053,
+        "learnable": false
+      },
+      {
+        "word": "Draconian",
+        "lang": "en",
+        "sense": {
+          "id": 113230,
+          "ordinal": "0.01.01.01",
+          "definition": "imposing a harsh code of laws",
+          "audio": ["D/1T53TU7S2LYOT"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 560,
+        "frequency": 0.3384292,
+        "learnable": true
+      },
+      {
+        "word": "thoughtful",
+        "lang": "en",
+        "sense": {
+          "id": 109273,
+          "ordinal": "0.01.01.01",
+          "definition": "exhibiting or characterized by careful consideration",
+          "audio": ["T/UME32F90UN06"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 470,
+        "frequency": 20.404913,
+        "learnable": true
+      },
+      {
+        "word": "minor",
+        "lang": "en",
+        "sense": {
+          "id": 103938,
+          "ordinal": "0.01.01.01",
+          "definition": "inferior in number or size or amount",
+          "audio": ["M/1X4ZD50FARATH"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 410,
+        "frequency": 30.784536,
+        "learnable": true
+      },
+      {
+        "word": "average",
+        "lang": "en",
+        "sense": {
+          "id": 32105,
+          "ordinal": "0.01.01.01",
+          "definition": "an intermediate scale value regarded as normal or usual",
+          "audio": ["A/4U3NMK2RZ7EE"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 410,
+        "frequency": 43.365643,
+        "learnable": true
+      },
+      {
+        "word": "sheet",
+        "lang": "en",
+        "sense": {
+          "id": 50625,
+          "ordinal": "0.01.01.01",
+          "definition": "any broad thin expanse or surface",
+          "audio": ["S/11W0LQIK2B4G6"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 390,
+        "frequency": 26.247215,
+        "learnable": true
+      },
+      {
+        "word": "paint",
+        "lang": "en",
+        "sense": {
+          "id": 21361,
+          "ordinal": "0.01.01.01",
+          "definition": "a substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating",
+          "audio": ["P/5OGT6Z4RC95M"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 91.11056,
+        "learnable": false
+      },
+      {
+        "word": "puffy",
+        "lang": "en",
+        "sense": {
+          "id": 103419,
+          "ordinal": "0.01.01.01",
+          "definition": "being puffed out; used of hair style or clothing",
+          "audio": ["P/1GJJTE7TF5OJB"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.7421753,
+        "learnable": false
+      },
+      {
+        "word": "misty",
+        "lang": "en",
+        "sense": {
+          "id": 98484,
+          "ordinal": "0.01.01.01",
+          "definition": "filled or abounding with fog",
+          "audio": ["M/LU69P7OW4UR3"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 380,
+        "frequency": 4.346108,
+        "learnable": true
+      },
+      {
+        "word": "three",
+        "lang": "en",
+        "sense": {
+          "id": 73557,
+          "ordinal": "0.01.01.01",
+          "definition": "the cardinal number that is the sum of one and one and one",
+          "audio": ["T/1RUJ2TLT0Z6UM"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 422.6419,
+        "learnable": false
+      },
+      {
+        "word": "trip",
+        "lang": "en",
+        "sense": {
+          "id": 91558,
+          "ordinal": "0.01.01.01",
+          "definition": "miss a step and fall or nearly fall",
+          "audio": ["T/ZXD3ZJ75TG1L"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 37.708122,
+        "learnable": false
+      },
+      {
+        "word": "level",
+        "lang": "en",
+        "sense": {
+          "id": 77281,
+          "ordinal": "0.01.01.01",
+          "definition": "a relative position or degree of value in a graded group",
+          "audio": ["L/1V0WTUX364P49"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 490,
+        "frequency": 61.927467,
+        "learnable": true
+      },
+      {
+        "word": "bent",
+        "lang": "en",
+        "sense": {
+          "id": 102659,
+          "ordinal": "0.01.01.01",
+          "definition": "stooped (used of the back and knees)",
+          "audio": ["B/Q6UCFMPT4FAX"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 500,
+        "frequency": 37.923023,
+        "learnable": true
+      },
+      {
+        "word": "furtive",
+        "lang": "en",
+        "sense": {
+          "id": 105234,
+          "ordinal": "0.01.01.01",
+          "definition": "secret and sly",
+          "audio": ["F/1II77R6H2AGAQ"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 590,
+        "frequency": 3.9075036,
+        "learnable": true
+      },
+      {
+        "word": "wander",
+        "lang": "en",
+        "sense": {
+          "id": 91457,
+          "ordinal": "0.01.01.01",
+          "definition": "move or cause to move in a sinuous or circular course",
+          "audio": ["W/6EB6WVMS8PCF"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 420,
+        "frequency": 45.8003,
+        "learnable": true
+      },
+      {
+        "word": "skillful",
+        "lang": "en",
+        "sense": {
+          "id": 108189,
+          "ordinal": "0.01.01.01",
+          "definition": "having or showing knowledge, ability, or aptitude",
+          "audio": ["S/8VU7KHP5C7F1"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 360,
+        "frequency": 3.9592834,
+        "learnable": true
+      },
+      {
+        "word": "calculate",
+        "lang": "en",
+        "sense": {
+          "id": 85263,
+          "ordinal": "0.01.01.01",
+          "definition": "make a mathematical computation",
+          "audio": ["C/15WHOYRO5N8RZ"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 360,
+        "frequency": 31.539234,
+        "learnable": true
+      },
+      {
+        "word": "meat",
+        "lang": "en",
+        "sense": {
+          "id": 41556,
+          "ordinal": "0.01.01.01",
+          "definition": "the flesh of animals used as food",
+          "audio": ["M/JMJSEC8QA144"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 33.40804,
+        "learnable": false
+      },
+      {
+        "word": "store",
+        "lang": "en",
+        "sense": {
+          "id": 23291,
+          "ordinal": "0.01.01.01",
+          "definition": "a mercantile establishment for the sale of goods or services",
+          "audio": ["S/1N19MSFP20ZUY"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 360,
+        "frequency": 65.79436,
+        "learnable": true
+      },
+      {
+        "word": "short",
+        "lang": "en",
+        "sense": {
+          "id": 103729,
+          "ordinal": "0.01.01.01",
+          "definition": "having little length or lacking in length",
+          "audio": ["S/1VES8L22W4WKS"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 194.48138,
+        "learnable": false
+      },
+      {
+        "word": "black",
+        "lang": "en",
+        "sense": {
+          "id": 98104,
+          "ordinal": "0.01.01.01",
+          "definition": "being of the achromatic color of maximum darkness",
+          "audio": ["B/1BN73JPTI3HRU"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 129.99202,
+        "learnable": false
+      },
+      {
+        "word": "wrap",
+        "lang": "en",
+        "sense": {
+          "id": 25732,
+          "ordinal": "0.01.01.01",
+          "definition": "cloak that is folded or wrapped around a person",
+          "audio": ["W/1AXVGJY46Y4HE"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 25.658348,
+        "learnable": false
+      },
+      {
+        "word": "grip",
+        "lang": "en",
+        "sense": {
+          "id": 88081,
+          "ordinal": "0.01.01.01",
+          "definition": "hold fast or firmly",
+          "audio": ["G/1EVVSEEA14N9E"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 420,
+        "frequency": 16.351208,
+        "learnable": true
+      },
+      {
+        "word": "pizza",
+        "lang": "en",
+        "sense": {
+          "id": 43052,
+          "ordinal": "0.01.01.01",
+          "definition": "Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese",
+          "audio": ["P/AZS01UJQB3PV"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 1.2196989,
+        "learnable": false
+      },
+      {
+        "word": "glorious",
+        "lang": "en",
+        "sense": {
+          "id": 102032,
+          "ordinal": "0.01.01.01",
+          "definition": "having or deserving or conferring high honor",
+          "audio": ["G/19B3E6UYFGVHQ"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 410,
+        "frequency": 29.23656,
+        "learnable": true
+      },
+      {
+        "word": "bottle",
+        "lang": "en",
+        "sense": {
+          "id": 15451,
+          "ordinal": "0.01.01.01",
+          "definition": "a vessel used for storing drinks or other liquids",
+          "audio": ["B/16VPQZKI4IJK"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 30.235266,
+        "learnable": false
+      },
+      {
+        "word": "symptomatic",
+        "lang": "en",
+        "sense": {
+          "id": 111789,
+          "ordinal": "0.01.01.01",
+          "definition": "relating to sensations experienced by a patient",
+          "audio": ["S/II1OTMN1WKM8"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 500,
+        "frequency": 0.32049245,
+        "learnable": true
+      },
+      {
+        "word": "chase",
+        "lang": "en",
+        "sense": {
+          "id": 92085,
+          "ordinal": "0.01.01.01",
+          "definition": "go after with the intent to catch",
+          "audio": ["C/1RPL9ICA6G857"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 400,
+        "frequency": 17.412521,
+        "learnable": true
+      },
+      {
+        "word": "treatment",
+        "lang": "en",
+        "sense": {
+          "id": 5807,
+          "ordinal": "0.01.01.01",
+          "definition": "the management of someone or something",
+          "audio": ["T/3DIA5TDQICTP"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 450,
+        "frequency": 36.383846,
+        "learnable": true
+      },
+      {
+        "word": "young",
+        "lang": "en",
+        "sense": {
+          "id": 6748,
+          "ordinal": "0.01.01.01",
+          "definition": "any immature animal",
+          "audio": ["Y/8ND3Q5AAYGG3"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 449.2184,
+        "learnable": false
+      },
+      {
+        "word": "trouble",
+        "lang": "en",
+        "sense": {
+          "id": 31257,
+          "ordinal": "0.01.01.01",
+          "definition": "a source of difficulty",
+          "audio": ["T/IRKZ2DL21SYI"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 142.2462,
+        "learnable": false
+      },
+      {
+        "word": "signal",
+        "lang": "en",
+        "sense": {
+          "id": 36630,
+          "ordinal": "0.01.01.01",
+          "definition": "any action or gesture that encodes a message",
+          "audio": ["S/1UQRX0CVCI8DE"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 400,
+        "frequency": 34.167473,
+        "learnable": true
+      },
+      {
+        "word": "property",
+        "lang": "en",
+        "sense": {
+          "id": 70698,
+          "ordinal": "0.01.01.01",
+          "definition": "something owned",
+          "audio": ["P/105PCKU74VTGW"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 370,
+        "frequency": 71.22141,
+        "learnable": true
+      },
+      {
+        "word": "scorch",
+        "lang": "en",
+        "sense": {
+          "id": 83969,
+          "ordinal": "0.01.01.01",
+          "definition": "burn slightly and superficially so as to affect color",
+          "audio": ["S/1U6X3BDE7M0I2"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 420,
+        "frequency": 4.740378,
+        "learnable": true
+      },
+      {
+        "word": "wry",
+        "lang": "en",
+        "sense": {
+          "id": 102798,
+          "ordinal": "0.01.01.01",
+          "definition": "humorously sarcastic or mocking",
+          "audio": ["W/156KFYKWCYDD1"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 600,
+        "frequency": 1.9950402,
+        "learnable": true
+      },
+      {
+        "word": "venomous",
+        "lang": "en",
+        "sense": {
+          "id": 109461,
+          "ordinal": "0.01.01.01",
+          "definition": "extremely poisonous or injurious",
+          "audio": ["V/6R58Y4E6W0DF"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 410,
+        "frequency": 1.9253237,
+        "learnable": true
+      },
+      {
+        "word": "pump",
+        "lang": "en",
+        "sense": {
+          "id": 22222,
+          "ordinal": "0.01.01.01",
+          "definition": "a device that moves fluid or gas by pressure or suction",
+          "audio": ["P/1JLLE2JP7CLQV"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 480,
+        "frequency": 11.793581,
+        "learnable": true
+      },
+      {
+        "word": "invincible",
+        "lang": "en",
+        "sense": {
+          "id": 99062,
+          "ordinal": "0.01.01.01",
+          "definition": "incapable of being overcome or subdued",
+          "audio": ["I/ZT1JGYKD4KWT"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 390,
+        "frequency": 3.774501,
+        "learnable": true
+      },
+      {
+        "word": "cry",
+        "lang": "en",
+        "sense": {
+          "id": 82445,
+          "ordinal": "0.01.01.01",
+          "definition": "shed tears because of sadness, rage, or pain",
+          "audio": ["C/1RHD180BTMAE4"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 254.57457,
+        "learnable": false
+      },
+      {
+        "word": "turn",
+        "lang": "en",
+        "sense": {
+          "id": 92575,
+          "ordinal": "0.01.01.01",
+          "definition": "move around an axis or a center",
+          "audio": ["T/93IDYLA3Q6GU"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 463.7712,
+        "learnable": false
+      },
+      {
+        "word": "dam",
+        "lang": "en",
+        "sense": {
+          "id": 17147,
+          "ordinal": "0.01.01.01",
+          "definition": "a barrier constructed to contain the flow of water",
+          "audio": ["D/QYLFPK6ZF6RP"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 360,
+        "frequency": 8.2336445,
+        "learnable": true
+      },
+      {
+        "word": "inject",
+        "lang": "en",
+        "sense": {
+          "id": 89996,
+          "ordinal": "0.01.01.01",
+          "definition": "force or drive (a fluid or gas) into by piercing",
+          "audio": ["I/XS4DXSQ1XNLY"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 450,
+        "frequency": 4.5870695,
+        "learnable": true
+      },
+      {
+        "word": "low",
+        "lang": "en",
+        "sense": {
+          "id": 102517,
+          "ordinal": "0.01.01.01",
+          "definition": "less than normal in degree or intensity or amount",
+          "audio": ["L/1UQ51Z6WSYRXT"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 183.87704,
+        "learnable": false
+      },
+      {
+        "word": "rub",
+        "lang": "en",
+        "sense": {
+          "id": 88226,
+          "ordinal": "0.01.01.01",
+          "definition": "move over something with pressure",
+          "audio": ["R/16YFQ3WFM0I2A"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 21.217482,
+        "learnable": false
+      },
+      {
+        "word": "pass",
+        "lang": "en",
+        "sense": {
+          "id": 92333,
+          "ordinal": "0.01.01.01",
+          "definition": "go across or through",
+          "audio": ["P/I6QM3P3B5KX9"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 425.72668,
+        "learnable": false
+      },
+      {
+        "word": "sofa",
+        "lang": "en",
+        "sense": {
+          "id": 23640,
+          "ordinal": "0.01.01.01",
+          "definition": "an upholstered seat for more than one person",
+          "audio": ["S/1UMEHPWXU5A4K"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 10.336982,
+        "learnable": false
+      },
+      {
+        "word": "square",
+        "lang": "en",
+        "sense": {
+          "id": 74316,
+          "ordinal": "0.01.01.01",
+          "definition": "a polygon with four equal sides and four right angles",
+          "audio": ["S/133YG9XGVE9ZM"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 470,
+        "frequency": 58.30526,
+        "learnable": true
+      },
+      {
+        "word": "gamy",
+        "lang": "en",
+        "sense": {
+          "id": 101645,
+          "ordinal": "0.01.01.01",
+          "definition": "(used of the smell of meat) smelling spoiled or tainted",
+          "audio": ["G/R93L4AUAL716"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.14687827,
+        "learnable": false
+      },
+      {
+        "word": "unit",
+        "lang": "en",
+        "sense": {
+          "id": 32175,
+          "ordinal": "0.01.01.01",
+          "definition": "a single undivided whole",
+          "audio": ["U/1283KUISTDIG2"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 450,
+        "frequency": 25.144276,
+        "learnable": true
+      },
+      {
+        "word": "rinse",
+        "lang": "en",
+        "sense": {
+          "id": 89749,
+          "ordinal": "0.01.01.01",
+          "definition": "wash off soap or remaining dirt",
+          "audio": ["R/IHNSM5QE4E8G"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 1.2224063,
+        "learnable": false
+      },
+      {
+        "word": "merciful",
+        "lang": "en",
+        "sense": {
+          "id": 104158,
+          "ordinal": "0.01.01.01",
+          "definition": "showing or giving forgiveness",
+          "audio": ["M/1IXAN229NL7VA"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 430,
+        "frequency": 9.078702,
+        "learnable": true
+      },
+      {
+        "word": "political",
+        "lang": "en",
+        "sense": {
+          "id": 105850,
+          "ordinal": "0.01.01.01",
+          "definition": "involving or characteristic of governing or social power",
+          "audio": ["P/HDZGW6CF2NFJ"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 400,
+        "frequency": 108.954575,
+        "learnable": true
+      },
+      {
+        "word": "bang",
+        "lang": "en",
+        "sense": {
+          "id": 40771,
+          "ordinal": "0.01.01.01",
+          "definition": "the swift release of a store of affective force",
+          "audio": ["B/1U4EXUQL97XDK"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 9.456389,
+        "learnable": false
+      },
+      {
+        "word": "judge",
+        "lang": "en",
+        "sense": {
+          "id": 55264,
+          "ordinal": "0.01.01.01",
+          "definition": "an official who decides questions before a court",
+          "audio": ["J/1O7JLP3TNFSQG"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 410,
+        "frequency": 150.13464,
+        "learnable": true
+      },
+      {
+        "word": "cheap",
+        "lang": "en",
+        "sense": {
+          "id": 101001,
+          "ordinal": "0.01.01.01",
+          "definition": "relatively low in price or charging low prices",
+          "audio": ["C/15I2AO7WTVX5Z"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 420,
+        "frequency": 26.142979,
+        "learnable": true
+      },
+      {
+        "word": "birth",
+        "lang": "en",
+        "sense": {
+          "id": 81233,
+          "ordinal": "0.01.01.01",
+          "definition": "the time when something begins (especially life)",
+          "audio": ["B/113HIJUI21MDN"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 47.79771,
+        "learnable": false
+      },
+      {
+        "word": "reach",
+        "lang": "en",
+        "sense": {
+          "id": 89266,
+          "ordinal": "0.01.01.01",
+          "definition": "move forward or upward in order to touch",
+          "audio": ["R/1DF1Z03EVSAQ5"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 214.71608,
+        "learnable": false
+      },
+      {
+        "word": "cowardly",
+        "lang": "en",
+        "sense": {
+          "id": 97365,
+          "ordinal": "0.01.01.01",
+          "definition": "lacking courage; ignobly timid and faint-hearted",
+          "audio": ["C/1TZY8YWA9S2LU"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 420,
+        "frequency": 5.0642548,
+        "learnable": true
+      },
+      {
+        "word": "whistle",
+        "lang": "en",
+        "sense": {
+          "id": 118384,
+          "ordinal": "0.01.01.01",
+          "definition": "the sound made when someone forces breath through pursed lips",
+          "audio": ["W/52SGT2T3X0LD"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 310,
+        "frequency": 21.263508,
+        "learnable": true
+      },
+      {
+        "word": "bulb",
+        "lang": "en",
+        "sense": {
+          "id": 74238,
+          "ordinal": "0.01.01.01",
+          "definition": "anything with a round shape resembling a teardrop",
+          "audio": ["B/6QXLUEOSSUP1"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 420,
+        "frequency": 3.7731473,
+        "learnable": true
+      },
+      {
+        "word": "stretch",
+        "lang": "en",
+        "sense": {
+          "id": 82236,
+          "ordinal": "0.01.01.01",
+          "definition": "extend one's limbs or muscles, or the entire body",
+          "audio": ["S/1WG48RFP4MUE6"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 350,
+        "frequency": 52.73201,
+        "learnable": true
+      },
+      {
+        "word": "detect",
+        "lang": "en",
+        "sense": {
+          "id": 92864,
+          "ordinal": "0.01.01.01",
+          "definition": "discover or determine the existence, presence, or fact of",
+          "audio": ["D/15XXWDXP41S1B"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 340,
+        "frequency": 32.7657,
+        "learnable": true
+      },
+      {
+        "word": "lively",
+        "lang": "en",
+        "sense": {
+          "id": 100318,
+          "ordinal": "0.01.01.01",
+          "definition": "full of life and energy",
+          "audio": ["L/I07XPR8HCKEE"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 400,
+        "frequency": 18.462667,
+        "learnable": true
+      },
+      {
+        "word": "unpack",
+        "lang": "en",
+        "sense": {
+          "id": 89484,
+          "ordinal": "0.01.01.01",
+          "definition": "remove from protective material",
+          "audio": ["U/1XMKP5KBQDYTW"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 280,
+        "frequency": 1.9402146,
+        "learnable": true
+      },
+      {
+        "word": "hungry",
+        "lang": "en",
+        "sense": {
+          "id": 102813,
+          "ordinal": "0.01.01.01",
+          "definition": "feeling a need or desire to eat food",
+          "audio": ["H/B1VT0LXW7MZS"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 22.533632,
+        "learnable": false
+      },
+      {
+        "word": "texture",
+        "lang": "en",
+        "sense": {
+          "id": 27431,
+          "ordinal": "0.01.01.01",
+          "definition": "the feel of a surface or a fabric",
+          "audio": ["T/JUYC3K3A18MJ"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 360,
+        "frequency": 3.9366086,
+        "learnable": true
+      },
+      {
+        "word": "example",
+        "lang": "en",
+        "sense": {
+          "id": 31925,
+          "ordinal": "0.01.01.01",
+          "definition": "an item of information that is typical of a class or group",
+          "audio": ["E/9RW5B59A93MT"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 450,
+        "frequency": 85.31225,
+        "learnable": true
+      },
+      {
+        "word": "suffer",
+        "lang": "en",
+        "sense": {
+          "id": 92645,
+          "ordinal": "0.01.01.01",
+          "definition": "undergo or be subjected to",
+          "audio": ["S/1IGN09ZD9RACX"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 370,
+        "frequency": 133.08492,
+        "learnable": true
+      },
+      {
+        "word": "note",
+        "lang": "en",
+        "sense": {
+          "id": 35092,
+          "ordinal": "0.01.01.01",
+          "definition": "a brief written record",
+          "audio": ["N/E0YE3E9RUUML"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 182.15039,
+        "learnable": false
+      },
+      {
+        "word": "sore",
+        "lang": "en",
+        "sense": {
+          "id": 105789,
+          "ordinal": "0.01.01.01",
+          "definition": "causing misery or pain or distress",
+          "audio": ["S/A6SOVKMMCABX"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 410,
+        "frequency": 21.349806,
+        "learnable": true
+      },
+      {
+        "word": "penitent",
+        "lang": "en",
+        "sense": {
+          "id": 105454,
+          "ordinal": "0.01.01.01",
+          "definition": "feeling or expressing remorse for misdeeds",
+          "audio": ["P/1477LNQFDG442"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 580,
+        "frequency": 8.005204,
+        "learnable": true
+      },
+      {
+        "word": "skin",
+        "lang": "en",
+        "sense": {
+          "id": 28938,
+          "ordinal": "0.01.01.01",
+          "definition": "a natural protective body covering and site of the sense of touch",
+          "audio": ["S/CRLJF44HD77Z"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 45.319733,
+        "learnable": false
+      },
+      {
+        "word": "scintillating",
+        "lang": "en",
+        "sense": {
+          "id": 97442,
+          "ordinal": "0.01.01.01",
+          "definition": "having brief brilliant points or flashes of light",
+          "audio": ["S/TAWP717QL8EE"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 580,
+        "frequency": 0.42337495,
+        "learnable": true
+      },
+      {
+        "word": "erect",
+        "lang": "en",
+        "sense": {
+          "id": 102644,
+          "ordinal": "0.01.01.01",
+          "definition": "upright in position or posture",
+          "audio": ["E/12TL6V9TH4FP"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 480,
+        "frequency": 30.108017,
+        "learnable": true
+      },
+      {
+        "word": "examine",
+        "lang": "en",
+        "sense": {
+          "id": 92747,
+          "ordinal": "0.01.01.01",
+          "definition": "observe, check out, and look over carefully or inspect",
+          "audio": ["E/KNG707MEV9FH"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 380,
+        "frequency": 71.65494,
+        "learnable": true
+      },
+      {
+        "word": "filthy",
+        "lang": "en",
+        "sense": {
+          "id": 98270,
+          "ordinal": "0.01.01.01",
+          "definition": "disgustingly dirty",
+          "audio": ["F/8ULBHNV3DPZO"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 380,
+        "frequency": 4.491294,
+        "learnable": true
+      },
+      {
+        "word": "chicken",
+        "lang": "en",
+        "sense": {
+          "id": 9163,
+          "ordinal": "0.01.01.01",
+          "definition": "a domestic fowl bred for flesh or eggs",
+          "audio": ["C/GG5PUEUXI9SA"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 15.632722,
+        "learnable": false
+      },
+      {
+        "word": "somber",
+        "lang": "en",
+        "sense": {
+          "id": 97901,
+          "ordinal": "0.01.01.01",
+          "definition": "serious and gloomy in character",
+          "audio": ["S/OIIQO9FP8R82"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 490,
+        "frequency": 2.0410666,
+        "learnable": true
+      },
+      {
+        "word": "basket",
+        "lang": "en",
+        "sense": {
+          "id": 14978,
+          "ordinal": "0.01.01.01",
+          "definition": "a container that is usually woven and has handles",
+          "audio": ["B/XLTDXU0XJ8UZ"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 20.21133,
+        "learnable": false
+      },
+      {
+        "word": "alike",
+        "lang": "en",
+        "sense": {
+          "id": 103578,
+          "ordinal": "0.01.01.01",
+          "definition": "having the same or similar characteristics",
+          "audio": ["A/WK0ANPEUSOIC"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 23.724226,
+        "learnable": false
+      },
+      {
+        "word": "collar",
+        "lang": "en",
+        "sense": {
+          "id": 16614,
+          "ordinal": "0.01.01.01",
+          "definition": "a band that fits around the neck and is usually folded over",
+          "audio": ["C/P4MX6XNLKRI"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 13.164557,
+        "learnable": false
+      },
+      {
+        "word": "porter",
+        "lang": "en",
+        "sense": {
+          "id": 56595,
+          "ordinal": "0.01.01.01",
+          "definition": "a person employed to carry luggage and supplies",
+          "audio": ["P/G2RTN82O2BL3"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 530,
+        "frequency": 5.159692,
+        "learnable": true
+      },
+      {
+        "word": "barbarous",
+        "lang": "en",
+        "sense": {
+          "id": 102788,
+          "ordinal": "0.01.01.01",
+          "definition": "able or disposed to inflict pain or suffering",
+          "audio": ["B/1GY4N715DQ4FI"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 500,
+        "frequency": 6.207807,
+        "learnable": true
+      },
+      {
+        "word": "scissors",
+        "lang": "en",
+        "sense": {
+          "id": 22987,
+          "ordinal": "0.01.01.01",
+          "definition": "an edge tool having two crossed pivoting blades",
+          "audio": ["S/1S4GPCO92VXFF"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 2.5148675,
+        "learnable": false
+      },
+      {
+        "word": "digestion",
+        "lang": "en",
+        "sense": {
+          "id": 71955,
+          "ordinal": "0.01.01.01",
+          "definition": "the process by which the body breaks down food",
+          "audio": ["D/AK1IHDBN85IO"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 440,
+        "frequency": 4.6168513,
+        "learnable": true
+      },
+      {
+        "word": "amazing",
+        "lang": "en",
+        "sense": {
+          "id": 102878,
+          "ordinal": "0.01.01.01",
+          "definition": "inspiring awe or admiration or wonder",
+          "audio": ["A/17G4NXA8BYMS1"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 460,
+        "frequency": 11.117738,
+        "learnable": true
+      },
+      {
+        "word": "vacuous",
+        "lang": "en",
+        "sense": {
+          "id": 101859,
+          "ordinal": "0.01.01.01",
+          "definition": "devoid of matter",
+          "audio": ["V/1LF60Z7VUJU9V"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 600,
+        "frequency": 0.690734,
+        "learnable": true
+      },
+      {
+        "word": "cub",
+        "lang": "en",
+        "sense": {
+          "id": 6755,
+          "ordinal": "0.01.01.01",
+          "definition": "the young of certain carnivorous mammals such as the bear or wolf or lion",
+          "audio": ["C/XOWXSU35ZZ8B"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 4.4662504,
+        "learnable": false
+      },
+      {
+        "word": "permit",
+        "lang": "en",
+        "sense": {
+          "id": 86025,
+          "ordinal": "0.01.01.01",
+          "definition": "allow the presence of or allow without opposing",
+          "audio": ["P/138UUC9EYK2GQ"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 390,
+        "frequency": 79.95898,
+        "learnable": true
+      },
+      {
+        "word": "quizzical",
+        "lang": "en",
+        "sense": {
+          "id": 105576,
+          "ordinal": "0.01.01.01",
+          "definition": "perplexed",
+          "audio": ["Q/O1SLXCDM7021"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 460,
+        "frequency": 1.2944918,
+        "learnable": true
+      },
+      {
+        "word": "cast",
+        "lang": "en",
+        "sense": {
+          "id": 90250,
+          "ordinal": "0.01.01.01",
+          "definition": "put or send forth",
+          "audio": ["C/4GARR5TYUOYG"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 480,
+        "frequency": 72.63638,
+        "learnable": true
+      },
+      {
+        "word": "enter",
+        "lang": "en",
+        "sense": {
+          "id": 92159,
+          "ordinal": "0.01.01.01",
+          "definition": "to come or go into",
+          "audio": ["E/16EKWKKYO5QGG"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 239.17401,
+        "learnable": false
+      },
+      {
+        "word": "habitual",
+        "lang": "en",
+        "sense": {
+          "id": 98636,
+          "ordinal": "0.01.01.01",
+          "definition": "commonly used or practiced",
+          "audio": ["H/O9MXQFT86I08"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 490,
+        "frequency": 8.793068,
+        "learnable": true
+      },
+      {
+        "word": "early",
+        "lang": "en",
+        "sense": {
+          "id": 100361,
+          "ordinal": "0.01.01.01",
+          "definition": "at or near the beginning of a period of time or course of events or before the usual or expected time",
+          "audio": ["E/PP3LP3BSWGE4"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 216.35779,
+        "learnable": false
+      },
+      {
+        "word": "sparkling",
+        "lang": "en",
+        "sense": {
+          "id": 108612,
+          "ordinal": "0.01.01.01",
+          "definition": "shining with brilliant points of light like stars",
+          "audio": ["S/1XI76VOINXAFI"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 8.138207,
+        "learnable": false
+      },
+      {
+        "word": "old-fashioned",
+        "lang": "en",
+        "sense": {
+          "id": 101211,
+          "ordinal": "0.01.01.01",
+          "definition": "out of fashion",
+          "audio": ["O/15OEO9VHNJD4L"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 310,
+        "frequency": 9.148757,
+        "learnable": true
+      },
+      {
+        "word": "receive",
+        "lang": "en",
+        "sense": {
+          "id": 93137,
+          "ordinal": "0.01.01.01",
+          "definition": "get something; come into possession of",
+          "audio": ["R/1M0EBE2HS7J06"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 410,
+        "frequency": 252.76804,
+        "learnable": true
+      },
+      {
+        "word": "superficial",
+        "lang": "en",
+        "sense": {
+          "id": 111778,
+          "ordinal": "0.01.01.01",
+          "definition": "of, affecting, or being on or near the surface",
+          "audio": ["S/YQJM1WR7PF4L"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 570,
+        "frequency": 6.1160927,
+        "learnable": true
+      },
+      {
+        "word": "wistful",
+        "lang": "en",
+        "sense": {
+          "id": 103310,
+          "ordinal": "0.01.01.01",
+          "definition": "showing pensive sadness",
+          "audio": ["W/RYQ61187AKK1"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 600,
+        "frequency": 7.517528,
+        "learnable": true
+      },
+      {
+        "word": "ski",
+        "lang": "en",
+        "sense": {
+          "id": 23452,
+          "ordinal": "0.01.01.01",
+          "definition": "narrow wood or metal or plastic runners used in pairs for gliding over snow",
+          "audio": ["S/1V6TBHJ9178QA"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 7.087046,
+        "learnable": false
+      },
+      {
+        "word": "lamentable",
+        "lang": "en",
+        "sense": {
+          "id": 102058,
+          "ordinal": "0.01.01.01",
+          "definition": "bad; unfortunate",
+          "audio": ["L/QBV9I1PZIEBW"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 570,
+        "frequency": 2.788995,
+        "learnable": true
+      },
+      {
+        "word": "measly",
+        "lang": "en",
+        "sense": {
+          "id": 96451,
+          "ordinal": "0.01.01.01",
+          "definition": "contemptibly small in amount",
+          "audio": ["M/14VRT2XPACLPY"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 540,
+        "frequency": 0.28360367,
+        "learnable": true
+      },
+      {
+        "word": "attach",
+        "lang": "en",
+        "sense": {
+          "id": 88463,
+          "ordinal": "0.01.01.01",
+          "definition": "be in contact with",
+          "audio": ["A/KJBNLD9F46C4"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 370,
+        "frequency": 41.382786,
+        "learnable": true
+      },
+      {
+        "word": "plough",
+        "lang": "en",
+        "sense": {
+          "id": 21910,
+          "ordinal": "0.01.01.01",
+          "definition": "a farm tool having one or more heavy blades to break the soil and cut a furrow prior to sowing",
+          "audio": ["P/XS93BC583TR2"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 5.6175866,
+        "learnable": false
+      },
+      {
+        "word": "unwritten",
+        "lang": "en",
+        "sense": {
+          "id": 108540,
+          "ordinal": "0.01.01.01",
+          "definition": "based on custom rather than documentation",
+          "audio": ["U/1QB8WXQAR3H4Z"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 1.2667406,
+        "learnable": false
+      },
+      {
+        "word": "engine",
+        "lang": "en",
+        "sense": {
+          "id": 17877,
+          "ordinal": "0.01.01.01",
+          "definition": "motor that converts energy into work or motion",
+          "audio": ["E/74QYTEQZH76E"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 380,
+        "frequency": 53.688072,
+        "learnable": true
+      },
+      {
+        "word": "fence",
+        "lang": "en",
+        "sense": {
+          "id": 18088,
+          "ordinal": "0.01.01.01",
+          "definition": "a barrier that serves to enclose an area",
+          "audio": ["F/1BUKB0BNRY7R5"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 460,
+        "frequency": 21.144718,
+        "learnable": true
+      },
+      {
+        "word": "territory",
+        "lang": "en",
+        "sense": {
+          "id": 46379,
+          "ordinal": "0.01.01.01",
+          "definition": "a region marked off for administrative or other purposes",
+          "audio": ["T/42SBWLD7DCC6"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 500,
+        "frequency": 40.593906,
+        "learnable": true
+      },
+      {
+        "word": "evanescent",
+        "lang": "en",
+        "sense": {
+          "id": 105522,
+          "ordinal": "0.01.01.01",
+          "definition": "short-lived; tending to vanish or disappear",
+          "audio": ["E/1JHEQ9W8TWYQ5"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 580,
+        "frequency": 0.95910835,
+        "learnable": true
+      },
+      {
+        "word": "train",
+        "lang": "en",
+        "sense": {
+          "id": 94026,
+          "ordinal": "0.01.01.01",
+          "definition": "educate for a future role or function",
+          "audio": ["T/92UF9L4VKTCH"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 420,
+        "frequency": 117.97811,
+        "learnable": true
+      },
+      {
+        "word": "uninterested",
+        "lang": "en",
+        "sense": {
+          "id": 103201,
+          "ordinal": "0.01.01.01",
+          "definition": "not having or showing a sense of concern or curiosity",
+          "audio": ["U/EBGLPHRUD9TS"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 380,
+        "frequency": 0.48699963,
+        "learnable": true
+      },
+      {
+        "word": "drawer",
+        "lang": "en",
+        "sense": {
+          "id": 17582,
+          "ordinal": "0.01.01.01",
+          "definition": "a boxlike container in a piece of furniture",
+          "audio": ["D/1A7859O654VEX"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 8.715229,
+        "learnable": false
+      },
+      {
+        "word": "tin",
+        "lang": "en",
+        "sense": {
+          "id": 78475,
+          "ordinal": "0.01.01.01",
+          "definition": "a silvery malleable metallic element that resists corrosion",
+          "audio": ["T/9ZS69LSXQGU5"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 14.877348,
+        "learnable": false
+      },
+      {
+        "word": "plane",
+        "lang": "en",
+        "sense": {
+          "id": 74221,
+          "ordinal": "0.01.01.01",
+          "definition": "an unbounded two-dimensional shape",
+          "audio": ["P/8U8JF98NZ28T"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 480,
+        "frequency": 28.472387,
+        "learnable": true
+      },
+      {
+        "word": "whisper",
+        "lang": "en",
+        "sense": {
+          "id": 38589,
+          "ordinal": "0.01.01.01",
+          "definition": "speaking softly without vibration of the vocal cords",
+          "audio": ["W/1RWD6R7W8G152"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 270,
+        "frequency": 66.0184,
+        "learnable": true
+      },
+      {
+        "word": "observant",
+        "lang": "en",
+        "sense": {
+          "id": 105463,
+          "ordinal": "0.01.01.01",
+          "definition": "quick to notice; showing quick and keen perception",
+          "audio": ["O/EI9MY8AIRJSX"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 450,
+        "frequency": 2.4901621,
+        "learnable": true
+      },
+      {
+        "word": "cover",
+        "lang": "en",
+        "sense": {
+          "id": 88690,
+          "ordinal": "0.01.01.01",
+          "definition": "provide with a covering or cause to be covered",
+          "audio": ["C/16Q5JUGPVUCUM"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 209.45215,
+        "learnable": false
+      },
+      {
+        "word": "expensive",
+        "lang": "en",
+        "sense": {
+          "id": 100996,
+          "ordinal": "0.01.01.01",
+          "definition": "high in price or charging high prices",
+          "audio": ["E/WNVP37A9WVDZ"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 290,
+        "frequency": 14.993429,
+        "learnable": true
+      },
+      {
+        "word": "wish",
+        "lang": "en",
+        "sense": {
+          "id": 38872,
+          "ordinal": "0.01.01.01",
+          "definition": "an expression of some desire or inclination",
+          "audio": ["W/U9W6D6JI0MVK"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 220.87277,
+        "learnable": false
+      },
+      {
+        "word": "astonishing",
+        "lang": "en",
+        "sense": {
+          "id": 102880,
+          "ordinal": "0.01.01.01",
+          "definition": "so surprisingly impressive as to stun or overwhelm",
+          "audio": ["A/NTVD89LZGPU9"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 410,
+        "frequency": 8.824542,
+        "learnable": true
+      },
+      {
+        "word": "lake",
+        "lang": "en",
+        "sense": {
+          "id": 50103,
+          "ordinal": "0.01.01.01",
+          "definition": "a body of (usually fresh) water surrounded by land",
+          "audio": ["L/RBLEHLUCKV2S"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 64.07548,
+        "learnable": false
+      },
+      {
+        "word": "squirrel",
+        "lang": "en",
+        "sense": {
+          "id": 12398,
+          "ordinal": "0.01.01.01",
+          "definition": "a kind of tree-dwelling rodent with a long bushy tail",
+          "audio": ["S/NQNSAJJNF7FZ"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 6.129968,
+        "learnable": false
+      },
+      {
+        "word": "fanatical",
+        "lang": "en",
+        "sense": {
+          "id": 105359,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by excessive enthusiasm for a cause or idea",
+          "audio": ["F/1CTS9W6B4SKGV"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 540,
+        "frequency": 1.8748978,
+        "learnable": true
+      },
+      {
+        "word": "butter",
+        "lang": "en",
+        "sense": {
+          "id": 42870,
+          "ordinal": "0.01.01.01",
+          "definition": "a solid yellow food made from cream",
+          "audio": ["B/1NIKU9YHQXV5P"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 22.916058,
+        "learnable": false
+      },
+      {
+        "word": "analyse",
+        "lang": "en",
+        "sense": {
+          "id": 85718,
+          "ordinal": "0.01.01.01",
+          "definition": "break down into components or essential features",
+          "audio": ["A/X26XHKFU980B"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 1.9178783,
+        "learnable": false
+      },
+      {
+        "word": "relieved",
+        "lang": "en",
+        "sense": {
+          "id": 104222,
+          "ordinal": "0.01.01.01",
+          "definition": "made easier to bear",
+          "audio": ["R/DR02RF2Z117K"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 430,
+        "frequency": 17.231123,
+        "learnable": true
+      },
+      {
+        "word": "steadfast",
+        "lang": "en",
+        "sense": {
+          "id": 106784,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by firm determination or resolution; not shakable",
+          "audio": ["S/CKIEQIDQHKPK"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 540,
+        "frequency": 6.0944333,
+        "learnable": true
+      },
+      {
+        "word": "synonymous",
+        "lang": "en",
+        "sense": {
+          "id": 109068,
+          "ordinal": "0.01.01.01",
+          "definition": "meaning the same or nearly the same",
+          "audio": ["S/6NAE01LNB9VT"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 430,
+        "frequency": 1.6552572,
+        "learnable": true
+      },
+      {
+        "word": "spade",
+        "lang": "en",
+        "sense": {
+          "id": 23705,
+          "ordinal": "0.01.01.01",
+          "definition": "hand shovel that can be pushed into the earth with the foot",
+          "audio": ["S/1B3522IP9TT8V"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 510,
+        "frequency": 4.7745595,
+        "learnable": true
+      },
+      {
+        "word": "treat",
+        "lang": "en",
+        "sense": {
+          "id": 84631,
+          "ordinal": "0.01.01.01",
+          "definition": "apply a process to with the aim of preparing for a purpose",
+          "audio": ["T/1AIOPQQ7Z2EPZ"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 430,
+        "frequency": 121.403694,
+        "learnable": true
+      },
+      {
+        "word": "aloof",
+        "lang": "en",
+        "sense": {
+          "id": 106767,
+          "ordinal": "0.01.01.01",
+          "definition": "distant, cold, or detached in manner",
+          "audio": ["A/KEPYU9DD3XYQ"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 570,
+        "frequency": 4.8622127,
+        "learnable": true
+      },
+      {
+        "word": "fetch",
+        "lang": "en",
+        "sense": {
+          "id": 89233,
+          "ordinal": "0.01.01.01",
+          "definition": "go or come after and bring or take back",
+          "audio": ["F/9AL16VCD9DAI"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 360,
+        "frequency": 18.617668,
+        "learnable": true
+      },
+      {
+        "word": "subtract",
+        "lang": "en",
+        "sense": {
+          "id": 85280,
+          "ordinal": "0.01.01.01",
+          "definition": "deduct; calculate the difference between two numbers",
+          "audio": ["S/191OWPPYLZDXX"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 300,
+        "frequency": 1.2870463,
+        "learnable": true
+      },
+      {
+        "word": "offer",
+        "lang": "en",
+        "sense": {
+          "id": 93554,
+          "ordinal": "0.01.01.01",
+          "definition": "present for acceptance or rejection",
+          "audio": ["O/193PMBS4FIBHN"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 171.64723,
+        "learnable": false
+      },
+      {
+        "word": "neighbor",
+        "lang": "en",
+        "sense": {
+          "id": 56035,
+          "ordinal": "0.01.01.01",
+          "definition": "a person who lives near another",
+          "audio": ["N/GSS6U6KEVEGW"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 280,
+        "frequency": 52.208458,
+        "learnable": true
+      },
+      {
+        "word": "pricey",
+        "lang": "en",
+        "sense": {
+          "id": 100998,
+          "ordinal": "0.01.01.01",
+          "definition": "having a high price",
+          "audio": ["P/ZDTVNODZ8UI9"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.32116932,
+        "learnable": false
+      },
+      {
+        "word": "condition",
+        "lang": "en",
+        "sense": {
+          "id": 74564,
+          "ordinal": "0.01.01.01",
+          "definition": "a mode of being or form of existence of a person or thing",
+          "audio": ["C/VNPPEG1SDBD3"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 510,
+        "frequency": 139.00032,
+        "learnable": true
+      },
+      {
+        "word": "noiseless",
+        "lang": "en",
+        "sense": {
+          "id": 106408,
+          "ordinal": "0.01.01.01",
+          "definition": "making no sound",
+          "audio": ["N/GVTBNZA7LAFL"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 5.5522695,
+        "learnable": false
+      },
+      {
+        "word": "quince",
+        "lang": "en",
+        "sense": {
+          "id": 67704,
+          "ordinal": "0.01.01.01",
+          "definition": "small Asian tree with pinkish flowers and pear-shaped fruit",
+          "audio": ["Q/1UIYGC606V0Q6"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 1.0139339,
+        "learnable": false
+      },
+      {
+        "word": "follow",
+        "lang": "en",
+        "sense": {
+          "id": 92069,
+          "ordinal": "0.01.01.01",
+          "definition": "travel behind, go after, or come after",
+          "audio": ["F/1U955FBWXAGYR"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 389.47617,
+        "learnable": false
+      },
+      {
+        "word": "attempt",
+        "lang": "en",
+        "sense": {
+          "id": 94692,
+          "ordinal": "0.01.01.01",
+          "definition": "make an effort",
+          "audio": ["A/1BT8H31HPL4XM"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 340,
+        "frequency": 114.886566,
+        "learnable": true
+      },
+      {
+        "word": "broad",
+        "lang": "en",
+        "sense": {
+          "id": 110086,
+          "ordinal": "0.01.01.01",
+          "definition": "having great extent from one side to the other",
+          "audio": ["B/RZFNACYEIUMF"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 530,
+        "frequency": 61.012356,
+        "learnable": true
+      },
+      {
+        "word": "pop",
+        "lang": "en",
+        "sense": {
+          "id": 93022,
+          "ordinal": "0.01.01.01",
+          "definition": "make a sharp explosive noise",
+          "audio": ["P/QYZ3ATX7X17R"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 15.907188,
+        "learnable": false
+      },
+      {
+        "word": "nonchalant",
+        "lang": "en",
+        "sense": {
+          "id": 98937,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by casual unconcern or indifference",
+          "audio": ["N/H0A2B3UW5HOH"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 500,
+        "frequency": 1.7632161,
+        "learnable": true
+      },
+      {
+        "word": "spiffy",
+        "lang": "en",
+        "sense": {
+          "id": 101200,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by up-to-dateness in dress and manners",
+          "audio": ["S/VGURHH5O0I53"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 0.08122301,
+        "learnable": false
+      },
+      {
+        "word": "use",
+        "lang": "en",
+        "sense": {
+          "id": 87755,
+          "ordinal": "0.01.01.01",
+          "definition": "put into service",
+          "audio": ["U/1SAX1WKU61W59"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 588.302,
+        "learnable": false
+      },
+      {
+        "word": "pedal",
+        "lang": "en",
+        "sense": {
+          "id": 21537,
+          "ordinal": "0.01.01.01",
+          "definition": "a lever that is operated with the foot",
+          "audio": ["P/1UQ106PALAUNP"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 330,
+        "frequency": 1.7990897,
+        "learnable": true
+      },
+      {
+        "word": "relax",
+        "lang": "en",
+        "sense": {
+          "id": 84159,
+          "ordinal": "0.01.01.01",
+          "definition": "make less taut",
+          "audio": ["R/1WO6L1AJ2T793"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 400,
+        "frequency": 14.292204,
+        "learnable": true
+      },
+      {
+        "word": "ban",
+        "lang": "en",
+        "sense": {
+          "id": 85997,
+          "ordinal": "0.01.01.01",
+          "definition": "prohibit especially by law or social pressure",
+          "audio": ["B/SCGIIPRJFGEP"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 370,
+        "frequency": 11.282214,
+        "learnable": true
+      },
+      {
+        "word": "nostalgic",
+        "lang": "en",
+        "sense": {
+          "id": 100755,
+          "ordinal": "0.01.01.01",
+          "definition": "unhappy about being away and longing for familiar things",
+          "audio": ["N/1HUMASA9FW12A"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 530,
+        "frequency": 1.707037,
+        "learnable": true
+      },
+      {
+        "word": "ready",
+        "lang": "en",
+        "sense": {
+          "id": 106469,
+          "ordinal": "0.01.01.01",
+          "definition": "completely prepared or in condition for immediate action or use or progress",
+          "audio": ["R/1XOOUTSFGCFLE"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 160.8456,
+        "learnable": false
+      },
+      {
+        "word": "dress",
+        "lang": "en",
+        "sense": {
+          "id": 82341,
+          "ordinal": "0.01.01.01",
+          "definition": "put on clothes",
+          "audio": ["D/1NK16HZQ9NQL7"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 114.891975,
+        "learnable": false
+      },
+      {
+        "word": "attract",
+        "lang": "en",
+        "sense": {
+          "id": 88781,
+          "ordinal": "0.01.01.01",
+          "definition": "exert a force on",
+          "audio": ["A/1SK6JAC3U46ZW"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 370,
+        "frequency": 60.993404,
+        "learnable": true
+      },
+      {
+        "word": "towering",
+        "lang": "en",
+        "sense": {
+          "id": 102471,
+          "ordinal": "0.01.01.01",
+          "definition": "of imposing height; especially standing out above others",
+          "audio": ["T/1TIOOG864QU69"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 360,
+        "frequency": 4.6737075,
+        "learnable": true
+      },
+      {
+        "word": "modern",
+        "lang": "en",
+        "sense": {
+          "id": 106178,
+          "ordinal": "0.01.01.01",
+          "definition": "ahead of the times",
+          "audio": ["M/ML0295J4IG3P"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 380,
+        "frequency": 63.19658,
+        "learnable": true
+      },
+      {
+        "word": "include",
+        "lang": "en",
+        "sense": {
+          "id": 95174,
+          "ordinal": "0.01.01.01",
+          "definition": "have as a part; be made up out of",
+          "audio": ["I/156WMHL4Z2UTT"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 330,
+        "frequency": 142.89124,
+        "learnable": true
+      },
+      {
+        "word": "grin",
+        "lang": "en",
+        "sense": {
+          "id": 82244,
+          "ordinal": "0.01.01.01",
+          "definition": "to draw back the lips and reveal the teeth, in a smile, grimace, or snarl",
+          "audio": ["G/1OH44WLA4RB96"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 19.33649,
+        "learnable": false
+      },
+      {
+        "word": "doll",
+        "lang": "en",
+        "sense": {
+          "id": 17488,
+          "ordinal": "0.01.01.01",
+          "definition": "a small replica of a person; used as a toy",
+          "audio": ["D/45I39791MZVO"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 9.485832,
+        "learnable": false
+      },
+      {
+        "word": "guide",
+        "lang": "en",
+        "sense": {
+          "id": 58318,
+          "ordinal": "0.01.01.01",
+          "definition": "someone employed to conduct others",
+          "audio": ["G/F2QXZXN5EHRC"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 400,
+        "frequency": 70.549965,
+        "learnable": true
+      },
+      {
+        "word": "accept",
+        "lang": "en",
+        "sense": {
+          "id": 93260,
+          "ordinal": "0.01.01.01",
+          "definition": "receive willingly something given or offered",
+          "audio": ["A/12YZMHCKV4BT1"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 370,
+        "frequency": 106.3375,
+        "learnable": true
+      },
+      {
+        "word": "near",
+        "lang": "en",
+        "sense": {
+          "id": 116831,
+          "ordinal": "0.01.01.01",
+          "definition": "near in time or place or relationship",
+          "audio": ["N/19VBPEFHDI1JU"],
+          "part_of_speech": "adverb"
+        },
+        "frequency": 349.36993,
+        "learnable": false
+      },
+      {
+        "word": "lock",
+        "lang": "en",
+        "sense": {
+          "id": 20231,
+          "ordinal": "0.01.01.01",
+          "definition": "a fastener fitted to a door or drawer to keep it firmly closed",
+          "audio": ["L/Y2B23YFYJR9Z"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 49.83573,
+        "learnable": false
+      },
+      {
+        "word": "daily",
+        "lang": "en",
+        "sense": {
+          "id": 106661,
+          "ordinal": "0.01.01.01",
+          "definition": "of or belonging to or occurring every day",
+          "audio": ["D/3S6RIKSZZ5GL"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 55.932533,
+        "learnable": false
+      },
+      {
+        "word": "desert",
+        "lang": "en",
+        "sense": {
+          "id": 85165,
+          "ordinal": "0.01.01.01",
+          "definition": "leave someone who needs or counts on you; leave in the lurch",
+          "audio": ["D/QBVYTLZUNX2J"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 400,
+        "frequency": 57.887302,
+        "learnable": true
+      },
+      {
+        "word": "prose",
+        "lang": "en",
+        "sense": {
+          "id": 34442,
+          "ordinal": "0.01.01.01",
+          "definition": "ordinary writing as distinguished from verse",
+          "audio": ["P/IVAD89TFPP4Q"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 590,
+        "frequency": 12.600058,
+        "learnable": true
+      },
+      {
+        "word": "fair",
+        "lang": "en",
+        "sense": {
+          "id": 101127,
+          "ordinal": "0.01.01.01",
+          "definition": "free from favoritism, bias, or deception",
+          "audio": ["F/6J74KYA5Y0WH"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 490,
+        "frequency": 154.58633,
+        "learnable": true
+      },
+      {
+        "word": "tight",
+        "lang": "en",
+        "sense": {
+          "id": 103793,
+          "ordinal": "0.01.01.01",
+          "definition": "closely constrained or constricted or constricting",
+          "audio": ["T/439L5RQLSR44"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 34.78714,
+        "learnable": false
+      },
+      {
+        "word": "arrogant",
+        "lang": "en",
+        "sense": {
+          "id": 106248,
+          "ordinal": "0.01.01.01",
+          "definition": "having or showing feelings of unwarranted importance",
+          "audio": ["A/LVRPIHC1OCIO"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 470,
+        "frequency": 6.5201774,
+        "learnable": true
+      },
+      {
+        "word": "hop",
+        "lang": "en",
+        "sense": {
+          "id": 91904,
+          "ordinal": "0.01.01.01",
+          "definition": "jump lightly",
+          "audio": ["H/1HQJYM8DLC8W1"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 9.994492,
+        "learnable": false
+      },
+      {
+        "word": "point",
+        "lang": "en",
+        "sense": {
+          "id": 26353,
+          "ordinal": "0.01.01.01",
+          "definition": "a distinguishing or individuating characteristic",
+          "audio": ["P/12RR51F9D8FW"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 329.66898,
+        "learnable": false
+      },
+      {
+        "word": "divide",
+        "lang": "en",
+        "sense": {
+          "id": 74872,
+          "ordinal": "0.01.01.01",
+          "definition": "a serious disagreement between two groups of people",
+          "audio": ["D/1VWZZ5CYCHCZW"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 320,
+        "frequency": 101.92337,
+        "learnable": true
+      },
+      {
+        "word": "obtain",
+        "lang": "en",
+        "sense": {
+          "id": 93269,
+          "ordinal": "0.01.01.01",
+          "definition": "come into possession of",
+          "audio": ["O/M5BA6TPRFQ7W"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 370,
+        "frequency": 84.68717,
+        "learnable": true
+      },
+      {
+        "word": "imported",
+        "lang": "en",
+        "sense": {
+          "id": 101555,
+          "ordinal": "0.01.01.01",
+          "definition": "purchased from a foreign source",
+          "audio": ["I/TFSM8J7JVHBH"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 420,
+        "frequency": 6.6223826,
+        "learnable": true
+      },
+      {
+        "word": "decisive",
+        "lang": "en",
+        "sense": {
+          "id": 99701,
+          "ordinal": "0.01.01.01",
+          "definition": "characterized by resoluteness and firmness",
+          "audio": ["D/1DDXH4ZW1UUDY"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 540,
+        "frequency": 11.247018,
+        "learnable": true
+      },
+      {
+        "word": "cultured",
+        "lang": "en",
+        "sense": {
+          "id": 106541,
+          "ordinal": "0.01.01.01",
+          "definition": "marked by refinement in taste and manners",
+          "audio": ["C/VOEWNM9564WS"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 480,
+        "frequency": 2.2431087,
+        "learnable": true
+      },
+      {
+        "word": "scream",
+        "lang": "en",
+        "sense": {
+          "id": 86516,
+          "ordinal": "0.01.01.01",
+          "definition": "utter a sudden loud cry",
+          "audio": ["S/GQF3E6UIAPH"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 23.431824,
+        "learnable": false
+      },
+      {
+        "word": "improve",
+        "lang": "en",
+        "sense": {
+          "id": 83090,
+          "ordinal": "0.01.01.01",
+          "definition": "to make better",
+          "audio": ["I/HE8HJQ0Z3Q3U"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 260,
+        "frequency": 63.763786,
+        "learnable": true
+      },
+      {
+        "word": "furniture",
+        "lang": "en",
+        "sense": {
+          "id": 18567,
+          "ordinal": "0.01.01.01",
+          "definition": "furnishings that make a room or other area ready for occupancy",
+          "audio": ["F/S21DS56FND7C"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 18.222382,
+        "learnable": false
+      },
+      {
+        "word": "wind",
+        "lang": "en",
+        "sense": {
+          "id": 62631,
+          "ordinal": "0.01.01.01",
+          "definition": "air moving from high pressure to low pressure",
+          "audio": ["W/168LEAKMMDK5X"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 127.82911,
+        "learnable": false
+      },
+      {
+        "word": "thick",
+        "lang": "en",
+        "sense": {
+          "id": 109225,
+          "ordinal": "0.01.01.01",
+          "definition": "not thin",
+          "audio": ["T/1AER331SOLORB"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 62.94851,
+        "learnable": false
+      },
+      {
+        "word": "scientific",
+        "lang": "en",
+        "sense": {
+          "id": 107305,
+          "ordinal": "0.01.01.01",
+          "definition": "consistent with systematic study of the physical world",
+          "audio": ["S/5QA6MFLZ4TNC"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 260,
+        "frequency": 28.740763,
+        "learnable": true
+      },
+      {
+        "word": "humorous",
+        "lang": "en",
+        "sense": {
+          "id": 102793,
+          "ordinal": "0.01.01.01",
+          "definition": "characterized by the power to evoke laughter",
+          "audio": ["H/UYP0PXKV25FL"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 420,
+        "frequency": 6.4819345,
+        "learnable": true
+      },
+      {
+        "word": "roll",
+        "lang": "en",
+        "sense": {
+          "id": 91372,
+          "ordinal": "0.01.01.01",
+          "definition": "move by turning over or rotating",
+          "audio": ["R/1TG9NO9II7TGJ"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 77.112114,
+        "learnable": false
+      },
+      {
+        "word": "thrill",
+        "lang": "en",
+        "sense": {
+          "id": 6471,
+          "ordinal": "0.01.01.01",
+          "definition": "something that causes a sudden intense feeling",
+          "audio": ["T/OU17PC4JXJD4"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 440,
+        "frequency": 22.36374,
+        "learnable": true
+      },
+      {
+        "word": "grandmother",
+        "lang": "en",
+        "sense": {
+          "id": 54745,
+          "ordinal": "0.01.01.01",
+          "definition": "the mother of your father or mother",
+          "audio": ["G/1KUM5BMM98VD0"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 13.20923,
+        "learnable": false
+      },
+      {
+        "word": "spill",
+        "lang": "en",
+        "sense": {
+          "id": 92434,
+          "ordinal": "0.01.01.01",
+          "definition": "flow, run or fall out and become lost",
+          "audio": ["S/1SP9GU21IGMZO"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 11.312335,
+        "learnable": false
+      },
+      {
+        "word": "riddle",
+        "lang": "en",
+        "sense": {
+          "id": 88377,
+          "ordinal": "0.01.01.01",
+          "definition": "pierce with many holes",
+          "audio": ["R/WR2MPEZ9D3FJ"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 510,
+        "frequency": 5.6768117,
+        "learnable": true
+      },
+      {
+        "word": "dysfunctional",
+        "lang": "en",
+        "sense": {
+          "id": 102847,
+          "ordinal": "0.01.01.01",
+          "definition": "impaired in function; especially of a bodily system or organ",
+          "audio": ["D/HMAVUM8JA0QA"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 460,
+        "frequency": 0.3627961,
+        "learnable": true
+      },
+      {
+        "word": "poison",
+        "lang": "en",
+        "sense": {
+          "id": 80612,
+          "ordinal": "0.01.01.01",
+          "definition": "any substance that causes injury or illness or death",
+          "audio": ["P/1SO9VE7G5B4T5"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 300,
+        "frequency": 27.19617,
+        "learnable": true
+      },
+      {
+        "word": "kettle",
+        "lang": "en",
+        "sense": {
+          "id": 19812,
+          "ordinal": "0.01.01.01",
+          "definition": "a metal pot with a lid for stewing or boiling",
+          "audio": ["K/1L8NAPD6Q340V"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 380,
+        "frequency": 6.8697743,
+        "learnable": true
+      },
+      {
+        "word": "reproduce",
+        "lang": "en",
+        "sense": {
+          "id": 90760,
+          "ordinal": "0.01.01.01",
+          "definition": "make a copy or equivalent of",
+          "audio": ["R/19AO5YILBG191"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 400,
+        "frequency": 13.489112,
+        "learnable": true
+      },
+      {
+        "word": "spot",
+        "lang": "en",
+        "sense": {
+          "id": 46957,
+          "ordinal": "0.01.01.01",
+          "definition": "a point located with respect to surface features of some region",
+          "audio": ["S/12GZUYU3GX2W6"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 83.187256,
+        "learnable": false
+      },
+      {
+        "word": "coil",
+        "lang": "en",
+        "sense": {
+          "id": 74303,
+          "ordinal": "0.01.01.01",
+          "definition": "a round shape formed by a series of connected loops",
+          "audio": ["C/IZCR3LVGTNM7"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 460,
+        "frequency": 12.353682,
+        "learnable": true
+      },
+      {
+        "word": "offend",
+        "lang": "en",
+        "sense": {
+          "id": 91018,
+          "ordinal": "0.01.01.01",
+          "definition": "cause to feel resentment or indignation",
+          "audio": ["O/17F2V2J5LJ3K6"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 410,
+        "frequency": 39.716698,
+        "learnable": true
+      },
+      {
+        "word": "kneel",
+        "lang": "en",
+        "sense": {
+          "id": 89798,
+          "ordinal": "0.01.01.01",
+          "definition": "rest one's weight on one's knees",
+          "audio": ["K/1PGAQS6SFZ11O"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 350,
+        "frequency": 20.811028,
+        "learnable": true
+      },
+      {
+        "word": "vast",
+        "lang": "en",
+        "sense": {
+          "id": 103434,
+          "ordinal": "0.01.01.01",
+          "definition": "unusually great in size or amount or extent or scope",
+          "audio": ["V/16HMGK3R5W67W"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 460,
+        "frequency": 54.121597,
+        "learnable": true
+      },
+      {
+        "word": "need",
+        "lang": "en",
+        "sense": {
+          "id": 87899,
+          "ordinal": "0.01.01.01",
+          "definition": "require or want",
+          "audio": ["N/196IWUWYP2AF2"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 360,
+        "frequency": 266.74146,
+        "learnable": true
+      },
+      {
+        "word": "intend",
+        "lang": "en",
+        "sense": {
+          "id": 85586,
+          "ordinal": "0.01.01.01",
+          "definition": "have in mind as a purpose",
+          "audio": ["I/74XVBSP6ND9H"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 490,
+        "frequency": 115.4311,
+        "learnable": true
+      },
+      {
+        "word": "baseball",
+        "lang": "en",
+        "sense": {
+          "id": 2337,
+          "ordinal": "0.01.01.01",
+          "definition": "a ball game between two teams of nine players",
+          "audio": ["B/O5MY5T7Y9926"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 9.600898,
+        "learnable": false
+      },
+      {
+        "word": "flagrant",
+        "lang": "en",
+        "sense": {
+          "id": 99114,
+          "ordinal": "0.01.01.01",
+          "definition": "conspicuously and outrageously bad or reprehensible",
+          "audio": ["F/10LQSSFOUY7E8"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 590,
+        "frequency": 1.9537518,
+        "learnable": true
+      },
+      {
+        "word": "corn",
+        "lang": "en",
+        "sense": {
+          "id": 65423,
+          "ordinal": "0.01.01.01",
+          "definition": "tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times",
+          "audio": ["C/11XG58ZMIMEYQ"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 28.039875,
+        "learnable": false
+      },
+      {
+        "word": "flower",
+        "lang": "en",
+        "sense": {
+          "id": 63129,
+          "ordinal": "0.01.01.01",
+          "definition": "reproductive organ of plants especially if showy or colorful",
+          "audio": ["F/16U567T0D4SAD"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 89.77241,
+        "learnable": false
+      },
+      {
+        "word": "crabby",
+        "lang": "en",
+        "sense": {
+          "id": 102100,
+          "ordinal": "0.01.01.01",
+          "definition": "annoyed and irritable",
+          "audio": ["C/1LM1F60YKFHD5"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 390,
+        "frequency": 0.050087523,
+        "learnable": true
+      },
+      {
+        "word": "fresh",
+        "lang": "en",
+        "sense": {
+          "id": 101734,
+          "ordinal": "0.01.01.01",
+          "definition": "recently made, produced, or harvested",
+          "audio": ["F/YYZCRB4CDOAL"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 420,
+        "frequency": 79.87843,
+        "learnable": true
+      },
+      {
+        "word": "grieve",
+        "lang": "en",
+        "sense": {
+          "id": 91056,
+          "ordinal": "0.01.01.01",
+          "definition": "feel intense sorrow, especially due to a loss",
+          "audio": ["G/YEB4HMXLKUL2"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 410,
+        "frequency": 12.633224,
+        "learnable": true
+      },
+      {
+        "word": "word",
+        "lang": "en",
+        "sense": {
+          "id": 34000,
+          "ordinal": "0.01.01.01",
+          "definition": "a unit of language that native speakers can identify",
+          "audio": ["W/UPSX0RKYYKDA"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 380.56772,
+        "learnable": false
+      },
+      {
+        "word": "cake",
+        "lang": "en",
+        "sense": {
+          "id": 41405,
+          "ordinal": "0.01.01.01",
+          "definition": "baked good based on a mixture of flour, sugar, eggs, and fat",
+          "audio": ["C/L6NK1FPO99LS"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 18.423409,
+        "learnable": false
+      },
+      {
+        "word": "disturb",
+        "lang": "en",
+        "sense": {
+          "id": 90928,
+          "ordinal": "0.01.01.01",
+          "definition": "trouble deeply",
+          "audio": ["D/FQ96GZ40OAX"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 360,
+        "frequency": 47.175003,
+        "learnable": true
+      },
+      {
+        "word": "sudden",
+        "lang": "en",
+        "sense": {
+          "id": 102135,
+          "ordinal": "0.01.01.01",
+          "definition": "happening without warning or in a short space of time",
+          "audio": ["S/TSPH4P0HJ6H8"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 186.9378,
+        "learnable": false
+      },
+      {
+        "word": "far",
+        "lang": "en",
+        "sense": {
+          "id": 114653,
+          "ordinal": "0.01.01.01",
+          "definition": "at or to or from a great distance in space",
+          "audio": ["F/AI8LPWLB10OC"],
+          "part_of_speech": "adverb"
+        },
+        "frequency": 438.22083,
+        "learnable": false
+      },
+      {
+        "word": "ship",
+        "lang": "en",
+        "sense": {
+          "id": 23254,
+          "ordinal": "0.01.01.01",
+          "definition": "a vessel that carries passengers or freight",
+          "audio": ["S/CSP3D3I1JZYQ"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 161.43852,
+        "learnable": false
+      },
+      {
+        "word": "ubiquitous",
+        "lang": "en",
+        "sense": {
+          "id": 106033,
+          "ordinal": "0.01.01.01",
+          "definition": "being present everywhere at once",
+          "audio": ["U/1RG942FZBMQCL"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 580,
+        "frequency": 1.3005835,
+        "learnable": true
+      },
+      {
+        "word": "frame",
+        "lang": "en",
+        "sense": {
+          "id": 23442,
+          "ordinal": "0.01.01.01",
+          "definition": "the internal structure that gives an artifact its shape",
+          "audio": ["F/1KH0BADS8TGK1"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 480,
+        "frequency": 38.957603,
+        "learnable": true
+      },
+      {
+        "word": "scatter",
+        "lang": "en",
+        "sense": {
+          "id": 92231,
+          "ordinal": "0.01.01.01",
+          "definition": "cause to separate and go in different directions",
+          "audio": ["S/1NMWIRKFQBKIZ"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 380,
+        "frequency": 29.575329,
+        "learnable": true
+      },
+      {
+        "word": "tangible",
+        "lang": "en",
+        "sense": {
+          "id": 109121,
+          "ordinal": "0.01.01.01",
+          "definition": "perceptible by the senses, especially the sense of touch",
+          "audio": ["T/19TP3MRC2XAJY"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 570,
+        "frequency": 4.2371335,
+        "learnable": true
+      },
+      {
+        "word": "jaded",
+        "lang": "en",
+        "sense": {
+          "id": 109355,
+          "ordinal": "0.01.01.01",
+          "definition": "exhausted",
+          "audio": ["J/1LHDN0TN93BG3"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 590,
+        "frequency": 1.3713151,
+        "learnable": true
+      },
+      {
+        "word": "perform",
+        "lang": "en",
+        "sense": {
+          "id": 94838,
+          "ordinal": "0.01.01.01",
+          "definition": "get done",
+          "audio": ["P/123MOY2WSE2NY"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 340,
+        "frequency": 95.41436,
+        "learnable": true
+      },
+      {
+        "word": "like",
+        "lang": "en",
+        "sense": {
+          "id": 103578,
+          "ordinal": "0.01.01.01",
+          "definition": "having the same or similar characteristics",
+          "audio": ["L/HZ9SP9KRAO8P"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 1026.1356,
+        "learnable": false
+      },
+      {
+        "word": "industrious",
+        "lang": "en",
+        "sense": {
+          "id": 100056,
+          "ordinal": "0.01.01.01",
+          "definition": "characterized by hard work and perseverance",
+          "audio": ["I/155RAM6HIG37K"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 510,
+        "frequency": 6.525592,
+        "learnable": true
+      },
+      {
+        "word": "ear",
+        "lang": "en",
+        "sense": {
+          "id": 29377,
+          "ordinal": "0.01.01.01",
+          "definition": "the sense organ for hearing and equilibrium",
+          "audio": ["E/1VRISP6Z63G1L"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 88.870155,
+        "learnable": false
+      },
+      {
+        "word": "expect",
+        "lang": "en",
+        "sense": {
+          "id": 85638,
+          "ordinal": "0.01.01.01",
+          "definition": "regard something as probable or likely",
+          "audio": ["E/13CGXSDXRQ0R9"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 214.64433,
+        "learnable": false
+      },
+      {
+        "word": "suspect",
+        "lang": "en",
+        "sense": {
+          "id": 85492,
+          "ordinal": "0.01.01.01",
+          "definition": "regard as untrustworthy",
+          "audio": ["S/DBOQ1CO80NY2"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 440,
+        "frequency": 93.15467,
+        "learnable": true
+      },
+      {
+        "word": "sleepy",
+        "lang": "en",
+        "sense": {
+          "id": 96903,
+          "ordinal": "0.01.01.01",
+          "definition": "ready to fall asleep",
+          "audio": ["S/JIO3621I9M8N"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 8.251243,
+        "learnable": false
+      },
+      {
+        "word": "eggs",
+        "lang": "en",
+        "sense": {
+          "id": 42818,
+          "ordinal": "0.01.01.01",
+          "definition": "oval reproductive body of a fowl used as food",
+          "audio": ["E/1TM1DPVI4AVFI"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 26.412031,
+        "learnable": false
+      },
+      {
+        "word": "bolt",
+        "lang": "en",
+        "sense": {
+          "id": 15384,
+          "ordinal": "0.01.01.01",
+          "definition": "a screw that screws into a nut to form a fastener",
+          "audio": ["B/1D598O7DI8SFY"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 450,
+        "frequency": 13.615346,
+        "learnable": true
+      },
+      {
+        "word": "plot",
+        "lang": "en",
+        "sense": {
+          "id": 46980,
+          "ordinal": "0.01.01.01",
+          "definition": "a small area of ground covered by specific vegetation",
+          "audio": ["P/LLRG0U707R01"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 450,
+        "frequency": 26.838114,
+        "learnable": true
+      },
+      {
+        "word": "blue",
+        "lang": "en",
+        "sense": {
+          "id": 97922,
+          "ordinal": "0.01.01.01",
+          "definition": "of the color intermediate between green and violet",
+          "audio": ["B/3KVL4BRJ3ZSI"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 94.906715,
+        "learnable": false
+      },
+      {
+        "word": "present",
+        "lang": "en",
+        "sense": {
+          "id": 105381,
+          "ordinal": "0.01.01.01",
+          "definition": "happening or existing now",
+          "audio": ["P/1IJ94RQH3WU5X"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 330,
+        "frequency": 411.38034,
+        "learnable": true
+      },
+      {
+        "word": "bike",
+        "lang": "en",
+        "sense": {
+          "id": 15191,
+          "ordinal": "0.01.01.01",
+          "definition": "a two-wheeled vehicle that is moved by foot pedals",
+          "audio": ["B/18MR7WA02Y4W4"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 4.2147975,
+        "learnable": false
+      },
+      {
+        "word": "messy",
+        "lang": "en",
+        "sense": {
+          "id": 109306,
+          "ordinal": "0.01.01.01",
+          "definition": "dirty and disorderly",
+          "audio": ["M/1WMDHVVZCVCII"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 1.0474384,
+        "learnable": false
+      },
+      {
+        "word": "glisten",
+        "lang": "en",
+        "sense": {
+          "id": 92904,
+          "ordinal": "0.01.01.01",
+          "definition": "be shiny, as if wet",
+          "audio": ["G/QSJ6WND6L5RV"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 400,
+        "frequency": 6.191224,
+        "learnable": true
+      },
+      {
+        "word": "opposite",
+        "lang": "en",
+        "sense": {
+          "id": 107230,
+          "ordinal": "0.01.01.01",
+          "definition": "being directly across from each other",
+          "audio": ["O/QXBC6Z5SU65M"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 340,
+        "frequency": 49.522007,
+        "learnable": true
+      },
+      {
+        "word": "lowly",
+        "lang": "en",
+        "sense": {
+          "id": 108845,
+          "ordinal": "0.01.01.01",
+          "definition": "low or inferior in station or quality",
+          "audio": ["L/1JCGODTXX2P47"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 4.3521996,
+        "learnable": false
+      },
+      {
+        "word": "coach",
+        "lang": "en",
+        "sense": {
+          "id": 15741,
+          "ordinal": "0.01.01.01",
+          "definition": "a vehicle carrying many passengers",
+          "audio": ["C/7FZIAJRQLL4Y"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 42.766285,
+        "learnable": false
+      },
+      {
+        "word": "marry",
+        "lang": "en",
+        "sense": {
+          "id": 94504,
+          "ordinal": "0.01.01.01",
+          "definition": "become someone's spouse",
+          "audio": ["M/1TK97TBFZ964Y"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 198.84476,
+        "learnable": false
+      },
+      {
+        "word": "rest",
+        "lang": "en",
+        "sense": {
+          "id": 85921,
+          "ordinal": "0.01.01.01",
+          "definition": "take a short break from one's activities in order to relax",
+          "audio": ["R/FBA3HD6FS85P"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 226.1631,
+        "learnable": false
+      },
+      {
+        "word": "hall",
+        "lang": "en",
+        "sense": {
+          "id": 19031,
+          "ordinal": "0.01.01.01",
+          "definition": "an interior passage or corridor onto which rooms open",
+          "audio": ["H/7ZB5G9Z064T2"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 25.003826,
+        "learnable": false
+      },
+      {
+        "word": "victorious",
+        "lang": "en",
+        "sense": {
+          "id": 108804,
+          "ordinal": "0.01.01.01",
+          "definition": "having won",
+          "audio": ["V/DOJZYMAC46GO"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 380,
+        "frequency": 7.7040024,
+        "learnable": true
+      },
+      {
+        "word": "old",
+        "lang": "en",
+        "sense": {
+          "id": 104881,
+          "ordinal": "0.01.01.01",
+          "definition": "having lived for a long time or attained a specific age",
+          "audio": ["O/1AMVCRAS0V64E"],
+          "part_of_speech": "adjective"
+        },
+        "frequency": 552.7855,
+        "learnable": false
+      },
+      {
+        "word": "floor",
+        "lang": "en",
+        "sense": {
+          "id": 18321,
+          "ordinal": "0.01.01.01",
+          "definition": "the inside lower horizontal surface",
+          "audio": ["F/P1ZHBA1U0U39"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 72.1548,
+        "learnable": false
+      },
+      {
+        "word": "zipper",
+        "lang": "en",
+        "sense": {
+          "id": 23522,
+          "ordinal": "0.01.01.01",
+          "definition": "a fastener for locking together two toothed edges",
+          "audio": ["Z/1BRJB2OIUAKVY"],
+          "part_of_speech": "noun"
+        },
+        "frequency": 0.2920644,
+        "learnable": false
+      },
+      {
+        "word": "holiday",
+        "lang": "en",
+        "sense": {
+          "id": 81205,
+          "ordinal": "0.01.01.01",
+          "definition": "leisure time away from work devoted to rest or pleasure",
+          "audio": ["H/19A32X4JUVOQ0"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 360,
+        "frequency": 21.38128,
+        "learnable": true
+      },
+      {
+        "word": "elated",
+        "lang": "en",
+        "sense": {
+          "id": 99797,
+          "ordinal": "0.01.01.01",
+          "definition": "exultantly proud and joyful; in high spirits",
+          "audio": ["E/1DMORVHQB5RK8"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 520,
+        "frequency": 2.165947,
+        "learnable": true
+      },
+      {
+        "word": "practise",
+        "lang": "en",
+        "sense": {
+          "id": 90693,
+          "ordinal": "0.01.01.01",
+          "definition": "engage in a rehearsal (of)",
+          "audio": ["P/15P0A154S45UE"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 17.811869,
+        "learnable": false
+      },
+      {
+        "word": "sink",
+        "lang": "en",
+        "sense": {
+          "id": 92004,
+          "ordinal": "0.01.01.01",
+          "definition": "fall or descend to a lower place or level",
+          "audio": ["S/4XREFIMZNZAW"],
+          "part_of_speech": "verb"
+        },
+        "difficulty": 280,
+        "frequency": 52.31439,
+        "learnable": true
+      },
+      {
+        "word": "impartial",
+        "lang": "en",
+        "sense": {
+          "id": 97472,
+          "ordinal": "0.01.01.01",
+          "definition": "free from undue bias or preconceived opinions",
+          "audio": ["I/6T25SW4A9WWF"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 550,
+        "frequency": 5.960077,
+        "learnable": true
+      },
+      {
+        "word": "wretched",
+        "lang": "en",
+        "sense": {
+          "id": 101631,
+          "ordinal": "0.01.01.01",
+          "definition": "deserving or inciting pity",
+          "audio": ["W/U93O9W8YZHUG"],
+          "part_of_speech": "adjective"
+        },
+        "difficulty": 480,
+        "frequency": 22.374231,
+        "learnable": true
+      },
+      {
+        "word": "decay",
+        "lang": "en",
+        "sense": {
+          "id": 62189,
+          "ordinal": "0.01.01.01",
+          "definition": "the organic phenomenon of rotting",
+          "audio": ["D/12156074WXQYI"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 410,
+        "frequency": 13.236305,
+        "learnable": true
+      },
+      {
+        "word": "tongue",
+        "lang": "en",
+        "sense": {
+          "id": 29273,
+          "ordinal": "0.01.01.01",
+          "definition": "a mobile mass of muscular tissue located in the oral cavity",
+          "audio": ["T/1BU3CBOZWB1ON"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 510,
+        "frequency": 46.24703,
+        "learnable": true
+      },
+      {
+        "word": "film",
+        "lang": "en",
+        "sense": {
+          "id": 35679,
+          "ordinal": "0.01.01.01",
+          "definition": "a series of moving pictures that tells a story",
+          "audio": ["F/1422AFX3982KS"],
+          "part_of_speech": "noun"
+        },
+        "difficulty": 340,
+        "frequency": 43.582577,
+        "learnable": true
+      },
+      {
+        "word": "touch",
+        "lang": "en",
+        "sense": {
+          "id": 87992,
+          "ordinal": "0.01.01.01",
+          "definition": "make physical contact with, come in contact with",
+          "audio": ["T/GU5N357HY1L3"],
+          "part_of_speech": "verb"
+        },
+        "frequency": 124.467155,
+        "learnable": false
+      }
+    ],
+    "owner_uid": "A1O03YQQPERJEL",
+    "name": "500 words",
+    "shared": true,
+    "createdate": "2019-11-21T18:16:21.695Z",
+    "description": "500 words.",
+    "source": 0,
+    "modifieddate": "2019-11-21T18:16:21.695Z",
+    "id": 6365414,
+    "url": "/lists/6365414",
+    "html_url": "/lists/6365414"
+  },
+  "profile": {
+    "level": { "name": "Brainiac", "id": "L05", "milestone": 2 },
+    "id": 10758177,
+    "uid": "A1O03YQQPERJEL",
+    "nickname": "Jake W.",
+    "state": "NJ",
+    "country": "USA",
+    "user_type": "student",
+    "first_name": "Jake",
+    "last_name": "Wagner",
+    "points": 159460,
+    "level_name": "Brainiac",
+    "level_id": "L05",
+    "school_id": "UPWIiNdieRhkU1LO"
+  }
+}

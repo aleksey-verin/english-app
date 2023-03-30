@@ -1,0 +1,3002 @@
+[
+  {
+    "word": "allele",
+    "definition": "any of the forms of a gene that can occupy the same locus",
+    "example": "Methylation also plays an important role in genomic imprinting, which occurs when both maternal and paternal alleles are present but only one allele is expressed while the other remains inactive.",
+    "progress": 0
+  },
+  {
+    "word": "eukaryote",
+    "definition": "an organism of one or more cells with membrane-bound nuclei",
+    "example": "The location and base sequence of each promoter site vary for prokaryotes (bacteria) and eukaryotes (higher organisms), but they are both recognized by RNA polymerase, which can then grab hold of the sequence and drive the production of an mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "organelle",
+    "definition": "a specialized part of a cell; analogous to an organ",
+    "example": "Organelle DNA",
+    "progress": 0
+  },
+  {
+    "word": "gamete",
+    "definition": "a mature sexual reproductive cell",
+    "example": "This is because mitochondria are only found in the female gametes or \"eggs\" of sexually reproducing animals, not in the male gamete, or sperm.",
+    "progress": 0
+  },
+  {
+    "word": "recessive",
+    "definition": "of or pertaining to a recession",
+    "example": "These factors each exhibit a characteristic dominant, co-dominant, or recessive expression, and those that are dominant will mask the expression of those that are recessive.",
+    "progress": 0
+  },
+  {
+    "word": "chromosome",
+    "definition": "a threadlike strand of DNA that carries genes",
+    "example": "In 1909, Danish botanist Wilhelm Johanssen coined the word gene for the hereditary unit found on a chromosome.",
+    "progress": 0
+  },
+  {
+    "word": "mutation",
+    "definition": "a change or alteration in form or qualities",
+    "example": "There are many diseases caused by mutations in mitochondrial DNA (mtDNA).",
+    "progress": 0
+  },
+  {
+    "word": "gene",
+    "definition": "part of DNA controlling physical characteristics and growth",
+    "example": "The biological information contained in a genome is encoded in its deoxyribonucleic acid (DNA) and is divided into discrete units called genes.",
+    "progress": 0
+  },
+  {
+    "word": "replication",
+    "definition": "the act of making copies",
+    "example": "For example, certain sequences indicate the beginning and end of genes, sites for initiating replication and recombination, or provide landing sites for proteins that turn genes on and off.",
+    "progress": 0
+  },
+  {
+    "word": "protein",
+    "definition": "an organic compound essential to living cells",
+    "example": "Genes code for proteins that attach to the genome at the appropriate positions and switch on a series of reactions called gene expression.",
+    "progress": 0
+  },
+  {
+    "word": "genome",
+    "definition": "the full DNA sequence of an organism",
+    "example": "Life is specified by genomes.",
+    "progress": 0
+  },
+  {
+    "word": "mitosis",
+    "definition": "the process by which a cell divides into two smaller cells",
+    "example": "Cells that compose tissues in multicellular organisms typically replicate by organized duplication and spatial separation of their cellular genetic material, a process called mitosis.",
+    "progress": 0
+  },
+  {
+    "word": "sequence",
+    "definition": "a following of one thing after another in time",
+    "example": "Today we know that a single gene consists of a unique sequence of DNA that provides the complete instructions to make a functional product, called a protein.",
+    "progress": 0
+  },
+  {
+    "word": "transcription",
+    "definition": "something written, copied from one medium to another",
+    "example": "Transferring the code from DNA to RNA is a fairly straightforward process called transcription.",
+    "progress": 0
+  },
+  {
+    "word": "somatic",
+    "definition": "characteristic of the body as opposed to the mind or spirit",
+    "example": "Mutations that occur in somatic cells-any cell in the body except gametes and their precursors-will not be passed on to the next generation.",
+    "progress": 0
+  },
+  {
+    "word": "hemoglobin",
+    "definition": "a red protein in blood that transports oxygen",
+    "example": "Globin is the protein that complexes with the iron-containing heme molecule to make hemoglobin.",
+    "progress": 0
+  },
+  {
+    "word": "genetic",
+    "definition": "relating to the study of heredity and variation in organisms",
+    "example": "Inside each of our cells lies a nucleus, a membrane-bounded region that provides a sanctuary for genetic information.",
+    "progress": 0
+  },
+  {
+    "word": "aerobic",
+    "definition": "depending on free oxygen or air",
+    "example": "The energy-conversion process that takes place in the mitochondria takes place aerobically, in the presence of oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "symbiotic",
+    "definition": "of organisms living together, especially to mutual advantage",
+    "example": "The independent aerobic function of these organelles is thought to have evolved from bacteria that lived inside of other simple organisms in a mutually beneficial, or symbiotic, relationship, providing them with aerobic capacity.",
+    "progress": 0
+  },
+  {
+    "word": "cell",
+    "definition": "the basic structural and functional unit of all organisms",
+    "example": "Genes instruct each cell type- such as skin, brain, and liver-to make discrete sets of proteins at just the right times, and it is through this specificity that unique organisms arise.",
+    "progress": 0
+  },
+  {
+    "word": "enzyme",
+    "definition": "a complex protein produced by cells that acts as a catalyst",
+    "example": "Each cell contains thousands of different proteins: enzymes that make new molecules and catalyze nearly all chemical processes in cells; structural components that give cells their shape and help them move; hormones that transmit signals throughout the body; antibodies that recognize foreign molecules; and transport molecules that carry oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "cytoplasm",
+    "definition": "the substance inside a cell, not including the nucleus",
+    "example": "The mRNA carries the information encoded in DNA out of the nucleus to the protein assembly machinery, called the ribosome, in the cytoplasm.",
+    "progress": 0
+  },
+  {
+    "word": "molecule",
+    "definition": "the simplest structural unit of an element or compound",
+    "example": "In a DNA chain, every base is attached to a sugar molecule (deoxyribose) and a phosphate molecule, resulting in a nucleic acid or nucleotide.",
+    "progress": 0
+  },
+  {
+    "word": "anaerobic",
+    "definition": "not using or dependent on oxygen",
+    "example": "Other energy conversion processes in the cell take place anaerobically, or without oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "complementary",
+    "definition": "serving to fill out, enhance, or supply what is lacking",
+    "example": "Thus, A-T and G-C base pairs are said to be complementary.",
+    "progress": 0
+  },
+  {
+    "word": "homologous",
+    "definition": "similar in position, structure, function, or characteristics",
+    "example": "The term diploid describes a state in which a cell has two sets of homologous chromosomes, or two chromosomes that are the same.",
+    "progress": 0
+  },
+  {
+    "word": "fertilization",
+    "definition": "making productive by adding nutrients",
+    "example": "However, when the sperm enters the egg during fertilization, the tail falls off, taking away the father's mitochondria.",
+    "progress": 0
+  },
+  {
+    "word": "trait",
+    "definition": "a distinguishing feature of your personal nature",
+    "example": "Another way to think of genomic imprinting is as \"parent of origin differences\" in the expression of inherited traits.",
+    "progress": 0
+  },
+  {
+    "word": "template",
+    "definition": "a model or standard for making comparisons",
+    "example": "This complementary base pairing is what makes DNA a suitable molecule for carrying our genetic information-one strand of DNA can act as a template to direct the synthesis of a complementary strand.",
+    "progress": 0
+  },
+  {
+    "word": "specificity",
+    "definition": "the quality of being particular rather than general",
+    "example": "Genes instruct each cell type- such as skin, brain, and liver-to make discrete sets of proteins at just the right times, and it is through this specificity that unique organisms arise.",
+    "progress": 0
+  },
+  {
+    "word": "amoeba",
+    "definition": "a single-celled organism that lives in water or soil",
+    "example": "This theory is also supported by the existence of a eukaryotic organism, called the amoeba, which lacks mitochondria.",
+    "progress": 0
+  },
+  {
+    "word": "splice",
+    "definition": "join the ends of",
+    "example": "Ribonucleic Acids\nIn addition to mRNA, DNA codes for other forms of RNA, including ribosomal RNAs (rRNAs), transfer RNAs (tRNAs), and small nuclear RNAs (snRNAs). rRNAs and tRNAs participate in protein assembly whereas snRNAs aid in a process called splicing -the process of editing of mRNA before it can be used as a template for protein synthesis.",
+    "progress": 0
+  },
+  {
+    "word": "differentiation",
+    "definition": "a discrimination between things as distinct",
+    "example": "Although there is no known cure for the thalassemias, there are medical treatments that have been developed based on our current understanding of both gene regulation and cell differentiation.",
+    "progress": 0
+  },
+  {
+    "word": "synthesis",
+    "definition": "the combination of ideas into a complex whole",
+    "example": "This complementary base pairing is what makes DNA a suitable molecule for carrying our genetic information-one strand of DNA can act as a template to direct the synthesis of a complementary strand.",
+    "progress": 0
+  },
+  {
+    "word": "synthesize",
+    "definition": "combine and form a complex whole",
+    "example": "This is important because DNA strands are always synthesized in the 5' to 3' direction.",
+    "progress": 0
+  },
+  {
+    "word": "replicate",
+    "definition": "reproduce or make an exact copy of",
+    "example": "This redundancy is key to accommodating mutations that occur naturally as DNA is replicated and new cells are produced.",
+    "progress": 0
+  },
+  {
+    "word": "discrete",
+    "definition": "constituting a separate entity or part",
+    "example": "The biological information contained in a genome is encoded in its deoxyribonucleic acid (DNA) and is divided into discrete units called genes.",
+    "progress": 0
+  },
+  {
+    "word": "transcript",
+    "definition": "a written record of dictated or recorded speech",
+    "example": "Both exons and introns are \"transcribed\" into mRNA, but before it is transported to the ribosome, the primary mRNA transcript is edited.",
+    "progress": 0
+  },
+  {
+    "word": "strand",
+    "definition": "a group of fibers twisted together to form a thread or rope",
+    "example": "The nucleus contains long strands of DNA that encode this genetic information.",
+    "progress": 0
+  },
+  {
+    "word": "organism",
+    "definition": "a living thing that can act or function independently",
+    "example": "Every organism, including humans, has a genome that contains all of the biological information needed to build and maintain a living example of that organism.",
+    "progress": 0
+  },
+  {
+    "word": "initiator",
+    "definition": "a person who starts a course of action",
+    "example": "This polymerase requires a sequence resembling TATAA, commonly referred to as the TATA box, which is found 25-30 nucleotides upstream of the beginning of the gene, referred to as the initiator sequence.",
+    "progress": 0
+  },
+  {
+    "word": "promoter",
+    "definition": "someone who is an active supporter and advocate",
+    "example": "This molecule has the job of recognizing the DNA sequence where transcription is initiated, called the promoter site.",
+    "progress": 0
+  },
+  {
+    "word": "embryonic",
+    "definition": "of an organism prior to birth or hatching",
+    "example": "During the first few weeks of life, embryonic globin is expressed in the yolk sac of the egg.",
+    "progress": 0
+  },
+  {
+    "word": "dominant",
+    "definition": "most frequent or common",
+    "example": "These factors each exhibit a characteristic dominant, co-dominant, or recessive expression, and those that are dominant will mask the expression of those that are recessive.",
+    "progress": 0
+  },
+  {
+    "word": "structural",
+    "definition": "relating to the composition of something",
+    "example": "Other fundamental structural differences exist.",
+    "progress": 0
+  },
+  {
+    "word": "anemia",
+    "definition": "a deficiency of red blood cells",
+    "example": "Examples of recessive disorders in humans include sickle cell anemia, Tay-Sachs disease, and phenylketonuria (PKU).",
+    "progress": 0
+  },
+  {
+    "word": "code",
+    "definition": "a set of rules or principles or laws",
+    "example": "Genes code for proteins that attach to the genome at the appropriate positions and switch on a series of reactions called gene expression.",
+    "progress": 0
+  },
+  {
+    "word": "maturation",
+    "definition": "the act of coming to full development",
+    "example": "The maturation of germ line stem cells into gametes requires the diploid number of each chromosome be reduced by half.",
+    "progress": 0
+  },
+  {
+    "word": "functional",
+    "definition": "designed for or capable of a particular use",
+    "example": "Today we know that a single gene consists of a unique sequence of DNA that provides the complete instructions to make a functional product, called a protein.",
+    "progress": 0
+  },
+  {
+    "word": "evolutionary",
+    "definition": "relating to the development of a species",
+    "example": "In addition to the critical cellular energy-related functions, mitochondrial genes are useful to evolutionary biologists because of their maternal inheritance and high rate of mutation.",
+    "progress": 0
+  },
+  {
+    "word": "polymer",
+    "definition": "a naturally occurring or synthetic compound",
+    "example": "Just like DNA, ribonucleic acid (RNA) is a chain, or polymer, of nucleotides with the same 5' to 3' direction of its strands.",
+    "progress": 0
+  },
+  {
+    "word": "deleterious",
+    "definition": "harmful to living things",
+    "example": "This process may have evolved as a way to limit the deleterious effects of mutations.",
+    "progress": 0
+  },
+  {
+    "word": "sequential",
+    "definition": "in regular succession without gaps",
+    "example": "Each chromosome has the embryonic, fetal, and adult form lined up on the chromosome in a sequential order for developmental expression.",
+    "progress": 0
+  },
+  {
+    "word": "regulatory",
+    "definition": "restricting according to rules or principles",
+    "example": "Regulatory Sequences",
+    "progress": 0
+  },
+  {
+    "word": "molecular",
+    "definition": "relating to the simplest units of an element or compound",
+    "example": "The \"Central Dogma\"-a fundamental principle of molecular biology-states that genetic information flows from DNA to RNA to protein.",
+    "progress": 0
+  },
+  {
+    "word": "interaction",
+    "definition": "mutual or reciprocal dealings or influence",
+    "example": "The developmentally regulated transcription of globin is controlled by a number of cis-acting DNA sequences, and although there remains a lot to be learned about the interaction of these sequences, one known control sequence is an enhancer called the Locus Control Region (LCR).",
+    "progress": 0
+  },
+  {
+    "word": "nucleus",
+    "definition": "a part of the cell responsible for growth and reproduction",
+    "example": "Inside each of our cells lies a nucleus, a membrane-bounded region that provides a sanctuary for genetic information.",
+    "progress": 0
+  },
+  {
+    "word": "pigment",
+    "definition": "dry coloring material",
+    "example": "When you look at the human species, you see evidence of a process called genetic variation, that is, there are immediately recognizable differences in human traits, such as hair and eye color, skin pigment, and height.",
+    "progress": 0
+  },
+  {
+    "word": "alpha",
+    "definition": "the 1st letter of the Greek alphabet",
+    "example": "The LCR sits far upstream on the sequence and controls the alpha genes on chromosome 16.",
+    "progress": 0
+  },
+  {
+    "word": "adaptive",
+    "definition": "having a capacity for change",
+    "example": "Mutations serve the virus well by enabling adaptive traits, such as changes in the outer protein coat so that it can escape detection and thereby destruction by the host's immune system.",
+    "progress": 0
+  },
+  {
+    "word": "pathogen",
+    "definition": "any disease-producing agent",
+    "example": "Mutations also provide a species with the opportunity to adapt to new environments, as well as to protect a species from new pathogens.",
+    "progress": 0
+  },
+  {
+    "word": "oxygen",
+    "definition": "a colorless, odorless gas that is essential for respiration",
+    "example": "Each base has a slightly different composition, or combination of oxygen, carbon, nitrogen, and hydrogen.",
+    "progress": 0
+  },
+  {
+    "word": "attributable",
+    "definition": "indicating the source or cause of something",
+    "example": "A variety of deadly diseases are attributable to a large number of accumulated mutations in mitochondria.",
+    "progress": 0
+  },
+  {
+    "word": "linkage",
+    "definition": "the act of connecting things",
+    "example": "A particularly important category of genetic linkage has to do with the X and Y sex chromosomes.",
+    "progress": 0
+  },
+  {
+    "word": "ultraviolet",
+    "definition": "having wavelengths shorter than light but longer than X-rays",
+    "example": "DNA mutations can also be introduced by toxic chemicals and, particularly in skin cells, exposure to ultraviolet radiation.",
+    "progress": 0
+  },
+  {
+    "word": "repetitive",
+    "definition": "persistent",
+    "example": "There are numerous forms of this \"repetitive DNA\", and a few have known functions, such as stabilizing the chromosome structure or inactivating one of the two X chromosomes in developing females, a process called X-inactivation.",
+    "progress": 0
+  },
+  {
+    "word": "variation",
+    "definition": "the process of being or becoming different",
+    "example": "There are alpha and beta thalassemias, defined by the defective gene, and there are variations of each of these, depending on whether the embryonic, fetal, or adult forms are affected and/or expressed.",
+    "progress": 0
+  },
+  {
+    "word": "chemical",
+    "definition": "produced by reactions involving atomic or molecular changes",
+    "example": "A DNA chain is made up of four chemical bases: adenine (A) and guanine (G), which are called purines, and cytosine (C) and thymine (T), referred to as pyrimidines.",
+    "progress": 0
+  },
+  {
+    "word": "inherited",
+    "definition": "occurring among members of a family usually by heredity",
+    "example": "Unlike nuclear DNA (the DNA found within the nucleus of a cell), half of which comes from our mother and half from our father, mitochondrial DNA is only inherited from our mother.",
+    "progress": 0
+  },
+  {
+    "word": "morph",
+    "definition": "cause to change shape in a computer animation",
+    "example": "This means that the gene's sequence is slightly different in the two individuals, and the gene is said to be polymorphic, \"poly\" meaning many and \"morph\" meaning shape or form.",
+    "progress": 0
+  },
+  {
+    "word": "spatial",
+    "definition": "pertaining to the expanse in which things are located",
+    "example": "Cells that compose tissues in multicellular organisms typically replicate by organized duplication and spatial separation of their cellular genetic material, a process called mitosis.",
+    "progress": 0
+  },
+  {
+    "word": "process",
+    "definition": "a particular course of action intended to achieve a result",
+    "example": "The energy-conversion process that takes place in the mitochondria takes place aerobically, in the presence of oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "stabilizing",
+    "definition": "causing to become constant, steady, or secure",
+    "example": "There are numerous forms of this \"repetitive DNA\", and a few have known functions, such as stabilizing the chromosome structure or inactivating one of the two X chromosomes in developing females, a process called X-inactivation.",
+    "progress": 0
+  },
+  {
+    "word": "syndrome",
+    "definition": "a pattern of symptoms indicative of some disease",
+    "example": "An example is Marfan's syndrome, where there is a defect in the gene coding for a connective tissue protein.",
+    "progress": 0
+  },
+  {
+    "word": "gestation",
+    "definition": "the period during which an embryo develops",
+    "example": "By week five of gestation, globin is expressed in early liver cells.",
+    "progress": 0
+  },
+  {
+    "word": "specialized",
+    "definition": "developed or designed for a particular activity or function",
+    "example": "It first requires that the mRNA leave the nucleus and associate with a large complex of specialized RNAs and proteins that, collectively, are called the ribosome.",
+    "progress": 0
+  },
+  {
+    "word": "mechanism",
+    "definition": "device consisting of a piece of machinery",
+    "example": "This is different from mutations in nuclear DNA, which has sophisticated repair mechanisms to limit the accumulation of mutations.",
+    "progress": 0
+  },
+  {
+    "word": "reproductive",
+    "definition": "producing new life or offspring",
+    "example": "If a mutation occurs in the developing germ line cell, it may persist until that individual reaches reproductive age.",
+    "progress": 0
+  },
+  {
+    "word": "base",
+    "definition": "lowest support of a structure",
+    "example": "A DNA chain is made up of four chemical bases: adenine (A) and guanine (G), which are called purines, and cytosine (C) and thymine (T), referred to as pyrimidines.",
+    "progress": 0
+  },
+  {
+    "word": "marrow",
+    "definition": "network of connective tissue filling the cavities of bones",
+    "example": "By birth, red blood cells are being produced, and globin is expressed in the bone marrow.",
+    "progress": 0
+  },
+  {
+    "word": "combination",
+    "definition": "the act of bringing things together to form a new whole",
+    "example": "Each base has a slightly different composition, or combination of oxygen, carbon, nitrogen, and hydrogen.",
+    "progress": 0
+  },
+  {
+    "word": "progeny",
+    "definition": "the immediate descendants of a person",
+    "example": "It is still unclear what all the functions of introns are, but scientists believe that some serve as the site for recombination, the process by which progeny derive a combination of genes different from that of either parent, resulting in novel genes with new combinations of exons, the key to evolution.",
+    "progress": 0
+  },
+  {
+    "word": "sac",
+    "definition": "an enclosed space",
+    "example": "During the first few weeks of life, embryonic globin is expressed in the yolk sac of the egg.",
+    "progress": 0
+  },
+  {
+    "word": "transfusion",
+    "definition": "the introduction of blood or plasma into a vein or artery",
+    "example": "Treatments include blood transfusions, iron chelators, and bone marrow transplants.",
+    "progress": 0
+  },
+  {
+    "word": "redundancy",
+    "definition": "the attribute of being superfluous and unneeded",
+    "example": "This redundancy is key to accommodating mutations that occur naturally as DNA is replicated and new cells are produced.",
+    "progress": 0
+  },
+  {
+    "word": "differentiate",
+    "definition": "acquire a distinct character",
+    "example": "At some point, however, these cells begin to differentiate, or change into specific cell types.",
+    "progress": 0
+  },
+  {
+    "word": "antibody",
+    "definition": "a protein that produces an immune response",
+    "example": "Each cell contains thousands of different proteins: enzymes that make new molecules and catalyze nearly all chemical processes in cells; structural components that give cells their shape and help them move; hormones that transmit signals throughout the body; antibodies that recognize foreign molecules; and transport molecules that carry oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "segregation",
+    "definition": "the act of keeping apart",
+    "example": "Nonetheless, he correctly surmised the behavior of traits and the mathematical predictions of their transmission, the independent segregation of alleles during gamete production, and the independent assortment of genes.",
+    "progress": 0
+  },
+  {
+    "word": "virus",
+    "definition": "infectious agent that replicates itself within living hosts",
+    "example": "Mutations serve the virus well by enabling adaptive traits, such as changes in the outer protein coat so that it can escape detection and thereby destruction by the host's immune system.",
+    "progress": 0
+  },
+  {
+    "word": "function",
+    "definition": "what something is used for",
+    "example": "The independent aerobic function of these organelles is thought to have evolved from bacteria that lived inside of other simple organisms in a mutually beneficial, or symbiotic, relationship, providing them with aerobic capacity.",
+    "progress": 0
+  },
+  {
+    "word": "translation",
+    "definition": "rendering in another language with the same meaning",
+    "example": "This must be done both during the transcription and the translation process.",
+    "progress": 0
+  },
+  {
+    "word": "factor",
+    "definition": "anything that contributes causally to a result",
+    "example": "Nearly 50 years earlier, Gregor Mendel had characterized hereditary units as factors- observable differences that were passed from parent to offspring.",
+    "progress": 0
+  },
+  {
+    "word": "lineage",
+    "definition": "the kinship relation between an individual and progenitors",
+    "example": "It has also been used to identify an ancient maternal lineage from which modern man evolved.",
+    "progress": 0
+  },
+  {
+    "word": "prediction",
+    "definition": "a statement made about the future",
+    "example": "In the absence of a complete mRNA sequence, the boundaries can be estimated by ever-improving, but still inexact, gene prediction software.",
+    "progress": 0
+  },
+  {
+    "word": "duplicate",
+    "definition": "a copy that corresponds to an original exactly",
+    "example": "The centromere, shown at the center of this chromosome, is a specialized structure that appears during cell division and ensures the correct distribution of duplicated chromosomes to daughter cells.",
+    "progress": 0
+  },
+  {
+    "word": "tissue",
+    "definition": "part of an organism consisting of an aggregate of cells",
+    "example": "Because the mitochondria produce energy in cells, symptoms of mitochondrial diseases often involve degeneration or functional failure of tissue.",
+    "progress": 0
+  },
+  {
+    "word": "pinpoint",
+    "definition": "the sharp point of a pin",
+    "example": "Today, molecular genetic techniques exist that can assist researchers in tracking the transmission of traits by pinpointing the location of individual genes, identifying allelic variants, and identifying those traits that are caused by multiple genes.",
+    "progress": 0
+  },
+  {
+    "word": "individual",
+    "definition": "being or characteristic of a single thing or person",
+    "example": "Individual nucleotides are linked through the phosphate group, and it is the precise order, or sequence, of nucleotides that determines the product made from that gene.",
+    "progress": 0
+  },
+  {
+    "word": "viral",
+    "definition": "relating to or caused by a virus",
+    "example": "For example, some viral genes are known to have high mutation rates.",
+    "progress": 0
+  },
+  {
+    "word": "transmission",
+    "definition": "communication by means of sent signals",
+    "example": "In 1866, Gregor Mendel studied the transmission of seven different pea traits by carefully test-crossing many distinct varieties of peas.",
+    "progress": 0
+  },
+  {
+    "word": "decipher",
+    "definition": "convert code into ordinary language",
+    "example": "Deciphering the code in the resulting mRNA is a little more complex.",
+    "progress": 0
+  },
+  {
+    "word": "unique",
+    "definition": "the single one of its kind",
+    "example": "Today we know that a single gene consists of a unique sequence of DNA that provides the complete instructions to make a functional product, called a protein.",
+    "progress": 0
+  },
+  {
+    "word": "initiate",
+    "definition": "set in motion, start an event or prepare the way for",
+    "example": "This molecule has the job of recognizing the DNA sequence where transcription is initiated, called the promoter site.",
+    "progress": 0
+  },
+  {
+    "word": "nascent",
+    "definition": "being born or beginning",
+    "example": "This stem then causes the polymerase to trip and release the nascent, or newly formed, mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "random",
+    "definition": "lacking any definite plan or order or purpose",
+    "example": "By allowing some of the random changes in DNA to have no effect on the ultimate protein sequence, a sort of genetic safety net is created.",
+    "progress": 0
+  },
+  {
+    "word": "component",
+    "definition": "one of the individual parts making up a larger entity",
+    "example": "However, the ribose sugar component of RNA is slightly different chemically than that of DNA.",
+    "progress": 0
+  },
+  {
+    "word": "variant",
+    "definition": "something a little different from others of the same type",
+    "example": "There may be more than two alleles, or variants, for a given gene in a population, but only two alleles can be found in an individual.",
+    "progress": 0
+  },
+  {
+    "word": "specific",
+    "definition": "stated explicitly or in detail",
+    "example": "The two strands are connected to each other by chemical pairing of each base on one strand to a specific partner on the other strand.",
+    "progress": 0
+  },
+  {
+    "word": "congenital",
+    "definition": "present at birth but not necessarily hereditary",
+    "example": "These include the genes for hemophilia, red-green color blindness, and congenital night blindness.",
+    "progress": 0
+  },
+  {
+    "word": "input",
+    "definition": "signal going into an electronic system",
+    "example": "This exquisite control requires multiple regulatory input points.",
+    "progress": 0
+  },
+  {
+    "word": "offspring",
+    "definition": "the immediate descendants of a person or organism",
+    "example": "Nearly 50 years earlier, Gregor Mendel had characterized hereditary units as factors- observable differences that were passed from parent to offspring.",
+    "progress": 0
+  },
+  {
+    "word": "correlate",
+    "definition": "bear a reciprocal or mutual relation",
+    "example": "In 1961, Marshall Nirenberg and Heinrich Matthaei correlated the first codon (UUU) with the amino acid phenylalanine.",
+    "progress": 0
+  },
+  {
+    "word": "complex",
+    "definition": "complicated in structure",
+    "example": "The ribosome complex uses mRNA as a template to synthesize the exact protein coded for by the gene.",
+    "progress": 0
+  },
+  {
+    "word": "adult",
+    "definition": "a fully developed person from maturity onward",
+    "example": "In the adult, red blood cells do not contain DNA for making new globin; they are ready-made with all of the hemoglobin they will need.",
+    "progress": 0
+  },
+  {
+    "word": "blueprint",
+    "definition": "something intended as a guide for making something else",
+    "example": "As we have just learned, DNA provides a blueprint that directs all cellular activities and specifies the developmental plan of multicellular organisms.",
+    "progress": 0
+  },
+  {
+    "word": "nutrient",
+    "definition": "any substance that can be metabolized to give energy",
+    "example": "They perform such functions as transporting nutrients into the cell; synthesizing new DNA, RNA, and protein molecules; and transmitting chemical signals from outside to inside the cell, as well as throughout the cell-both critical to the process of making proteins.",
+    "progress": 0
+  },
+  {
+    "word": "germ",
+    "definition": "a structure from which tissue can develop into an organism",
+    "example": "One early type of differentiated cell is the germ line cell, which may ultimately develop into mature gametes.",
+    "progress": 0
+  },
+  {
+    "word": "imprint",
+    "definition": "mark or stamp with or as if with pressure",
+    "example": "Methylation also plays an important role in genomic imprinting, which occurs when both maternal and paternal alleles are present but only one allele is expressed while the other remains inactive.",
+    "progress": 0
+  },
+  {
+    "word": "unrelated",
+    "definition": "lacking a logical or causal linkage",
+    "example": "Pleiotropism, or pleotrophy, refers to the phenomenon in which a single gene is responsible for producing multiple, distinct, and apparently unrelated phenotypic traits, that is, an individual can exhibit many different phenotypic outcomes.",
+    "progress": 0
+  },
+  {
+    "word": "maternal",
+    "definition": "characteristic of a mother",
+    "example": "In addition to the critical cellular energy-related functions, mitochondrial genes are useful to evolutionary biologists because of their maternal inheritance and high rate of mutation.",
+    "progress": 0
+  },
+  {
+    "word": "sibling",
+    "definition": "a person's brother or sister",
+    "example": "With such a range of possibilities, it is amazing that siblings look so much alike!",
+    "progress": 0
+  },
+  {
+    "word": "clone",
+    "definition": "a genetically identical organism derived from a single cell",
+    "example": "Studying garden peas might seem trivial to those of us who live in a modern world of cloned sheep and gene transfer, but Mendel's simple approach led to fundamental insights into genetic inheritance, known today as Mendel's Laws.",
+    "progress": 0
+  },
+  {
+    "word": "degeneration",
+    "definition": "the process of declining from a higher to a lower level",
+    "example": "Because the mitochondria produce energy in cells, symptoms of mitochondrial diseases often involve degeneration or functional failure of tissue.",
+    "progress": 0
+  },
+  {
+    "word": "expression",
+    "definition": "the communication of your beliefs or opinions",
+    "example": "Genes code for proteins that attach to the genome at the appropriate positions and switch on a series of reactions called gene expression.",
+    "progress": 0
+  },
+  {
+    "word": "nuclear",
+    "definition": "constituting the core or central part",
+    "example": "Nuclear DNA",
+    "progress": 0
+  },
+  {
+    "word": "product",
+    "definition": "an artifact that has been created by someone or some process",
+    "example": "Today we know that a single gene consists of a unique sequence of DNA that provides the complete instructions to make a functional product, called a protein.",
+    "progress": 0
+  },
+  {
+    "word": "segregate",
+    "definition": "divide from the main body or mass and collect",
+    "example": "Law of Segregation: Each of the two inherited factors (alleles) possessed by the parent will segregate and pass into separate gametes (eggs or sperm) during meiosis, which will each carry only one of the factors.",
+    "progress": 0
+  },
+  {
+    "word": "disease",
+    "definition": "an impairment of health",
+    "example": "There are many diseases caused by mutations in mitochondrial DNA (mtDNA).",
+    "progress": 0
+  },
+  {
+    "word": "complement",
+    "definition": "something added to embellish or make perfect",
+    "example": "This process creates a stretch of hybrid DNA (bottom panel) in which the single strand of one duplex is paired with its complement from the other duplex.",
+    "progress": 0
+  },
+  {
+    "word": "structure",
+    "definition": "a complex entity made of many parts",
+    "example": "The chemical nature of the bases in double-stranded DNA creates a slight twisting force that gives DNA its characteristic gently coiled structure, known as the double helix.",
+    "progress": 0
+  },
+  {
+    "word": "biological",
+    "definition": "pertaining to life and living things",
+    "example": "Every organism, including humans, has a genome that contains all of the biological information needed to build and maintain a living example of that organism.",
+    "progress": 0
+  },
+  {
+    "word": "pair",
+    "definition": "a set of two similar things considered as a unit",
+    "example": "The two strands are connected to each other by chemical pairing of each base on one strand to a specific partner on the other strand.",
+    "progress": 0
+  },
+  {
+    "word": "inactive",
+    "definition": "not engaged physically or mentally",
+    "example": "The methylation status of DNA often correlates with its functional activity, where inactive genes tend to be more heavily methylated.",
+    "progress": 0
+  },
+  {
+    "word": "occur",
+    "definition": "come to pass",
+    "example": "This redundancy is key to accommodating mutations that occur naturally as DNA is replicated and new cells are produced.",
+    "progress": 0
+  },
+  {
+    "word": "bind",
+    "definition": "secure with or as if with ropes",
+    "example": "It is initiated when an enzyme, RNA polymerase, binds to a site on the DNA called a promoter sequence.",
+    "progress": 0
+  },
+  {
+    "word": "primer",
+    "definition": "an introductory textbook",
+    "example": "The last section of the genetic primer concludes with a discussion of some of the laboratory tools and technologies that allow researchers to study cells and their DNA.",
+    "progress": 0
+  },
+  {
+    "word": "researcher",
+    "definition": "a scientist devoted to systematic investigation",
+    "example": "Considerable intrigue surrounds the effects of DNA methylation, and many researchers are working to unlock the mystery behind this concept.",
+    "progress": 0
+  },
+  {
+    "word": "hereditary",
+    "definition": "occurring among members of a family usually by heredity",
+    "example": "In 1909, Danish botanist Wilhelm Johanssen coined the word gene for the hereditary unit found on a chromosome.",
+    "progress": 0
+  },
+  {
+    "word": "accommodating",
+    "definition": "obliging; willing to do favors",
+    "example": "This redundancy is key to accommodating mutations that occur naturally as DNA is replicated and new cells are produced.",
+    "progress": 0
+  },
+  {
+    "word": "inadvertently",
+    "definition": "without knowledge or intention",
+    "example": "For example, as your skin cells prepare to divide and produce new skin cells, errors may be inadvertently introduced when the DNA is duplicated, resulting in a daughter cell that contains the error.",
+    "progress": 0
+  },
+  {
+    "word": "affecting",
+    "definition": "arousing emotion",
+    "example": "These sequences can be cis-acting (affecting genes that are adjacent to the sequence) or trans-acting (affecting expression of the gene from a distant site), even on another chromosome.",
+    "progress": 0
+  },
+  {
+    "word": "redundant",
+    "definition": "more than is needed, desired, or required",
+    "example": "These redundant codons usually differ at the third position.",
+    "progress": 0
+  },
+  {
+    "word": "defective",
+    "definition": "having a flaw",
+    "example": "There are alpha and beta thalassemias, defined by the defective gene, and there are variations of each of these, depending on whether the embryonic, fetal, or adult forms are affected and/or expressed.",
+    "progress": 0
+  },
+  {
+    "word": "functioning",
+    "definition": "performing or able to perform its regular purpose",
+    "example": "Through the process of evolution, these tiny organisms became incorporated into the cell, and their genetic systems and cellular functions became integrated to form a single functioning cellular unit.",
+    "progress": 0
+  },
+  {
+    "word": "linked",
+    "definition": "connected, as railway cars or trailer trucks",
+    "example": "Individual nucleotides are linked through the phosphate group, and it is the precise order, or sequence, of nucleotides that determines the product made from that gene.",
+    "progress": 0
+  },
+  {
+    "word": "bacteria",
+    "definition": "single-celled organisms that can cause disease",
+    "example": "The independent aerobic function of these organelles is thought to have evolved from bacteria that lived inside of other simple organisms in a mutually beneficial, or symbiotic, relationship, providing them with aerobic capacity.",
+    "progress": 0
+  },
+  {
+    "word": "interact",
+    "definition": "do something together or with others",
+    "example": "It may also interact with other factors to determine which alpha gene is turned on.",
+    "progress": 0
+  },
+  {
+    "word": "sickle",
+    "definition": "an edge tool for cutting grass or crops",
+    "example": "Examples of recessive disorders in humans include sickle cell anemia, Tay-Sachs disease, and phenylketonuria (PKU).",
+    "progress": 0
+  },
+  {
+    "word": "mutate",
+    "definition": "undergo a change or alteration in form or qualities",
+    "example": "Thus, alternate transcripts from a single gene could reduce the chances that a mutated gene is transmitted.",
+    "progress": 0
+  },
+  {
+    "word": "accumulation",
+    "definition": "the act of gathering up",
+    "example": "This is different from mutations in nuclear DNA, which has sophisticated repair mechanisms to limit the accumulation of mutations.",
+    "progress": 0
+  },
+  {
+    "word": "modification",
+    "definition": "the act of making something different",
+    "example": "Cells also regulate gene expression by post-transcriptional modification; by allowing only a subset of the mRNAs to go on to translation; or by restricting translation of specific mRNAs to only when the product is needed.",
+    "progress": 0
+  },
+  {
+    "word": "immature",
+    "definition": "not yet fully developed",
+    "example": "In some organisms, the egg houses store immature mRNAs that become translationally active only after fertilization.",
+    "progress": 0
+  },
+  {
+    "word": "example",
+    "definition": "an item of information that is typical of a class or group",
+    "example": "Every organism, including humans, has a genome that contains all of the biological information needed to build and maintain a living example of that organism.",
+    "progress": 0
+  },
+  {
+    "word": "specify",
+    "definition": "be particular about",
+    "example": "The genetic code carried by DNA is what specifies the order and number of amino acids and, therefore, the shape and function of the protein.",
+    "progress": 0
+  },
+  {
+    "word": "insertion",
+    "definition": "the act of putting one thing into another",
+    "example": "Mutations in the new DNA strand can manifest as base substitutions, such as when a single base gets replaced with another; deletions, where one or more bases are left out; or insertions, where one or more bases are added.",
+    "progress": 0
+  },
+  {
+    "word": "biologist",
+    "definition": "a scientist who studies living organisms",
+    "example": "In addition to the critical cellular energy-related functions, mitochondrial genes are useful to evolutionary biologists because of their maternal inheritance and high rate of mutation.",
+    "progress": 0
+  },
+  {
+    "word": "identify",
+    "definition": "recognize as being",
+    "example": "For example, mtDNA mutations have been identified in some forms of diabetes, deafness, and certain inherited heart diseases.",
+    "progress": 0
+  },
+  {
+    "word": "scientist",
+    "definition": "a person with advanced knowledge of empirical fields",
+    "example": "By studying patterns of mutations, scientists are able to reconstruct patterns of migration and evolution within and between species.",
+    "progress": 0
+  },
+  {
+    "word": "database",
+    "definition": "an organized body of related information",
+    "example": "This process is dependent on computer programs that search for these patterns in various sequence databases and then make predictions about the existence of a gene.",
+    "progress": 0
+  },
+  {
+    "word": "multiple",
+    "definition": "having or involving more than one part or entity",
+    "example": "Cells often have multiple mitochondria, particularly cells requiring lots of energy, such as active muscle cells.",
+    "progress": 0
+  },
+  {
+    "word": "regulation",
+    "definition": "the act of bringing to uniformity",
+    "example": "In most cases, the polymerase is aided by a group of proteins called \"transcription factors\" that perform specialized functions, such as DNA sequence recognition and regulation of the polymerase's enzyme activity.",
+    "progress": 0
+  },
+  {
+    "word": "inherit",
+    "definition": "receive from a predecessor",
+    "example": "Because only men inherit Y chromosomes, they are the only ones to inherit Y-linked traits.",
+    "progress": 0
+  },
+  {
+    "word": "site",
+    "definition": "the piece of land on which something is located",
+    "example": "It is still unclear what all the functions of introns are, but scientists believe that some serve as the site for recombination, the process by which progeny derive a combination of genes different from that of either parent, resulting in novel genes with new combinations of exons, the key to evolution.",
+    "progress": 0
+  },
+  {
+    "word": "integrated",
+    "definition": "formed or united into a whole",
+    "example": "Through the process of evolution, these tiny organisms became incorporated into the cell, and their genetic systems and cellular functions became integrated to form a single functioning cellular unit.",
+    "progress": 0
+  },
+  {
+    "word": "pattern",
+    "definition": "a repeated design, structure, or arrangement",
+    "example": "By studying patterns of mutations, scientists are able to reconstruct patterns of migration and evolution within and between species.",
+    "progress": 0
+  },
+  {
+    "word": "synonymous",
+    "definition": "meaning the same or nearly the same",
+    "example": "Mutations can either be synonymous, in which the variation still results in a codon for the same amino acid or non-synonymous, in which the variation results in a codon for a different amino acid.",
+    "progress": 0
+  },
+  {
+    "word": "role",
+    "definition": "the actions and activities assigned to a person or group",
+    "example": "DNA directs the synthesis of a variety of RNA molecules, each with a unique role in cellular function.",
+    "progress": 0
+  },
+  {
+    "word": "botanist",
+    "definition": "a biologist specializing in the study of plants",
+    "example": "In 1909, Danish botanist Wilhelm Johanssen coined the word gene for the hereditary unit found on a chromosome.",
+    "progress": 0
+  },
+  {
+    "word": "assortment",
+    "definition": "the act of distributing things into classes of the same type",
+    "example": "Nonetheless, he correctly surmised the behavior of traits and the mathematical predictions of their transmission, the independent segregation of alleles during gamete production, and the independent assortment of genes.",
+    "progress": 0
+  },
+  {
+    "word": "feedback",
+    "definition": "the process in which output of a system is returned to input",
+    "example": "At other levels, cells regulate gene expression through DNA folding, chemical modification of the nucleotide bases, and intricate \"feedback mechanisms\" in which some of the gene's own protein product directs the cell to cease further protein production.",
+    "progress": 0
+  },
+  {
+    "word": "progression",
+    "definition": "the act of moving forward, as toward a goal",
+    "example": "However, evidence suggests that the mutations contribute to the progression of both diseases.",
+    "progress": 0
+  },
+  {
+    "word": "information",
+    "definition": "knowledge acquired through study or experience",
+    "example": "Every organism, including humans, has a genome that contains all of the biological information needed to build and maintain a living example of that organism.",
+    "progress": 0
+  },
+  {
+    "word": "minimal",
+    "definition": "the least possible",
+    "example": "Genetic mutations occur randomly, and the effect of a small number of mutations on a single gene may be minimal.",
+    "progress": 0
+  },
+  {
+    "word": "inheritance",
+    "definition": "hereditary succession to a title or an office or property",
+    "example": "In addition to the critical cellular energy-related functions, mitochondrial genes are useful to evolutionary biologists because of their maternal inheritance and high rate of mutation.",
+    "progress": 0
+  },
+  {
+    "word": "generation",
+    "definition": "group of genetically related organisms in a line of descent",
+    "example": "In this way, the information in a DNA sequence is readily copied and passed on to the next generation of cells.",
+    "progress": 0
+  },
+  {
+    "word": "evolution",
+    "definition": "sequence of events involved in the development of a species",
+    "example": "Through the process of evolution, these tiny organisms became incorporated into the cell, and their genetic systems and cellular functions became integrated to form a single functioning cellular unit.",
+    "progress": 0
+  },
+  {
+    "word": "transmitted",
+    "definition": "occurring among members of a family usually by heredity",
+    "example": "Yet, in the process of making a protein, the encoded information must be faithfully transmitted first to RNA then to protein.",
+    "progress": 0
+  },
+  {
+    "word": "carrier",
+    "definition": "a person or firm transporting people or goods or messages",
+    "example": "Although DNA is the carrier of genetic information in a cell, proteins do the bulk of the work.",
+    "progress": 0
+  },
+  {
+    "word": "different",
+    "definition": "unlike in nature, quality, form, or degree",
+    "example": "Each base has a slightly different composition, or combination of oxygen, carbon, nitrogen, and hydrogen.",
+    "progress": 0
+  },
+  {
+    "word": "migration",
+    "definition": "the movement of persons from one locality to another",
+    "example": "By studying patterns of mutations, scientists are able to reconstruct patterns of migration and evolution within and between species.",
+    "progress": 0
+  },
+  {
+    "word": "availability",
+    "definition": "the quality of being at hand when needed",
+    "example": "Yet, it is important to recognize that progress in any scientific field depends on the availability of experimental tools that allow researchers to make new scientific observations and conduct novel experiments.",
+    "progress": 0
+  },
+  {
+    "word": "annotate",
+    "definition": "add explanatory notes to or supply with critical comments",
+    "example": "However, we still have to make guesses at the actual number of genes, because not all of the human genome sequence is annotated and not all of the known sequence has been assigned a particular position in the genome.",
+    "progress": 0
+  },
+  {
+    "word": "coiled",
+    "definition": "curled or wound in rings or spirals",
+    "example": "The chemical nature of the bases in double-stranded DNA creates a slight twisting force that gives DNA its characteristic gently coiled structure, known as the double helix.",
+    "progress": 0
+  },
+  {
+    "word": "hormone",
+    "definition": "the secretion of an endocrine gland transmitted by the blood",
+    "example": "Each cell contains thousands of different proteins: enzymes that make new molecules and catalyze nearly all chemical processes in cells; structural components that give cells their shape and help them move; hormones that transmit signals throughout the body; antibodies that recognize foreign molecules; and transport molecules that carry oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "fundamental",
+    "definition": "serving as an essential component",
+    "example": "Other fundamental structural differences exist.",
+    "progress": 0
+  },
+  {
+    "word": "align",
+    "definition": "arrange so as to be parallel or straight",
+    "example": "When the complete mRNA sequence for a gene is known, computer programs are used to align the mRNA sequence with the appropriate region of the genomic DNA sequence.",
+    "progress": 0
+  },
+  {
+    "word": "attache",
+    "definition": "a specialist assigned to the staff of a diplomatic mission",
+    "example": "For prokaryotes, the ribosome recognizes and attaches at the sequence AGGAGGU on the mRNA, called the Shine-Delgarno sequence, that appears just upstream from the methionine (AUG) codon.",
+    "progress": 0
+  },
+  {
+    "word": "survival",
+    "definition": "the state of remaining alive",
+    "example": "Mutations are what lie behind the popular saying of \"survival of the fittest\", the basic theory of evolution proposed by Charles Darwin in 1859.",
+    "progress": 0
+  },
+  {
+    "word": "generator",
+    "definition": "someone who originates, causes, or initiates something",
+    "example": "Thus, they are often referred to as the power generators of the cell.",
+    "progress": 0
+  },
+  {
+    "word": "inhibit",
+    "definition": "limit the range or extent of",
+    "example": "This is because the methyl group serves to inhibit transcription by attracting a protein that binds specifically to methylated DNA, thereby interfering with polymerase binding.",
+    "progress": 0
+  },
+  {
+    "word": "stem",
+    "definition": "cylinder forming a long narrow part of something",
+    "example": "Prokaryotes, however, tend to have a short region composed of G's and C's that is able to fold in on itself and form complementary base pairs, creating a stem in the new mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "normal",
+    "definition": "being approximately average or within certain limits",
+    "example": "Thalassemias are a group of diseases characterized by the absence or decreased production of normal globin, and thus hemoglobin, leading to decreased oxygen in the system.",
+    "progress": 0
+  },
+  {
+    "word": "human",
+    "definition": "a person; a hominid with a large brain and articulate speech",
+    "example": "Every organism, including humans, has a genome that contains all of the biological information needed to build and maintain a living example of that organism.",
+    "progress": 0
+  },
+  {
+    "word": "toxic",
+    "definition": "of or relating to or caused by a poison",
+    "example": "DNA mutations can also be introduced by toxic chemicals and, particularly in skin cells, exposure to ultraviolet radiation.",
+    "progress": 0
+  },
+  {
+    "word": "terminate",
+    "definition": "bring to an end or halt",
+    "example": "The so-called 5' end terminates in a 5' phosphate group (-PO4); the 3' end terminates in a 3' hydroxyl group (-OH).",
+    "progress": 0
+  },
+  {
+    "word": "independent",
+    "definition": "free from external control and constraint",
+    "example": "The independent aerobic function of these organelles is thought to have evolved from bacteria that lived inside of other simple organisms in a mutually beneficial, or symbiotic, relationship, providing them with aerobic capacity.",
+    "progress": 0
+  },
+  {
+    "word": "transcribe",
+    "definition": "write out, as from speech or notes",
+    "example": "Both exons and introns are \"transcribed\" into mRNA, but before it is transported to the ribosome, the primary mRNA transcript is edited.",
+    "progress": 0
+  },
+  {
+    "word": "pedigree",
+    "definition": "the ancestry or lineage of an individual",
+    "example": "Determining the allelic condition used to be accomplished solely through the analysis of pedigrees, much the way Mendel carried out his experiments on peas.",
+    "progress": 0
+  },
+  {
+    "word": "precedence",
+    "definition": "status established in order of importance or urgency",
+    "example": "For some alleles, their influence on phenotype takes precedence over all other alleles.",
+    "progress": 0
+  },
+  {
+    "word": "substitution",
+    "definition": "putting one thing or person in the place of another",
+    "example": "Mutations in the new DNA strand can manifest as base substitutions, such as when a single base gets replaced with another; deletions, where one or more bases are left out; or insertions, where one or more bases are added.",
+    "progress": 0
+  },
+  {
+    "word": "refer",
+    "definition": "make a remark that calls attention to",
+    "example": "A DNA chain is made up of four chemical bases: adenine (A) and guanine (G), which are called purines, and cytosine (C) and thymine (T), referred to as pyrimidines.",
+    "progress": 0
+  },
+  {
+    "word": "environment",
+    "definition": "the totality of surrounding conditions",
+    "example": "Mutations also provide a species with the opportunity to adapt to new environments, as well as to protect a species from new pathogens.",
+    "progress": 0
+  },
+  {
+    "word": "basic",
+    "definition": "reduced to the simplest and most significant form possible",
+    "example": "Mutations are what lie behind the popular saying of \"survival of the fittest\", the basic theory of evolution proposed by Charles Darwin in 1859.",
+    "progress": 0
+  },
+  {
+    "word": "ultimately",
+    "definition": "as the end result of a succession or process",
+    "example": "Ultimately, however, the genetic code resides in DNA because only DNA is passed from generation to generation.",
+    "progress": 0
+  },
+  {
+    "word": "control",
+    "definition": "power to direct or determine",
+    "example": "This system also precisely controls the amount of a gene product that is produced and can further modify the product after it is made.",
+    "progress": 0
+  },
+  {
+    "word": "express",
+    "definition": "communicate beliefs or opinions",
+    "example": "Only a small percentage of the 3 billion bases in the human genome becomes an expressed gene product.",
+    "progress": 0
+  },
+  {
+    "word": "location",
+    "definition": "the act of putting something in a certain place",
+    "example": "The location and base sequence of each promoter site vary for prokaryotes (bacteria) and eukaryotes (higher organisms), but they are both recognized by RNA polymerase, which can then grab hold of the sequence and drive the production of an mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "harmful",
+    "definition": "causing or capable of causing damage",
+    "example": "This is a normal self-preservation action to prevent a potentially harmful double dose of genes.",
+    "progress": 0
+  },
+  {
+    "word": "diabetes",
+    "definition": "a disease characterized by high glucose levels in the blood",
+    "example": "For example, mtDNA mutations have been identified in some forms of diabetes, deafness, and certain inherited heart diseases.",
+    "progress": 0
+  },
+  {
+    "word": "gender",
+    "definition": "properties that distinguish organisms on the basis of sex",
+    "example": "Subsequently, genes on that chromosome that do not code for gender are expressed in the male phenotype, even if they are recessive.",
+    "progress": 0
+  },
+  {
+    "word": "residue",
+    "definition": "matter that remains after something has been removed",
+    "example": "Methylation frequently occurs at cytosine residues that are preceded by guanine bases, oftentimes in the vicinity of promoter sequences.",
+    "progress": 0
+  },
+  {
+    "word": "reliable",
+    "definition": "able to be depended on; consistent or steady",
+    "example": "This provides a reliable indication of the beginning and end of the coding region for that gene.",
+    "progress": 0
+  },
+  {
+    "word": "decrease",
+    "definition": "a change downward",
+    "example": "Thalassemias are a group of diseases characterized by the absence or decreased production of normal globin, and thus hemoglobin, leading to decreased oxygen in the system.",
+    "progress": 0
+  },
+  {
+    "word": "potential",
+    "definition": "existing in possibility",
+    "example": "Now the mutation has the potential to be passed on to the next generation.",
+    "progress": 0
+  },
+  {
+    "word": "regulate",
+    "definition": "bring into conformity with rules, principles, or usage",
+    "example": "Cells also regulate gene expression by post-transcriptional modification; by allowing only a subset of the mRNAs to go on to translation; or by restricting translation of specific mRNAs to only when the product is needed.",
+    "progress": 0
+  },
+  {
+    "word": "evolve",
+    "definition": "undergo development",
+    "example": "The independent aerobic function of these organelles is thought to have evolved from bacteria that lived inside of other simple organisms in a mutually beneficial, or symbiotic, relationship, providing them with aerobic capacity.",
+    "progress": 0
+  },
+  {
+    "word": "enabling",
+    "definition": "providing legal power or sanction",
+    "example": "Mutations serve the virus well by enabling adaptive traits, such as changes in the outer protein coat so that it can escape detection and thereby destruction by the host's immune system.",
+    "progress": 0
+  },
+  {
+    "word": "scenario",
+    "definition": "a postulated sequence of possible events",
+    "example": "Because mitochondria have their own DNA, RNA, and ribosomes, this scenario is quite possible.",
+    "progress": 0
+  },
+  {
+    "word": "aging",
+    "definition": "the organic process of growing older",
+    "example": "There is even a theory, the Mitochondrial Theory of Aging, that suggests that accumulation of mutations in mitochondria contributes to, or drives, the aging process.",
+    "progress": 0
+  },
+  {
+    "word": "enhanced",
+    "definition": "increased or intensified in value or beauty or quality",
+    "example": "It does not suggest that a mutation is derived from the environment, but that survival in that environment is enhanced by a particular mutation.",
+    "progress": 0
+  },
+  {
+    "word": "detection",
+    "definition": "the perception or discovery that something has occurred",
+    "example": "Mutations serve the virus well by enabling adaptive traits, such as changes in the outer protein coat so that it can escape detection and thereby destruction by the host's immune system.",
+    "progress": 0
+  },
+  {
+    "word": "transfer",
+    "definition": "move from one place to another",
+    "example": "Ribonucleic Acids\nIn addition to mRNA, DNA codes for other forms of RNA, including ribosomal RNAs (rRNAs), transfer RNAs (tRNAs), and small nuclear RNAs (snRNAs). rRNAs and tRNAs participate in protein assembly whereas snRNAs aid in a process called splicing -the process of editing of mRNA before it can be used as a template for protein synthesis.",
+    "progress": 0
+  },
+  {
+    "word": "benign",
+    "definition": "kind in disposition or manner",
+    "example": "This does not mean, however, that somatic cell mutations, sometimes called acquired mutations, are benign.",
+    "progress": 0
+  },
+  {
+    "word": "activate",
+    "definition": "put in motion",
+    "example": "Similar mechanisms serve to activate mRNAs at other stages of development and differentiation, such as when specific protein products are needed.",
+    "progress": 0
+  },
+  {
+    "word": "satellite",
+    "definition": "any celestial body orbiting around a planet or star",
+    "example": "The most highly repeated sequences found so far in mammals are called \"satellite DNA\" because their unusual composition allows them to be easily separated from other DNA.",
+    "progress": 0
+  },
+  {
+    "word": "mutually",
+    "definition": "in a shared manner",
+    "example": "The independent aerobic function of these organelles is thought to have evolved from bacteria that lived inside of other simple organisms in a mutually beneficial, or symbiotic, relationship, providing them with aerobic capacity.",
+    "progress": 0
+  },
+  {
+    "word": "result",
+    "definition": "something that follows as a consequence",
+    "example": "In a DNA chain, every base is attached to a sugar molecule (deoxyribose) and a phosphate molecule, resulting in a nucleic acid or nucleotide.",
+    "progress": 0
+  },
+  {
+    "word": "recognition",
+    "definition": "identifying something or someone by remembering",
+    "example": "Curiously, eukaryotes lack this recognition sequence and simply initiate translation at the amino acid methionine, usually coded for by the bases AUG, but sometimes GUG.",
+    "progress": 0
+  },
+  {
+    "word": "mature",
+    "definition": "having reached full natural growth or development",
+    "example": "This editing process removes the introns, joins the exons together, and adds unique features to each end of the transcript to make a \"mature\" mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "characterize",
+    "definition": "be typical of",
+    "example": "Nearly 50 years earlier, Gregor Mendel had characterized hereditary units as factors- observable differences that were passed from parent to offspring.",
+    "progress": 0
+  },
+  {
+    "word": "mammal",
+    "definition": "a warm-blooded vertebrate having the skin covered with hair",
+    "example": "The most highly repeated sequences found so far in mammals are called \"satellite DNA\" because their unusual composition allows them to be easily separated from other DNA.",
+    "progress": 0
+  },
+  {
+    "word": "unit",
+    "definition": "a single undivided whole",
+    "example": "The biological information contained in a genome is encoded in its deoxyribonucleic acid (DNA) and is divided into discrete units called genes.",
+    "progress": 0
+  },
+  {
+    "word": "production",
+    "definition": "the act or process of making something",
+    "example": "The location and base sequence of each promoter site vary for prokaryotes (bacteria) and eukaryotes (higher organisms), but they are both recognized by RNA polymerase, which can then grab hold of the sequence and drive the production of an mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "species",
+    "definition": "taxonomic group whose members can interbreed",
+    "example": "By studying patterns of mutations, scientists are able to reconstruct patterns of migration and evolution within and between species.",
+    "progress": 0
+  },
+  {
+    "word": "depicted",
+    "definition": "represented graphically by sketch or design or lines",
+    "example": "Each DNA base is made up of the sugar 2'-deoxyribose linked to a phosphate group and one of the four bases depicted above: adenine (top left), cytosine (top right), guanine (bottom left), and thymine (bottom right).",
+    "progress": 0
+  },
+  {
+    "word": "complexity",
+    "definition": "the quality of being intricate and compounded",
+    "example": "A person may wonder how this increased complexity is achieved.",
+    "progress": 0
+  },
+  {
+    "word": "radiation",
+    "definition": "the act of spreading outward from a central source",
+    "example": "DNA mutations can also be introduced by toxic chemicals and, particularly in skin cells, exposure to ultraviolet radiation.",
+    "progress": 0
+  },
+  {
+    "word": "transport",
+    "definition": "move something or somebody around",
+    "example": "Each cell contains thousands of different proteins: enzymes that make new molecules and catalyze nearly all chemical processes in cells; structural components that give cells their shape and help them move; hormones that transmit signals throughout the body; antibodies that recognize foreign molecules; and transport molecules that carry oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "produce",
+    "definition": "bring forth or yield",
+    "example": "Because the mitochondria produce energy in cells, symptoms of mitochondrial diseases often involve degeneration or functional failure of tissue.",
+    "progress": 0
+  },
+  {
+    "word": "advent",
+    "definition": "arrival that has been awaited",
+    "example": "With continuing research in the areas of gene regulation and cell differentiation, new and more effective treatments may soon be on the horizon, such as the advent of gene transfer therapies.",
+    "progress": 0
+  },
+  {
+    "word": "estimate",
+    "definition": "judge tentatively",
+    "example": "In the absence of a complete mRNA sequence, the boundaries can be estimated by ever-improving, but still inexact, gene prediction software.",
+    "progress": 0
+  },
+  {
+    "word": "precisely",
+    "definition": "in a sharply exact manner",
+    "example": "In this way, the ribosomal complex builds a protein one amino acid at a time, with the order of amino acids determined precisely by the order of the codons in the mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "culprit",
+    "definition": "someone or something responsible for harm or wrongdoing",
+    "example": "In this case, somatic mosaicism may be the culprit.",
+    "progress": 0
+  },
+  {
+    "word": "iris",
+    "definition": "colored part of the eye that controls the size of the pupil",
+    "example": "It is speculated that there may be other genes that control other factors, such as the amount of pigment deposited in the iris.",
+    "progress": 0
+  },
+  {
+    "word": "contain",
+    "definition": "hold or have within",
+    "example": "Every organism, including humans, has a genome that contains all of the biological information needed to build and maintain a living example of that organism.",
+    "progress": 0
+  },
+  {
+    "word": "development",
+    "definition": "a process in which something passes to a different stage",
+    "example": "In fact, at each stage of development, different globin genes are turned on and off through a process of transcriptional regulation called \"switching\".",
+    "progress": 0
+  },
+  {
+    "word": "nonetheless",
+    "definition": "despite anything to the contrary",
+    "example": "Nonetheless, he correctly surmised the behavior of traits and the mathematical predictions of their transmission, the independent segregation of alleles during gamete production, and the independent assortment of genes.",
+    "progress": 0
+  },
+  {
+    "word": "defect",
+    "definition": "a failing or deficiency",
+    "example": "These defects are associated with Parkinson's and Alzheimer's disease, although it is not known whether the defects actually cause or are a direct result of the diseases.",
+    "progress": 0
+  },
+  {
+    "word": "intervening",
+    "definition": "occurring between events, spaces, or points in time",
+    "example": "In the human genome, the coding portions of a gene, called exons, are interrupted by intervening sequences, called introns.",
+    "progress": 0
+  },
+  {
+    "word": "straightforward",
+    "definition": "pointed directly ahead",
+    "example": "Transferring the code from DNA to RNA is a fairly straightforward process called transcription.",
+    "progress": 0
+  },
+  {
+    "word": "responsible",
+    "definition": "worthy of or requiring trust; held accountable",
+    "example": "This is because mitochondria are responsible for converting the energy stored in macromolecules into a form usable by the cell, namely, the adenosine triphosphate (ATP) molecule.",
+    "progress": 0
+  },
+  {
+    "word": "staggering",
+    "definition": "so surprisingly impressive as to stun or overwhelm",
+    "example": "Only one of these gametes will combine with one of the nearly 17 million possible combinations from the other parent, generating a staggering potential for individual variation.",
+    "progress": 0
+  },
+  {
+    "word": "recognize",
+    "definition": "perceive to be something or something you can identify",
+    "example": "Each cell contains thousands of different proteins: enzymes that make new molecules and catalyze nearly all chemical processes in cells; structural components that give cells their shape and help them move; hormones that transmit signals throughout the body; antibodies that recognize foreign molecules; and transport molecules that carry oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "energy",
+    "definition": "forceful exertion",
+    "example": "Cells often have multiple mitochondria, particularly cells requiring lots of energy, such as active muscle cells.",
+    "progress": 0
+  },
+  {
+    "word": "incorporated",
+    "definition": "formed or united into a whole",
+    "example": "Through the process of evolution, these tiny organisms became incorporated into the cell, and their genetic systems and cellular functions became integrated to form a single functioning cellular unit.",
+    "progress": 0
+  },
+  {
+    "word": "provide",
+    "definition": "give something useful or necessary to",
+    "example": "Today we know that a single gene consists of a unique sequence of DNA that provides the complete instructions to make a functional product, called a protein.",
+    "progress": 0
+  },
+  {
+    "word": "amazing",
+    "definition": "inspiring awe or admiration or wonder",
+    "example": "Perhaps as amazing as Mendel's discoveries was the fact that his work was largely ignored by the scientific community for over 30 years!",
+    "progress": 0
+  },
+  {
+    "word": "characteristic",
+    "definition": "typical or distinctive",
+    "example": "The chemical nature of the bases in double-stranded DNA creates a slight twisting force that gives DNA its characteristic gently coiled structure, known as the double helix.",
+    "progress": 0
+  },
+  {
+    "word": "switch",
+    "definition": "device for making or breaking the connections in a circuit",
+    "example": "Genes code for proteins that attach to the genome at the appropriate positions and switch on a series of reactions called gene expression.",
+    "progress": 0
+  },
+  {
+    "word": "hybrid",
+    "definition": "the offspring of genetically dissimilar parents or stock",
+    "example": "This process creates a stretch of hybrid DNA (bottom panel) in which the single strand of one duplex is paired with its complement from the other duplex.",
+    "progress": 0
+  },
+  {
+    "word": "carry",
+    "definition": "physically move while supporting, by vehicle, hands, or body",
+    "example": "This complementary base pairing is what makes DNA a suitable molecule for carrying our genetic information-one strand of DNA can act as a template to direct the synthesis of a complementary strand.",
+    "progress": 0
+  },
+  {
+    "word": "transplant",
+    "definition": "transfer from one place or period to another",
+    "example": "Treatments include blood transfusions, iron chelators, and bone marrow transplants.",
+    "progress": 0
+  },
+  {
+    "word": "specified",
+    "definition": "clearly and explicitly stated",
+    "example": "Life is specified by genomes.",
+    "progress": 0
+  },
+  {
+    "word": "addition",
+    "definition": "the arithmetic operation of summing",
+    "example": "In addition, mutations in mtDNA are able to accumulate throughout an individual's lifetime.",
+    "progress": 0
+  },
+  {
+    "word": "counterpart",
+    "definition": "a person or thing having the same function as another",
+    "example": "Some genes mask the expression of other genes just as a fully dominant allele masks the expression of its recessive counterpart.",
+    "progress": 0
+  },
+  {
+    "word": "potentially",
+    "definition": "with a possibility of becoming actual",
+    "example": "This is a normal self-preservation action to prevent a potentially harmful double dose of genes.",
+    "progress": 0
+  },
+  {
+    "word": "surmise",
+    "definition": "infer from incomplete evidence",
+    "example": "Nonetheless, he correctly surmised the behavior of traits and the mathematical predictions of their transmission, the independent segregation of alleles during gamete production, and the independent assortment of genes.",
+    "progress": 0
+  },
+  {
+    "word": "approximately",
+    "definition": "imprecise but fairly close to correct",
+    "example": "However, of the approximately 1 percent of our genome that is expressed, 40 percent is alternatively spliced to produce multiple proteins from a single gene.",
+    "progress": 0
+  },
+  {
+    "word": "sophisticated",
+    "definition": "having worldly knowledge and refinement",
+    "example": "This is different from mutations in nuclear DNA, which has sophisticated repair mechanisms to limit the accumulation of mutations.",
+    "progress": 0
+  },
+  {
+    "word": "accumulate",
+    "definition": "get or gather together",
+    "example": "In addition, mutations in mtDNA are able to accumulate throughout an individual's lifetime.",
+    "progress": 0
+  },
+  {
+    "word": "system",
+    "definition": "a group of independent elements comprising a unified whole",
+    "example": "Through the process of evolution, these tiny organisms became incorporated into the cell, and their genetic systems and cellular functions became integrated to form a single functioning cellular unit.",
+    "progress": 0
+  },
+  {
+    "word": "reconstruct",
+    "definition": "build again",
+    "example": "By studying patterns of mutations, scientists are able to reconstruct patterns of migration and evolution within and between species.",
+    "progress": 0
+  },
+  {
+    "word": "termination",
+    "definition": "the act of ending something",
+    "example": "Transcription terminates when the polymerase stumbles upon a termination, or stop signal.",
+    "progress": 0
+  },
+  {
+    "word": "reproduce",
+    "definition": "make a copy or equivalent of",
+    "example": "This is because mitochondria are only found in the female gametes or \"eggs\" of sexually reproducing animals, not in the male gamete, or sperm.",
+    "progress": 0
+  },
+  {
+    "word": "default",
+    "definition": "an option that is selected automatically",
+    "example": "As we have just discussed, the default state for a gene is that of being expressed via the recognition of its promoter by RNA polymerase.",
+    "progress": 0
+  },
+  {
+    "word": "theory",
+    "definition": "a belief that can guide behavior",
+    "example": "This theory is also supported by the existence of a eukaryotic organism, called the amoeba, which lacks mitochondria.",
+    "progress": 0
+  },
+  {
+    "word": "alternative",
+    "definition": "one of a number of things from which only one can be chosen",
+    "example": "However, of the approximately 1 percent of our genome that is expressed, 40 percent is alternatively spliced to produce multiple proteins from a single gene.",
+    "progress": 0
+  },
+  {
+    "word": "specifically",
+    "definition": "in distinction from others",
+    "example": "This is because the methyl group serves to inhibit transcription by attracting a protein that binds specifically to methylated DNA, thereby interfering with polymerase binding.",
+    "progress": 0
+  },
+  {
+    "word": "symptom",
+    "definition": "a sensation associated with a particular disease",
+    "example": "Because the mitochondria produce energy in cells, symptoms of mitochondrial diseases often involve degeneration or functional failure of tissue.",
+    "progress": 0
+  },
+  {
+    "word": "panel",
+    "definition": "sheet that forms a distinct section of something",
+    "example": "Recombination involves pairing between complementary strands of two parental duplex DNAs (top and middle panel).",
+    "progress": 0
+  },
+  {
+    "word": "tiny",
+    "definition": "very small",
+    "example": "Through the process of evolution, these tiny organisms became incorporated into the cell, and their genetic systems and cellular functions became integrated to form a single functioning cellular unit.",
+    "progress": 0
+  },
+  {
+    "word": "propagate",
+    "definition": "multiply through reproduction",
+    "example": "This will allow the virus to propagate freely in its environment.",
+    "progress": 0
+  },
+  {
+    "word": "paternal",
+    "definition": "characteristic of a father",
+    "example": "Methylation also plays an important role in genomic imprinting, which occurs when both maternal and paternal alleles are present but only one allele is expressed while the other remains inactive.",
+    "progress": 0
+  },
+  {
+    "word": "therapy",
+    "definition": "the act of providing treatment for an illness or disorder",
+    "example": "With continuing research in the areas of gene regulation and cell differentiation, new and more effective treatments may soon be on the horizon, such as the advent of gene transfer therapies.",
+    "progress": 0
+  },
+  {
+    "word": "masculine",
+    "definition": "associated with men and not with women",
+    "example": "There are at least a dozen Y-linked genes, in addition to those that code for masculine physical traits.",
+    "progress": 0
+  },
+  {
+    "word": "alternate",
+    "definition": "go back and forth",
+    "example": "With so much DNA in the genome, why restrict transcription to a tiny portion, and why make that tiny portion work overtime to produce many alternate transcripts?",
+    "progress": 0
+  },
+  {
+    "word": "core",
+    "definition": "the center of an object",
+    "example": "Fortunately, the middle of a gene, referred to as the core gene sequence--has enough consistent features to allow more reliable predictions.",
+    "progress": 0
+  },
+  {
+    "word": "fraction",
+    "definition": "a small part or item forming a piece of a whole",
+    "example": "A class of sequences called regulatory sequences makes up a numerically insignificant fraction of the genome but provides critical functions.",
+    "progress": 0
+  },
+  {
+    "word": "beneficial",
+    "definition": "promoting or enhancing well-being",
+    "example": "The independent aerobic function of these organelles is thought to have evolved from bacteria that lived inside of other simple organisms in a mutually beneficial, or symbiotic, relationship, providing them with aerobic capacity.",
+    "progress": 0
+  },
+  {
+    "word": "host",
+    "definition": "a person who invites guests to a social event",
+    "example": "Mutations serve the virus well by enabling adaptive traits, such as changes in the outer protein coat so that it can escape detection and thereby destruction by the host's immune system.",
+    "progress": 0
+  },
+  {
+    "word": "cycle",
+    "definition": "a periodically repeated sequence of events",
+    "example": "Genetic Variation\nThe cell cycle is the process that a cell undergoes to replicate.",
+    "progress": 0
+  },
+  {
+    "word": "exhibit",
+    "definition": "show; make visible or apparent",
+    "example": "These factors each exhibit a characteristic dominant, co-dominant, or recessive expression, and those that are dominant will mask the expression of those that are recessive.",
+    "progress": 0
+  },
+  {
+    "word": "formation",
+    "definition": "the act of establishing or creating something",
+    "example": "Meiosis is the mode of cell replication for the formation of sperm and egg cells in plants, animals, and many other multicellular life forms.",
+    "progress": 0
+  },
+  {
+    "word": "experimental",
+    "definition": "of the nature of or undergoing a trial",
+    "example": "Yet, it is important to recognize that progress in any scientific field depends on the availability of experimental tools that allow researchers to make new scientific observations and conduct novel experiments.",
+    "progress": 0
+  },
+  {
+    "word": "contribute",
+    "definition": "give, provide, or supply something",
+    "example": "There is even a theory, the Mitochondrial Theory of Aging, that suggests that accumulation of mutations in mitochondria contributes to, or drives, the aging process.",
+    "progress": 0
+  },
+  {
+    "word": "determine",
+    "definition": "find out or learn with certainty, as by making an inquiry",
+    "example": "Individual nucleotides are linked through the phosphate group, and it is the precise order, or sequence, of nucleotides that determines the product made from that gene.",
+    "progress": 0
+  },
+  {
+    "word": "composed",
+    "definition": "serenely self-possessed and free from agitation",
+    "example": "Prokaryotes, however, tend to have a short region composed of G's and C's that is able to fold in on itself and form complementary base pairs, creating a stem in the new mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "region",
+    "definition": "the extended spatial location of something",
+    "example": "Inside each of our cells lies a nucleus, a membrane-bounded region that provides a sanctuary for genetic information.",
+    "progress": 0
+  },
+  {
+    "word": "adjacent",
+    "definition": "having a common boundary or edge",
+    "example": "These sequences can be cis-acting (affecting genes that are adjacent to the sequence) or trans-acting (affecting expression of the gene from a distant site), even on another chromosome.",
+    "progress": 0
+  },
+  {
+    "word": "continuous",
+    "definition": "moving in time or space without interruption",
+    "example": "In addition, a eukaryotic gene does not code for a protein in one continuous stretch of DNA.",
+    "progress": 0
+  },
+  {
+    "word": "transmit",
+    "definition": "send from one person or place to another",
+    "example": "Each cell contains thousands of different proteins: enzymes that make new molecules and catalyze nearly all chemical processes in cells; structural components that give cells their shape and help them move; hormones that transmit signals throughout the body; antibodies that recognize foreign molecules; and transport molecules that carry oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "scientific",
+    "definition": "consistent with systematic study of the physical world",
+    "example": "Perhaps as amazing as Mendel's discoveries was the fact that his work was largely ignored by the scientific community for over 30 years!",
+    "progress": 0
+  },
+  {
+    "word": "active",
+    "definition": "characterized by energetic movement",
+    "example": "Cells often have multiple mitochondria, particularly cells requiring lots of energy, such as active muscle cells.",
+    "progress": 0
+  },
+  {
+    "word": "junction",
+    "definition": "an act of joining or adjoining things",
+    "example": "These include: open reading frames, stretches of DNA, usually greater than 100 bases, that are not interrupted by a stop codon such as TAA, TAG or TGA; start codons such as ATG; specific sequences found at splice junctions, a location in the DNA sequence where RNA removes the non-coding areas to form a continuous gene transcript for translation into a protein; and gene regulatory sequences.",
+    "progress": 0
+  },
+  {
+    "word": "intricate",
+    "definition": "having many complexly arranged elements; elaborate",
+    "example": "At other levels, cells regulate gene expression through DNA folding, chemical modification of the nucleotide bases, and intricate \"feedback mechanisms\" in which some of the gene's own protein product directs the cell to cease further protein production.",
+    "progress": 0
+  },
+  {
+    "word": "thereby",
+    "definition": "by that means or because of that",
+    "example": "This is because the methyl group serves to inhibit transcription by attracting a protein that binds specifically to methylated DNA, thereby interfering with polymerase binding.",
+    "progress": 0
+  },
+  {
+    "word": "immune",
+    "definition": "of the condition in which an organism can resist disease",
+    "example": "Mutations serve the virus well by enabling adaptive traits, such as changes in the outer protein coat so that it can escape detection and thereby destruction by the host's immune system.",
+    "progress": 0
+  },
+  {
+    "word": "analysis",
+    "definition": "abstract separation of something into its various parts",
+    "example": "For example, mtDNA analysis has been used to trace the migration of people from Asia across the Bering Strait to North and South America.",
+    "progress": 0
+  },
+  {
+    "word": "critical",
+    "definition": "of a serious examination and judgment of something",
+    "example": "In addition to the critical cellular energy-related functions, mitochondrial genes are useful to evolutionary biologists because of their maternal inheritance and high rate of mutation.",
+    "progress": 0
+  },
+  {
+    "word": "fuse",
+    "definition": "any igniter used to initiate the burning of a propellant",
+    "example": "In the first stages of development, a sperm cell and egg cell fuse.",
+    "progress": 0
+  },
+  {
+    "word": "derived",
+    "definition": "formed or developed from something else; not original",
+    "example": "It does not suggest that a mutation is derived from the environment, but that survival in that environment is enhanced by a particular mutation.",
+    "progress": 0
+  },
+  {
+    "word": "effects",
+    "definition": "property of a personal character that is portable",
+    "example": "This process may have evolved as a way to limit the deleterious effects of mutations.",
+    "progress": 0
+  },
+  {
+    "word": "percent",
+    "definition": "a proportion in relation to a whole",
+    "example": "Genes make up about 1 percent of the total DNA in our genome.",
+    "progress": 0
+  },
+  {
+    "word": "restricted",
+    "definition": "subject to an act of limitation",
+    "example": "Our discussion here is restricted to sexually reproducing organisms where each gene in an individual is represented by two copies, called alleles-one on each chromosome pair.",
+    "progress": 0
+  },
+  {
+    "word": "slight",
+    "definition": "small in quantity or degree",
+    "example": "Each base has a slightly different composition, or combination of oxygen, carbon, nitrogen, and hydrogen.",
+    "progress": 0
+  },
+  {
+    "word": "enhance",
+    "definition": "increase",
+    "example": "The developmentally regulated transcription of globin is controlled by a number of cis-acting DNA sequences, and although there remains a lot to be learned about the interaction of these sequences, one known control sequence is an enhancer called the Locus Control Region (LCR).",
+    "progress": 0
+  },
+  {
+    "word": "particularly",
+    "definition": "to a distinctly greater extent or degree than is common",
+    "example": "Cells often have multiple mitochondria, particularly cells requiring lots of energy, such as active muscle cells.",
+    "progress": 0
+  },
+  {
+    "word": "relationship",
+    "definition": "a mutual connection between people",
+    "example": "The independent aerobic function of these organelles is thought to have evolved from bacteria that lived inside of other simple organisms in a mutually beneficial, or symbiotic, relationship, providing them with aerobic capacity.",
+    "progress": 0
+  },
+  {
+    "word": "sanctuary",
+    "definition": "a consecrated place where sacred objects are kept",
+    "example": "Inside each of our cells lies a nucleus, a membrane-bounded region that provides a sanctuary for genetic information.",
+    "progress": 0
+  },
+  {
+    "word": "regardless",
+    "definition": "in spite of everything",
+    "example": "Rather, its dominant allele is necessary for the development of any skin pigment, and its recessive homozygous state results in the albino condition, regardless of how many other pigment genes may be present.",
+    "progress": 0
+  },
+  {
+    "word": "restrict",
+    "definition": "limit access to",
+    "example": "With so much DNA in the genome, why restrict transcription to a tiny portion, and why make that tiny portion work overtime to produce many alternate transcripts?",
+    "progress": 0
+  },
+  {
+    "word": "trivial",
+    "definition": "(informal) small and of little importance",
+    "example": "Studying garden peas might seem trivial to those of us who live in a modern world of cloned sheep and gene transfer, but Mendel's simple approach led to fundamental insights into genetic inheritance, known today as Mendel's Laws.",
+    "progress": 0
+  },
+  {
+    "word": "primarily",
+    "definition": "for the most part",
+    "example": "X-linked traits not related to feminine body characteristics are primarily expressed in the phenotype of men.",
+    "progress": 0
+  },
+  {
+    "word": "signal",
+    "definition": "any action or gesture that encodes a message",
+    "example": "Each cell contains thousands of different proteins: enzymes that make new molecules and catalyze nearly all chemical processes in cells; structural components that give cells their shape and help them move; hormones that transmit signals throughout the body; antibodies that recognize foreign molecules; and transport molecules that carry oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "absence",
+    "definition": "the state of being not present",
+    "example": "In the absence of a complete mRNA sequence, the boundaries can be estimated by ever-improving, but still inexact, gene prediction software.",
+    "progress": 0
+  },
+  {
+    "word": "trigger",
+    "definition": "lever that activates the firing mechanism of a gun",
+    "example": "Fertilization then serves to trigger mechanisms that initiate the efficient translation of mRNA into proteins.",
+    "progress": 0
+  },
+  {
+    "word": "introduce",
+    "definition": "bring something new to an environment",
+    "example": "DNA mutations can also be introduced by toxic chemicals and, particularly in skin cells, exposure to ultraviolet radiation.",
+    "progress": 0
+  },
+  {
+    "word": "computer",
+    "definition": "a machine for performing calculations automatically",
+    "example": "When the complete mRNA sequence for a gene is known, computer programs are used to align the mRNA sequence with the appropriate region of the genomic DNA sequence.",
+    "progress": 0
+  },
+  {
+    "word": "allow",
+    "definition": "make it possible for something to happen",
+    "example": "By allowing some of the random changes in DNA to have no effect on the ultimate protein sequence, a sort of genetic safety net is created.",
+    "progress": 0
+  },
+  {
+    "word": "exception",
+    "definition": "an instance that does not conform to a rule",
+    "example": "Therefore, the probability that a particular allele will be inherited is 50:50, that is, alleles randomly and independently segregate into daughter cells, although there are some exceptions to this rule.",
+    "progress": 0
+  },
+  {
+    "word": "treatment",
+    "definition": "the management of someone or something",
+    "example": "Although there is no known cure for the thalassemias, there are medical treatments that have been developed based on our current understanding of both gene regulation and cell differentiation.",
+    "progress": 0
+  },
+  {
+    "word": "remnant",
+    "definition": "a small part remaining after the main part no longer exists",
+    "example": "Another class of non-coding DNA is the \"pseudogene\", so named because it is believed to be a remnant of a real gene that has suffered mutations and is no longer functional.",
+    "progress": 0
+  },
+  {
+    "word": "composition",
+    "definition": "the way in which someone or something is put together",
+    "example": "Each base has a slightly different composition, or combination of oxygen, carbon, nitrogen, and hydrogen.",
+    "progress": 0
+  },
+  {
+    "word": "biology",
+    "definition": "the science that studies living organisms",
+    "example": "Therefore, an understanding of DNA, gene structure, and function is fundamental for an appreciation of the molecular biology of the cell.",
+    "progress": 0
+  },
+  {
+    "word": "insignificant",
+    "definition": "conveying nothing",
+    "example": "A class of sequences called regulatory sequences makes up a numerically insignificant fraction of the genome but provides critical functions.",
+    "progress": 0
+  },
+  {
+    "word": "various",
+    "definition": "having great diversity or variety",
+    "example": "This process is dependent on computer programs that search for these patterns in various sequence databases and then make predictions about the existence of a gene.",
+    "progress": 0
+  },
+  {
+    "word": "collective",
+    "definition": "done by or characteristic of individuals acting together",
+    "example": "It first requires that the mRNA leave the nucleus and associate with a large complex of specialized RNAs and proteins that, collectively, are called the ribosome.",
+    "progress": 0
+  },
+  {
+    "word": "maintenance",
+    "definition": "activity involved in keeping something in good working order",
+    "example": "Telomeres play a critical role in chromosome replication and maintenance by counteracting the tendency of the chromosome to otherwise shorten with each round of replication.",
+    "progress": 0
+  },
+  {
+    "word": "variety",
+    "definition": "a category of things distinguished by a common quality",
+    "example": "A variety of deadly diseases are attributable to a large number of accumulated mutations in mitochondria.",
+    "progress": 0
+  },
+  {
+    "word": "include",
+    "definition": "have as a part; be made up out of",
+    "example": "Every organism, including humans, has a genome that contains all of the biological information needed to build and maintain a living example of that organism.",
+    "progress": 0
+  },
+  {
+    "word": "primary",
+    "definition": "of first rank or importance or value",
+    "example": "Both exons and introns are \"transcribed\" into mRNA, but before it is transported to the ribosome, the primary mRNA transcript is edited.",
+    "progress": 0
+  },
+  {
+    "word": "efficient",
+    "definition": "being effective without wasting time, effort, or expense",
+    "example": "One very efficient point occurs at transcription, such that an mRNA is produced only when a gene product is needed.",
+    "progress": 0
+  },
+  {
+    "word": "category",
+    "definition": "a general concept that marks divisions or coordinations",
+    "example": "A particularly important category of genetic linkage has to do with the X and Y sex chromosomes.",
+    "progress": 0
+  },
+  {
+    "word": "edited",
+    "definition": "improved or corrected by critical revision",
+    "example": "Both exons and introns are \"transcribed\" into mRNA, but before it is transported to the ribosome, the primary mRNA transcript is edited.",
+    "progress": 0
+  },
+  {
+    "word": "conversion",
+    "definition": "the act of changing from one use or function to another",
+    "example": "Other energy conversion processes in the cell take place anaerobically, or without oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "outcome",
+    "definition": "something that results",
+    "example": "Pleiotropism, or pleotrophy, refers to the phenomenon in which a single gene is responsible for producing multiple, distinct, and apparently unrelated phenotypic traits, that is, an individual can exhibit many different phenotypic outcomes.",
+    "progress": 0
+  },
+  {
+    "word": "infection",
+    "definition": "the invasion of the body by pathogenic microorganisms",
+    "example": "Viruses also produce certain enzymes that are necessary for infection of a host cell.",
+    "progress": 0
+  },
+  {
+    "word": "insight",
+    "definition": "clear or deep perception of a situation",
+    "example": "Studying garden peas might seem trivial to those of us who live in a modern world of cloned sheep and gene transfer, but Mendel's simple approach led to fundamental insights into genetic inheritance, known today as Mendel's Laws.",
+    "progress": 0
+  },
+  {
+    "word": "research",
+    "definition": "a seeking for knowledge",
+    "example": "With continuing research in the areas of gene regulation and cell differentiation, new and more effective treatments may soon be on the horizon, such as the advent of gene transfer therapies.",
+    "progress": 0
+  },
+  {
+    "word": "identical",
+    "definition": "being the exact same one",
+    "example": "On the other hand, a recessive allele will be expressed only if there are two identical copies of that allele, or for a male, if one copy is present on the X chromosome.",
+    "progress": 0
+  },
+  {
+    "word": "require",
+    "definition": "have need of",
+    "example": "Cells often have multiple mitochondria, particularly cells requiring lots of energy, such as active muscle cells.",
+    "progress": 0
+  },
+  {
+    "word": "significant",
+    "definition": "rich in implication",
+    "example": "Although they do not play a role in the coding of proteins, they do play a significant role in chromosome structure, duplication, and cell division.",
+    "progress": 0
+  },
+  {
+    "word": "shape",
+    "definition": "a perceptual structure",
+    "example": "Each cell contains thousands of different proteins: enzymes that make new molecules and catalyze nearly all chemical processes in cells; structural components that give cells their shape and help them move; hormones that transmit signals throughout the body; antibodies that recognize foreign molecules; and transport molecules that carry oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "difference",
+    "definition": "the quality of being unlike or dissimilar",
+    "example": "Nearly 50 years earlier, Gregor Mendel had characterized hereditary units as factors- observable differences that were passed from parent to offspring.",
+    "progress": 0
+  },
+  {
+    "word": "laboratory",
+    "definition": "a workplace for the conduct of scientific research",
+    "example": "The last section of the genetic primer concludes with a discussion of some of the laboratory tools and technologies that allow researchers to study cells and their DNA.",
+    "progress": 0
+  },
+  {
+    "word": "solely",
+    "definition": "without any others being included or involved",
+    "example": "Determining the allelic condition used to be accomplished solely through the analysis of pedigrees, much the way Mendel carried out his experiments on peas.",
+    "progress": 0
+  },
+  {
+    "word": "mode",
+    "definition": "how something is done or how it happens",
+    "example": "Meiosis is the mode of cell replication for the formation of sperm and egg cells in plants, animals, and many other multicellular life forms.",
+    "progress": 0
+  },
+  {
+    "word": "tool",
+    "definition": "an implement used to perform a task or job",
+    "example": "Yet, it is important to recognize that progress in any scientific field depends on the availability of experimental tools that allow researchers to make new scientific observations and conduct novel experiments.",
+    "progress": 0
+  },
+  {
+    "word": "accomplished",
+    "definition": "highly skilled",
+    "example": "This reduction is accomplished through a process called meiosis, where one chromosome in a diploid pair is sent to each daughter gamete.",
+    "progress": 0
+  },
+  {
+    "word": "software",
+    "definition": "written programs operating on a computer system ",
+    "example": "In the absence of a complete mRNA sequence, the boundaries can be estimated by ever-improving, but still inexact, gene prediction software.",
+    "progress": 0
+  },
+  {
+    "word": "particular",
+    "definition": "unique or specific to a person or thing or category",
+    "example": "Here the mRNA is translated into protein by decoding the mRNA sequence in blocks of three RNA bases, called codons, where each codon specifies a particular amino acid.",
+    "progress": 0
+  },
+  {
+    "word": "appropriate",
+    "definition": "suitable for a particular person, place, or situation",
+    "example": "Genes code for proteins that attach to the genome at the appropriate positions and switch on a series of reactions called gene expression.",
+    "progress": 0
+  },
+  {
+    "word": "exposure",
+    "definition": "the state of being vulnerable to something",
+    "example": "DNA mutations can also be introduced by toxic chemicals and, particularly in skin cells, exposure to ultraviolet radiation.",
+    "progress": 0
+  },
+  {
+    "word": "throughout",
+    "definition": "from first to last",
+    "example": "In addition, mutations in mtDNA are able to accumulate throughout an individual's lifetime.",
+    "progress": 0
+  },
+  {
+    "word": "vicinity",
+    "definition": "a surrounding or nearby region",
+    "example": "Methylation frequently occurs at cytosine residues that are preceded by guanine bases, oftentimes in the vicinity of promoter sequences.",
+    "progress": 0
+  },
+  {
+    "word": "persist",
+    "definition": "refuse to stop",
+    "example": "Although most defective cells die quickly, some can persist and may even become cancerous if the mutation affects the ability to regulate cell growth.",
+    "progress": 0
+  },
+  {
+    "word": "percentage",
+    "definition": "a proportion in relation to a whole",
+    "example": "Only a small percentage of the 3 billion bases in the human genome becomes an expressed gene product.",
+    "progress": 0
+  },
+  {
+    "word": "grab",
+    "definition": "take or seize suddenly",
+    "example": "The location and base sequence of each promoter site vary for prokaryotes (bacteria) and eukaryotes (higher organisms), but they are both recognized by RNA polymerase, which can then grab hold of the sequence and drive the production of an mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "feminine",
+    "definition": "associated with women and not with men",
+    "example": "X-linked traits not related to feminine body characteristics are primarily expressed in the phenotype of men.",
+    "progress": 0
+  },
+  {
+    "word": "compact",
+    "definition": "closely and firmly united or packed together",
+    "example": "The inactivated X chromosomes become highly compacted structures known as Barr bodies.",
+    "progress": 0
+  },
+  {
+    "word": "reduction",
+    "definition": "the act of decreasing something",
+    "example": "This reduction is accomplished through a process called meiosis, where one chromosome in a diploid pair is sent to each daughter gamete.",
+    "progress": 0
+  },
+  {
+    "word": "technique",
+    "definition": "a practical method or art applied to some particular task",
+    "example": "Today, molecular genetic techniques exist that can assist researchers in tracking the transmission of traits by pinpointing the location of individual genes, identifying allelic variants, and identifying those traits that are caused by multiple genes.",
+    "progress": 0
+  },
+  {
+    "word": "lack",
+    "definition": "the state of needing something that is absent or unavailable",
+    "example": "This theory is also supported by the existence of a eukaryotic organism, called the amoeba, which lacks mitochondria.",
+    "progress": 0
+  },
+  {
+    "word": "involve",
+    "definition": "contain as a part",
+    "example": "Because the mitochondria produce energy in cells, symptoms of mitochondrial diseases often involve degeneration or functional failure of tissue.",
+    "progress": 0
+  },
+  {
+    "word": "appreciation",
+    "definition": "understanding of the nature or meaning of something",
+    "example": "Therefore, an understanding of DNA, gene structure, and function is fundamental for an appreciation of the molecular biology of the cell.",
+    "progress": 0
+  },
+  {
+    "word": "portion",
+    "definition": "something determined in relation to a thing that includes it",
+    "example": "In the human genome, the coding portions of a gene, called exons, are interrupted by intervening sequences, called introns.",
+    "progress": 0
+  },
+  {
+    "word": "stretch",
+    "definition": "extend one's limbs or muscles, or the entire body",
+    "example": "In addition, a eukaryotic gene does not code for a protein in one continuous stretch of DNA.",
+    "progress": 0
+  },
+  {
+    "word": "separate",
+    "definition": "standing apart; not attached to or supported by anything",
+    "example": "The most highly repeated sequences found so far in mammals are called \"satellite DNA\" because their unusual composition allows them to be easily separated from other DNA.",
+    "progress": 0
+  },
+  {
+    "word": "behavior",
+    "definition": "the way a person acts toward other people",
+    "example": "Nonetheless, he correctly surmised the behavior of traits and the mathematical predictions of their transmission, the independent segregation of alleles during gamete production, and the independent assortment of genes.",
+    "progress": 0
+  },
+  {
+    "word": "associate",
+    "definition": "bring or come into action",
+    "example": "These defects are associated with Parkinson's and Alzheimer's disease, although it is not known whether the defects actually cause or are a direct result of the diseases.",
+    "progress": 0
+  },
+  {
+    "word": "multiply",
+    "definition": "combine by adding the same number repeatedly",
+    "example": "Upon fertilization, an egg cell begins to multiply to produce a ball of cells that are all the same.",
+    "progress": 0
+  },
+  {
+    "word": "ensure",
+    "definition": "make certain of",
+    "example": "The centromere, shown at the center of this chromosome, is a specialized structure that appears during cell division and ensures the correct distribution of duplicated chromosomes to daughter cells.",
+    "progress": 0
+  },
+  {
+    "word": "subsequently",
+    "definition": "happening at a time later than another time",
+    "example": "Subsequently, genes on that chromosome that do not code for gender are expressed in the male phenotype, even if they are recessive.",
+    "progress": 0
+  },
+  {
+    "word": "direction",
+    "definition": "a line leading to a place or point",
+    "example": "A DNA chain, also called a strand, has a sense of direction, in which one end is chemically different than the other.",
+    "progress": 0
+  },
+  {
+    "word": "subordinate",
+    "definition": "an assistant subject to the authority or control of another",
+    "example": "A gene that masks the phenotypic effect of another gene is called an epistatic gene; the gene it subordinates is the hypostatic gene.",
+    "progress": 0
+  },
+  {
+    "word": "reduce",
+    "definition": "make smaller",
+    "example": "Thus, alternate transcripts from a single gene could reduce the chances that a mutated gene is transmitted.",
+    "progress": 0
+  },
+  {
+    "word": "indication",
+    "definition": "the act of pointing out by name",
+    "example": "This provides a reliable indication of the beginning and end of the coding region for that gene.",
+    "progress": 0
+  },
+  {
+    "word": "intrigue",
+    "definition": "a crafty and involved plot to achieve your ends",
+    "example": "Considerable intrigue surrounds the effects of DNA methylation, and many researchers are working to unlock the mystery behind this concept.",
+    "progress": 0
+  },
+  {
+    "word": "probability",
+    "definition": "a measure of how likely it is that some event will occur",
+    "example": "Therefore, the probability that a particular allele will be inherited is 50:50, that is, alleles randomly and independently segregate into daughter cells, although there are some exceptions to this rule.",
+    "progress": 0
+  },
+  {
+    "word": "determined",
+    "definition": "having been learned or found especially by investigation",
+    "example": "In this way, the ribosomal complex builds a protein one amino acid at a time, with the order of amino acids determined precisely by the order of the codons in the mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "discussion",
+    "definition": "an extended communication dealing with a particular topic",
+    "example": "Our discussion here is restricted to sexually reproducing organisms where each gene in an individual is represented by two copies, called alleles-one on each chromosome pair.",
+    "progress": 0
+  },
+  {
+    "word": "status",
+    "definition": "the condition or someone or something at a particular time",
+    "example": "The methylation status of DNA often correlates with its functional activity, where inactive genes tend to be more heavily methylated.",
+    "progress": 0
+  },
+  {
+    "word": "arise",
+    "definition": "move upward",
+    "example": "Genes instruct each cell type- such as skin, brain, and liver-to make discrete sets of proteins at just the right times, and it is through this specificity that unique organisms arise.",
+    "progress": 0
+  },
+  {
+    "word": "assembly",
+    "definition": "a group of persons gathered together for a common purpose",
+    "example": "Ribonucleic Acids\nIn addition to mRNA, DNA codes for other forms of RNA, including ribosomal RNAs (rRNAs), transfer RNAs (tRNAs), and small nuclear RNAs (snRNAs). rRNAs and tRNAs participate in protein assembly whereas snRNAs aid in a process called splicing -the process of editing of mRNA before it can be used as a template for protein synthesis.",
+    "progress": 0
+  },
+  {
+    "word": "understanding",
+    "definition": "the condition of someone who knows and comprehends",
+    "example": "Although there is no known cure for the thalassemias, there are medical treatments that have been developed based on our current understanding of both gene regulation and cell differentiation.",
+    "progress": 0
+  },
+  {
+    "word": "survive",
+    "definition": "continue in existence after",
+    "example": "On the other hand, if a single mutation affects several alternate transcripts at once, it is more likely that the effect will be devastating-the individual may not survive to contribute to the next generation.",
+    "progress": 0
+  },
+  {
+    "word": "several",
+    "definition": "of an indefinite number more than 2 or 3 but not many",
+    "example": "On the other hand, if a single mutation affects several alternate transcripts at once, it is more likely that the effect will be devastating-the individual may not survive to contribute to the next generation.",
+    "progress": 0
+  },
+  {
+    "word": "condition",
+    "definition": "a mode of being or form of existence of a person or thing",
+    "example": "Gene expression, as reflected in an organism's phenotype, is based on conditions specific for each copy of a gene.",
+    "progress": 0
+  },
+  {
+    "word": "stumble",
+    "definition": "miss a step and fall or nearly fall",
+    "example": "Transcription terminates when the polymerase stumbles upon a termination, or stop signal.",
+    "progress": 0
+  },
+  {
+    "word": "error",
+    "definition": "a wrong action attributable to bad judgment or ignorance",
+    "example": "For example, as your skin cells prepare to divide and produce new skin cells, errors may be inadvertently introduced when the DNA is duplicated, resulting in a daughter cell that contains the error.",
+    "progress": 0
+  },
+  {
+    "word": "phase",
+    "definition": "any distinct time period in a sequence of events",
+    "example": "Most genetic variation occurs during the phases of the cell cycle when DNA is duplicated.",
+    "progress": 0
+  },
+  {
+    "word": "bulk",
+    "definition": "the property possessed by a large mass",
+    "example": "Although DNA is the carrier of genetic information in a cell, proteins do the bulk of the work.",
+    "progress": 0
+  },
+  {
+    "word": "thus",
+    "definition": "from that fact or reason or as a result",
+    "example": "Thus, A-T and G-C base pairs are said to be complementary.",
+    "progress": 0
+  },
+  {
+    "word": "atom",
+    "definition": "the smallest component of an element",
+    "example": "RNA has a 2' oxygen atom that is not present in DNA.",
+    "progress": 0
+  },
+  {
+    "word": "experiment",
+    "definition": "the act of conducting a controlled test or investigation",
+    "example": "Determining the allelic condition used to be accomplished solely through the analysis of pedigrees, much the way Mendel carried out his experiments on peas.",
+    "progress": 0
+  },
+  {
+    "word": "so-called",
+    "definition": "doubtful or suspect",
+    "example": "The so-called 5' end terminates in a 5' phosphate group (-PO4); the 3' end terminates in a 3' hydroxyl group (-OH).",
+    "progress": 0
+  },
+  {
+    "word": "discuss",
+    "definition": "consider or examine in speech or writing",
+    "example": "We just discussed that the journey from DNA to mRNA to protein requires that a cell identify where a gene begins and ends.",
+    "progress": 0
+  },
+  {
+    "word": "apparent",
+    "definition": "clearly revealed to the mind or the senses or judgment",
+    "example": "A codominant allele is apparent even if only one is present; a recessive allele is apparent only if two recessive alleles are present.",
+    "progress": 0
+  },
+  {
+    "word": "serve",
+    "definition": "devote one's life or efforts to, as of countries or ideas",
+    "example": "It is still unclear what all the functions of introns are, but scientists believe that some serve as the site for recombination, the process by which progeny derive a combination of genes different from that of either parent, resulting in novel genes with new combinations of exons, the key to evolution.",
+    "progress": 0
+  },
+  {
+    "word": "develop",
+    "definition": "progress or evolve through a process of natural growth",
+    "example": "There are numerous forms of this \"repetitive DNA\", and a few have known functions, such as stabilizing the chromosome structure or inactivating one of the two X chromosomes in developing females, a process called X-inactivation.",
+    "progress": 0
+  },
+  {
+    "word": "need",
+    "definition": "require or want",
+    "example": "Every organism, including humans, has a genome that contains all of the biological information needed to build and maintain a living example of that organism.",
+    "progress": 0
+  },
+  {
+    "word": "section",
+    "definition": "one of several parts or pieces that fit with others",
+    "example": "Even more variation is possible when you consider the recombination between sections of chromosomes during meiosis as well as the random mutation that can occur during DNA replication.",
+    "progress": 0
+  },
+  {
+    "word": "participate",
+    "definition": "be involved in",
+    "example": "Ribonucleic Acids\nIn addition to mRNA, DNA codes for other forms of RNA, including ribosomal RNAs (rRNAs), transfer RNAs (tRNAs), and small nuclear RNAs (snRNAs). rRNAs and tRNAs participate in protein assembly whereas snRNAs aid in a process called splicing -the process of editing of mRNA before it can be used as a template for protein synthesis.",
+    "progress": 0
+  },
+  {
+    "word": "boundary",
+    "definition": "the line indicating the limit or extent of something",
+    "example": "In the absence of a complete mRNA sequence, the boundaries can be estimated by ever-improving, but still inexact, gene prediction software.",
+    "progress": 0
+  },
+  {
+    "word": "presence",
+    "definition": "current existence",
+    "example": "The energy-conversion process that takes place in the mitochondria takes place aerobically, in the presence of oxygen.",
+    "progress": 0
+  },
+  {
+    "word": "infect",
+    "definition": "contaminate with a disease",
+    "example": "A mutation within such an enzyme may result in a new form that still allows the virus to infect its host but that is no longer blocked by an anti-viral drug.",
+    "progress": 0
+  },
+  {
+    "word": "attach",
+    "definition": "be in contact with",
+    "example": "Genes code for proteins that attach to the genome at the appropriate positions and switch on a series of reactions called gene expression.",
+    "progress": 0
+  },
+  {
+    "word": "novel",
+    "definition": "an extended fictional work in prose",
+    "example": "It is still unclear what all the functions of introns are, but scientists believe that some serve as the site for recombination, the process by which progeny derive a combination of genes different from that of either parent, resulting in novel genes with new combinations of exons, the key to evolution.",
+    "progress": 0
+  },
+  {
+    "word": "depend",
+    "definition": "be determined by something else",
+    "example": "There are alpha and beta thalassemias, defined by the defective gene, and there are variations of each of these, depending on whether the embryonic, fetal, or adult forms are affected and/or expressed.",
+    "progress": 0
+  },
+  {
+    "word": "prevent",
+    "definition": "keep from happening or arising; make impossible",
+    "example": "Repressor proteins prevent a gene from being expressed.",
+    "progress": 0
+  },
+  {
+    "word": "frequently",
+    "definition": "many times at short intervals",
+    "example": "Methylation frequently occurs at cytosine residues that are preceded by guanine bases, oftentimes in the vicinity of promoter sequences.",
+    "progress": 0
+  },
+  {
+    "word": "athlete",
+    "definition": "a person trained to compete in sports",
+    "example": "The presence of Barr bodies has been used at international sport competitions as a test to determine whether an athlete is a male or a female.",
+    "progress": 0
+  },
+  {
+    "word": "interrupt",
+    "definition": "make a break in",
+    "example": "In the human genome, the coding portions of a gene, called exons, are interrupted by intervening sequences, called introns.",
+    "progress": 0
+  },
+  {
+    "word": "machinery",
+    "definition": "mechanical or electrical devices collectively",
+    "example": "The mRNA carries the information encoded in DNA out of the nucleus to the protein assembly machinery, called the ribosome, in the cytoplasm.",
+    "progress": 0
+  },
+  {
+    "word": "draft",
+    "definition": "a current of air",
+    "example": "In February 2001, two largely independent draft versions of the human genome were published.",
+    "progress": 0
+  },
+  {
+    "word": "typical",
+    "definition": "exhibiting the qualities that identify a group or kind",
+    "example": "Cells that compose tissues in multicellular organisms typically replicate by organized duplication and spatial separation of their cellular genetic material, a process called mitosis.",
+    "progress": 0
+  },
+  {
+    "word": "complicate",
+    "definition": "make less simple",
+    "example": "To further complicate matters, globin is made from two different protein chains: an alpha-like chain coded for on chromosome 16; and a beta-like chain coded for on chromosome 11.",
+    "progress": 0
+  },
+  {
+    "word": "organized",
+    "definition": "methodical and efficient in arrangement or function",
+    "example": "Cells that compose tissues in multicellular organisms typically replicate by organized duplication and spatial separation of their cellular genetic material, a process called mitosis.",
+    "progress": 0
+  },
+  {
+    "word": "reaction",
+    "definition": "an idea evoked by some experience",
+    "example": "Genes code for proteins that attach to the genome at the appropriate positions and switch on a series of reactions called gene expression.",
+    "progress": 0
+  },
+  {
+    "word": "ignore",
+    "definition": "refuse to acknowledge",
+    "example": "Perhaps as amazing as Mendel's discoveries was the fact that his work was largely ignored by the scientific community for over 30 years!",
+    "progress": 0
+  },
+  {
+    "word": "exquisite",
+    "definition": "delicately beautiful",
+    "example": "This exquisite control requires multiple regulatory input points.",
+    "progress": 0
+  },
+  {
+    "word": "coin",
+    "definition": "a flat metal piece (usually a disc) used as money",
+    "example": "In 1909, Danish botanist Wilhelm Johanssen coined the word gene for the hereditary unit found on a chromosome.",
+    "progress": 0
+  },
+  {
+    "word": "division",
+    "definition": "the act of partitioning",
+    "example": "Although they do not play a role in the coding of proteins, they do play a significant role in chromosome structure, duplication, and cell division.",
+    "progress": 0
+  },
+  {
+    "word": "program",
+    "definition": "a series of steps to be carried out",
+    "example": "When the complete mRNA sequence for a gene is known, computer programs are used to align the mRNA sequence with the appropriate region of the genomic DNA sequence.",
+    "progress": 0
+  },
+  {
+    "word": "distribution",
+    "definition": "the act of spreading or apportioning",
+    "example": "The centromere, shown at the center of this chromosome, is a specialized structure that appears during cell division and ensures the correct distribution of duplicated chromosomes to daughter cells.",
+    "progress": 0
+  },
+  {
+    "word": "variable",
+    "definition": "something that is likely to change",
+    "example": "The highly variable nature of these sequences makes them an excellent \"marker\" by which individuals can be identified based on their unique pattern of their satellite DNA.",
+    "progress": 0
+  },
+  {
+    "word": "subtle",
+    "definition": "difficult to detect or grasp by the mind or analyze",
+    "example": "Transcription can also be regulated by subtle variations in DNA structure and by chemical changes in the bases to which transcription factors bind.",
+    "progress": 0
+  },
+  {
+    "word": "state",
+    "definition": "the way something is with respect to its main attributes",
+    "example": "As stated previously, the chemical properties of the four DNA bases differ slightly, providing each base with unique opportunities to chemically react with other molecules.",
+    "progress": 0
+  },
+  {
+    "word": "blind",
+    "definition": "unable to see",
+    "example": "These include the genes for hemophilia, red-green color blindness, and congenital night blindness.",
+    "progress": 0
+  },
+  {
+    "word": "horizon",
+    "definition": "the line at which the sky and Earth appear to meet",
+    "example": "With continuing research in the areas of gene regulation and cell differentiation, new and more effective treatments may soon be on the horizon, such as the advent of gene transfer therapies.",
+    "progress": 0
+  },
+  {
+    "word": "complete",
+    "definition": "having all necessary qualities",
+    "example": "Today we know that a single gene consists of a unique sequence of DNA that provides the complete instructions to make a functional product, called a protein.",
+    "progress": 0
+  },
+  {
+    "word": "disorder",
+    "definition": "a condition in which things are not in their expected places",
+    "example": "Examples of recessive disorders in humans include sickle cell anemia, Tay-Sachs disease, and phenylketonuria (PKU).",
+    "progress": 0
+  },
+  {
+    "word": "distinct",
+    "definition": "constituting a separate entity or part",
+    "example": "In 1866, Gregor Mendel studied the transmission of seven different pea traits by carefully test-crossing many distinct varieties of peas.",
+    "progress": 0
+  },
+  {
+    "word": "brain",
+    "definition": "the organ that is the center of the nervous system",
+    "example": "Genes instruct each cell type- such as skin, brain, and liver-to make discrete sets of proteins at just the right times, and it is through this specificity that unique organisms arise.",
+    "progress": 0
+  },
+  {
+    "word": "instructions",
+    "definition": "a manual explaining how to install or operate a device",
+    "example": "Today we know that a single gene consists of a unique sequence of DNA that provides the complete instructions to make a functional product, called a protein.",
+    "progress": 0
+  },
+  {
+    "word": "actually",
+    "definition": "in fact",
+    "example": "These defects are associated with Parkinson's and Alzheimer's disease, although it is not known whether the defects actually cause or are a direct result of the diseases.",
+    "progress": 0
+  },
+  {
+    "word": "consist",
+    "definition": "have its essential character",
+    "example": "Today we know that a single gene consists of a unique sequence of DNA that provides the complete instructions to make a functional product, called a protein.",
+    "progress": 0
+  },
+  {
+    "word": "partial",
+    "definition": "being or affecting only a segment",
+    "example": "Because of the effects of an epistatic gene, some individuals who inherit the dominant, disease-causing gene show only partial symptoms of the disease.",
+    "progress": 0
+  },
+  {
+    "word": "existence",
+    "definition": "the state or fact of being",
+    "example": "This theory is also supported by the existence of a eukaryotic organism, called the amoeba, which lacks mitochondria.",
+    "progress": 0
+  },
+  {
+    "word": "necessarily",
+    "definition": "in such a manner as could not be otherwise",
+    "example": "Sequences that are important in regulating transcription do not necessarily code for transcription factors or other proteins.",
+    "progress": 0
+  },
+  {
+    "word": "suitable",
+    "definition": "meant or adapted for an occasion or use",
+    "example": "This complementary base pairing is what makes DNA a suitable molecule for carrying our genetic information-one strand of DNA can act as a template to direct the synthesis of a complementary strand.",
+    "progress": 0
+  },
+  {
+    "word": "area",
+    "definition": "the extent of a two-dimensional surface within a boundary",
+    "example": "These include: open reading frames, stretches of DNA, usually greater than 100 bases, that are not interrupted by a stop codon such as TAA, TAG or TGA; start codons such as ATG; specific sequences found at splice junctions, a location in the DNA sequence where RNA removes the non-coding areas to form a continuous gene transcript for translation into a protein; and gene regulatory sequences.",
+    "progress": 0
+  },
+  {
+    "word": "competition",
+    "definition": "the act of contending with others for rewards or resources",
+    "example": "The presence of Barr bodies has been used at international sport competitions as a test to determine whether an athlete is a male or a female.",
+    "progress": 0
+  },
+  {
+    "word": "divide",
+    "definition": "a serious disagreement between two groups of people",
+    "example": "The biological information contained in a genome is encoded in its deoxyribonucleic acid (DNA) and is divided into discrete units called genes.",
+    "progress": 0
+  },
+  {
+    "word": "modify",
+    "definition": "cause to change; make different",
+    "example": "This system also precisely controls the amount of a gene product that is produced and can further modify the product after it is made.",
+    "progress": 0
+  },
+  {
+    "word": "phenomenon",
+    "definition": "any state or process known through the senses",
+    "example": "Pleiotropism, or pleotrophy, refers to the phenomenon in which a single gene is responsible for producing multiple, distinct, and apparently unrelated phenotypic traits, that is, an individual can exhibit many different phenotypic outcomes.",
+    "progress": 0
+  },
+  {
+    "word": "generate",
+    "definition": "bring into existence",
+    "example": "Large numbers of mitochondria are found in the tail of sperm, providing them with an engine that generates the energy needed for swimming toward the egg.",
+    "progress": 0
+  },
+  {
+    "word": "meaning",
+    "definition": "the message that is intended or expressed or signified",
+    "example": "This means that the gene's sequence is slightly different in the two individuals, and the gene is said to be polymorphic, \"poly\" meaning many and \"morph\" meaning shape or form.",
+    "progress": 0
+  },
+  {
+    "word": "population",
+    "definition": "the people who inhabit a territory or state",
+    "example": "There may be more than two alleles, or variants, for a given gene in a population, but only two alleles can be found in an individual.",
+    "progress": 0
+  },
+  {
+    "word": "consistent",
+    "definition": "the same throughout in structure or composition",
+    "example": "Fortunately, the middle of a gene, referred to as the core gene sequence--has enough consistent features to allow more reliable predictions.",
+    "progress": 0
+  },
+  {
+    "word": "cause",
+    "definition": "events that provide the generative force of something",
+    "example": "There are many diseases caused by mutations in mitochondrial DNA (mtDNA).",
+    "progress": 0
+  },
+  {
+    "word": "target",
+    "definition": "a reference point to shoot at",
+    "example": "Close to the promoter region is another cis-acting site called the operator, the target for the repressor protein.",
+    "progress": 0
+  },
+  {
+    "word": "messenger",
+    "definition": "a person who carries a communication to a recipient",
+    "example": "For example, all genes that code for proteins are first made into an RNA strand in the nucleus called a messenger RNA (mRNA).",
+    "progress": 0
+  },
+  {
+    "word": "concentrate",
+    "definition": "make denser, stronger, or purer",
+    "example": "Mitochondrial DNA mutations can also concentrate in the mitochondria of specific tissues.",
+    "progress": 0
+  },
+  {
+    "word": "repeated",
+    "definition": "recurring again and again",
+    "example": "Forty to forty-five percent of our genome is made up of short sequences that are repeated, sometimes hundreds of times.",
+    "progress": 0
+  },
+  {
+    "word": "indicate",
+    "definition": "designate a place, direction, person, or thing",
+    "example": "The problem is the lack of a single sequence pattern that indicates the beginning or end of a eukaryotic gene.",
+    "progress": 0
+  },
+  {
+    "word": "instruct",
+    "definition": "impart skills or knowledge to",
+    "example": "Genes instruct each cell type- such as skin, brain, and liver-to make discrete sets of proteins at just the right times, and it is through this specificity that unique organisms arise.",
+    "progress": 0
+  },
+  {
+    "word": "possible",
+    "definition": "capable of happening or existing",
+    "example": "Because mitochondria have their own DNA, RNA, and ribosomes, this scenario is quite possible.",
+    "progress": 0
+  },
+  {
+    "word": "create",
+    "definition": "bring into existence",
+    "example": "The chemical nature of the bases in double-stranded DNA creates a slight twisting force that gives DNA its characteristic gently coiled structure, known as the double helix.",
+    "progress": 0
+  },
+  {
+    "word": "adapt",
+    "definition": "make fit for, or change to suit a new purpose",
+    "example": "Mutations also provide a species with the opportunity to adapt to new environments, as well as to protect a species from new pathogens.",
+    "progress": 0
+  },
+  {
+    "word": "through",
+    "definition": "having finished or arrived at completion",
+    "example": "Genes instruct each cell type- such as skin, brain, and liver-to make discrete sets of proteins at just the right times, and it is through this specificity that unique organisms arise.",
+    "progress": 0
+  },
+  {
+    "word": "affect",
+    "definition": "have an influence upon",
+    "example": "On the other hand, if a single mutation affects several alternate transcripts at once, it is more likely that the effect will be devastating-the individual may not survive to contribute to the next generation.",
+    "progress": 0
+  },
+  {
+    "word": "deposit",
+    "definition": "the act of putting something somewhere",
+    "example": "It is speculated that there may be other genes that control other factors, such as the amount of pigment deposited in the iris.",
+    "progress": 0
+  },
+  {
+    "word": "studied",
+    "definition": "produced or marked by conscious design or premeditation",
+    "example": "In 1866, Gregor Mendel studied the transmission of seven different pea traits by carefully test-crossing many distinct varieties of peas.",
+    "progress": 0
+  },
+  {
+    "word": "react",
+    "definition": "show a response to something",
+    "example": "As stated previously, the chemical properties of the four DNA bases differ slightly, providing each base with unique opportunities to chemically react with other molecules.",
+    "progress": 0
+  },
+  {
+    "word": "acquired",
+    "definition": "gotten through environmental forces",
+    "example": "This does not mean, however, that somatic cell mutations, sometimes called acquired mutations, are benign.",
+    "progress": 0
+  },
+  {
+    "word": "effect",
+    "definition": "a phenomenon that is caused by some previous phenomenon",
+    "example": "By allowing some of the random changes in DNA to have no effect on the ultimate protein sequence, a sort of genetic safety net is created.",
+    "progress": 0
+  },
+  {
+    "word": "feature",
+    "definition": "a prominent attribute or aspect of something",
+    "example": "This editing process removes the introns, joins the exons together, and adds unique features to each end of the transcript to make a \"mature\" mRNA.",
+    "progress": 0
+  },
+  {
+    "word": "modern",
+    "definition": "ahead of the times",
+    "example": "It has also been used to identify an ancient maternal lineage from which modern man evolved.",
+    "progress": 0
+  },
+  {
+    "word": "healthy",
+    "definition": "free from infirmity or disease",
+    "example": "In this case, the germ line cell is healthy, and the mutation is introduced during the actual process of gamete replication.",
+    "progress": 0
+  },
+  {
+    "word": "previously",
+    "definition": "at an earlier time or formerly",
+    "example": "As stated previously, the chemical properties of the four DNA bases differ slightly, providing each base with unique opportunities to chemically react with other molecules.",
+    "progress": 0
+  },
+  {
+    "word": "twist",
+    "definition": "cause an object to assume a curved or distorted shape",
+    "example": "The chemical nature of the bases in double-stranded DNA creates a slight twisting force that gives DNA its characteristic gently coiled structure, known as the double helix.",
+    "progress": 0
+  },
+  {
+    "word": "tendency",
+    "definition": "an inclination to do something",
+    "example": "Telomeres play a critical role in chromosome replication and maintenance by counteracting the tendency of the chromosome to otherwise shorten with each round of replication.",
+    "progress": 0
+  },
+  {
+    "word": "method",
+    "definition": "a way of doing something, especially a systematic way",
+    "example": "Comparing the presence or absence of pseudogenes is one method used by evolutionary geneticists to group species and to determine relatedness.",
+    "progress": 0
+  },
+  {
+    "word": "suggest",
+    "definition": "make a proposal; declare a plan for something",
+    "example": "There is even a theory, the Mitochondrial Theory of Aging, that suggests that accumulation of mutations in mitochondria contributes to, or drives, the aging process.",
+    "progress": 0
+  },
+  {
+    "word": "assign",
+    "definition": "select something or someone for a specific purpose",
+    "example": "However, we still have to make guesses at the actual number of genes, because not all of the human genome sequence is annotated and not all of the known sequence has been assigned a particular position in the genome.",
+    "progress": 0
+  },
+  {
+    "word": "evidence",
+    "definition": "knowledge on which to base belief",
+    "example": "However, evidence suggests that the mutations contribute to the progression of both diseases.",
+    "progress": 0
+  },
+  {
+    "word": "heavily",
+    "definition": "slowly, as if burdened by much weight",
+    "example": "The methylation status of DNA often correlates with its functional activity, where inactive genes tend to be more heavily methylated.",
+    "progress": 0
+  },
+  {
+    "word": "store",
+    "definition": "a mercantile establishment for the sale of goods or services",
+    "example": "This is because mitochondria are responsible for converting the energy stored in macromolecules into a form usable by the cell, namely, the adenosine triphosphate (ATP) molecule.",
+    "progress": 0
+  },
+  {
+    "word": "aid",
+    "definition": "the activity of contributing to the fulfillment of a need",
+    "example": "Ribonucleic Acids\nIn addition to mRNA, DNA codes for other forms of RNA, including ribosomal RNAs (rRNAs), transfer RNAs (tRNAs), and small nuclear RNAs (snRNAs). rRNAs and tRNAs participate in protein assembly whereas snRNAs aid in a process called splicing -the process of editing of mRNA before it can be used as a template for protein synthesis.",
+    "progress": 0
+  },
+  {
+    "word": "ultimate",
+    "definition": "furthest or highest in degree or order; utmost or extreme",
+    "example": "By allowing some of the random changes in DNA to have no effect on the ultimate protein sequence, a sort of genetic safety net is created.",
+    "progress": 0
+  },
+  {
+    "word": "elements",
+    "definition": "violent or severe weather",
+    "example": "Although it is true that proteins are the major components of structural elements in a cell, proteins are also the real workhorses of the cell.",
+    "progress": 0
+  },
+  {
+    "word": "muscle",
+    "definition": "animal tissue consisting predominantly of contractile cells",
+    "example": "Cells often have multiple mitochondria, particularly cells requiring lots of energy, such as active muscle cells.",
+    "progress": 0
+  },
+  {
+    "word": "study",
+    "definition": "applying the mind to learning and understanding a subject",
+    "example": "By studying patterns of mutations, scientists are able to reconstruct patterns of migration and evolution within and between species.",
+    "progress": 0
+  },
+  {
+    "word": "differ",
+    "definition": "be dissimilar or unlike",
+    "example": "These redundant codons usually differ at the third position.",
+    "progress": 0
+  },
+  {
+    "word": "exist",
+    "definition": "have a presence",
+    "example": "Other fundamental structural differences exist.",
+    "progress": 0
+  },
+  {
+    "word": "technology",
+    "definition": "the practical application of science to commerce or industry",
+    "example": "The last section of the genetic primer concludes with a discussion of some of the laboratory tools and technologies that allow researchers to study cells and their DNA.",
+    "progress": 0
+  },
+  {
+    "word": "opportunity",
+    "definition": "a possibility from a favorable combination of circumstances",
+    "example": "As stated previously, the chemical properties of the four DNA bases differ slightly, providing each base with unique opportunities to chemically react with other molecules.",
+    "progress": 0
+  },
+  {
+    "word": "explain",
+    "definition": "make plain and comprehensible",
+    "example": "This explains why women are frequently carriers of X-linked traits but more rarely have them expressed in their own phenotypes.",
+    "progress": 0
+  },
+  {
+    "word": "learned",
+    "definition": "having or showing profound knowledge",
+    "example": "The developmentally regulated transcription of globin is controlled by a number of cis-acting DNA sequences, and although there remains a lot to be learned about the interaction of these sequences, one known control sequence is an enhancer called the Locus Control Region (LCR).",
+    "progress": 0
+  }
+]

@@ -250,6 +250,7 @@ h4 {
 }
 .results-item__add img {
   width: 100%;
+  opacity: 0.5;
 }
 .results-item__example {
   border-top: 1px solid rgba(125, 125, 125, 0.15);
