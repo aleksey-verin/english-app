@@ -5,12 +5,9 @@ import Remove from '../../images/remove.png';
 import Loader from '../Loader';
 import { selectorResult } from '../../store/reducers/requestWordSlice';
 import { useSelector, useDispatch } from 'react-redux';
-import { getUserDictionary, selectorDictionary } from '../../store/reducers/userDictionarySlice';
-import { addInUserDictionary } from '../../store/reducers/addInUserDictionarySlice';
-import {
-  updateInUserDictionary,
-  updateTypes
-} from '../../store/reducers/updateInUserDictionarySlice';
+import { addInDictionary } from '../../store/reducers/addInDictionarySlice';
+import { updateInDictionary, updateTypes } from '../../store/reducers/updateInDictionarySlice';
+import { getDictionary, selectorDictionary } from '../../store/reducers/dictionarySlice';
 
 const Results = () => {
   const dispatch = useDispatch();
@@ -20,7 +17,7 @@ const Results = () => {
   if (isLoading) return <Loader />;
 
   const isWordInDictionary = dictionary.find((item) => item.word === word);
-  console.log(isWordInDictionary);
+  // console.log(isWordInDictionary);
 
   function handleSound() {
     const sound = phonetics;
@@ -31,14 +28,14 @@ const Results = () => {
   function handleClick(word, definition) {
     if (isWordInDictionary) {
       if (isWordInDictionary.definition.includes(definition)) {
-        dispatch(updateInUserDictionary([word, definition, updateTypes.removeDefinition]));
+        dispatch(updateInDictionary([dictionary, word, definition, updateTypes.removeDefinition]));
       } else {
-        dispatch(updateInUserDictionary([word, definition, updateTypes.addDefinition]));
+        dispatch(updateInDictionary([dictionary, word, definition, updateTypes.addDefinition]));
       }
     } else {
-      dispatch(addInUserDictionary([word, definition]));
+      dispatch(addInDictionary([dictionary, word, definition]));
     }
-    dispatch(getUserDictionary());
+    dispatch(getDictionary());
   }
 
   return (

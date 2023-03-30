@@ -6,6 +6,7 @@ export const requestUser = (auth) => {
 
   return async (dispatch) => {
     try {
+      console.log('userDispatch');
       dispatch(userLogin());
       onAuthStateChanged(auth, (userAuth) => {
         if (userAuth) {

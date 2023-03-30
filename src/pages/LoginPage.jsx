@@ -4,7 +4,7 @@ import { auth } from '../utils/firebase';
 import Google from '../images/google.svg';
 import { useDispatch } from 'react-redux';
 import { requestUser } from '../store/actions/userAction';
-import { getUserDictionary } from '../store/reducers/userDictionarySlice';
+import { getDictionary } from '../store/reducers/dictionarySlice';
 
 const LoginPage = () => {
   const dispatch = useDispatch();
@@ -17,7 +17,7 @@ const LoginPage = () => {
     } = await signInWithPopup(auth, provider);
     if (email) {
       dispatch(requestUser(auth));
-      dispatch(getUserDictionary(email));
+      dispatch(getDictionary(email));
     }
   };
 

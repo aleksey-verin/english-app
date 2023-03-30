@@ -3,7 +3,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
-import { selectorDictionary } from '../../store/reducers/userDictionarySlice';
+import { selectorDictionary } from '../../store/reducers/dictionarySlice';
 
 const Title = () => {
   const { userDictionary: dictionary, isSuccess } = useSelector(selectorDictionary);

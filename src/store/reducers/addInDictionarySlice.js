@@ -11,19 +11,33 @@ const initialState = {
   isError: false
 };
 
-export const addInUserDictionary = createAsyncThunk(
-  'addInUserDictionary',
-  async ([word, definition], thunkAPI) => {
-    try {
-      if (!userEmail) return;
-      console.log('start');
-      const ref = doc(firestore, `dictionary-${userEmail}`, word);
-      await setDoc(ref, {
+export const addInDictionary = createAsyncThunk(
+  'addInDictionary',
+  async ([dictionary, word, definition], thunkAPI) => {
+    console.log('addInDictionaryDispatch');
+    const newData = [
+      {
         word,
         definition: [definition],
-        progress: 0,
-        createdAt: serverTimestamp()
+        progress: 0
+      },
+      ...dictionary
+    ];
+    console.log(newData);
+    try {
+      await setDoc(doc(firestore, `dictionary-${userEmail}`, 'user-dictionary'), {
+        dictionary: newData
       });
+
+      // if (!userEmail) return;
+      // console.log('start');
+      // const ref = doc(firestore, `dictionary-${userEmail}`, word);
+      // await setDoc(ref, {
+      //   word,
+      //   definition: [definition],
+      //   progress: 0,
+      //   createdAt: serverTimestamp()
+      // });
     } catch (error) {
       console.log(error);
       return thunkAPI.rejectWithValue(error);
@@ -31,28 +45,28 @@ export const addInUserDictionary = createAsyncThunk(
   }
 );
 
-const addInUserDictionarySlice = createSlice({
-  name: 'addInUserDictionarySlice',
+const addInDictionarySlice = createSlice({
+  name: 'addInDictionarySlice',
   initialState,
   extraReducers: (builder) => {
-    builder.addCase(addInUserDictionary.pending, (state, { payload }) => {
+    builder.addCase(addInDictionary.pending, (state, { payload }) => {
       state.isLoading = true;
       state.isError = false;
     });
-    builder.addCase(addInUserDictionary.fulfilled, (state, { payload }) => {
+    builder.addCase(addInDictionary.fulfilled, (state, { payload }) => {
       state.isSuccess = true;
       state.isLoading = false;
     });
-    builder.addCase(addInUserDictionary.rejected, (state, { payload }) => {
+    builder.addCase(addInDictionary.rejected, (state, { payload }) => {
       state.isLoading = false;
       state.isError = true;
     });
   }
 });
 
-export const selectorAddInDictionary = (state) => state.addInUserDictionarySlice;
+export const selectorAddInDictionary = (state) => state.addInDictionarySlice;
 
-export default addInUserDictionarySlice.reducer;
+export default addInDictionarySlice.reducer;
 
 // export const firestoreApi = createApi({
 //   reducerPath: 'firestoreApi',

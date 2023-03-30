@@ -1,54 +1,29 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import {
-  collection,
-  serverTimestamp,
-  doc,
-  updateDoc,
-  arrayUnion,
-  arrayRemove,
-  query,
-  where,
-  increment
-} from 'firebase/firestore';
+import { collection, getDocs, doc, getDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
-
 const userEmail = storageGetItem(storage.user)?.email;
 
 const initialState = {
+  userDictionary: null,
   isLoading: false,
   isSuccess: false,
   isError: false
 };
 
-export const updateTypes = {
-  addDefinition: 'addDefinition',
-  removeDefinition: 'removeDefinition'
-};
-
-export const updateInUserDictionary = createAsyncThunk(
-  'updateInUserDictionary',
-  async ([word, definition, type], thunkAPI) => {
-    console.log('edit');
+export const getDictionary = createAsyncThunk(
+  'getDictionary',
+  async (email = userEmail, thunkAPI) => {
+    console.log('dictionaryDispatch');
     try {
       if (!userEmail) return;
-      // const q = query(collection(firestore, `dictionary-${userEmail}`), where('word', '==', 'hot'));
-      const ref = doc(firestore, `dictionary-${userEmail}`, word);
-      switch (type) {
-        case updateTypes.addDefinition:
-          await updateDoc(ref, {
-            definition: arrayUnion(definition)
-          });
-          break;
-        case updateTypes.removeDefinition:
-          await updateDoc(ref, {
-            definition: arrayRemove(definition)
-          });
-          break;
-        default:
-          break;
+      const docRef = doc(firestore, `dictionary-${email}`, 'user-dictionary');
+      const docSnap = await getDoc(docRef);
+      if (docSnap.exists()) {
+        return docSnap.data().dictionary;
+      } else {
+        console.log('No such document!');
       }
-      // progress: increment(20)
     } catch (error) {
       console.log(error);
       return thunkAPI.rejectWithValue(error);
@@ -56,28 +31,30 @@ export const updateInUserDictionary = createAsyncThunk(
   }
 );
 
-const updateInUserDictionarySlice = createSlice({
-  name: 'updateInUserDictionarySlice',
+const dictionarySlice = createSlice({
+  name: 'dictionarySlice',
   initialState,
   extraReducers: (builder) => {
-    builder.addCase(updateInUserDictionary.pending, (state, { payload }) => {
+    builder.addCase(getDictionary.pending, (state, { payload }) => {
+      state.isSuccess = false;
       state.isLoading = true;
       state.isError = false;
     });
-    builder.addCase(updateInUserDictionary.fulfilled, (state, { payload }) => {
+    builder.addCase(getDictionary.fulfilled, (state, { payload }) => {
+      state.userDictionary = payload;
       state.isSuccess = true;
       state.isLoading = false;
     });
-    builder.addCase(updateInUserDictionary.rejected, (state, { payload }) => {
+    builder.addCase(getDictionary.rejected, (state, { payload }) => {
       state.isLoading = false;
       state.isError = true;
     });
   }
 });
 
-export const selectorUpdateInDictionary = (state) => state.updateInUserDictionarySlice;
+export const selectorDictionary = (state) => state.dictionarySlice;
 
-export default updateInUserDictionarySlice.reducer;
+export default dictionarySlice.reducer;
 
 // export const firestoreApi = createApi({
 //   reducerPath: 'firestoreApi',
@@ -104,5 +81,4 @@ export default updateInUserDictionarySlice.reducer;
 // });
 
 // export const { useFetchUserDictionaryQuery, useSetNewHighScoreMutation } = firestoreApi;
-
 // // const { data, isLoading, isSuccess, isError, error } = useFetchUserDictionaryQuery();

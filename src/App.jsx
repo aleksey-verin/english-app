@@ -6,32 +6,32 @@ import './App.css';
 import Loader from './components/Loader';
 import { selectorUser } from './store/reducers/userSlice';
 import { useEffect } from 'react';
-import { getUserDictionary } from './store/reducers/userDictionarySlice';
+import { getDictionary } from './store/reducers/dictionarySlice';
 
 function App() {
   const dispatch = useDispatch();
   const { user, loading } = useSelector(selectorUser);
 
   useEffect(() => {
-    dispatch(getUserDictionary());
+    dispatch(getDictionary());
   }, []);
 
-  const transformJSON = async () => {
-    const response = await fetch('/mockData/6365414.json');
-    const json = await response.json();
-    const data = json.wordlist.words.map((item) => ({
-      word: item.word,
-      definition: item.sense.definition,
-      // example: item.example.text,
-      progress: 0
-    }));
-    const newJson = JSON.stringify(data);
+  // const transformJSON = async () => {
+  //   const response = await fetch('/mockData/6365414.json');
+  //   const json = await response.json();
+  //   const data = json.wordlist.words.map((item) => ({
+  //     word: item.word,
+  //     definition: [item.sense.definition],
+  //     // example: item.example.text,
+  //     progress: 0
+  //   }));
+  //   const newJson = JSON.stringify(data);
 
-    console.log(newJson);
-  };
-  useEffect(() => {
-    transformJSON();
-  }, []);
+  //   console.log(newJson);
+  // };
+  // useEffect(() => {
+  //   transformJSON();
+  // }, []);
 
   if (loading) {
     return <Loader />;

@@ -1,12 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/dist/query';
 import { storage, storageSetItem } from '../utils/localstorage';
-import addInUserDictionarySlice from './reducers/addInUserDictionarySlice';
-import updateInUserDictionarySlice from './reducers/updateInUserDictionarySlice';
+import addInDictionarySlice from './reducers/addInDictionarySlice';
+import updateInDictionarySlice from './reducers/updateInDictionarySlice';
 import requestWordSlice from './reducers/requestWordSlice';
-import addBatchInDictionarySlice from './reducers/addBatchInDictionarySlice';
-// import { firestoreApi } from './reducers/userDictionaryApi';
-import userDictionarySlice from './reducers/userDictionarySlice';
+import dictionarySlice from './reducers/dictionarySlice';
 import userSlice from './reducers/userSlice';
 
 // export const rootReducer = combineReducers({
@@ -19,10 +17,9 @@ export const store = configureStore({
   reducer: {
     userSlice,
     requestWordSlice,
-    userDictionarySlice,
-    addInUserDictionarySlice,
-    updateInUserDictionarySlice,
-    addBatchInDictionarySlice
+    dictionarySlice,
+    addInDictionarySlice,
+    updateInDictionarySlice
     // [firestoreApi.reducerPath]: firestoreApi.reducer
     // [requestWordApi.reducerPath]: requestWordApi.reducer
   },

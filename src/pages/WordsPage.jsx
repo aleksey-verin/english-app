@@ -2,7 +2,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import Loader from '../components/Loader';
-import { selectorDictionary } from '../store/reducers/userDictionarySlice';
+import { selectorDictionary } from '../store/reducers/dictionarySlice';
 
 const WordsPage = () => {
   const { userDictionary: dictionary } = useSelector(selectorDictionary);

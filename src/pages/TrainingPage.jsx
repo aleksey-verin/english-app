@@ -4,16 +4,11 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Loader from '../components/Loader';
 import { TRAINING_ROUTE } from '../routes/routes';
-import {
-  addBatchInDictionary,
-  selectorAddBatchInDictionary
-} from '../store/reducers/addBatchInDictionarySlice';
-import { getUserDictionary, selectorDictionary } from '../store/reducers/userDictionarySlice';
+import { getDictionary, selectorDictionary } from '../store/reducers/dictionarySlice';
 
 const TrainingPage = () => {
   const dispatch = useDispatch();
   const { userDictionary: dictionary, isLoading, isSuccess } = useSelector(selectorDictionary);
-  const { isLoading: isLoadingAddNewWords } = useSelector(selectorAddBatchInDictionary);
 
   const scoreValues = {
     total: 0,
@@ -28,8 +23,8 @@ const TrainingPage = () => {
   if (isLoading) return <Loader />;
 
   const handleClick = () => {
-    dispatch(addBatchInDictionary('500words'));
-    dispatch(getUserDictionary());
+    // dispatch(addBatchInDictionary('500words'));
+    // dispatch(getDictionary());
   };
 
   return (
