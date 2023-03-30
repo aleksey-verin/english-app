@@ -29,7 +29,7 @@ const Title = () => {
           Total: <span>{scoreValues.total}</span> | Done: <span>{scoreValues.done}</span> |
           Training: <span>{scoreValues.training}</span>
         </div>
-        <NavLink className="score__btn btn" to={TRAINING_ROUTE}>
+        <NavLink className="score__btn btn" to={TRAINING_ROUTE.MAIN}>
           Go!
         </NavLink>
       </div>

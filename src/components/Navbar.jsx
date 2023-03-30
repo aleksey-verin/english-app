@@ -33,7 +33,7 @@ const Navbar = () => {
           <NavLink to={WORDS_ROUTE}>
             <div className="nav-item">My words</div>
           </NavLink>
-          <NavLink to={TRAINING_ROUTE}>
+          <NavLink to={TRAINING_ROUTE.MAIN}>
             <div className="nav-item">Training</div>
           </NavLink>
         </div>
