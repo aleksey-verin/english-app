@@ -7,7 +7,6 @@ import Loader from './components/Loader';
 import { selectorUser } from './store/reducers/userSlice';
 import { useEffect } from 'react';
 import { getUserDictionary } from './store/reducers/userDictionarySlice';
-import { updateInUserDictionary } from './store/reducers/UpdateInUserDictionarySlice';
 
 function App() {
   const dispatch = useDispatch();
