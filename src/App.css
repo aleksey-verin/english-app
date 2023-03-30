@@ -82,7 +82,9 @@ nav {
           backdrop-filter: blur(2px);
 }
 .login-user__image {
-  height: 100%;
+  margin-left: 2px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
 }
 .login-user__name {
