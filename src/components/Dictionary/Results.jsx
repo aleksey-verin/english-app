@@ -1,11 +1,16 @@
 /* eslint-disable react/prop-types */
 import Sound from '../../images/sound.png';
 import Add from '../../images/add.png';
+import Remove from '../../images/remove.png';
 import Loader from '../Loader';
 import { selectorResult } from '../../store/reducers/requestWordSlice';
 import { useSelector, useDispatch } from 'react-redux';
 import { getUserDictionary, selectorDictionary } from '../../store/reducers/userDictionarySlice';
 import { addInUserDictionary } from '../../store/reducers/addInUserDictionarySlice';
+import {
+  updateInUserDictionary,
+  updateTypes
+} from '../../store/reducers/updateInUserDictionarySlice';
 
 const Results = () => {
   const dispatch = useDispatch();
@@ -14,7 +19,8 @@ const Results = () => {
   const { word, meanings, phonetics } = results;
   if (isLoading) return <Loader />;
 
-  const wordInDictionary = dictionary.filter((item) => item.word === word);
+  const isWordInDictionary = dictionary.find((item) => item.word === word);
+  console.log(isWordInDictionary);
 
   function handleSound() {
     const sound = phonetics;
@@ -22,11 +28,19 @@ const Results = () => {
       new Audio(sound.audio).play();
     }
   }
-  function handleClick(e, def) {
-    if (wordInDictionary.filter((item) => item.definition === def).length) return;
-    dispatch(addInUserDictionary([word, def]));
+  function handleClick(word, definition) {
+    if (isWordInDictionary) {
+      if (isWordInDictionary.definition.includes(definition)) {
+        dispatch(updateInUserDictionary([word, definition, updateTypes.removeDefinition]));
+      } else {
+        dispatch(updateInUserDictionary([word, definition, updateTypes.addDefinition]));
+      }
+    } else {
+      dispatch(addInUserDictionary([word, definition]));
+    }
     dispatch(getUserDictionary());
   }
+
   return (
     <div className="results">
       <div className="results-info">
@@ -40,9 +54,33 @@ const Results = () => {
           <div key={i} className="results-item">
             <div className="results-item__part">{item.partOfSpeech}</div>
             <div className="results-item__definitions">
-              {item.definitions.map((definition, i) => (
-                <div key={i + 20} className="results-item__definition">
-                  {!wordInDictionary.filter((item) => item.definition === definition.definition)
+              {item.definitions.map((def, i) => (
+                <div
+                  key={i + 20}
+                  className="results-item__definition"
+                  style={
+                    isWordInDictionary.definition.includes(def.definition)
+                      ? { backgroundColor: 'aliceblue' }
+                      : null
+                  }>
+                  {isWordInDictionary ? (
+                    <div
+                      className="results-item__add"
+                      onClick={() => handleClick(word, def.definition)}>
+                      {isWordInDictionary.definition.includes(def.definition) ? (
+                        <img src={Remove} alt="add" />
+                      ) : (
+                        <img src={Add} alt="add" />
+                      )}
+                    </div>
+                  ) : (
+                    <div
+                      className="results-item__add"
+                      onClick={() => handleClick(word, def.definition)}>
+                      <img src={Add} alt="add" />
+                    </div>
+                  )}
+                  {/* {!isWordInDictionary.filter((item) => item.definition === definition.definition)
                     .length ? (
                     <div
                       className="results-item__add"
@@ -52,20 +90,20 @@ const Results = () => {
                   ) : (
                     <div className="results-item__add">
                       {`${
-                        wordInDictionary[
-                          wordInDictionary.findIndex(
+                        isWordInDictionary[
+                          isWordInDictionary.findIndex(
                             (item) => item.definition === definition.definition
                           )
                         ].progress
                       }%`}
                     </div>
-                  )}
-                  <p>{definition.definition}</p>
-                  {definition.example ? (
+                  )} */}
+                  <p>{def.definition}</p>
+                  {def.example ? (
                     <div className="results-item__example">
                       <p>
                         Example: <span></span>
-                        {definition.example}
+                        {def.example}
                       </p>
                     </div>
                   ) : null}
@@ -85,9 +123,9 @@ export default Results;
 // Если добавлять слово и массив значений для него
 // {word: cat, definitions: ['like a dog', 'kitty']}
 
-// let [wordInDictionary] = dictionary.filter((item) => item.word === word) // допускаю что есть разные слова с одинаковыми значениями
-//   if (!wordInDictionary) {
-//     wordInDictionary = { word: word, definitions: [] }
+// let [isWordInDictionary] = dictionary.filter((item) => item.word === word) // допускаю что есть разные слова с одинаковыми значениями
+//   if (!isWordInDictionary) {
+//     isWordInDictionary = { word: word, definitions: [] }
 //   }
 
 //   return (
@@ -105,7 +143,7 @@ export default Results;
 //             <div className="results-item__definitions">
 //               {item.definitions.map((definition, i) => (
 //                 <div key={i + 20} className="results-item__definition">
-//                   {!wordInDictionary.definitions.includes(
+//                   {!isWordInDictionary.definitions.includes(
 //                     definition.definition
 //                   ) ? (
 //                     <div

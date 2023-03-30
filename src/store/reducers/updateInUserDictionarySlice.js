@@ -1,5 +1,15 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { collection, serverTimestamp, doc, updateDoc, query, where } from 'firebase/firestore';
+import {
+  collection,
+  serverTimestamp,
+  doc,
+  updateDoc,
+  arrayUnion,
+  arrayRemove,
+  query,
+  where,
+  increment
+} from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
 
@@ -11,17 +21,34 @@ const initialState = {
   isError: false
 };
 
+export const updateTypes = {
+  addDefinition: 'addDefinition',
+  removeDefinition: 'removeDefinition'
+};
+
 export const updateInUserDictionary = createAsyncThunk(
   'updateInUserDictionary',
-  async (_, thunkAPI) => {
+  async ([word, definition, type], thunkAPI) => {
     console.log('edit');
     try {
       if (!userEmail) return;
       // const q = query(collection(firestore, `dictionary-${userEmail}`), where('word', '==', 'hot'));
-      const ref = doc(firestore, `dictionary-${userEmail}`, '2J2MZuIOqYYH9FBqGssj');
-      await updateDoc(ref, {
-        progress: 20
-      });
+      const ref = doc(firestore, `dictionary-${userEmail}`, word);
+      switch (type) {
+        case updateTypes.addDefinition:
+          await updateDoc(ref, {
+            definition: arrayUnion(definition)
+          });
+          break;
+        case updateTypes.removeDefinition:
+          await updateDoc(ref, {
+            definition: arrayRemove(definition)
+          });
+          break;
+        default:
+          break;
+      }
+      // progress: increment(20)
     } catch (error) {
       console.log(error);
       return thunkAPI.rejectWithValue(error);

@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { collection, serverTimestamp, addDoc } from 'firebase/firestore';
+import { collection, doc, serverTimestamp, addDoc, setDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
 
@@ -17,10 +17,10 @@ export const addInUserDictionary = createAsyncThunk(
     try {
       if (!userEmail) return;
       console.log('start');
-      const ref = collection(firestore, `dictionary-${userEmail}`);
-      await addDoc(ref, {
+      const ref = doc(firestore, `dictionary-${userEmail}`, word);
+      await setDoc(ref, {
         word,
-        definition,
+        definition: [definition],
         progress: 0,
         createdAt: serverTimestamp()
       });
