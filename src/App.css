@@ -294,7 +294,8 @@ h4 {
   text-align: center;
   font-size: 26px;
   margin-top: 10px;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px #d6d2d2;
 }
 .test-title,
 .words-title {
@@ -337,9 +338,7 @@ h4 {
   gap: 10px;
   padding: 10px 5px;
   border-bottom: solid 1px #d6d2d2;
-}
-.words-list__item:first-child {
-  border-top: solid 1px #d6d2d2;
+  justify-content: center;
 }
 .words-list__word {
   line-height: 1.6;

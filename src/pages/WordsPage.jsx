@@ -1,24 +1,27 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import Loader from '../components/Loader';
 import { selectorDictionary } from '../store/reducers/dictionarySlice';
 import Edit from '../images/edit.png';
 import { Link } from 'react-router-dom';
 import { DICTIONARY_ROUTE } from '../routes/routes';
-import { useDispatch } from 'react-redux';
 import { requestWord } from '../store/reducers/requestWordSlice';
 
 const WordsPage = () => {
   const dispatch = useDispatch();
-  const { userDictionary: dictionary } = useSelector(selectorDictionary);
-  if (!dictionary) return <Loader />;
+  const { userDictionary: dictionary, isLoading } = useSelector(selectorDictionary);
   return (
     <main className="main">
       <div className="words">
         <h1>My words</h1>
       </div>
       <div className="words-list">
+        {isLoading && (
+          <div className="words-list__item">
+            <Loader />
+          </div>
+        )}
         {dictionary.map(({ word, definition }, i) => {
           return (
             <div key={i} className="words-list__item">
