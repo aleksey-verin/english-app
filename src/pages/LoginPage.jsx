@@ -1,25 +1,39 @@
 /* eslint-disable react/prop-types */
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { auth } from '../utils/firebase';
 import Google from '../images/google.svg';
 import { useDispatch } from 'react-redux';
-import { requestUser } from '../store/actions/userAction';
 import { getDictionary } from '../store/reducers/dictionarySlice';
+import { selectorUserAuth, userAuth, userSign } from '../store/reducers/userAuthSlice';
+import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import Loader from '../components/Loader';
 
 const LoginPage = () => {
   const dispatch = useDispatch();
-  // const auth = getAuth(app);
+  const { isSuccess, isLoading } = useSelector(selectorUserAuth); // const auth = getAuth(app);
 
   const handleLogin = async () => {
-    const provider = new GoogleAuthProvider();
-    const {
-      user: { email }
-    } = await signInWithPopup(auth, provider);
-    if (email) {
-      dispatch(requestUser(auth));
-      dispatch(getDictionary(email));
-    }
+    dispatch(userAuth(userSign.in));
+
+    // const provider = new GoogleAuthProvider();
+    // const {
+    //   user: { email }
+    // } = await signInWithPopup(auth, provider);
+    //   if (email) {
+    //     console.log(email);
+    //     dispatch(requestUser(auth));
+    //     dispatch(getDictionary(email));
+    //   }
   };
+
+  // useEffect(() => {
+  //   if (isSuccess) {
+  //     dispatch(getDictionary());
+  //   }
+  // }, [isSuccess]);
+
+  if (isLoading) {
+    return <Loader />;
+  }
 
   return (
     <div className="login-container">

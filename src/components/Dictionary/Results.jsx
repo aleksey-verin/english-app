@@ -3,7 +3,7 @@ import Sound from '../../images/sound.png';
 import Add from '../../images/add.png';
 import Remove from '../../images/remove.png';
 import Loader from '../Loader';
-import { selectorResult } from '../../store/reducers/requestWordSlice';
+import { selectorRequestWord } from '../../store/reducers/requestWordSlice';
 import { useSelector, useDispatch } from 'react-redux';
 import { addInDictionary } from '../../store/reducers/addInDictionarySlice';
 import { updateInDictionary, updateTypes } from '../../store/reducers/updateInDictionarySlice';
@@ -11,12 +11,12 @@ import { getDictionary, selectorDictionary } from '../../store/reducers/dictiona
 
 const Results = () => {
   const dispatch = useDispatch();
-  const { results, isLoading } = useSelector(selectorResult);
+  const { results, isLoading } = useSelector(selectorRequestWord);
   const { userDictionary: dictionary } = useSelector(selectorDictionary);
   const { word, meanings, phonetics } = results;
   if (isLoading) return <Loader />;
 
-  const isWordInDictionary = dictionary.find((item) => item.word === word);
+  const isWordInDictionary = dictionary ? dictionary.find((item) => item.word === word) : null;
   // console.log(isWordInDictionary);
 
   function handleSound() {
@@ -26,14 +26,24 @@ const Results = () => {
     }
   }
   function handleClick(word, definition) {
+    console.log(dictionary);
     if (isWordInDictionary) {
       if (isWordInDictionary.definition.includes(definition)) {
-        dispatch(updateInDictionary([dictionary, word, definition, updateTypes.removeDefinition]));
+        dispatch(
+          updateInDictionary({
+            dictionary,
+            word,
+            def: definition,
+            type: updateTypes.removeDefinition
+          })
+        );
       } else {
-        dispatch(updateInDictionary([dictionary, word, definition, updateTypes.addDefinition]));
+        dispatch(
+          updateInDictionary({ dictionary, word, def: definition, type: updateTypes.addDefinition })
+        );
       }
     } else {
-      dispatch(addInDictionary([dictionary, word, definition]));
+      dispatch(addInDictionary({ dictionary, word, definition }));
     }
     dispatch(getDictionary());
   }

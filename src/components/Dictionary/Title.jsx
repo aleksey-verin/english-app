@@ -13,7 +13,7 @@ const Title = () => {
     done: 0,
     training: 0
   };
-  if (isSuccess) {
+  if (isSuccess && dictionary) {
     scoreValues.total = dictionary.length;
     scoreValues.done = dictionary.filter((item) => item.progress >= 100).length;
     scoreValues.training = scoreValues.total - scoreValues.done;

@@ -1,9 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { collection, doc, serverTimestamp, addDoc, setDoc } from 'firebase/firestore';
+import { doc, setDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
-
-const userEmail = storageGetItem(storage.user)?.email;
 
 const initialState = {
   isLoading: false,
@@ -13,8 +11,11 @@ const initialState = {
 
 export const addInDictionary = createAsyncThunk(
   'addInDictionary',
-  async ([dictionary, word, definition], thunkAPI) => {
+  async ({ dictionary, word, definition }, thunkAPI) => {
     console.log('addInDictionaryDispatch');
+    const email = storageGetItem(storage.user)?.email;
+    console.log(email);
+    if (!email) return;
     const newData = [
       {
         word,
@@ -25,25 +26,19 @@ export const addInDictionary = createAsyncThunk(
     ];
     console.log(newData);
     try {
-      await setDoc(doc(firestore, `dictionary-${userEmail}`, 'user-dictionary'), {
+      console.log('мы в добавлении');
+      await setDoc(doc(firestore, `dictionary-${email}`, 'user-dictionary'), {
         dictionary: newData
       });
-
-      // if (!userEmail) return;
-      // console.log('start');
-      // const ref = doc(firestore, `dictionary-${userEmail}`, word);
-      // await setDoc(ref, {
-      //   word,
-      //   definition: [definition],
-      //   progress: 0,
-      //   createdAt: serverTimestamp()
-      // });
     } catch (error) {
       console.log(error);
       return thunkAPI.rejectWithValue(error);
     }
   }
 );
+
+// Придумать реализацию: у слова есть несколько отмеченных значений; если убрать все
+// галочки, то слово должно удалиться из словаря
 
 const addInDictionarySlice = createSlice({
   name: 'addInDictionarySlice',

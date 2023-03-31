@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { getNewWord } from '../../store/reducers/requestWordSlice';
+import { requestWord } from '../../store/reducers/requestWordSlice';
 
 const Form = () => {
   const dispatch = useDispatch();
@@ -14,7 +14,7 @@ const Form = () => {
   async function handleForm(e) {
     e.preventDefault();
     if (!inputValue) return;
-    dispatch(getNewWord(inputValue));
+    dispatch(requestWord(inputValue));
     setInputValue('');
   }
 

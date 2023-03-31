@@ -6,11 +6,11 @@ import TrainingPage from '../pages/TrainingPage';
 import WordsPage from '../pages/WordsPage';
 import DictionaryPage from '../pages/DictionaryPage';
 import { useSelector } from 'react-redux';
-import { selectorUser } from '../store/reducers/userSlice';
+import { selectorUserAuth } from '../store/reducers/userAuthSlice';
 import TrainingOne from '../pages/TrainingPage/TrainingOne';
 
 const AppRouter = () => {
-  const { user } = useSelector(selectorUser);
+  const { user } = useSelector(selectorUserAuth);
 
   return user ? (
     <Routes>

@@ -1,13 +1,10 @@
 import React from 'react';
-import { useAuthState } from 'react-firebase-hooks/auth';
 import { NavLink } from 'react-router-dom';
-// import { auth } from '../utils/firebase';
 import { DICTIONARY_ROUTE, LOGIN_ROUTE, TRAINING_ROUTE, WORDS_ROUTE } from '../routes/routes';
-import { useSelector } from 'react-redux';
-import { selectorUser } from '../store/reducers/userSlice';
-import { auth } from '../utils/firebase';
-import { requestUser } from '../store/actions/userAction';
-import { useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { selectorUserAuth, userAuth, userSign } from '../store/reducers/userAuthSlice';
+// import { auth } from '../utils/firebase';
+// import { requestUser } from '../store/actions/userAction';
 
 const Navbar = () => {
   const dispatch = useDispatch();
@@ -15,12 +12,13 @@ const Navbar = () => {
   // const [user] = useAuthState(auth);
   // const auth = getAuth(app);
 
-  const { user } = useSelector(selectorUser);
+  const { user } = useSelector(selectorUserAuth);
 
   const handleLogOut = () => {
     // const auth = getAuth(app);
-    auth.signOut();
-    dispatch(requestUser(auth));
+    dispatch(userAuth(userSign.out));
+    // auth.signOut(userSign.out);
+    // dispatch(requestUser(auth));
   };
 
   return (

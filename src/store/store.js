@@ -1,11 +1,11 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import { setupListeners } from '@reduxjs/toolkit/dist/query';
+import { configureStore } from '@reduxjs/toolkit';
 import { storage, storageSetItem } from '../utils/localstorage';
 import addInDictionarySlice from './reducers/addInDictionarySlice';
 import updateInDictionarySlice from './reducers/updateInDictionarySlice';
 import requestWordSlice from './reducers/requestWordSlice';
 import dictionarySlice from './reducers/dictionarySlice';
-import userSlice from './reducers/userSlice';
+// import userSlice from './reducers/userSlice';
+import userAuthSlice from './reducers/userAuthSlice';
 
 // export const rootReducer = combineReducers({
 //   userSlice,
@@ -15,7 +15,8 @@ import userSlice from './reducers/userSlice';
 
 export const store = configureStore({
   reducer: {
-    userSlice,
+    // userSlice,
+    userAuthSlice,
     requestWordSlice,
     dictionarySlice,
     addInDictionarySlice,
@@ -31,7 +32,5 @@ export const store = configureStore({
 });
 
 store.subscribe(() => {
-  storageSetItem(storage.user, store.getState().userSlice.user);
+  storageSetItem(storage.user, store.getState().userAuthSlice.user);
 });
-
-// setupListeners(store.dispatch);

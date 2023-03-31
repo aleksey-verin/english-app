@@ -1,13 +1,12 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Loader from '../components/Loader';
 import { TRAINING_ROUTE } from '../routes/routes';
-import { getDictionary, selectorDictionary } from '../store/reducers/dictionarySlice';
+import { selectorDictionary } from '../store/reducers/dictionarySlice';
 
 const TrainingPage = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const { userDictionary: dictionary, isLoading, isSuccess } = useSelector(selectorDictionary);
 
   const scoreValues = {
@@ -36,7 +35,6 @@ const TrainingPage = () => {
           <Link to={TRAINING_ROUTE.TEST1}>Training One</Link>
           <p>Добавить 500 новый слов в ваш словарь</p>
           <button onClick={handleClick}>Добавить</button>
-          {isLoadingAddNewWords ? <Loader /> : null}
         </>
       ) : null}
     </div>

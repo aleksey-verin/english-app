@@ -8,8 +8,9 @@ const initialState = {
   isError: false
 };
 
-export const getNewWord = createAsyncThunk('getNewWord', async (word, thunkAPI) => {
+export const requestWord = createAsyncThunk('requestWord', async (word, thunkAPI) => {
   try {
+    console.log('requestWord');
     const BASE_URL = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
     const response = await fetch(`${BASE_URL}${word}`);
     const data = await response.json();
@@ -27,16 +28,16 @@ const requestWordSlice = createSlice({
   name: 'requestWordSlice',
   initialState,
   extraReducers: (builder) => {
-    builder.addCase(getNewWord.pending, (state, { payload }) => {
+    builder.addCase(requestWord.pending, (state, { payload }) => {
       state.isLoading = true;
       state.isError = false;
     });
-    builder.addCase(getNewWord.fulfilled, (state, { payload }) => {
+    builder.addCase(requestWord.fulfilled, (state, { payload }) => {
       state.results = payload;
       state.isSuccess = true;
       state.isLoading = false;
     });
-    builder.addCase(getNewWord.rejected, (state, { payload }) => {
+    builder.addCase(requestWord.rejected, (state, { payload }) => {
       state.isLoading = false;
       state.isSuccess = false;
       state.isError = true;
@@ -44,6 +45,6 @@ const requestWordSlice = createSlice({
   }
 });
 
-export const selectorResult = (state) => state.requestWordSlice;
+export const selectorRequestWord = (state) => state.requestWordSlice;
 
 export default requestWordSlice.reducer;

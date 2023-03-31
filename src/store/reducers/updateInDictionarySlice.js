@@ -1,20 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import {
-  collection,
-  serverTimestamp,
-  doc,
-  updateDoc,
-  arrayUnion,
-  arrayRemove,
-  setDoc,
-  query,
-  where,
-  increment
-} from 'firebase/firestore';
+import { doc, setDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
-
-const userEmail = storageGetItem(storage.user)?.email;
 
 const initialState = {
   isLoading: false,
@@ -29,26 +16,31 @@ export const updateTypes = {
 
 export const updateInDictionary = createAsyncThunk(
   'updateInDictionary',
-  async ([dictionary, word, def, type], thunkAPI) => {
+  async ({ dictionary, word, def, type }, thunkAPI) => {
     console.log('updateDispatch');
     try {
-      let newData = JSON.parse(JSON.stringify(dictionary));
+      const userEmail = storageGetItem(storage.user)?.email;
+      // get current 'dictionary'
+      // const docRef = doc(firestore, `dictionary-${userEmail}`, 'user-dictionary');
+      // const docSnap = await getDoc(docRef);
+      // if (docSnap.exists()) {
+      //   const data = docSnap.data();
+      //   const dictionary = data.dictionary;
+
+      const newData = JSON.parse(JSON.stringify(dictionary));
+      let index;
       switch (type) {
         case updateTypes.addDefinition:
-          newData = newData.map((item) => {
-            if (item.word === word) {
-              item.definition = [...item.definition, def];
-            }
-            return item;
-          });
+          index = newData.findIndex((item) => item.word === word);
+          if (index !== -1) {
+            newData[index].definition.push(def);
+          }
           break;
         case updateTypes.removeDefinition:
-          newData = newData.map((item) => {
-            if (item.word === word) {
-              item.definition = item.definition.filter((item) => item !== def);
-            }
-            return item;
-          });
+          index = newData.findIndex((item) => item.word === word);
+          if (index !== -1) {
+            newData[index].definition = newData[index].definition.filter((item) => item !== def);
+          }
           break;
         default:
           break;
@@ -56,6 +48,7 @@ export const updateInDictionary = createAsyncThunk(
       await setDoc(doc(firestore, `dictionary-${userEmail}`, 'user-dictionary'), {
         dictionary: newData
       });
+      // }
     } catch (error) {
       console.log(error);
       return thunkAPI.rejectWithValue(error);

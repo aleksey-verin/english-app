@@ -1,38 +1,37 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { collection, setDoc, doc, getDoc } from 'firebase/firestore';
-import { firestore } from '../../utils/firebase';
+import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { auth } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
 
+export const userSign = {
+  in: 'sighIn',
+  out: 'sighOut'
+};
+
 const initialState = {
-  userDictionary: null,
+  user: storageGetItem(storage.user) ?? null,
   isLoading: false,
   isSuccess: false,
   isError: false
 };
 
-export const getDictionary = createAsyncThunk('getDictionary', async (_, thunkAPI) => {
-  console.log('dictionaryDispatch');
+export const userAuth = createAsyncThunk('userAuth', async (typeSigh, thunkAPI) => {
+  console.log('userAuth');
   try {
-    const email = storageGetItem(storage.user)?.email;
-    console.log(email);
-    if (!email) return;
-    console.log('дальше в диспатче словаря', email);
-    const docRef = doc(firestore, `dictionary-${email}`, 'user-dictionary');
-    const docSnap = await getDoc(docRef);
-    if (docSnap.exists()) {
-      console.log(docSnap.data().dictionary);
-      return docSnap.data().dictionary;
-    } else {
-      console.log('No such document! будем создавать');
-      await setDoc(docRef, {
-        dictionary: []
-      });
-      console.log('вроде создали');
-      const docSnap = await getDoc(docRef);
-      if (docSnap.exists()) {
-        console.log('новый запрос словаря', docSnap.data().dictionary);
-        return docSnap.data().dictionary;
-      }
+    if (typeSigh === userSign.in) {
+      const provider = new GoogleAuthProvider();
+      const response = await signInWithPopup(auth, provider);
+      const { email, uid, displayName, photoURL } = response.user;
+      return {
+        email,
+        uid,
+        displayName,
+        photoURL
+      };
+    }
+    if (typeSigh === userSign.out) {
+      await auth.signOut();
+      return null;
     }
   } catch (error) {
     console.log(error);
@@ -40,30 +39,30 @@ export const getDictionary = createAsyncThunk('getDictionary', async (_, thunkAP
   }
 });
 
-const dictionarySlice = createSlice({
-  name: 'dictionarySlice',
+const userAuthSlice = createSlice({
+  name: 'userAuthSlice',
   initialState,
   extraReducers: (builder) => {
-    builder.addCase(getDictionary.pending, (state, { payload }) => {
+    builder.addCase(userAuth.pending, (state, { payload }) => {
       state.isSuccess = false;
       state.isLoading = true;
       state.isError = false;
     });
-    builder.addCase(getDictionary.fulfilled, (state, { payload }) => {
-      state.userDictionary = payload;
+    builder.addCase(userAuth.fulfilled, (state, { payload }) => {
+      state.user = payload;
       state.isSuccess = true;
       state.isLoading = false;
     });
-    builder.addCase(getDictionary.rejected, (state, { payload }) => {
+    builder.addCase(userAuth.rejected, (state, { payload }) => {
       state.isLoading = false;
       state.isError = true;
     });
   }
 });
 
-export const selectorDictionary = (state) => state.dictionarySlice;
+export const selectorUserAuth = (state) => state.userAuthSlice;
 
-export default dictionarySlice.reducer;
+export default userAuthSlice.reducer;
 
 // export const firestoreApi = createApi({
 //   reducerPath: 'firestoreApi',
