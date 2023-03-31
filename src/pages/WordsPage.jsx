@@ -3,8 +3,14 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import Loader from '../components/Loader';
 import { selectorDictionary } from '../store/reducers/dictionarySlice';
+import Edit from '../images/edit.png';
+import { Link } from 'react-router-dom';
+import { DICTIONARY_ROUTE } from '../routes/routes';
+import { useDispatch } from 'react-redux';
+import { requestWord } from '../store/reducers/requestWordSlice';
 
 const WordsPage = () => {
+  const dispatch = useDispatch();
   const { userDictionary: dictionary } = useSelector(selectorDictionary);
   if (!dictionary) return <Loader />;
   return (
@@ -13,14 +19,19 @@ const WordsPage = () => {
         <h1>My words</h1>
       </div>
       <div className="words-list">
-        {dictionary.map((item, i) => {
+        {dictionary.map(({ word, definition }, i) => {
           return (
             <div key={i} className="words-list__item">
-              <div className="words-list__word">{item.word}</div>
+              <div className="words-list__word">{word}</div>
               <div className="words-list__definition">
-                {item.definition.map((item, index) => (
+                {definition.map((item, index) => (
                   <p key={index}>{item}</p>
                 ))}
+              </div>
+              <div className="words-list__edit">
+                <Link to={DICTIONARY_ROUTE} onClick={() => dispatch(requestWord(word))}>
+                  <img src={Edit} alt="edit" title="Edit the definition" />
+                </Link>
               </div>
             </div>
           );

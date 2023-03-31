@@ -357,6 +357,19 @@ h4 {
   flex-direction: column;
   gap: 10px;
 }
+.words-list__edit {
+  display: flex;
+  align-items: center;
+}
+.words-list__edit img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.words-list__edit img:hover {
+  opacity: 0.8;
+}
 
 .loader {
   display: flex;
