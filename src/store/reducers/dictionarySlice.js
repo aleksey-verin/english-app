@@ -1,10 +1,10 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { collection, setDoc, doc, getDoc } from 'firebase/firestore';
+import { setDoc, doc, getDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
 
 const initialState = {
-  userDictionary: null,
+  userDictionary: [],
   isLoading: false,
   isSuccess: false,
   isError: false
@@ -14,23 +14,17 @@ export const getDictionary = createAsyncThunk('getDictionary', async (_, thunkAP
   console.log('dictionaryDispatch');
   try {
     const email = storageGetItem(storage.user)?.email;
-    console.log(email);
     if (!email) return;
-    console.log('дальше в диспатче словаря', email);
     const docRef = doc(firestore, `dictionary-${email}`, 'user-dictionary');
     const docSnap = await getDoc(docRef);
     if (docSnap.exists()) {
-      console.log(docSnap.data().dictionary);
       return docSnap.data().dictionary;
     } else {
-      console.log('No such document! будем создавать');
       await setDoc(docRef, {
         dictionary: []
       });
-      console.log('вроде создали');
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
-        console.log('новый запрос словаря', docSnap.data().dictionary);
         return docSnap.data().dictionary;
       }
     }
@@ -72,7 +66,6 @@ export default dictionarySlice.reducer;
 //     fetchUserDictionary: builder.query({
 //       async queryFn() {
 //         try {
-//           // console.log(user);
 //           const ref = collection(firestore, `dictionary-${userEmail}`);
 //           const querySnapshot = await getDocs(ref);
 //           const userDictionary = [];
@@ -81,7 +74,6 @@ export default dictionarySlice.reducer;
 //           });
 //           return { data: userDictionary };
 //         } catch (error) {
-//           console.error(error.message);
 //           return { error: error.message };
 //         }
 //       }

@@ -19,36 +19,35 @@ export const updateInDictionary = createAsyncThunk(
   async ({ dictionary, word, def, type }, thunkAPI) => {
     console.log('updateDispatch');
     try {
-      const userEmail = storageGetItem(storage.user)?.email;
-      // get current 'dictionary'
-      // const docRef = doc(firestore, `dictionary-${userEmail}`, 'user-dictionary');
-      // const docSnap = await getDoc(docRef);
-      // if (docSnap.exists()) {
-      //   const data = docSnap.data();
-      //   const dictionary = data.dictionary;
+      const email = storageGetItem(storage.user)?.email;
 
-      const newData = JSON.parse(JSON.stringify(dictionary));
+      let newDictionary = JSON.parse(JSON.stringify(dictionary));
       let index;
       switch (type) {
         case updateTypes.addDefinition:
-          index = newData.findIndex((item) => item.word === word);
+          index = newDictionary.findIndex((item) => item.word === word);
           if (index !== -1) {
-            newData[index].definition.push(def);
+            newDictionary[index].definition.push(def);
           }
           break;
         case updateTypes.removeDefinition:
-          index = newData.findIndex((item) => item.word === word);
+          index = newDictionary.findIndex((item) => item.word === word);
           if (index !== -1) {
-            newData[index].definition = newData[index].definition.filter((item) => item !== def);
+            newDictionary[index].definition = newDictionary[index].definition.filter(
+              (item) => item !== def
+            );
+            if (!newDictionary[index].definition.length) {
+              newDictionary = newDictionary.filter((item) => item.word !== word);
+            }
           }
           break;
         default:
           break;
       }
-      await setDoc(doc(firestore, `dictionary-${userEmail}`, 'user-dictionary'), {
-        dictionary: newData
+
+      await setDoc(doc(firestore, `dictionary-${email}`, 'user-dictionary'), {
+        dictionary: newDictionary
       });
-      // }
     } catch (error) {
       console.log(error);
       return thunkAPI.rejectWithValue(error);
@@ -78,31 +77,3 @@ const updateInDictionarySlice = createSlice({
 export const selectorUpdateInDictionary = (state) => state.updateInDictionarySlice;
 
 export default updateInDictionarySlice.reducer;
-
-// export const firestoreApi = createApi({
-//   reducerPath: 'firestoreApi',
-//   baseQuery: fakeBaseQuery(),
-//   endpoints: (builder) => ({
-//     fetchUserDictionary: builder.query({
-//       async queryFn() {
-//         try {
-//           // console.log(user);
-//           const ref = collection(firestore, `dictionary-${userEmail}`);
-//           const querySnapshot = await getDocs(ref);
-//           const userDictionary = [];
-//           querySnapshot?.forEach((doc) => {
-//             userDictionary.push(doc.data());
-//           });
-//           return { data: userDictionary };
-//         } catch (error) {
-//           console.error(error.message);
-//           return { error: error.message };
-//         }
-//       }
-//     })
-//   })
-// });
-
-// export const { useFetchUserDictionaryQuery, useSetNewHighScoreMutation } = firestoreApi;
-
-// // const { data, isLoading, isSuccess, isError, error } = useFetchUserDictionaryQuery();

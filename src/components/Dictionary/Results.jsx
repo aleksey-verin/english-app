@@ -75,16 +75,28 @@ const Results = () => {
                       className="results-item__add"
                       onClick={() => handleClick(word, def.definition)}>
                       {isWordInDictionary.definition.includes(def.definition) ? (
-                        <img src={Remove} alt="add" />
+                        <img
+                          src={Remove}
+                          alt="remove"
+                          title="Remove the definition from the training dictionary"
+                        />
                       ) : (
-                        <img src={Add} alt="add" />
+                        <img
+                          src={Add}
+                          alt="add"
+                          title="Add the definition to the training dictionary"
+                        />
                       )}
                     </div>
                   ) : (
                     <div
                       className="results-item__add"
                       onClick={() => handleClick(word, def.definition)}>
-                      <img src={Add} alt="add" />
+                      <img
+                        src={Add}
+                        alt="add"
+                        title="Add the definition to the training dictionary"
+                      />
                     </div>
                   )}
                   {/* {!isWordInDictionary.filter((item) => item.definition === definition.definition)
