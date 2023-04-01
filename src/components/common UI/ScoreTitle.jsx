@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { TRAINING_ROUTE } from '../../../routes/routes';
+import { TRAINING_ROUTE } from '../../routes/routes';
 import { useSelector } from 'react-redux';
-import { selectorDictionary } from '../../../store/reducers/dictionarySlice';
+import { selectorDictionary } from '../../store/reducers/dictionarySlice';
 
 const ScoreTitle = () => {
   const { userDictionary: dictionary } = useSelector(selectorDictionary);

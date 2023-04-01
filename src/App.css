@@ -129,12 +129,14 @@ nav {
 .title {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 32px;
 }
 .title h1 span {
   color: #a164cf;
 }
 
 .score {
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.8);
   display: flex;
   gap: 10px;
@@ -163,7 +165,6 @@ h4 {
 }
 
 .form {
-  margin-top: 32px;
   display: flex;
   -moz-column-gap: 16px;
        column-gap: 16px;
@@ -289,14 +290,6 @@ h4 {
   margin-top: 16px;
 }
 
-.test,
-.words {
-  text-align: center;
-  font-size: 26px;
-  margin-top: 10px;
-  padding-bottom: 8px;
-  border-bottom: solid 1px #d6d2d2;
-}
 .test-title,
 .words-title {
   text-align: center;
@@ -329,6 +322,7 @@ h4 {
 }
 
 .words-list {
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
 }
@@ -339,6 +333,9 @@ h4 {
   padding: 10px 5px;
   border-bottom: solid 1px #d6d2d2;
   justify-content: center;
+}
+.words-list__item:first-child {
+  border-top: solid 1px #d6d2d2;
 }
 .words-list__word {
   line-height: 1.6;

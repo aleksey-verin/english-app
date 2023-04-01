@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import ScoreTitle from './Title/ScoreTitle';
+import ScoreTitle from '../common UI/ScoreTitle';
 
 const Title = () => {
   return (

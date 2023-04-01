@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { doc, setDoc } from 'firebase/firestore';
+import { doc, setDoc, getDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
 
@@ -9,27 +9,21 @@ const initialState = {
   isError: false
 };
 
-export const addInDictionary = createAsyncThunk(
-  'addInDictionary',
-  async ({ dictionary, word, definition }, thunkAPI) => {
-    console.log('addInDictionaryDispatch');
-    const email = storageGetItem(storage.user)?.email;
-    console.log(email);
-    if (!email) return;
-    const newData = [
-      {
-        word,
-        definition: [definition],
-        progress: 0
-      },
-      ...dictionary
-    ];
-    console.log(newData);
+export const addBatchInDictionary = createAsyncThunk(
+  'addBatchInDictionary',
+  async ({ dictionary, fileName }, thunkAPI) => {
+    console.log('addBatchInDictionary');
     try {
-      console.log('мы в добавлении');
-      await setDoc(doc(firestore, `dictionary-${email}`, 'user-dictionary'), {
-        dictionary: newData
-      });
+      const email = storageGetItem(storage.user)?.email;
+      if (!email) return;
+
+      const response = await fetch(`/public/mockData/${fileName}.json`);
+      if (response.ok) {
+        const newWords = await response.json();
+        await setDoc(doc(firestore, `dictionary-${email}`, 'user-dictionary'), {
+          dictionary: [...newWords, ...dictionary]
+        });
+      }
     } catch (error) {
       console.log(error);
       return thunkAPI.rejectWithValue(error);
@@ -37,28 +31,28 @@ export const addInDictionary = createAsyncThunk(
   }
 );
 
-const addInDictionarySlice = createSlice({
+const addBatchInDictionarySlice = createSlice({
   name: 'addInDictionarySlice',
   initialState,
   extraReducers: (builder) => {
-    builder.addCase(addInDictionary.pending, (state, { payload }) => {
+    builder.addCase(addBatchInDictionary.pending, (state, { payload }) => {
       state.isLoading = true;
       state.isError = false;
     });
-    builder.addCase(addInDictionary.fulfilled, (state, { payload }) => {
+    builder.addCase(addBatchInDictionary.fulfilled, (state, { payload }) => {
       state.isSuccess = true;
       state.isLoading = false;
     });
-    builder.addCase(addInDictionary.rejected, (state, { payload }) => {
+    builder.addCase(addBatchInDictionary.rejected, (state, { payload }) => {
       state.isLoading = false;
       state.isError = true;
     });
   }
 });
 
-export const selectorAddInDictionary = (state) => state.addInDictionarySlice;
+export const selectorAddInDictionary = (state) => state.addBatchInDictionarySlice;
 
-export default addInDictionarySlice.reducer;
+export default addBatchInDictionarySlice.reducer;
 
 // export const firestoreApi = createApi({
 //   reducerPath: 'firestoreApi',

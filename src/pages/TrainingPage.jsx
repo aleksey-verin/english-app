@@ -3,10 +3,13 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Loader from '../components/Loader';
 import { TRAINING_ROUTE } from '../routes/routes';
-import { selectorDictionary } from '../store/reducers/dictionarySlice';
+import { getDictionary, selectorDictionary } from '../store/reducers/dictionarySlice';
+import { useDispatch } from 'react-redux';
+import { addBatchInDictionary } from '../store/reducers/addBatchInDictionarySlice';
+import ScoreTitle from '../components/common UI/ScoreTitle';
 
 const TrainingPage = () => {
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
   const { userDictionary: dictionary, isLoading, isSuccess } = useSelector(selectorDictionary);
 
   const scoreValues = {
@@ -22,12 +25,18 @@ const TrainingPage = () => {
   if (isLoading) return <Loader />;
 
   const handleClick = () => {
-    // dispatch(addBatchInDictionary('500words'));
-    // dispatch(getDictionary());
+    dispatch(addBatchInDictionary({ dictionary, fileName: '500words' }));
+    dispatch(getDictionary());
   };
 
   return (
-    <div>
+    <main className="main">
+      <div className="title">
+        <h1>
+          <span>Training</span> your words
+        </h1>
+        <ScoreTitle />
+      </div>
       <div>You have {scoreValues.training ? scoreValues.training : 'no'} words to practice.</div>
       {scoreValues.training ? (
         <>
@@ -37,7 +46,7 @@ const TrainingPage = () => {
           <button onClick={handleClick}>Добавить</button>
         </>
       ) : null}
-    </div>
+    </main>
   );
 };
 

@@ -7,14 +7,16 @@ import Edit from '../images/edit.png';
 import { Link } from 'react-router-dom';
 import { DICTIONARY_ROUTE } from '../routes/routes';
 import { requestWord } from '../store/reducers/requestWordSlice';
+import ScoreTitle from '../components/common UI/ScoreTitle';
 
 const WordsPage = () => {
   const dispatch = useDispatch();
   const { userDictionary: dictionary, isLoading } = useSelector(selectorDictionary);
   return (
     <main className="main">
-      <div className="words">
+      <div className="words title">
         <h1>My words</h1>
+        <ScoreTitle />
       </div>
       <div className="words-list">
         {isLoading && (
