@@ -2,9 +2,15 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { setDoc, doc, getDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
+import { getScore } from '../../utils/helpers';
 
 const initialState = {
   userDictionary: [],
+  userScore: {
+    total: 0,
+    done: 0,
+    training: 0
+  },
   isLoading: false,
   isSuccess: false,
   isError: false
@@ -45,6 +51,7 @@ const dictionarySlice = createSlice({
     });
     builder.addCase(getDictionary.fulfilled, (state, { payload }) => {
       state.userDictionary = payload;
+      state.userScore = getScore(payload);
       state.isSuccess = true;
       state.isLoading = false;
     });

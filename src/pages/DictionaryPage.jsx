@@ -11,8 +11,8 @@ import { selectorUserAuth } from '../store/reducers/userAuthSlice';
 import { getDictionary } from '../store/reducers/dictionarySlice';
 
 const DictionaryPage = () => {
+  console.log('render DictionaryPage');
   const { isSuccess, isError } = useSelector(selectorRequestWord);
-  console.log(isSuccess, isError);
 
   return (
     <main className="main">

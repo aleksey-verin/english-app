@@ -5,13 +5,9 @@ import { useSelector } from 'react-redux';
 import { selectorDictionary } from '../../store/reducers/dictionarySlice';
 
 const ScoreTitle = () => {
-  const { userDictionary: dictionary } = useSelector(selectorDictionary);
-
-  if (!dictionary) return;
-
-  const total = dictionary.length;
-  const done = dictionary.filter((item) => item.progress >= 100).length;
-  const training = total - done;
+  const {
+    userScore: { total, done, training }
+  } = useSelector(selectorDictionary);
 
   return (
     <div className="score">

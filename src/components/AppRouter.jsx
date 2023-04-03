@@ -17,7 +17,8 @@ const AppRouter = () => {
       <Route path={DICTIONARY_ROUTE} element={<DictionaryPage />} />
       <Route path={WORDS_ROUTE} element={<WordsPage />} />
       <Route path={TRAINING_ROUTE.MAIN} element={<TrainingPage />} />
-      <Route path={TRAINING_ROUTE.TEST1} element={<TrainingOne />} />
+      <Route path={TRAINING_ROUTE.TRAINING_DEFINITION} element={<TrainingOne />} />
+      <Route path={TRAINING_ROUTE.TRAINING_WORD} element={<TrainingOne />} />
       <Route path="*" element={<Navigate replace to={DICTIONARY_ROUTE} />} />
     </Routes>
   ) : (

@@ -6,8 +6,10 @@ import './App.css';
 import { selectorUserAuth } from './store/reducers/userAuthSlice';
 import { useEffect } from 'react';
 import { getDictionary } from './store/reducers/dictionarySlice';
+// import { setTrainingTasks } from './store/reducers/trainingSlice';
 
 function App() {
+  console.log('render app component');
   const dispatch = useDispatch();
   const { user } = useSelector(selectorUserAuth);
 

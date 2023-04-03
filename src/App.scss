@@ -121,7 +121,7 @@ nav {
   backdrop-filter: blur(2px);
   width: 920px;
   border-radius: 12px;
-  padding: 32px;
+  padding: 30px;
   margin: 0 auto;
 }
 
@@ -455,4 +455,48 @@ h4 {
   100% {
     transform: translate(24px, 0);
   }
+}
+
+// ================== TRAINING PAGE ==================
+
+.training {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  &-title {
+    text-align: center;
+    font-size: 18px;
+    & span {
+      color: #581889;
+    }
+  }
+  &-actions {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    &__item {
+      flex: 1 0 45%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      &-title {
+        font-size: 18px;
+      }
+    }
+  }
+  &-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px);
+  border-radius: 12px;
+  padding: 30px;
+  // margin-bottom: 20px;
 }
