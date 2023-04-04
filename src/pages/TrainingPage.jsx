@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Loader from '../components/Loader';
@@ -7,7 +7,7 @@ import { getDictionary, selectorDictionary } from '../store/reducers/dictionaryS
 import { useDispatch } from 'react-redux';
 import { addBatchInDictionary } from '../store/reducers/addBatchInDictionarySlice';
 import ScoreTitle from '../components/common UI/ScoreTitle';
-import { setTrainingTasks } from '../store/reducers/trainingSlice';
+// import { setTrainingTasks } from '../store/reducers/trainingSlice';
 
 const TrainingPage = () => {
   console.log('render Training page');
@@ -25,7 +25,7 @@ const TrainingPage = () => {
   };
 
   const handleGoTraining = () => {
-    dispatch(setTrainingTasks(userDictionary));
+    // dispatch(setTrainingTasks(userDictionary));
   };
 
   return (

@@ -3,9 +3,12 @@ import { setDoc, doc, getDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
 import { getScore } from '../../utils/helpers';
+import { generateTaskList } from '../../utils/training/trainingHelper';
 
 const initialState = {
   userDictionary: [],
+  trainingList: null,
+  trainingListLength: null,
   userScore: {
     total: 0,
     done: 0,
@@ -43,6 +46,11 @@ export const getDictionary = createAsyncThunk('getDictionary', async (_, thunkAP
 const dictionarySlice = createSlice({
   name: 'dictionarySlice',
   initialState,
+  reducers: {
+    setTrainingTasks(state, action) {
+      state.trainingList = generateTaskList(action.payload);
+    }
+  },
   extraReducers: (builder) => {
     builder.addCase(getDictionary.pending, (state, { payload }) => {
       state.isSuccess = false;
@@ -50,7 +58,10 @@ const dictionarySlice = createSlice({
       state.isError = false;
     });
     builder.addCase(getDictionary.fulfilled, (state, { payload }) => {
+      const trainingList = generateTaskList(payload);
       state.userDictionary = payload;
+      state.trainingList = trainingList;
+      state.trainingListLength = trainingList.length;
       state.userScore = getScore(payload);
       state.isSuccess = true;
       state.isLoading = false;
@@ -63,6 +74,9 @@ const dictionarySlice = createSlice({
 });
 
 export const selectorDictionary = (state) => state.dictionarySlice;
+
+// const { actions } = dictionarySlice;
+export const { setTrainingTasks } = dictionarySlice.actions;
 
 export default dictionarySlice.reducer;
 

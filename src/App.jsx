@@ -12,12 +12,19 @@ function App() {
   console.log('render app component');
   const dispatch = useDispatch();
   const { user } = useSelector(selectorUserAuth);
+  // const { userDictionary } = useSelector(selectorDictionary);
 
   useEffect(() => {
     if (user) {
       dispatch(getDictionary());
     }
   }, [user]);
+
+  // useEffect(() => {
+  //   if (userDictionary.length) {
+  //     dispatch(setTrainingTasks(userDictionary));
+  //   }
+  // }, []);
 
   return (
     <div className="app">

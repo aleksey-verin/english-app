@@ -4,7 +4,7 @@ import addInDictionarySlice from './reducers/addInDictionarySlice';
 import updateInDictionarySlice from './reducers/updateInDictionarySlice';
 import requestWordSlice from './reducers/requestWordSlice';
 import dictionarySlice from './reducers/dictionarySlice';
-import trainingSlice from './reducers/trainingSlice';
+// import trainingSlice from './reducers/trainingSlice';
 // import userSlice from './reducers/userSlice';
 import userAuthSlice from './reducers/userAuthSlice';
 
@@ -21,8 +21,8 @@ export const store = configureStore({
     requestWordSlice,
     dictionarySlice,
     addInDictionarySlice,
-    updateInDictionarySlice,
-    trainingSlice
+    updateInDictionarySlice
+    // trainingSlice
     // [firestoreApi.reducerPath]: firestoreApi.reducer
     // [requestWordApi.reducerPath]: requestWordApi.reducer
   },
@@ -35,4 +35,5 @@ export const store = configureStore({
 
 store.subscribe(() => {
   storageSetItem(storage.user, store.getState().userAuthSlice.user);
+  // storageSetItem(storage.trainingList, store.getState().trainingSlice.trainingList);
 });

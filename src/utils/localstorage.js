@@ -1,4 +1,5 @@
 export const storage = {
+  trainingList: 'english-training-list',
   user: 'english-user'
   // dictionary: 'englishDictionary'
   // weatherFavoriteList: 'weatherFavoriteList',

@@ -14,9 +14,9 @@ export const generateTaskList = (dictionary) => {
         3
       )
     ]);
-    taskList.push({ task: item, question: shuffledArray, isRight: false });
+    taskList.push({ question: item, answers: shuffledArray, isRight: false });
   });
-
+  console.log('success taskList');
   return taskList;
 };
 
@@ -40,7 +40,11 @@ const getTenWordsForTraining = (
     setOfIndexes.add(randomIndex);
   }
   const indexesForTraining = Array.from(setOfIndexes);
-  const finalArrayForTraining = indexesForTraining.map((item) => dictionaryForTraining[item]);
+  console.log(indexesForTraining);
+  const finalArrayForTraining = indexesForTraining.map((item) => ({
+    ...dictionaryForTraining[item],
+    indexInMainDictionary: item
+  }));
   return finalArrayForTraining;
 };
 

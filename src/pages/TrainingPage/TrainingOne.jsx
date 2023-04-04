@@ -1,81 +1,60 @@
 /* eslint-disable react/prop-types */
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import Loader from '../../components/Loader';
 import { selectorDictionary } from '../../store/reducers/dictionarySlice';
-import { generateTaskList } from '../../utils/training/trainingHelper';
-import { useDispatch } from 'react-redux';
-import { selectorTrainingSlice } from '../../store/reducers/trainingSlice';
-// import { setTrainingTasks } from '../../store/reducers/trainingSlice';
-// import { useFetchUserDictionaryQuery } from '../store/reducers/userDictionaryApi';
 
 const TrainingOne = () => {
   console.log('render training one');
   // const dispatch = useDispatch();
 
-  const { userDictionary: dictionary, isLoading } = useSelector(selectorDictionary);
-  const { trainingTasks } = useSelector(selectorTrainingSlice);
+  const { trainingList, trainingListLength, isLoading } = useSelector(selectorDictionary);
+  const [questionNumber, setQuestionNumber] = useState(0);
+  const [isTestCompleted, setIsTestCompleted] = useState(false);
+  const [userRightAnswers, setUserRightAnswers] = useState([]);
 
-  console.log(trainingTasks);
+  console.log(trainingList);
+  if (isLoading || !trainingList) return <Loader />;
 
-  // const [taskList, setTaskList] = useState(null);
+  const question = trainingList[questionNumber].question;
+  const questionDefinition = question.definition;
+  const questionWord = question.word;
+  const answers = trainingList[questionNumber].answers;
 
-  // const { randomWord, finalArray } = dataTrainingDictionaryWord(dictionary);
+  const handleAnswer = (answer) => {
+    if (answer === questionWord) {
+      console.log('rigth!');
+      setUserRightAnswers([...userRightAnswers, question]);
+    } else {
+      console.log('Wrong!');
+    }
+    if (questionNumber < trainingListLength - 1) {
+      setQuestionNumber((questionNumber) => questionNumber + 1);
+    } else {
+      setIsTestCompleted(true);
+    }
+  };
 
-  // const taskList = useMemo(() => {
-  //   if (dictionary.length) {
-  //     generateTaskList(dictionary);
-  //   }
-  // }, [dictionary]);
-
-  // useEffect(() => {
-  //   if (dictionary) {
-  //     dispatch(setTrainingTasks(dictionary));
-  //     // setTaskList(generateTaskList(dictionary));
-  //   }
-  // }, [dictionary]);
-
-  // if (!dictionary.length) return null;
-  // const taskList = generateTaskList(dictionary);
-  // console.log(dictionary);
-  // console.log(taskList);
-
-  if (isLoading) return <Loader />;
-  // const handleAnswer = (e) => {
-  //   const element = e.target;
-  //   if (element.textContent === randomWord.word) {
-  //     console.log('rigth!');
-  //     // element.style.backgroundColor = 'lightgreen'
-  //     // setDictionary(
-  //     //   dictionary.map((item) => {
-  //     //     if (item.word === randomWord.word && item.definition === randomWord.definition) {
-  //     //       item.progress += 20;
-  //     //       return item;
-  //     //     } else {
-  //     //       return item;
-  //     //     }
-  //     //   })
-  //     // );
-  //   } else {
-  //     console.log('Wrong!');
-  //   }
-  // };
   return (
     <main className="main">
       <div className="test">
         <h1>Training</h1>
       </div>
       <div className="test-title">Choose the right word for the meaning:</div>
-      {/* <div className="test-definition">{randomWord.definition}</div> */}
-      <div className="test-answers">
-        {/* {finalArray.map((item, i) => {
-          return (
-            <div key={i} className="test-item" onClick={handleAnswer}>
-              {item.word}
-            </div>
-          );
-        })} */}
-      </div>
+      <div className="test-definition">{questionDefinition}</div>
+      {isTestCompleted ? (
+        <div className="test-results">{`You answered ${userRightAnswers.length} out of 10 questions correctly`}</div>
+      ) : (
+        <div className="test-answers">
+          {answers.map((item, i) => {
+            return (
+              <div key={i} className="test-item" onClick={() => handleAnswer(item.word)}>
+                {item.word}
+              </div>
+            );
+          })}
+        </div>
+      )}
     </main>
   );
 };
