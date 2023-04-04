@@ -70,7 +70,7 @@ const TrainingTwo = () => {
   const numberOfRightAnswers = userRightAnswers.length;
   const numberOfWrongAnswers = userWrongAnswers;
 
-  const stylesForSummary =
+  const stylesForUserAnswer =
     numberOfRightAnswers > numberOfWrongAnswers
       ? { backgroundColor: 'lightgreen' }
       : numberOfRightAnswers < numberOfWrongAnswers
@@ -89,7 +89,7 @@ const TrainingTwo = () => {
         {isTestCompleted ? (
           <div className="test-results">
             <div
-              style={stylesForSummary}
+              style={stylesForUserAnswer}
               className="test-results__title content">{`You answered ${userRightAnswers.length} out of 10 questions correctly`}</div>
             <div className="test-results__actions">
               <button onClick={handleResetParams} className="btn">
@@ -126,7 +126,7 @@ const TrainingTwo = () => {
               {`question ${currentQuestion} of ${numberOfQuestions}`}
             </div>
             <div
-              style={stylesForSummary}
+              style={stylesForUserAnswer}
               className="test-info__correct info">{`Right: ${numberOfRightAnswers} | Wrong: ${numberOfWrongAnswers}`}</div>
             <button onClick={handleResetParams} className="btn">
               &#x21E6; Start over
