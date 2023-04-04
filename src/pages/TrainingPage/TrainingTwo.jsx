@@ -15,7 +15,7 @@ const initialStateTraining = {
   userWrongAnswers: 0
 };
 
-const TrainingOne = () => {
+const TrainingTwo = () => {
   console.log('render training one');
   const dispatch = useDispatch();
 
@@ -37,7 +37,8 @@ const TrainingOne = () => {
   const handleAnswer = (event, answer) => {
     const answerElement = event.target;
     setButtonsDisabled(true);
-    if (answer === questionWord) {
+    console.log(answer);
+    if (answer[0] === questionDefinition[0]) {
       setUserRightAnswers([...userRightAnswers, question]);
       answerElement.style.backgroundColor = 'limegreen';
     } else {
@@ -80,7 +81,7 @@ const TrainingOne = () => {
     <main className="main content">
       <div className="title">
         <h1>
-          <span>«One meaning and four words»</span>
+          <span>«One word and four meanings</span>
         </h1>
         <ScoreTitle />
       </div>
@@ -101,11 +102,7 @@ const TrainingOne = () => {
           </div>
         ) : (
           <>
-            <div className="test-question content">
-              {questionDefinition
-                ? questionDefinition.map((definition, index) => <div key={index}>{definition}</div>)
-                : null}
-            </div>
+            <div className="test-question content">{questionWord}</div>
             <div className="test-answers content">
               {answers
                 ? answers.map((item, i) => {
@@ -114,8 +111,8 @@ const TrainingOne = () => {
                         key={i}
                         disabled={buttonsDisabled}
                         className="test-answers__item"
-                        onClick={(event) => handleAnswer(event, item.word)}>
-                        {item.word}
+                        onClick={(event) => handleAnswer(event, item.definition)}>
+                        {item.definition.join('; ')}
                       </button>
                     );
                   })
@@ -140,4 +137,4 @@ const TrainingOne = () => {
     </main>
   );
 };
-export default TrainingOne;
+export default TrainingTwo;
