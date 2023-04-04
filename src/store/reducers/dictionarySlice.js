@@ -12,7 +12,15 @@ const initialState = {
   userScore: {
     total: 0,
     done: 0,
-    training: 0
+    training: 0,
+    percentages: {
+      zero: 0,
+      twenty: 0,
+      forty: 0,
+      sixty: 0,
+      eighty: 0,
+      hundred: 0
+    }
   },
   isLoading: false,
   isSuccess: false,

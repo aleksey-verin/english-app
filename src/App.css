@@ -142,7 +142,11 @@ nav {
   gap: 10px;
   align-items: center;
 }
-.score__text span {
+.score-text__percent {
+  margin-top: 3px;
+  font-size: 10px;
+}
+.score-text span {
   color: maroon;
 }
 
@@ -315,10 +319,11 @@ h4 {
   background-color: rgba(165, 217, 247, 0.4862745098);
   padding: 3px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .test-item:hover,
 .words-item:hover {
-  background-color: rgba(165, 217, 247, 0.7294117647);
+  background-color: rgba(165, 217, 247, 0.8784313725);
 }
 
 .words-list {
@@ -473,4 +478,14 @@ h4 {
           backdrop-filter: blur(2px);
   border-radius: 12px;
   padding: 30px;
+}
+
+.test-results__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.test-results__actions {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }/*# sourceMappingURL=App.css.map */
