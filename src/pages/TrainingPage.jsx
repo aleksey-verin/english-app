@@ -1,13 +1,11 @@
-import React, { useEffect } from 'react';
-import { useSelector } from 'react-redux';
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Loader from '../components/Loader';
 import { TRAINING_ROUTE } from '../routes/routes';
 import { getDictionary, selectorDictionary } from '../store/reducers/dictionarySlice';
-import { useDispatch } from 'react-redux';
 import { addBatchInDictionary } from '../store/reducers/addBatchInDictionarySlice';
 import ScoreTitle from '../components/common UI/ScoreTitle';
-// import { setTrainingTasks } from '../store/reducers/trainingSlice';
 
 const TrainingPage = () => {
   console.log('render Training page');
@@ -24,12 +22,8 @@ const TrainingPage = () => {
     dispatch(getDictionary());
   };
 
-  const handleGoTraining = () => {
-    // dispatch(setTrainingTasks(userDictionary));
-  };
-
   return (
-    <main className="main">
+    <main className="main content">
       <div className="title">
         <h1>
           <span>Training</span> your words
@@ -42,20 +36,18 @@ const TrainingPage = () => {
         </div>
         <div className="training-actions">
           <div className="training-actions__item content">
-            <div className="training-actions__item-title">Training «Definition - Words» </div>
+            <div className="training-actions__item-title">«One meaning and four words» </div>
             <div className="training-actions__item-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
               veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
               ipsam nihil molestias adipisci in reprehenderit fuga placeat?
             </div>
             <Link to={TRAINING_ROUTE.TRAINING_DEFINITION}>
-              <button onClick={handleGoTraining} className="btn">
-                Go to training
-              </button>
+              <button className="btn">Go to training</button>
             </Link>
           </div>
           <div className="training-actions__item content">
-            <div className="training-actions__item-title">Training «Word - Definitions»</div>
+            <div className="training-actions__item-title">«One word and four meanings</div>
             <div className="training-actions__item-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
               veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta

@@ -1,9 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
 import { useSelector } from 'react-redux';
 import { selectorDictionary } from '../../store/reducers/dictionarySlice';
-import Loader from '../Loader';
 
 const ScoreTitle = () => {
   const {
@@ -27,9 +26,9 @@ const ScoreTitle = () => {
           60% <span>{sixty}</span> | 80% <span>{eighty}</span> | 100% <span>{hundred}</span>
         </div>
       </div>
-      <NavLink className="score-btn btn" to={TRAINING_ROUTE.MAIN}>
-        Go!
-      </NavLink>
+      <Link to={TRAINING_ROUTE.MAIN}>
+        <button className="btn">Go!</button>
+      </Link>
     </div>
   );
 };

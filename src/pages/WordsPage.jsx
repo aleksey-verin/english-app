@@ -13,7 +13,7 @@ const WordsPage = () => {
   const dispatch = useDispatch();
   const { userDictionary: dictionary, isLoading } = useSelector(selectorDictionary);
   return (
-    <main className="main">
+    <main className="main content">
       <div className="words title">
         <h1>My words</h1>
         <ScoreTitle />
