@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
 import { useSelector } from 'react-redux';
 import { selectorDictionary } from '../../store/reducers/dictionarySlice';
+import { selectorUserAuth } from '../../store/reducers/userAuthSlice';
+import { useDispatch } from 'react-redux';
+import { setSystemMessage, systemMessageValues } from '../../store/reducers/systemMessageSlice';
 
 const ScoreTitle = () => {
+  const dispatch = useDispatch();
   const {
     userScore: {
       total,
@@ -13,6 +17,7 @@ const ScoreTitle = () => {
       percentages: { zero, twenty, forty, sixty, eighty, hundred }
     }
   } = useSelector(selectorDictionary);
+  const { user } = useSelector(selectorUserAuth);
 
   return (
     <div className="score">
@@ -26,9 +31,17 @@ const ScoreTitle = () => {
           60% <span>{sixty}</span> | 80% <span>{eighty}</span> | 100% <span>{hundred}</span>
         </div>
       </div>
-      <Link to={TRAINING_ROUTE.MAIN}>
-        <button className="btn">Go!</button>
-      </Link>
+      {user ? (
+        <Link to={TRAINING_ROUTE.MAIN}>
+          <button className="btn">Go!</button>
+        </Link>
+      ) : (
+        <button
+          onClick={() => dispatch(setSystemMessage(systemMessageValues.error_login))}
+          className="btn">
+          Go!
+        </button>
+      )}
     </div>
   );
 };

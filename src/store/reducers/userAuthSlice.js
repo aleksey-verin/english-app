@@ -4,8 +4,8 @@ import { auth } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
 
 export const userSign = {
-  in: 'sighIn',
-  out: 'sighOut'
+  in: 'signIn',
+  out: 'signOut'
 };
 
 const initialState = {
@@ -15,10 +15,10 @@ const initialState = {
   isError: false
 };
 
-export const userAuth = createAsyncThunk('userAuth', async (typeSigh, thunkAPI) => {
+export const userAuth = createAsyncThunk('userAuth', async (typeSign, thunkAPI) => {
   console.log('userAuth');
   try {
-    if (typeSigh === userSign.in) {
+    if (typeSign === userSign.in) {
       const provider = new GoogleAuthProvider();
       const response = await signInWithPopup(auth, provider);
       const { email, uid, displayName, photoURL } = response.user;
@@ -29,7 +29,7 @@ export const userAuth = createAsyncThunk('userAuth', async (typeSigh, thunkAPI) 
         photoURL
       };
     }
-    if (typeSigh === userSign.out) {
+    if (typeSign === userSign.out) {
       await auth.signOut();
       return null;
     }

@@ -17,14 +17,14 @@ const LoginPage = () => {
   }
 
   return (
-    <div className="login-container">
+    <main className="auth content">
       <div className="login-title">
         <button onClick={handleLogin} className="google btn">
           <img className="google-img" src={Google} alt="google" />
           <div className="google-text">Enter with Google</div>
         </button>
       </div>
-    </div>
+    </main>
   );
 };
 

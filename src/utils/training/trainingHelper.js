@@ -3,6 +3,7 @@
 export const generateTaskList = (dictionary) => {
   if (!dictionary) return console.log('there is no dictionary');
   if (!dictionary.length) return console.log('dictionary is empty');
+  if (dictionary.length < 4) return console.log('dictionary is less 4 words');
 
   const tenRandomWords = getTenWordsForTraining(dictionary);
   const taskList = [];

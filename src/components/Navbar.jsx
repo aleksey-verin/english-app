@@ -1,32 +1,28 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { DICTIONARY_ROUTE, LOGIN_ROUTE, TRAINING_ROUTE, WORDS_ROUTE } from '../routes/routes';
+import { LOGIN_ROUTE, SEARCH_ROUTE, TRAINING_ROUTE, WORDS_ROUTE } from '../routes/routes';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectorUserAuth, userAuth, userSign } from '../store/reducers/userAuthSlice';
+import { clearAllUserData } from '../store/reducers/dictionarySlice';
 // import { auth } from '../utils/firebase';
 // import { requestUser } from '../store/actions/userAction';
 
 const Navbar = () => {
   const dispatch = useDispatch();
-  // const [user] = useAuthState(auth);
-  // const [user] = useAuthState(auth);
-  // const auth = getAuth(app);
 
   const { user } = useSelector(selectorUserAuth);
 
   const handleLogOut = () => {
-    // const auth = getAuth(app);
     dispatch(userAuth(userSign.out));
-    // auth.signOut(userSign.out);
-    // dispatch(requestUser(auth));
+    dispatch(clearAllUserData());
   };
 
   return (
     <header>
       <nav>
         <div className="menu">
-          <NavLink to={DICTIONARY_ROUTE}>
-            <div className="nav-item">Dictionary</div>
+          <NavLink to={SEARCH_ROUTE}>
+            <div className="nav-item">Search</div>
           </NavLink>
           <NavLink to={WORDS_ROUTE}>
             <div className="nav-item">My words</div>

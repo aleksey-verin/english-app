@@ -8,11 +8,14 @@ import { useSelector, useDispatch } from 'react-redux';
 import { addInDictionary } from '../../store/reducers/addInDictionarySlice';
 import { updateInDictionary, updateTypes } from '../../store/reducers/updateInDictionarySlice';
 import { getDictionary, selectorDictionary } from '../../store/reducers/dictionarySlice';
+import { selectorUserAuth } from '../../store/reducers/userAuthSlice';
+import { setSystemMessage, systemMessageValues } from '../../store/reducers/systemMessageSlice';
 
 const Results = () => {
   const dispatch = useDispatch();
   const { results, isLoading } = useSelector(selectorRequestWord);
   const { userDictionary: dictionary } = useSelector(selectorDictionary);
+  const { user } = useSelector(selectorUserAuth);
   const { word, meanings, phonetics } = results;
   if (isLoading) return <Loader />;
 
@@ -26,7 +29,12 @@ const Results = () => {
     }
   }
   function handleClick(word, definition) {
-    console.log(dictionary);
+    if (!user) {
+      dispatch(setSystemMessage(systemMessageValues.error_login));
+      console.log('no user');
+      return;
+    }
+
     if (isWordInDictionary) {
       if (isWordInDictionary.definition.includes(definition)) {
         dispatch(
@@ -63,7 +71,7 @@ const Results = () => {
             <div className="results-item__definitions">
               {item.definitions.map((def, i) => (
                 <div
-                  key={i + 20}
+                  key={i}
                   className="results-item__definition"
                   style={
                     isWordInDictionary?.definition.includes(def.definition)
@@ -99,24 +107,6 @@ const Results = () => {
                       />
                     </div>
                   )}
-                  {/* {!isWordInDictionary.filter((item) => item.definition === definition.definition)
-                    .length ? (
-                    <div
-                      className="results-item__add"
-                      onClick={(e) => handleClick(e, definition.definition)}>
-                      <img src={Add} alt="add" />
-                    </div>
-                  ) : (
-                    <div className="results-item__add">
-                      {`${
-                        isWordInDictionary[
-                          isWordInDictionary.findIndex(
-                            (item) => item.definition === definition.definition
-                          )
-                        ].progress
-                      }%`}
-                    </div>
-                  )} */}
                   <p>{def.definition}</p>
                   {def.example ? (
                     <div className="results-item__example">

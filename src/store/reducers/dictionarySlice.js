@@ -57,6 +57,15 @@ const dictionarySlice = createSlice({
   reducers: {
     setTrainingTasks(state, action) {
       state.trainingList = generateTaskList(action.payload);
+    },
+    clearAllUserData(state) {
+      state.userDictionary = initialState.userDictionary;
+      state.trainingList = initialState.trainingList;
+      state.trainingListLength = initialState.trainingListLength;
+      state.userScore = initialState.userScore;
+      state.isLoading = initialState.isLoading;
+      state.isSuccess = initialState.isSuccess;
+      state.isError = initialState.isError;
     }
   },
   extraReducers: (builder) => {
@@ -69,7 +78,7 @@ const dictionarySlice = createSlice({
       const trainingList = generateTaskList(payload);
       state.userDictionary = payload;
       state.trainingList = trainingList;
-      state.trainingListLength = trainingList.length;
+      state.trainingListLength = trainingList ? trainingList.length : 0;
       state.userScore = getScore(payload);
       state.isSuccess = true;
       state.isLoading = false;
@@ -84,7 +93,7 @@ const dictionarySlice = createSlice({
 export const selectorDictionary = (state) => state.dictionarySlice;
 
 // const { actions } = dictionarySlice;
-export const { setTrainingTasks } = dictionarySlice.actions;
+export const { setTrainingTasks, clearAllUserData } = dictionarySlice.actions;
 
 export default dictionarySlice.reducer;
 

@@ -1,5 +1,5 @@
 export const LOGIN_ROUTE = '/login';
-export const DICTIONARY_ROUTE = '/dictionary';
+export const SEARCH_ROUTE = '/search';
 export const WORDS_ROUTE = '/words';
 export const TRAINING_ROUTE = {
   MAIN: '/training',

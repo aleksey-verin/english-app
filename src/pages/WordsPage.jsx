@@ -5,7 +5,7 @@ import Loader from '../components/Loader';
 import { selectorDictionary } from '../store/reducers/dictionarySlice';
 import Edit from '../images/edit.png';
 import { Link } from 'react-router-dom';
-import { DICTIONARY_ROUTE } from '../routes/routes';
+import { SEARCH_ROUTE } from '../routes/routes';
 import { requestWord } from '../store/reducers/requestWordSlice';
 import ScoreTitle from '../components/common UI/ScoreTitle';
 
@@ -34,7 +34,7 @@ const WordsPage = () => {
                 ))}
               </div>
               <div className="words-list__edit">
-                <Link to={DICTIONARY_ROUTE} onClick={() => dispatch(requestWord(word))}>
+                <Link to={SEARCH_ROUTE} onClick={() => dispatch(requestWord(word))}>
                   <img src={Edit} alt="edit" title="Edit the definition" />
                 </Link>
               </div>

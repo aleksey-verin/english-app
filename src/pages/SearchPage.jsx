@@ -7,7 +7,7 @@ import Results from '../components/Dictionary/Results';
 import Title from '../components/Dictionary/Title';
 import { selectorRequestWord } from '../store/reducers/requestWordSlice';
 
-const DictionaryPage = () => {
+const SearchPage = () => {
   console.log('render DictionaryPage');
   const { isSuccess, isError } = useSelector(selectorRequestWord);
 
@@ -21,4 +21,4 @@ const DictionaryPage = () => {
   );
 };
 
-export default DictionaryPage;
+export default SearchPage;

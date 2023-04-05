@@ -13,7 +13,8 @@ const TrainingPage = () => {
   const {
     userDictionary,
     isLoading,
-    userScore: { training }
+    userScore: { training },
+    trainingListLength
   } = useSelector(selectorDictionary);
   if (isLoading) return <Loader />;
 
@@ -30,63 +31,74 @@ const TrainingPage = () => {
         </h1>
         <ScoreTitle />
       </div>
-      <div className="training content">
-        <div className="training-title">
-          You have <span>{training}</span> words to practice. What would you like to do?
-        </div>
-        <div className="training-actions">
-          <div className="training-actions__item content">
-            <div className="training-actions__item-title">«One meaning and four words» </div>
-            <div className="training-actions__item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
-              veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
-              ipsam nihil molestias adipisci in reprehenderit fuga placeat?
-            </div>
-            <Link to={TRAINING_ROUTE.TRAINING_DEFINITION}>
-              <button className="btn">Go to training</button>
-            </Link>
-          </div>
-          <div className="training-actions__item content">
-            <div className="training-actions__item-title">«One word and four meanings</div>
-            <div className="training-actions__item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
-              veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
-              ipsam nihil molestias adipisci in reprehenderit fuga placeat?
-            </div>
-            <Link to={TRAINING_ROUTE.TRAINING_WORD}>
-              <button className="btn">Go to training</button>
-            </Link>
-          </div>
-          <div className="training-actions__item content">
-            <div className="training-actions__item-title">Action 1</div>
-            <div className="training-actions__item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
-              veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
-              ipsam nihil molestias adipisci in reprehenderit fuga placeat?
-            </div>
-            <Link to={TRAINING_ROUTE.TEST3}>
-              <button className="btn">Click me</button>
-            </Link>
-          </div>
-          <div className="training-actions__item content">
-            <div className="training-actions__item-title">Action 1</div>
-            <div className="training-actions__item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
-              veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
-              ipsam nihil molestias adipisci in reprehenderit fuga placeat?
-            </div>
-            <Link to={TRAINING_ROUTE.TEST3}>
-              <button className="btn">Click me</button>
-            </Link>
+      {!trainingListLength ? (
+        <div className="training content">
+          <div className="training-title">
+            You have less than <span>four words</span> in the dictionary. Please add more for
+            training
           </div>
         </div>
-        <div className="training-add content">
-          <div>Would you like to add 500 popular English words to your dictionary?</div>
-          <button className="btn" onClick={handleAddMoreTasks}>
-            Add more words
-          </button>
+      ) : (
+        <div className="training content">
+          <div className="training-title">
+            You have <span>{training}</span> words to practice. What would you like to do?
+          </div>
+          <div className="training-actions">
+            <div className="training-actions__item content">
+              <div className="training-actions__item-title">«One meaning and four words» </div>
+              <div className="training-actions__item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
+                veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
+                ipsam nihil molestias adipisci in reprehenderit fuga placeat?
+              </div>
+              <Link to={TRAINING_ROUTE.TRAINING_DEFINITION}>
+                <button className="btn">Go to training</button>
+              </Link>
+            </div>
+            <div className="training-actions__item content">
+              <div className="training-actions__item-title">«One word and four meanings</div>
+              <div className="training-actions__item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
+                veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
+                ipsam nihil molestias adipisci in reprehenderit fuga placeat?
+              </div>
+              <Link to={TRAINING_ROUTE.TRAINING_WORD}>
+                <button className="btn">Go to training</button>
+              </Link>
+            </div>
+            <div className="training-actions__item content">
+              <div className="training-actions__item-title">Action 1</div>
+              <div className="training-actions__item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
+                veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
+                ipsam nihil molestias adipisci in reprehenderit fuga placeat?
+              </div>
+              <Link to={TRAINING_ROUTE.TEST3}>
+                <button className="btn">Click me</button>
+              </Link>
+            </div>
+            <div className="training-actions__item content">
+              <div className="training-actions__item-title">Action 1</div>
+              <div className="training-actions__item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
+                veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
+                ipsam nihil molestias adipisci in reprehenderit fuga placeat?
+              </div>
+              <Link to={TRAINING_ROUTE.TEST3}>
+                <button className="btn">Click me</button>
+              </Link>
+            </div>
+          </div>
+          {userDictionary.length < 200 && (
+            <div className="training-add content">
+              <div>Would you like to add 500 popular English words to your dictionary?</div>
+              <button className="btn" onClick={handleAddMoreTasks}>
+                Add more words
+              </button>
+            </div>
+          )}
         </div>
-      </div>
+      )}
     </main>
   );
 };

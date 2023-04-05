@@ -6,6 +6,7 @@ import './App.css';
 import { selectorUserAuth } from './store/reducers/userAuthSlice';
 import { useEffect } from 'react';
 import { getDictionary } from './store/reducers/dictionarySlice';
+import SystemMessage from './components/SystemMessage';
 // import { setTrainingTasks } from './store/reducers/trainingSlice';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="app">
       <HashRouter>
+        <SystemMessage />
         <Navbar />
         <AppRouter />
       </HashRouter>

@@ -7,6 +7,7 @@ import dictionarySlice from './reducers/dictionarySlice';
 // import trainingSlice from './reducers/trainingSlice';
 // import userSlice from './reducers/userSlice';
 import userAuthSlice from './reducers/userAuthSlice';
+import systemMessageSlice from './reducers/systemMessageSlice';
 
 // export const rootReducer = combineReducers({
 //   userSlice,
@@ -21,7 +22,8 @@ export const store = configureStore({
     requestWordSlice,
     dictionarySlice,
     addInDictionarySlice,
-    updateInDictionarySlice
+    updateInDictionarySlice,
+    systemMessageSlice
     // trainingSlice
     // [firestoreApi.reducerPath]: firestoreApi.reducer
     // [requestWordApi.reducerPath]: requestWordApi.reducer
