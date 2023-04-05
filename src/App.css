@@ -475,6 +475,12 @@ h4 {
   font-size: 18px;
   color: #7930b1;
 }
+.training-actions__item-text {
+  line-height: 1.2;
+}
+.training-actions__item-text span {
+  color: #7930b1;
+}
 .training-add {
   display: flex;
   align-items: center;

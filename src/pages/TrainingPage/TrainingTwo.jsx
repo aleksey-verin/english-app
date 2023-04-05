@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import Loader from '../../components/Loader';
 import { getDictionary, selectorDictionary } from '../../store/reducers/dictionarySlice';
 import { Link } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
@@ -19,16 +18,14 @@ const TrainingTwo = () => {
   console.log('render training one');
   const dispatch = useDispatch();
 
-  const { userDictionary, trainingList, trainingListLength, isLoading } =
-    useSelector(selectorDictionary);
+  const { userDictionary, trainingList, trainingListLength } = useSelector(selectorDictionary);
   const [questionNumber, setQuestionNumber] = useState(initialStateTraining.questionNumber);
   const [isTestCompleted, setIsTestCompleted] = useState(initialStateTraining.isTestCompleted);
   const [userRightAnswers, setUserRightAnswers] = useState(initialStateTraining.userRightAnswers);
   const [userWrongAnswers, setUserWrongAnswers] = useState(initialStateTraining.userWrongAnswers);
 
   const [buttonsDisabled, setButtonsDisabled] = useState(false);
-  // if (isLoading || !trainingList) return <Loader />;
-  // if (isLoading) return <Loader />;
+
   const question = trainingList ? trainingList[questionNumber].question : '';
   const questionDefinition = question.definition;
   const questionWord = question.word;

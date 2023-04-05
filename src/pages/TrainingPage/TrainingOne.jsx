@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import Loader from '../../components/Loader';
 import { getDictionary, selectorDictionary } from '../../store/reducers/dictionarySlice';
 import { Link } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
@@ -19,8 +18,7 @@ const TrainingOne = () => {
   console.log('render training one');
   const dispatch = useDispatch();
 
-  const { userDictionary, trainingList, trainingListLength, isLoading } =
-    useSelector(selectorDictionary);
+  const { userDictionary, trainingList, trainingListLength } = useSelector(selectorDictionary);
   const [questionNumber, setQuestionNumber] = useState(initialStateTraining.questionNumber);
   const [isTestCompleted, setIsTestCompleted] = useState(initialStateTraining.isTestCompleted);
   const [userRightAnswers, setUserRightAnswers] = useState(initialStateTraining.userRightAnswers);

@@ -515,6 +515,13 @@ h4 {
         font-size: 18px;
         color: $color_violet;
       }
+      &-text {
+        line-height: 1.2;
+        & span {
+          color: $color_violet;
+          // font-weight: 900;
+        }
+      }
     }
   }
   &-add {

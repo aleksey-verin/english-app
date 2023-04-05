@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { selectorDictionary } from '../../store/reducers/dictionarySlice';
 import { selectorUserAuth } from '../../store/reducers/userAuthSlice';
-import { useDispatch } from 'react-redux';
 import { setSystemMessage, systemMessageValues } from '../../store/reducers/systemMessageSlice';
 
 const ScoreTitle = () => {

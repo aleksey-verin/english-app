@@ -47,9 +47,10 @@ const TrainingPage = () => {
             <div className="training-actions__item content">
               <div className="training-actions__item-title">«One meaning and four words» </div>
               <div className="training-actions__item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
-                veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
-                ipsam nihil molestias adipisci in reprehenderit fuga placeat?
+                This training exercise for learning English involves a game where the user is shown
+                <span> a single English word</span>, and must then choose the correct definition
+                from <span>four options</span> provided. This exercise helps improve perception and
+                memorization of English words, as well as increasing proficiency in the language.
               </div>
               <Link to={TRAINING_ROUTE.TRAINING_DEFINITION}>
                 <button className="btn">Go to training</button>
@@ -58,34 +59,13 @@ const TrainingPage = () => {
             <div className="training-actions__item content">
               <div className="training-actions__item-title">«One word and four meanings</div>
               <div className="training-actions__item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
-                veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
-                ipsam nihil molestias adipisci in reprehenderit fuga placeat?
+                This vocabulary training exercise is a game where the user is presented with
+                <span> a single English definition</span>, and must choose the word that corresponds
+                to that definition from <span>four options</span>. This type of training helps
+                improve one&apos;s vocabulary and understanding of the English language.
               </div>
               <Link to={TRAINING_ROUTE.TRAINING_WORD}>
                 <button className="btn">Go to training</button>
-              </Link>
-            </div>
-            <div className="training-actions__item content">
-              <div className="training-actions__item-title">Action 1</div>
-              <div className="training-actions__item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
-                veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
-                ipsam nihil molestias adipisci in reprehenderit fuga placeat?
-              </div>
-              <Link to={TRAINING_ROUTE.TEST3}>
-                <button className="btn">Click me</button>
-              </Link>
-            </div>
-            <div className="training-actions__item content">
-              <div className="training-actions__item-title">Action 1</div>
-              <div className="training-actions__item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione veniam
-                veritatis quibusdam ea dolorum nemo obcaecati quae vel commodi, blanditiis, dicta
-                ipsam nihil molestias adipisci in reprehenderit fuga placeat?
-              </div>
-              <Link to={TRAINING_ROUTE.TEST3}>
-                <button className="btn">Click me</button>
               </Link>
             </div>
           </div>
