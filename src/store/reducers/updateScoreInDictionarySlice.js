@@ -3,6 +3,11 @@ import { doc, setDoc } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase';
 import { storage, storageGetItem } from '../../utils/localstorage';
 
+export const scoreValues = {
+  light: 10,
+  medium: 20
+};
+
 const initialState = {
   isLoading: false,
   isSuccess: false,
@@ -16,7 +21,7 @@ const initialState = {
 
 export const updateScoreInDictionary = createAsyncThunk(
   'updateScoreInDictionary',
-  async ({ userDictionary, userRightAnswers }, thunkAPI) => {
+  async ({ userDictionary, userRightAnswers, score }, thunkAPI) => {
     console.log('updateDispatch');
     try {
       if (!userRightAnswers) return console.log('no answers');
@@ -25,7 +30,7 @@ export const updateScoreInDictionary = createAsyncThunk(
 
       const newDictionary = JSON.parse(JSON.stringify(userDictionary));
       userRightAnswers.forEach(({ indexInMainDictionary }) => {
-        newDictionary[indexInMainDictionary].progress += 20;
+        newDictionary[indexInMainDictionary].progress += score;
       });
 
       await setDoc(doc(firestore, `dictionary-${email}`, 'user-dictionary'), {

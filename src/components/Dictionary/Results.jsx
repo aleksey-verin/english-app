@@ -10,6 +10,7 @@ import { updateInDictionary, updateTypes } from '../../store/reducers/updateInDi
 import { getDictionary, selectorDictionary } from '../../store/reducers/dictionarySlice';
 import { selectorUserAuth } from '../../store/reducers/userAuthSlice';
 import { setSystemMessage, systemMessageValues } from '../../store/reducers/systemMessageSlice';
+import ProgressCircle from '../common UI/ProgressCircle';
 
 const Results = () => {
   const dispatch = useDispatch();
@@ -20,6 +21,7 @@ const Results = () => {
   if (isLoading) return <Loader />;
 
   const isWordInDictionary = dictionary ? dictionary.find((item) => item.word === word) : null;
+  const viewedProgress = isWordInDictionary ? isWordInDictionary.progress : null;
   // console.log(isWordInDictionary);
 
   function handleSound() {
@@ -60,8 +62,15 @@ const Results = () => {
     <div className="results">
       <div className="results-info">
         <div className="results-word">{word}</div>
-        <div className="results-sound">
-          <img src={Sound} alt="sound-pic" onClick={handleSound} />
+        <div className="results-actions">
+          {isWordInDictionary ? <ProgressCircle progress={viewedProgress} /> : null}
+          <img
+            className="results-actions__sound"
+            src={Sound}
+            alt="sound-pic"
+            onClick={handleSound}
+            title="Play sound"
+          />
         </div>
       </div>
       <div className="results-list">

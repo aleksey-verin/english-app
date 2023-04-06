@@ -1,11 +1,19 @@
 // Для тренировки нужно выбирать 10 случайных пунктов из словаря, чтобы они не повторялись
 
-export const generateTaskList = (dictionary) => {
+export const generateTaskList = (
+  dictionary,
+  minLengthForTraining = 4,
+  maxLengthForTraining = 10
+) => {
   if (!dictionary) return console.log('there is no dictionary');
   if (!dictionary.length) return console.log('dictionary is empty');
   if (dictionary.length < 4) return console.log('dictionary is less 4 words');
 
-  const tenRandomWords = getTenWordsForTraining(dictionary);
+  const tenRandomWords = getTenWordsForTraining(
+    dictionary,
+    minLengthForTraining,
+    maxLengthForTraining
+  );
   const taskList = [];
   tenRandomWords.forEach((item) => {
     const shuffledArray = shuffleArray([
@@ -21,11 +29,7 @@ export const generateTaskList = (dictionary) => {
   return taskList;
 };
 
-const getTenWordsForTraining = (
-  dictionary,
-  minLengthForTraining = 4,
-  maxLengthForTraining = 10
-) => {
+const getTenWordsForTraining = (dictionary, minLengthForTraining, maxLengthForTraining) => {
   // 10 случайных пунктов слово-значение из 500
   // делаем выборку словаря для тренировки
   const dictionaryForTraining = dictionary.filter((item) => item.progress < 100);

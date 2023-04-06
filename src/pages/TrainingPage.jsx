@@ -40,34 +40,37 @@ const TrainingPage = () => {
         </div>
       ) : (
         <div className="training content">
-          <div className="training-title">
-            You have <span>{training}</span> words to practice. What would you like to do?
+          <div className="training-title content">
+            You have <span>{training}</span> words to practice. What kind of word training would you
+            like to start?
           </div>
           <div className="training-actions">
-            <div className="training-actions__item content">
-              <div className="training-actions__item-title">«One meaning and four words» </div>
-              <div className="training-actions__item-text">
-                This training exercise for learning English involves a game where the user is shown
-                <span> a single English word</span>, and must then choose the correct definition
-                from <span>four options</span> provided. This exercise helps improve perception and
-                memorization of English words, as well as increasing proficiency in the language.
-              </div>
-              <Link to={TRAINING_ROUTE.TRAINING_DEFINITION}>
-                <button className="btn">Go to training</button>
-              </Link>
-            </div>
-            <div className="training-actions__item content">
-              <div className="training-actions__item-title">«One word and four meanings</div>
+            <Link
+              className="training-actions__item content"
+              to={TRAINING_ROUTE.TRAINING_DEFINITION}>
+              {/* <div > */}
+              <div className="training-actions__item-title">definition</div>
               <div className="training-actions__item-text">
                 This vocabulary training exercise is a game where the user is presented with
                 <span> a single English definition</span>, and must choose the word that corresponds
                 to that definition from <span>four options</span>. This type of training helps
                 improve one&apos;s vocabulary and understanding of the English language.
               </div>
-              <Link to={TRAINING_ROUTE.TRAINING_WORD}>
-                <button className="btn">Go to training</button>
-              </Link>
-            </div>
+              {/* <button className="btn">Go to training</button> */}
+              {/* </div> */}
+            </Link>
+            <Link className="training-actions__item content" to={TRAINING_ROUTE.TRAINING_WORD}>
+              {/* <div > */}
+              <div className="training-actions__item-title">word</div>
+              <div className="training-actions__item-text">
+                This training exercise for learning English involves a game where the user is shown
+                <span> a single English word</span>, and must then choose the correct definition
+                from <span>four options</span> provided. This exercise helps improve perception and
+                memorization of English words, as well as increasing proficiency in the language.
+              </div>
+              {/* <button className="btn">Go to training</button> */}
+              {/* </div> */}
+            </Link>
           </div>
           {userDictionary.length < 200 && (
             <div className="training-add content">

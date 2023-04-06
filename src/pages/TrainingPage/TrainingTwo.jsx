@@ -4,7 +4,10 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getDictionary, selectorDictionary } from '../../store/reducers/dictionarySlice';
 import { Link } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
-import { updateScoreInDictionary } from '../../store/reducers/updateScoreInDictionarySlice';
+import {
+  scoreValues,
+  updateScoreInDictionary
+} from '../../store/reducers/updateScoreInDictionarySlice';
 import ScoreTitle from '../../components/common UI/ScoreTitle';
 
 const initialStateTraining = {
@@ -47,7 +50,9 @@ const TrainingTwo = () => {
         setQuestionNumber((questionNumber) => questionNumber + 1);
       } else {
         setIsTestCompleted(true);
-        dispatch(updateScoreInDictionary({ userDictionary, userRightAnswers }));
+        dispatch(
+          updateScoreInDictionary({ userDictionary, userRightAnswers, score: scoreValues.medium })
+        );
         dispatch(getDictionary());
       }
       answerElement.style.backgroundColor = '';
@@ -120,7 +125,7 @@ const TrainingTwo = () => {
         {!isTestCompleted && (
           <div className="test-info">
             <div className="test-info__page info">
-              {`question ${currentQuestion} of ${numberOfQuestions}`}
+              {`${currentQuestion} of ${numberOfQuestions}`}
             </div>
             <div
               style={stylesForUserAnswer}

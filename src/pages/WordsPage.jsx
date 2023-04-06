@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { SEARCH_ROUTE } from '../routes/routes';
 import { requestWord } from '../store/reducers/requestWordSlice';
 import ScoreTitle from '../components/common UI/ScoreTitle';
+import ProgressCircle from '../components/common UI/ProgressCircle';
 
 const WordsPage = () => {
   const dispatch = useDispatch();
@@ -24,9 +25,10 @@ const WordsPage = () => {
             <Loader />
           </div>
         )}
-        {dictionary.map(({ word, definition }, i) => {
+        {dictionary.map(({ word, definition, progress }, i) => {
           return (
             <div key={i} className="words-list__item">
+              <ProgressCircle progress={progress} />
               <div className="words-list__word">{word}</div>
               <div className="words-list__definition">
                 {definition.map((item, index) => (

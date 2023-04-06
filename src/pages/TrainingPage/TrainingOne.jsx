@@ -4,14 +4,17 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getDictionary, selectorDictionary } from '../../store/reducers/dictionarySlice';
 import { Link } from 'react-router-dom';
 import { TRAINING_ROUTE } from '../../routes/routes';
-import { updateScoreInDictionary } from '../../store/reducers/updateScoreInDictionarySlice';
+import {
+  scoreValues,
+  updateScoreInDictionary
+} from '../../store/reducers/updateScoreInDictionarySlice';
 import ScoreTitle from '../../components/common UI/ScoreTitle';
 
 const initialStateTraining = {
   questionNumber: 0,
   isTestCompleted: false,
   userRightAnswers: [],
-  userWrongAnswers: 0
+  userWrongAnswers: []
 };
 
 const TrainingOne = () => {
@@ -39,7 +42,7 @@ const TrainingOne = () => {
       setUserRightAnswers([...userRightAnswers, question]);
       answerElement.style.backgroundColor = 'limegreen';
     } else {
-      setUserWrongAnswers((userWrongAnswers) => userWrongAnswers + 1);
+      setUserWrongAnswers([...userWrongAnswers, question]);
       answerElement.style.backgroundColor = 'lightcoral';
     }
     setTimeout(() => {
@@ -47,7 +50,9 @@ const TrainingOne = () => {
         setQuestionNumber((questionNumber) => questionNumber + 1);
       } else {
         setIsTestCompleted(true);
-        dispatch(updateScoreInDictionary({ userDictionary, userRightAnswers }));
+        dispatch(
+          updateScoreInDictionary({ userDictionary, userRightAnswers, score: scoreValues.medium })
+        );
         dispatch(getDictionary());
       }
       answerElement.style.backgroundColor = '';
@@ -65,7 +70,7 @@ const TrainingOne = () => {
   const currentQuestion = questionNumber + 1;
   const numberOfQuestions = trainingListLength || 10;
   const numberOfRightAnswers = userRightAnswers.length;
-  const numberOfWrongAnswers = userWrongAnswers;
+  const numberOfWrongAnswers = userWrongAnswers.length;
 
   const stylesForUserAnswer =
     numberOfRightAnswers > numberOfWrongAnswers
@@ -88,6 +93,25 @@ const TrainingOne = () => {
             <div
               style={stylesForUserAnswer}
               className="test-results__title content">{`You answered ${userRightAnswers.length} out of 10 questions correctly`}</div>
+            <div className="test-results__words">
+              <div className="test-results__words-wrong">
+                <div className="test-results__words-wrong__title">Incorrect answers:</div>
+                <div className="test-results__words-wrong__result">
+                  {userWrongAnswers.map((item, index) => (
+                    <div key={index} className="test-results__words-wrong__result-block">
+                      <div className="test-results__words-wrong__result-block__question">
+                        {item.word}
+                      </div>
+                      <div>–</div>
+                      <div className="test-results__words-wrong__result-block__answer">
+                        {item.definition}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="test-results__words-right"></div>
+            </div>
             <div className="test-results__actions">
               <button onClick={handleResetParams} className="btn">
                 Start a new test
@@ -104,7 +128,7 @@ const TrainingOne = () => {
                 ? questionDefinition.map((definition, index) => <div key={index}>{definition}</div>)
                 : null}
             </div>
-            <div className="test-answers content">
+            <div className="test-answers">
               {answers
                 ? answers.map((item, i) => {
                     return (
@@ -124,7 +148,7 @@ const TrainingOne = () => {
         {!isTestCompleted && (
           <div className="test-info">
             <div className="test-info__page info">
-              {`question ${currentQuestion} of ${numberOfQuestions}`}
+              {`${currentQuestion} of ${numberOfQuestions}`}
             </div>
             <div
               style={stylesForUserAnswer}
