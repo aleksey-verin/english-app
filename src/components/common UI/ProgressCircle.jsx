@@ -1,5 +1,6 @@
 import React from 'react';
 
+// eslint-disable-next-line react/prop-types
 const ProgressCircle = ({ progress }) => {
   const viewedProgress = progress <= 100 ? progress : 100;
 

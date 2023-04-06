@@ -4,8 +4,6 @@ import { LOGIN_ROUTE, SEARCH_ROUTE, TRAINING_ROUTE, WORDS_ROUTE } from '../route
 import { useSelector, useDispatch } from 'react-redux';
 import { selectorUserAuth, userAuth, userSign } from '../store/reducers/userAuthSlice';
 import { clearAllUserData } from '../store/reducers/dictionarySlice';
-// import { auth } from '../utils/firebase';
-// import { requestUser } from '../store/actions/userAction';
 
 const Navbar = () => {
   const dispatch = useDispatch();

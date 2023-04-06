@@ -4,29 +4,17 @@ import addInDictionarySlice from './reducers/addInDictionarySlice';
 import updateInDictionarySlice from './reducers/updateInDictionarySlice';
 import requestWordSlice from './reducers/requestWordSlice';
 import dictionarySlice from './reducers/dictionarySlice';
-// import trainingSlice from './reducers/trainingSlice';
-// import userSlice from './reducers/userSlice';
 import userAuthSlice from './reducers/userAuthSlice';
 import systemMessageSlice from './reducers/systemMessageSlice';
 
-// export const rootReducer = combineReducers({
-//   userSlice,
-//   requestWordSlice,
-//   userDictionarySlice
-// });
-
 export const store = configureStore({
   reducer: {
-    // userSlice,
     userAuthSlice,
     requestWordSlice,
     dictionarySlice,
     addInDictionarySlice,
     updateInDictionarySlice,
     systemMessageSlice
-    // trainingSlice
-    // [firestoreApi.reducerPath]: firestoreApi.reducer
-    // [requestWordApi.reducerPath]: requestWordApi.reducer
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
@@ -37,5 +25,4 @@ export const store = configureStore({
 
 store.subscribe(() => {
   storageSetItem(storage.user, store.getState().userAuthSlice.user);
-  // storageSetItem(storage.trainingList, store.getState().trainingSlice.trainingList);
 });
