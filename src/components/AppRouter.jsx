@@ -26,7 +26,7 @@ const AppRouter = () => {
     <Routes>
       <Route path={SEARCH_ROUTE} element={<SearchPage />} />
       <Route path={LOGIN_ROUTE} element={<LoginPage />} />
-      <Route path="*" element={<Navigate replace to={LOGIN_ROUTE} />} />
+      <Route path="*" element={<Navigate replace to={SEARCH_ROUTE} />} />
     </Routes>
   );
 };
