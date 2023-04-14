@@ -718,7 +718,7 @@ $size: 30px;
 
 //Create how many steps
 $howManySteps: 10; //this needs to be even.
-//for fun try using 20 and changine in the HTML the data-percentage to 15 or 85
+//for fun try using 20 and changing in the HTML the data-percentage to 15 or 85
 .progress-container {
   display: flex;
   align-items: center;
@@ -796,9 +796,9 @@ $howManySteps: 10; //this needs to be even.
     height: 100%;
     //font-family: $work-sans;
     font-weight: 300;
-    div {
-      // margin-top: 10px;
-    }
+    // div {
+    //   // margin-top: 10px;
+    // }
     span {
       font-size: 10px;
       text-transform: uppercase;
