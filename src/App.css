@@ -582,7 +582,6 @@ h4 {
   background-color: rgba(255, 255, 255, 0.8);
 }
 .test-answers {
-  color: rgba(0, 0, 0, 0.8);
   min-height: 117px;
   width: 100%;
   margin: 0 auto;
@@ -592,6 +591,7 @@ h4 {
 }
 .test-answers__item {
   box-shadow: 0px 5px 9px -4px rgba(34, 60, 80, 0.2);
+  color: rgba(0, 0, 0, 0.8);
   flex: 1 0 40%;
   text-align: center;
   background-color: rgba(165, 217, 247, 0.4862745098);

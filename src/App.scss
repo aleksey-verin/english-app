@@ -656,7 +656,6 @@ h4 {
     // box-shadow: 0px 5px 10px -4px rgba(34, 60, 80, 0.2);
   }
   &-answers {
-    color: $color_black;
     min-height: 117px;
     width: 100%;
     margin: 0 auto;
@@ -666,6 +665,7 @@ h4 {
     gap: 15px;
     &__item {
       @include box-shadow;
+      color: $color_black;
       flex: 1 0 40%;
       text-align: center;
       background-color: #a5d9f77c;
