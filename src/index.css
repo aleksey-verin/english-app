@@ -29,6 +29,7 @@ html,
 body {
   /* height: 100%;
   width: 100%; */
+  min-width: 375px;
   font-size: 100%;
   line-height: 1;
   -ms-text-size-adjust: 100%;

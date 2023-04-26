@@ -33,7 +33,9 @@ const Navbar = () => {
           {user ? (
             <>
               <div className="login-user">
-                <img className="login-user__image" src={user ? user.photoURL : ''} alt="avatar" />
+                <div className="login-user__image">
+                  <img src={user ? user.photoURL : ''} alt="avatar" />
+                </div>
                 <div className="login-user__name">
                   {user.displayName
                     ? user.displayName.length > 20
