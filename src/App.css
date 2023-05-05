@@ -204,12 +204,42 @@ nav {
   gap: 10px;
   align-items: center;
 }
+.score-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .score-text__percent {
   margin-top: 3px;
   font-size: 10px;
 }
 .score-text span {
   color: maroon;
+}
+.score button {
+  height: 45px;
+}
+
+.percentages {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.376);
+  border-radius: 5px;
+  align-items: center;
+  overflow: hidden;
+}
+.percentages-item {
+  flex: 1 0 16%;
+  text-align: center;
+}
+.percentages-item__data {
+  font-size: 8px;
+  padding: 2px;
+}
+.percentages-item__title {
+  font-size: 8px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2px;
 }
 
 h1 {

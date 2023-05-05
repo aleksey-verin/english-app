@@ -25,10 +25,36 @@ const ScoreTitle = () => {
           Total: <span>{total}</span> | Done: <span>{done}</span> | Training:{' '}
           <span>{training}</span>
         </div>
-        <div className="score-text__percent">
+        <div className="score-percentages percentages">
+          <div className="percentages-item">
+            <div className="percentages-item__title">0%</div>
+            <div className="percentages-item__data">{zero}</div>
+          </div>
+          <div className="percentages-item">
+            <div className="percentages-item__title">20%</div>
+            <div className="percentages-item__data">{twenty}</div>
+          </div>
+          <div className="percentages-item">
+            <div className="percentages-item__title">40%</div>
+            <div className="percentages-item__data">{forty}</div>
+          </div>
+          <div className="percentages-item">
+            <div className="percentages-item__title">60%</div>
+            <div className="percentages-item__data">{sixty}</div>
+          </div>
+          <div className="percentages-item">
+            <div className="percentages-item__title">80%</div>
+            <div className="percentages-item__data">{eighty}</div>
+          </div>
+          <div className="percentages-item">
+            <div className="percentages-item__title">100%</div>
+            <div className="percentages-item__data">{hundred}</div>
+          </div>
+        </div>
+        {/* <div className="score-text__percent">
           Learning: 0% <span>{zero}</span> | 20% <span>{twenty}</span> | 40% <span>{forty}</span> |
           60% <span>{sixty}</span> | 80% <span>{eighty}</span> | 100% <span>{hundred}</span>
-        </div>
+        </div> */}
       </div>
       {user ? (
         <Link to={TRAINING_ROUTE.MAIN}>

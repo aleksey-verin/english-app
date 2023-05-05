@@ -6,7 +6,7 @@ const Title = () => {
   return (
     <div className="title">
       <h1>
-        Your best <span>Dictionary</span> and <span>Learning</span> app
+        <span>Dictionary</span> and <span>Learning</span> app
       </h1>
       <ScoreTitle />
     </div>
