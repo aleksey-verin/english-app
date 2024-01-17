@@ -33,7 +33,7 @@ const Results = () => {
   function handleClick(word, definition) {
     if (!user) {
       dispatch(setSystemMessage(systemMessageValues.error_login));
-      console.log('no user');
+      // console.log('no user');
       return;
     }
 

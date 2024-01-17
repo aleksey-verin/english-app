@@ -28,7 +28,7 @@ const initialState = {
 };
 
 export const getDictionary = createAsyncThunk('getDictionary', async (_, thunkAPI) => {
-  console.log('dictionaryDispatch');
+  // console.log('dictionaryDispatch');
   try {
     const email = storageGetItem(storage.user)?.email;
     if (!email) return;

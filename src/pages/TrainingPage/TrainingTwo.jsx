@@ -18,7 +18,7 @@ const initialStateTraining = {
 };
 
 const TrainingTwo = () => {
-  console.log('render training one');
+  // console.log('render training one');
   const dispatch = useDispatch();
 
   const { userDictionary, trainingList, trainingListLength } = useSelector(selectorDictionary);
@@ -37,7 +37,7 @@ const TrainingTwo = () => {
   const handleAnswer = (event, answer) => {
     const answerElement = event.target;
     setButtonsDisabled(true);
-    console.log(answer);
+    // console.log(answer);
     if (answer[0] === questionDefinition[0]) {
       setUserRightAnswers([...userRightAnswers, question]);
       answerElement.style.backgroundColor = 'limegreen';

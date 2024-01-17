@@ -12,9 +12,9 @@ const initialState = {
 export const addInDictionary = createAsyncThunk(
   'addInDictionary',
   async ({ dictionary, word, definition }, thunkAPI) => {
-    console.log('addInDictionaryDispatch');
+    // console.log('addInDictionaryDispatch');
     const email = storageGetItem(storage.user)?.email;
-    console.log(email);
+    // console.log(email);
     if (!email) return;
     const newData = [
       {
@@ -24,9 +24,9 @@ export const addInDictionary = createAsyncThunk(
       },
       ...dictionary
     ];
-    console.log(newData);
+    // console.log(newData);
     try {
-      console.log('мы в добавлении');
+      // console.log('мы в добавлении');
       await setDoc(doc(firestore, `dictionary-${email}`, 'user-dictionary'), {
         dictionary: newData
       });

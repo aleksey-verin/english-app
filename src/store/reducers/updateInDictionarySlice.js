@@ -17,7 +17,7 @@ export const updateTypes = {
 export const updateInDictionary = createAsyncThunk(
   'updateInDictionary',
   async ({ dictionary, word, def, type }, thunkAPI) => {
-    console.log('updateDispatch');
+    // console.log('updateDispatch');
     try {
       const email = storageGetItem(storage.user)?.email;
 

@@ -10,7 +10,7 @@ import SystemMessage from './components/SystemMessage';
 // import { setTrainingTasks } from './store/reducers/trainingSlice';
 
 function App() {
-  console.log('render app component');
+  // console.log('render app component');
   const dispatch = useDispatch();
   const { user } = useSelector(selectorUserAuth);
   // const { userDictionary } = useSelector(selectorDictionary);

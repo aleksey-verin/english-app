@@ -10,7 +10,7 @@ const initialState = {
 
 export const requestWord = createAsyncThunk('requestWord', async (word, thunkAPI) => {
   try {
-    console.log('requestWord');
+    // console.log('requestWord');
     const BASE_URL = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
     const response = await fetch(`${BASE_URL}${word}`);
     const data = await response.json();

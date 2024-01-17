@@ -16,7 +16,7 @@ const initialState = {
 };
 
 export const userAuth = createAsyncThunk('userAuth', async (typeSign, thunkAPI) => {
-  console.log('userAuth');
+  // console.log('userAuth');
   try {
     if (typeSign === userSign.in) {
       const provider = new GoogleAuthProvider();

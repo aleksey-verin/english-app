@@ -18,7 +18,7 @@ const initialStateTraining = {
 };
 
 const TrainingOne = () => {
-  console.log('render training one');
+  // console.log('render training one');
   const dispatch = useDispatch();
 
   const { userDictionary, trainingList, trainingListLength } = useSelector(selectorDictionary);

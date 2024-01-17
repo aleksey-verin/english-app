@@ -8,7 +8,7 @@ import Title from '../components/Dictionary/Title';
 import { selectorRequestWord } from '../store/reducers/requestWordSlice';
 
 const SearchPage = () => {
-  console.log('render DictionaryPage');
+  // console.log('render DictionaryPage');
   const { isSuccess, isError } = useSelector(selectorRequestWord);
 
   return (

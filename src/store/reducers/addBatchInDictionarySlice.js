@@ -12,7 +12,7 @@ const initialState = {
 export const addBatchInDictionary = createAsyncThunk(
   'addBatchInDictionary',
   async ({ dictionary, fileName }, thunkAPI) => {
-    console.log('addBatchInDictionary');
+    // console.log('addBatchInDictionary');
     try {
       const email = storageGetItem(storage.user)?.email;
       if (!email) return;

@@ -22,7 +22,7 @@ const initialState = {
 export const updateScoreInDictionary = createAsyncThunk(
   'updateScoreInDictionary',
   async ({ userDictionary, userRightAnswers, score }, thunkAPI) => {
-    console.log('updateDispatch');
+    // console.log('updateDispatch');
     try {
       if (!userRightAnswers) return console.log('no answers');
       if (!userRightAnswers.length) return console.log('answers is empty');

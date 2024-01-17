@@ -25,7 +25,7 @@ export const generateTaskList = (
     ]);
     taskList.push({ question: item, answers: shuffledArray, isRight: false });
   });
-  console.log('success taskList');
+  // console.log('success taskList');
   return taskList;
 };
 
@@ -45,7 +45,7 @@ const getTenWordsForTraining = (dictionary, minLengthForTraining, maxLengthForTr
     setOfIndexes.add(randomIndex);
   }
   const indexesForTraining = Array.from(setOfIndexes);
-  console.log(indexesForTraining);
+  // console.log(indexesForTraining);
   const finalArrayForTraining = indexesForTraining.map((item) => ({
     ...dictionaryForTraining[item],
     indexInMainDictionary: item

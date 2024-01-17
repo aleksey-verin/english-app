@@ -8,7 +8,7 @@ import { addBatchInDictionary } from '../store/reducers/addBatchInDictionarySlic
 import ScoreTitle from '../components/common UI/ScoreTitle';
 
 const TrainingPage = () => {
-  console.log('render Training page');
+  // console.log('render Training page');
   const dispatch = useDispatch();
   const {
     userDictionary,
